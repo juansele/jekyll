@@ -1,16 +1,9 @@
-#!/usr/bin/python
-#coding: utf-8
 
-from string import Template
-
-templates = {}
-
-templates['inicio'] = '''
 	<!DOCTYPE html>
 	<html LANG="ES">
 		<head>
 			<meta charset="UTF-8">
-			<title>${titulo}</title>
+			<title>AIO_700</title>
 			<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 			<meta name="viewport" content="width=device-width, height=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		</head>
@@ -84,7 +77,7 @@ templates['inicio'] = '''
 		}
 
 		.cont-t-cabecera{
-			background-color: #${color_primario};
+			background-color: #221f20;
 			color: white;
 			border-radius: 10px;
 		}
@@ -165,10 +158,7 @@ templates['inicio'] = '''
 		}
 
 		</style>
-'''
 
-
-templates['cabecera'] = '''
 			<section class="layout-row justify-space-around align-center">
 				<div class="container-main flex-lg-75 flex-md-85 flex-sm-95 flex-xs-95 flex-gt-95" style="padding: 2vh 0vh; background: #fff;">
 
@@ -181,9 +171,9 @@ templates['cabecera'] = '''
 						<div class="flex-lg-90 flex-md-85 flex-sm-85 flex-xs-90 flex-gt-90 layout-row justify-start">
 							<div class="flex-lg-90 flex-md-85 flex-sm-90 flex-xs-90 flex-gt-95 layout-row justify-space-around align-start cont-t-cabecera">
 								<div class="flex-95">
-									<div class="uppercase main-text1 main-text2 main-text3">${nombre_producto}</div>
+									<div class="uppercase main-text1 main-text2 main-text3">LENOVO AIO 700</div>
 									<div class="separador-info-t-cabecera"></div>
-									<div class="uppercase second-text1 second-text2 second-text3">${subtitulo_cabecera}</div>
+									<div class="uppercase second-text1 second-text2 second-text3">EL BALANCE PERFECTO ENTRE TRABAJO Y ENTRETENIMIENTO</div>
 								</div>
 							</div>
 
@@ -191,11 +181,11 @@ templates['cabecera'] = '''
 
 							<section class="layout-row justify-space-around align-center mod-section" style="margin-top:2em;">
 								<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small" style="text-align:center;">
-									<img src="${img_principal_1}">
+									<img src="img/AIO/AIO_700/IMG_01.png">
 								</div>
 
 								<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small shadow-box" style="text-align:center;">
-									<img src="${img_principal_2}">
+									<img src="img/AIO/AIO_700/IMG_02.png">
 								</div>
 							</section>
 		
@@ -210,60 +200,24 @@ templates['cabecera'] = '''
 
 					</section>
 
-'''
 
-templates['P'] = '''
 
 					<!-- ESTRUCTURA DE INFORMACIÓN P -->
 
 					<section class="flex-100 layout-row justify-center mod-section" style="margin:3em 0em;">
 						<div class="inner-section flex-lg-70 flex-sm-80 flex-xs-80 flex-gt-90">
 							<div>
-								<span class="titulo-descripcion-main">${t_descripcion_principal}</span>
+								<span class="titulo-descripcion-main">EL ALL IN ONE COMBINA LO MEJOR EN RENDIEMIENTO CON UN DISEÑO MARAVILLOSO.</span>
 							</div>
-							<p style="margin-top:1em;">${p_descripcion_principal}</p>
+							<p style="margin-top:1em;">Lenovo All in one 700 Combina un increíble rendimiento con su destacado diseño, potenciado con la 6ta generación de procesadores Intel QuadCore i7 y tarjeta de video independiente.</p>
 						</div>
 						<div class="inner-section flex-lg-45 flex-md-45 flex-45 flex-sm-55 flex-xs-70 flex-gt-70  content-img-small shadow-box">
-							<img src="${img_apoyo_descripcion}">
+							<img src="img/AIO/AIO_700/IMG_03.png">
 						</div>
 					</section>
 
 
-'''
 
-templates['I-P'] = '''
-
-					<!-- ESTRUCTURA DE INFORMACIÓN I | P-->
-
-					<section class="mod-section layout-row justify-space-around align-center">
-						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-55 flex-xs-70 flex-gt-70  content-img-small shadow-box">
-							<img src="${img_apoyo}">
-						</div>
-						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-80 flex-xs-80 flex-gt-90  mod-texto">
-							<!-- MOD. P -->
-							<div class="mod-p">
-								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-lg-75 flex-md-80">
-										<div>
-											<span class="titulo-caracteristica">${t_caracteristica}</span>
-										</div>
-										<p>${p_caracteristica}</p>
-									</div>
-									<div class="flex-lg-15 flex-md-20 flex-sm-100  layout-row justify-center align-center">
-										<div class="mod-inline cont-circle-number">
-											<div>${numero_caracteristica}</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-
-'''
-
-
-
-templates['P-I-I-grande'] = '''
 
 					<!-- ESTRUCTURA DE INFORMACIÓN P | I | I GRANDE  -->
 					
@@ -274,69 +228,57 @@ templates['P-I-I-grande'] = '''
 								<div class="layout-row justify-space-around align-start mod-texto">
 									<div class="flex-lg-15 flex-md-20 flex-sm-100 layout-row justify-center align-center">
 										<div class="mod-inline cont-circle-number">
-											<div>${numero_caracteristica}</div>
+											<div>1</div>
 										</div>
 									</div>
 									<div class="flex-lg-75 flex-md-80 flex-sm-100">
 										<div>
-											<span class="titulo-caracteristica">${t_caracteristica}</span>
+											<span class="titulo-caracteristica">Cámara 3D RealSense</span>
 										</div>
-										<p>${p_caracteristica}</p>
+										<p>La Cámara 3d Intel RealSense te permite ver, capturar y compartir fotos tridimensionales de personas y objetos.</p>
 									</div>
 								</div>
 							</div>
 							<div class="layout-row justify-space-around align-center">
 								<div class="flex-lg-15 flex-md-15 flex-sm-hide flex-xs-hide flex-gt-hide"></div>
 								<div class="flex-lg-75 flex-md-75 flex-sm-55 flex-xs-70 flex-gt-75 content-img-small shadow-box">
-									<img src="${img_apoyo_1}">
+									<img src="img/AIO/AIO_700/IMG_04.png">
 								</div>
 							</div>
 						</div>
 						<div class="inner-section flex-lg-40 flex-md-40 flex-sm-50 flex-xs-55 flex-gt-60 content-img-big">
-								<img src="${img_apoyo_2}">
+								<img src="img/AIO/AIO_700/IMG_05.png">
 						</div>
 					</section>
-'''
 
-templates['I-IP-I'] = '''
 
-					<!-- ESTRUCTURA DE INFORMACIÓN I | I P | I -->
+					<!-- ESTRUCTURA DE INFORMACIÓN I | P-->
 
 					<section class="mod-section layout-row justify-space-around align-center">
-						<div class="inner-section flex-lg-25 flex-md-25 flex-sm-40 flex-xs-40 flex-gt-40 content-img-small shadow-box">
-							<img src="${img_apoyo_1}">
+						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-55 flex-xs-70 flex-gt-70  content-img-small shadow-box">
+							<img src="img/AIO/AIO_700/IMG_06.png">
 						</div>
-						<div class="inner-section flex-lg-45 flex-md-45 flex-sm-80 flex-xs-80 flex-gt-90">
-							<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 layout-row justify-space-around align-center">
-								<div class="flex-lg-80 flex-md-100 flex-sm-80 flex-xs-80 flex-gt-85" style="text-align:center;">
-									<img src="${img_apoyo_2}">
-								</div>
-							</div>
+						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-80 flex-xs-80 flex-gt-90  mod-texto">
 							<!-- MOD. P -->
 							<div class="mod-p">
 								<div class="layout-row justify-space-around align-start mod-texto">
+									<div class="flex-lg-75 flex-md-80">
+										<div>
+											<span class="titulo-caracteristica">Sonido envolvente Imágenes sorprendentes</span>
+										</div>
+										<p>Parlantes integrados con sonido envolvente JBL pantalla multitouch de 10 puntos.</p>
+									</div>
 									<div class="flex-lg-15 flex-md-20 flex-sm-100  layout-row justify-center align-center">
 										<div class="mod-inline cont-circle-number">
-											<div>${numero_caracteristica}</div>
+											<div>2</div>
 										</div>
-									</div>
-									<div class="flex-lg-75 flex-md-80 flex-sm-100">
-										<div>
-											<span class="titulo-caracteristica" >${t_caracteristica}</span>
-										</div>
-										<p>${p_caracteristica}</p>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="inner-section flex-lg-20 flex-md-15 flex-sm-30 flex-xs-35 flex-gt-35 content-img-small">
-							 <img src="${img_apoyo_3}">
-						</div>
 					</section>
 
-'''
 
-templates['P-I'] = '''
 
 					<!-- ESTRUCTURA DE INFORMACIÓN P | I-->
 					
@@ -347,75 +289,39 @@ templates['P-I'] = '''
 								<div class="layout-row justify-space-around align-start mod-texto">
 									<div class="flex-lg-75 flex-md-80">
 										<div>
-											<span class="titulo-caracteristica">${t_caracteristica}</span>
+											<span class="titulo-caracteristica">Fácil de actualizar</span>
 										</div>
-										<p>${p_caracteristica}</p>
+										<p>El AIO 700 viene con una cubierta posterior desmontable para ofrecer un acceso sencillo a sus componentes internos.</p>
 									</div>
 									<div class="flex-lg-15 flex-md-20 flex-sm-100  layout-row justify-center align-center">
 										<div class="mod-inline cont-circle-number">
-											<div>${numero_caracteristica}</div>
+											<div>3</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-55 flex-xs-70 flex-gt-70 content-img-small">
-							<img src="${img_apoyo}">
+							<img src="img/AIO/AIO_700/IMG_07.png">
 						</div>
 					</section>
 
-'''
 
-templates['I-I'] = '''
 
 
 					<!-- ESTRUCTURA DE INFORMACIÓN I | I  CHECK -->
 
 					<section class="layout-row justify-space-around align-center mod-section" style="margin-top:2em;">
 						<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small" style="text-align:center;">
-							<img src="${img_apoyo_1}">
+							<img src="img/AIO/AIO_700/IMG_08.png">
 						</div>
 
 						<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small shadow-box" style="text-align:center;">
-							<img src="${img_apoyo_2}">
+							<img src="img/AIO/AIO_700/IMG_08.png">
 						</div>
 					</section>
 					
-'''
 
-templates['I-P-I'] = '''
-
-					<!-- ESTRUCTURA DE INFORMACIÓN I | P | I -->
-
-					<section class="mod-section layout-row justify-space-around align-center">
-						<div class="inner-section flex-lg-25 flex-md-25 flex-sm-50 flex-xs-70 flex-gt-70 content-img-small shadow-box">
-							<img src="${img_apoyo_1}">
-						</div>
-						<div class="inner-section flex-lg-45 flex-md-45 flex-sm-80 flex-xs-80 flex-gt-90">
-							<!-- MOD. P -->
-							<div class="mod-p">
-								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-lg-15 flex-md-20 flex-sm-100 layout-row justify-center align-center">
-										<div class="mod-inline cont-circle-number">
-											<div>${numero_caracteristica}</div>
-										</div>
-									</div>
-									<div class="flex-lg-75 flex-md-80 flex-sm-80 flex-xs-80">
-										<div>
-											<span class="titulo-caracteristica" >${t_caracteristica}</span>
-										</div>
-										<p>${p_caracteristica}</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="inner-section flex-lg-20 flex-md-15 flex-sm-30 flex-xs-50 flex-gt-50 content-img-small">
-							 <img src="${img_apoyo_2}">
-						</div>
-					</section>
-'''
-
-templates['fin'] = '''
 				</div>
 
 				<!-- Mensaje en caso de resoluciones demasiado bajas <=319px -->
@@ -426,14 +332,3 @@ templates['fin'] = '''
 			</section>
         </body>
     </html>
-'''
-
-templates['h3'] = '''
-            <h3>H3: ${cuerpo}</h3>
-'''
-
-def generar_ficha(mapa):
-    salida = ''
-    for seccion in mapa:
-        salida = salida + Template(templates[seccion[0]].decode('utf-8')).substitute(seccion[1])
-    return salida
