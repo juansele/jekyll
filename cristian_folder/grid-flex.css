@@ -332,17 +332,17 @@
 }
 
 @media (min-width: 320px){
+	.main-text1{
+		font-size:54px;
+	}
+
+	.second-text1{
+		font-size: 18px;padding: 0.1em 0em 0.6em;opacity: 0.9;
+	}
 	.flex-gt-hide{
 		display: none;
 	}
 
-	.main-text1{
-		font-size:39px;
-	}
-
-	.second-text1{
-		font-size: 14px;padding: 0.1em 0em 0.6em;opacity: 0.9;
-	}
 
 	.flex-gt-5{
 		-webkit-flex: 1 1 5%;
