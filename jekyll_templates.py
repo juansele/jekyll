@@ -76,9 +76,9 @@ templates['cabecera'] = '''
 
 
 					<!-- CABECERA -->
-					<section class=" layout-row align-start">
+					<section class="layout-row align-start">
 						
-						<div class="flex-100 layout-row justify-space-between">
+						<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-space-between">
 							<div class="flex-lg-80 flex-md-80 flex-sm-85 flex-xs-85 flex-gt-90 layout-row justify-start align-start">
 								<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-space-around align-center cont-t-cabecera">
 									<!-- Contenedor titulo principal -->
@@ -100,12 +100,12 @@ templates['P'] = '''
 
 					<!-- ESTRUCTURA DE INFORMACIÓN P -->
 
-					<section class="flex-100 layout-row justify-center mod-section" style="margin:3em 0em;">
+					<section class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-center mod-section" style="margin:3em 0em;">
 						<div class="inner-section flex-lg-70 flex-sm-80 flex-xs-80 flex-gt-90">
 							<div>
 								<span class="titulo-descripcion-main">${t_descripcion_principal}</span>
 							</div>
-							<p style="margin-top:1em;">${p_descripcion_principal}</p>
+							<p style="margin-top:1em;">${p_desripcion_principal}</p>
 						</div>
 					</section>
 
@@ -204,14 +204,14 @@ templates['I-IP-I'] = '''
 								</div>
 							</div>
 							<!-- MOD. P -->
-							<div class="mod-p order-lg-2 order-md-2 order-sm-1 order-xs-1 order-gt-1">
+							<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 mod-p order-lg-2 order-md-2 order-sm-1 order-xs-1 order-gt-1">
 								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-lg-15 flex-md-20 flex-sm-100  layout-row justify-center align-center">
+									<div class="flex-lg-15 flex-md-20 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-center align-center">
 										<div class="mod-inline cont-circle-number">
 											<div>${numero_caracteristica}</div>
 										</div>
 									</div>
-									<div class="flex-lg-75 flex-md-80 flex-sm-100">
+									<div class="flex-lg-75 flex-md-80 flex-sm-80 flex-xs-80 flex-gt-80">
 										<div>
 											<span class="titulo-caracteristica" >${t_caracteristica}</span>
 										</div>
@@ -369,7 +369,7 @@ templates['Igrande-P-I'] = '''
 							<!-- MOD. P -->
 							<div class="mod-p">
 								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-100">
+									<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
 										<div>
 											<span class="titulo-caracteristica">${t_caracteristica}</span>
 										</div>
@@ -378,7 +378,7 @@ templates['Igrande-P-I'] = '''
 								</div>
 							</div>
 							<div class="layout-row justify-space-around align-center">
-								<div class="flex-100 flex-xs-60 flex-gt-80 flex-md-80">
+								<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 flex-xs-60 flex-gt-80 flex-md-80">
 									<img src="${img_apoyo_2}">
 								</div>
 							</div>
@@ -397,10 +397,6 @@ templates['fin'] = '''
 			</section>
         </body>
     </html>
-'''
-
-templates['h3'] = '''
-            <h3>H3: ${cuerpo}</h3>
 '''
 
 def generar_ficha(mapa):
