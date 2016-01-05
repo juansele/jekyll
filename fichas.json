@@ -38,7 +38,7 @@
         "nombre": "PHAB",
         "mapa": [
             ["inicio", {"titulo": "PHAB", "color_primario": "#6e8dc4", "color_secundario": "#8abf54", "color_caracteristica": "#4a80af"}],
-            ["cabecera", {"nombre_producto": "LENOVO PHAB", "subtitulo_cabecera": "TODO LO QUE NECESITAS EN UN SOLO EQUIPO", "logo_lenovo": "img/OTROS/logo_6e8dc4.png"}],
+            ["cabecera", {"nombre_producto": "LENOVO PHAB", "subtitulo_cabecera": "TODO LO QUE NECESITAS EN UN SOLO EQUIPO", "logo_lenovo": "img/OTROS/logo_8abf54.png"}],
 	    ["I", {"img_apoyo": "img/TABLETS/PHABLET/IMG_01.png"}],
 	    ["P", {"t_descripcion_principal": "UN DISPOSITIVO A TU ALCANCE QUE PODRÁS LLEVAR CONTIGO SIEMPRE.", "p_descripcion_principal": "Portabilidad y desempeño; con su amplia y cómoda pantalla, navegar la web, conectarte a tus redes sociales, jugar y disfrutar de tus contenidos digitales favoritos nunca fue tan divertido!."}],
 	    ["I-P-nonumero",{"img_apoyo": "img/TABLETS/PHABLET/IMG_02.png", "p_caracteristica": "Lenovo PHAB te da toda la versatilidad que estas buscando, pantalla de alta definicion y sonido envolvente acompañado de una velocidad de conectividad LTE."}],
