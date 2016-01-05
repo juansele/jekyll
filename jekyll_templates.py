@@ -105,7 +105,7 @@ templates['P'] = '''
 							<div>
 								<span class="titulo-descripcion-main">${t_descripcion_principal}</span>
 							</div>
-							<p style="margin-top:1em;">${p_desripcion_principal}</p>
+							<p style="margin-top:1em;">${p_descripcion_principal}</p>
 						</div>
 					</section>
 
