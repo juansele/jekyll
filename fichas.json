@@ -2,7 +2,7 @@
     {
         "nombre": "ficha_1",
         "mapa": [
-            ["inicio", {"titulo": "AIO_700", "color_primario": "221f20"}],
+            ["inicio", {"titulo": "AIO_700", "color_primario": "#221f20"}],
             ["cabecera", {"nombre_producto": "LENOVO AIO 700", "subtitulo_cabecera": "EL BALANCE PERFECTO ENTRE TRABAJO Y ENTRETENIMIENTO", "img_principal_1": "img/AIO/AIO_700/IMG_01.png", "img_principal_2": "img/AIO/AIO_700/IMG_02.png"}],
 	    ["P", {"t_descripcion_principal": "EL ALL IN ONE COMBINA LO MEJOR EN RENDIEMIENTO CON UN DISEÑO MARAVILLOSO.", "p_descripcion_principal": "Lenovo All in one 700 Combina un increíble rendimiento con su destacado diseño, potenciado con la 6ta generación de procesadores Intel QuadCore i7 y tarjeta de video independiente.", "img_apoyo_descripcion": "img/AIO/AIO_700/IMG_03.png"}],
 	    ["P-I-I-grande", {"numero_caracteristica": "1", "t_caracteristica": "Cámara 3D RealSense", "p_caracteristica": "La Cámara 3d Intel RealSense te permite ver, capturar y compartir fotos tridimensionales de personas y objetos.", "img_apoyo_1": "img/AIO/AIO_700/IMG_04.png", "img_apoyo_2": "img/AIO/AIO_700/IMG_05.png"}],
@@ -15,7 +15,7 @@
     {
         "nombre": "ficha_2",
         "mapa": [
-            ["inicio", {"titulo": "Pagina 2"}],
+            ["inicio", {"titulo": "Pagina 2", "color_primario": "221f20"}],
             ["h3", {"cuerpo": "Este es el cuerpo de la pagina 2"}],
             ["fin", {}]
         ]
