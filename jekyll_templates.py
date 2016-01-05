@@ -90,18 +90,18 @@ templates['inicio'] = '''
 		}
 
 		.separador-info-t-cabecera{
-			background:#77be4f;
+			background: ${color_secundario};
 			height:3px;
 		}
 
 		.titulo-descripcion-main{
-			color: #77be4f;
+			color: ${color_secundario};
 			font-size: 30px;
 			text-transform: uppercase;
 		}
 
 		.titulo-caracteristica{
-			color: #ed6b00;
+			color: ${color_caracteristica};
 			font-size: 30px;
 		}
 
@@ -205,7 +205,7 @@ templates['cabecera'] = '''
 						<!-- Logo Lenovo -->
 
 						<div class="flex-lg-10 flex-md-15 flex-sm-15 flex-xs-10 flex-gt-10 layout-row justify-end">
-							<div><img class="logo" src="img/separadas/logo.png"></div>
+							<div><img class="logo" src="${logo_lenovo}"></div>
 						</div>
 
 					</section>
