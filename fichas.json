@@ -7,19 +7,63 @@
 	    ["I-I", {"img_apoyo_1": "img/AIO/AIO_700/IMG_01.png", "img_apoyo_2": "img/AIO/AIO_700/IMG_02.png"}],
 	    ["P", {"t_descripcion_principal": "EL ALL IN ONE COMBINA LO MEJOR EN RENDIEMIENTO CON UN DISEÑO MARAVILLOSO.", "p_descripcion_principal": "Lenovo All in one 700 Combina un increíble rendimiento con su destacado diseño, potenciado con la 6ta generación de procesadores Intel QuadCore i7 y tarjeta de video independiente."}],
 	    ["I",{"img_apoyo": "img/AIO/AIO_700/IMG_03.png"}],
-	    ["P-I-I-grande", {"numero_caracteristica": "1", "t_caracteristica": "Cámara 3D RealSense", "p_caracteristica": "La Cámara 3d Intel RealSense te permite ver, capturar y compartir fotos tridimensionales de personas y objetos.", "img_apoyo_1": "img/AIO/AIO_700/IMG_04.png", "img_apoyo_2": "img/AIO/AIO_700/IMG_05.png"}],
+	    ["P-I-I", {"numero_caracteristica": "1", "t_caracteristica": "Cámara 3D RealSense", "p_caracteristica": "La Cámara 3d Intel RealSense te permite ver, capturar y compartir fotos tridimensionales de personas y objetos.", "img_apoyo_1": "img/AIO/AIO_700/IMG_04.png", "img_apoyo_2": "img/AIO/AIO_700/IMG_05.png"}],
 	    ["I-P", {"numero_caracteristica": "2", "t_caracteristica": "Sonido envolvente Imágenes sorprendentes", "p_caracteristica": "Parlantes integrados con sonido envolvente JBL pantalla multitouch de 10 puntos.", "img_apoyo": "img/AIO/AIO_700/IMG_06.png"}],
 	    ["P-I", {"numero_caracteristica": "3", "t_caracteristica": "Fácil de actualizar", "p_caracteristica": "El AIO 700 viene con una cubierta posterior desmontable para ofrecer un acceso sencillo a sus componentes internos.", "img_apoyo": "img/AIO/AIO_700/IMG_07.png"}],
 	    ["I-I", {"img_apoyo_1": "img/AIO/AIO_700/IMG_08.png", "img_apoyo_2":"img/AIO/AIO_700/IMG_08.png"}],
             ["fin", {}]
         ]
     },
+
     {
         "nombre": "ficha_2",
         "mapa": [
-            ["inicio", {"titulo": "Pagina 2", "color_primario": "#221f20", "color_secundario": "#77be4f", "color_caracteristica": "#ed6b00"}],
-            ["h3", {"cuerpo": "Este es el cuerpo de la pagina 2"}],
+            ["inicio", {"titulo": "G40 80", "color_primario": "#717170", "color_secundario": "#ed6b00", "color_caracteristica": "#4a80af"}],
+            ["cabecera", {"nombre_producto": "LENOVO G40 80", "subtitulo_cabecera": "PORTÁTIL DE 14\" CON UNIDAD DE DVD", "logo_lenovo": "img/separadas/logo.png"}],
+	    ["I-I", {"img_apoyo_1": "img/NB/G40_80/IMG_01.png", "img_apoyo_2": "img/NB/G40_80/IMG_02.png"}],
+	    ["P", {"t_descripcion_principal": "ACCESIBLE Y VERSATIL PORTATIL", "p_descripcion_principal": "Lenovo G40-80 combina un diseño de líneas delgadas con una variedad completa de funciones, incluyendo unidad de DVD y un rendimiento que enfrenta cualquier desafío con la quinta generación del procesador Intel ® Core (TM)."}],
+	    ["I",{"img_apoyo": "img/NB/G40_80/IMG_04.png"}],
+	    ["P-I", {"numero_caracteristica": "1", "t_caracteristica": "Pantalla HD de 14\"", "p_caracteristica": "Esta pantalla ofrece una imagen nítida y brillante en un formato de imagen 16.9 y una resolución de 1366 x 768.", "img_apoyo": "img/NB/G40_80/IMG_04.png"}],
+	    ["I-P", {"numero_caracteristica": "2", "t_caracteristica": "Perfecto para los amantes del cine", "p_caracteristica": "Su unidad integrada de DVD y sus parlantes DOLBY estéreo hacen del portátil G40 el computador perfecto para disfrutar de tus peliculas favoritas.", "img_apoyo": "img/NB/G40_80/IMG_04.png"}],
+	    ["I-I", {"img_apoyo_1": "img/NB/G40_80/IMG_06.png", "img_apoyo_2": "img/NB/G40_80/IMG_06.png"}],
+	    ["P-I", {"numero_caracteristica": "3", "t_caracteristica": "Teclado AccuType", "p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.", "img_apoyo": "img/NB/G40_80/IMG_08.png"}],
+	    ["I-P-I", {"img_apoyo_1": "img/NB/G40_80/IMG_09.png", "img_apoyo_2": "img/NB/G40_80/IMG_10.png", "t_caracteristica": "Tecnología para ahorro de batería", "p_caracteristica": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía.", "numero_caracteristica": "4"}],
+	    ["P-P", {"icono_caracteristica_1": "img/OTROS/IMG_1.png", "detalle_caracteristica_1": "Experimenta sonido profundo con los parlantes incorporados y salidas para audifonos, con certificación Dolby® Advanced AudioTM.", "icono_caracteristica_2": "img/OTROS/IMG_2.png", "detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápido que por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."}],
+	    ["P-P", {"icono_caracteristica_1": "img/OTROS/IMG_3.png", "detalle_caracteristica_1": "Con Lenovo OneKey Recovery puedes crear una copia de seguridad de tus archivos, restaurar tu máquina en 40-60 minutos o reiniciar el equipo al estado original de fábrica en tan solo 15 minutos. El botón que activa la aplicación está en los bordes laterales del equipo o como un agujero que se activa con la punta de un esfero o un clip.", "icono_caracteristica_2": "img/OTROS/IMG_4.png", "detalle_caracteristica_2": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía."}],	    
+            ["fin", {}]
+        ]
+    },
+
+    {
+        "nombre": "ficha_3",
+        "mapa": [
+            ["inicio", {"titulo": "PHAB", "color_primario": "#6e8dc4", "color_secundario": "#8abf54", "color_caracteristica": "#4a80af"}],
+            ["cabecera", {"nombre_producto": "LENOVO PHAB", "subtitulo_cabecera": "TODO LO QUE NECESITAS EN UN SOLO EQUIPO", "logo_lenovo": "img/separadas/logo.png"}],
+	    ["I", {"img_apoyo": "img/TABLETS/PHABLET/IMG_01.png"}],
+	    ["P", {"t_descripcion_principal": "UN DISPOSITIVO A TU ALCANCE QUE PODRÁS LLEVAR CONTIGO SIEMPRE.", "p_descripcion_principal": "Portabilidad y desempeño; con su amplia y cómoda pantalla, navegar la web, conectarte a tus redes sociales, jugar y disfrutar de tus contenidos digitales favoritos nunca fue tan divertido!."}],
+	    ["I-P-nonumero",{"img_apoyo": "img/TABLETS/PHABLET/IMG_02.png", "p_caracteristica": "Lenovo PHAB te da toda la versatilidad que estas buscando, pantalla de alta definicion y sonido envolvente acompañado de una velocidad de conectividad LTE."}],
+	    ["I-IP-I", {"img_apoyo_1": "img/TABLETS/PHABLET/IMG_03.png", "img_apoyo_2": "img/TABLETS/PHABLET/IMG_04.png", "t_caracteristica": "Gran pantalla", "p_caracteristica": "Vívelo todo en su amplia y cómoda pantalla para reproducir tu multimedia con colores y claridad increíble.", "numero_caracteristica": "1", "img_apoyo_3": "img/TABLETS/PHABLET/IMG_05.png"}],
+	    ["P-I", {"numero_caracteristica": "2", "t_caracteristica": "Sonido envolvente", "p_caracteristica": "La música y las películas cobran vida con el impresionante sonido envolvente.", "img_apoyo": "img/TABLETS/PHABLET/IMG_06.png"}],
+	    ["I-P", {"numero_caracteristica": "3", "t_caracteristica": "Diseño y rendimiento", "p_caracteristica": "Lenovo PHAB cuenta con una batería de 4250 mAh para usarla hasta por 2 dias seguidos.", "img_apoyo": "img/TABLETS/PHABLET/IMG_07.png"}],
+	    ["P-I", {"numero_caracteristica": "4", "t_caracteristica": "Velocidad y conectividad", "p_caracteristica": "Lenovo PHAB cuenta con una velocidad de conectividad 4G LTE que te permitira disfrutar de tus contenidos multimedia al instante.", "img_apoyo": "img/TABLETS/PHABLET/IMG_08.png"}],	    
+            ["fin", {}]
+        ]
+    },
+
+    {
+        "nombre": "ficha_4",
+        "mapa": [
+            ["inicio", {"titulo": "YOGA 500", "color_primario": "#717170", "color_secundario": "#c22821", "color_caracteristica": "#4a80af"}],
+            ["cabecera", {"nombre_producto": "LENOVO YOGA 500", "subtitulo_cabecera": "TABLET Y COMPUTADOR EN UN SOLO EQUIPO", "logo_lenovo": "img/separadas/logo.png"}],
+	    ["I-I", {"img_apoyo_1": "img/NB_YOGA/YOGA_500/IMG_01.png", "img_apoyo_2": "img/NB_YOGA/YOGA_500/IMG_02.png"}],
+	    ["P", {"t_descripcion_principal": "YOGA 500 TE DA 360° DE FLEXIBILIDAD", "p_descripcion_principal": "A un precio sorprendentemente bajo. Trabaja, juega o simplemente haz lo que deseas, con sus cuatro modos de uso Lenovo YOGA 500 se adapta a ti para facilitarte todas las actividades."}],
+	    ["I",{"img_apoyo": "img/NB_YOGA/YOGA_500/IMG_03.png"}],
+	    ["P-I-I-grande", {"img_apoyo_1": "img/OTROS/IMG_5.png", "img_apoyo_2": "img/NB_YOGA/YOGA_500/IMG_04.png", "t_caracteristica": "La diversión de un multimodo", "p_caracteristica": "viene en cuatro formas de uso para hacerlo todo: Laptop, atril, de pié o como una tablet.", "numero_caracteristica": "1"}],
+	    ["I-P", {"numero_caracteristica": "2", "t_caracteristica": "Sonido DOLBY ®", "p_caracteristica": "Cada uno de los modos de uso de tu YOGA 500 viene con un perfil de audio específico de DOLBY ® y así maximiza la calidad del sonido.", "img_apoyo": "img/NB_YOGA/YOGA_500/IMG_05.png"}],
+	    ["I-I", {"img_apoyo_1": "img/NB_YOGA/YOGA_500/IMG_06.png", "img_apoyo_2": "img/NB_YOGA/YOGA_500/IMG_07.png"}],
+	    ["I-P-I", {"numero_caracteristica": "3", "t_caracteristica": "Rendimiento y velocidad", "p_caracteristica": "YOGA 500 viene con un poderoso procesador INTEL ® que asegura un desempeño impresionante.", "img_apoyo_1": "img/NB_YOGA/YOGA_500/IMG_08.png", "img_apoyo_2": "img/NB_YOGA/YOGA_500/IMG_09.png"}],	    
             ["fin", {}]
         ]
     }
+
 ]
