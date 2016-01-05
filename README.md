@@ -15,7 +15,7 @@
 | I            | img_apoyo                                                                                          |
 | I-I          | img_apoyo_1, img_apoyo_2                                                                           |
 | I-P          | img_apoyo, t_caracteristica, p_caracteristica, numero_caracteristica                               |
-| I-P-nonumero | img_apoyo, t_caracteristica, p_caracteristica                                                      |
+| I-P-nonumero | img_apoyo, p_caracteristica                                                                        |
 | P-I          | img_apoyo, t_caracteristica, p_caracteristica, numero_caracteristica                               |
 | P-I-I        | img_apoyo_1, img_apoyo_2, t_caracteristica, p_caracteristica, numero_caracteristica                |
 | I-P-I        | img_apoyo_1, img_apoyo_2, t_caracteristica, p_caracteristica, numero_caracteristica                |
