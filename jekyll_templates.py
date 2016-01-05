@@ -185,20 +185,7 @@ templates['cabecera'] = '''
 									<div class="separador-info-t-cabecera"></div>
 									<div class="uppercase second-text1 second-text2 second-text3">${subtitulo_cabecera}</div>
 								</div>
-							</div>
-
-							<!-- 6. ESTRUCTURA DE INFORMACIÓN I | I  CHECK -->
-
-							<section class="layout-row justify-space-around align-center mod-section" style="margin-top:2em;">
-								<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small" style="text-align:center;">
-									<img src="${img_principal_1}">
-								</div>
-
-								<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small shadow-box" style="text-align:center;">
-									<img src="${img_principal_2}">
-								</div>
-							</section>
-		
+							</div>		
 
 						</div>
 
@@ -261,6 +248,15 @@ templates['I-P'] = '''
 
 '''
 
+templates['I'] = '''
+					<!-- ESTRUCTURA DE INFORMACIÓN I -->
+
+					<section class="layout-row justify-space-around align-center mod-section" style="margin-top:2em;">
+						<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small" style="text-align:center;">
+							<img src="${img_apoyo}">
+						</div>
+					</section>
+'''
 
 
 templates['P-I-I-grande'] = '''
@@ -376,7 +372,7 @@ templates['I-I'] = '''
 							<img src="${img_apoyo_1}">
 						</div>
 
-						<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small shadow-box" style="text-align:center;">
+						<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small" style="text-align:center;">
 							<img src="${img_apoyo_2}">
 						</div>
 					</section>
