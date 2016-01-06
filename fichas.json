@@ -1175,11 +1175,11 @@
 				"p_descripcion_principal": "Portabilidad y desempeño; con su amplia y cómoda pantalla, navegar la web, conectarte a tus redes sociales, jugar y disfrutar de tus contenidos digitales favoritos nunca fue tan divertido!."
 			}],
 			["I-P-nonumero", {
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_02.png",
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_02.png",
 				"p_caracteristica": "Lenovo PHAB te da toda la versatilidad que estas buscando, pantalla de alta definicion y sonido envolvente acompañado de una velocidad de conectividad LTE."
 			}],
 			["I-IP-I", {
-				"img_apoyo_1": "../img/TABLETS/PHABLET/IMG_03.png",
+				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_03.png",
 				"img_apoyo_2": "../img/TABLETS/PHABLET/IMG_04.png",
 				"t_caracteristica": "Gran pantalla",
 				"p_caracteristica": "Vívelo todo en su amplia y cómoda pantalla para reproducir tu multimedia con colores y claridad increíble.",
@@ -1196,13 +1196,13 @@
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Diseño y rendimiento",
 				"p_caracteristica": "Lenovo PHAB cuenta con una batería de 4250 mAh para usarla hasta por 2 dias seguidos.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_07.png"
+				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
 			}],
 			["P-I", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Velocidad y conectividad",
 				"p_caracteristica": "Lenovo PHAB cuenta con una velocidad de conectividad 4G LTE que te permitira disfrutar de tus contenidos multimedia al instante.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_07.png"
 			}],
 			["fin", {}]
 		]
