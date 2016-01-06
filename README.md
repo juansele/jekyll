@@ -6,6 +6,8 @@
 
 **jekyll** does the heavy lifting.
 
+**output** contains the ...
+
 ---
 
 ### Template parameters
