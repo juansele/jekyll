@@ -528,7 +528,7 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "Ideapad_100",
+		"nombre": "Ideapad 100",
 		"categoria": "Notebook",
 		"mapa": [
 			["inicio", {
@@ -585,7 +585,7 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "Ideapad_100s_Azul",
+		"nombre": "Ideapad 100s 11\" Azul",
 		"categoria": "Notebook",
 		"mapa": [
 			["inicio", {
@@ -641,7 +641,7 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "Ideapad_100S_Blanco",
+		"nombre": "IDEAPAD 100S 11\" Blanco",
 		"categoria": "Notebook",
 		"mapa": [
 			["inicio", {
