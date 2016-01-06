@@ -150,6 +150,23 @@
 			}],
 			["fin", {}]
 		]
+	},{
+		"nombre": "ficha_04",
+		"categoria": "All In One",
+		"mapa": [
+			["inicio", {
+				"titulo": "C40 30",
+				"color_primario": "#221f20",
+				"color_secundario": "#c22821",
+				"color_caracteristica": "#ed6b00"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO C40 30",
+				"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
+				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["fin", {}]
+		]
 	}, {
 		"nombre": "ficha_05",
 		"categoria": "All In One",
