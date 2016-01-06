@@ -770,7 +770,7 @@
 
 
 	{
-		"nombre": "ficha_18",
+		"nombre": "YOGA_2",
 		"categoria": "Notebook Yoga",
 		"mapa": [
 			["inicio", {
@@ -784,10 +784,46 @@
 				"subtitulo_cabecera": "PORTÁTIL MULTIMODO A UN PRECIO INCREIBLE",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_2_13PUL/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_2_13PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "EL COMPUTADOR MULTIMODO AL ALCANCE DE TODOS",
+				"p_descripcion_principal": "Su pantalla multitouch con 10 puntos táctiles de 13,3\", se pliega 360º hacia atrás, para brindarte cuatro modos de uso diferentes: portátil, tablet, atril y carpa. YOGA 2 es tecnología y diseño a disposición de tu trabajo y estudio."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_03.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/IMG_5.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_2_13PUL/IMG_04.png",
+				"t_caracteristica": "La diversión de un multimodo",
+				"p_caracteristica": "Sé más productivo en tu oficina o tu casa con su modo portátil. En el modo Carpa disfruta tu música favorita, pruébalo también en video chats.",
+				"numero_caracteristica": "1"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Ideal para Multimedia",
+				"p_caracteristica": "La experiencia multimedia no será la misma después de que pruebes tu YOGA 2 en modo Atril. Disfruta libros, juegos y fotos en el increíble modo Tablet.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_2_13PUL/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB_YOGA/IMG_07.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_2_13PUL/IMG_08.png",
+				"t_caracteristica": "software inteligente",
+				"p_caracteristica": "YOGA 2 13\" detecta los cambios entre modos y te recomienda aplicaciones especiales para que lo aproveches al máximo.",
+				"numero_caracteristica": "3"
+			}],
 			["fin", {}]
 		]
-	}, {
-		"nombre": "ficha_19",
+	}, 
+	{
+		"nombre": "YOGA_3",
 		"categoria": "Notebook Yoga",
 		"mapa": [
 			["inicio", {
@@ -801,10 +837,46 @@
 				"subtitulo_cabecera": "PORTÁTIL MULTIMODO A UN PRECIO INCREIBLE",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "EL PORTÁTIL INTELIGENTE QUE SE ADAPTA A TI",
+				"p_descripcion_principal": "Lenovo YOGA 3 es la forma ligera, delgada y ultra adaptable de trabajar, observar, conversar y jugar. Con su forma fácil de voltear y doblar, YOGA 3 te ofrece múltiples modos de usar tu portátil. Elige entre su forma Laptop, de pié, atril o tablet."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_03.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/IMG_5.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"t_caracteristica": "El portátil más adaptable del mundo",
+				"p_caracteristica": "Se ajusta a todas tus necesidades, elige una de sus cuatro formas de uso.",
+				"numero_caracteristica": "1"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Tu mejor amigo en los viajes",
+				"p_caracteristica": "Su diseño delgado y ligero te permite llevarlo a todas partes.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB_YOGA/IMG_07.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_09.png",
+				"t_caracteristica": "Software Harmon",
+				"p_caracteristica": "se adapta a ti gracias a su configuración intuitiva. Te sugiere aplicaciones por modo y te ofrece estadísticas acerca de la forma como usas tu YOGA 3.",
+				"numero_caracteristica": "3"
+			}],
 			["fin", {}]
 		]
-	}, {
-		"nombre": "ficha_20",
+	}, 
+	{
+		"nombre": "YOGA_300",
 		"categoria": "Notebook Yoga",
 		"mapa": [
 			["inicio", {
@@ -818,9 +890,45 @@
 				"subtitulo_cabecera": "TABLET Y COMPUTADOR EN UN SOLO EQUIPO",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_300/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_300/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "YOGA 300 11\" TE DA 360° DE FLEXIBILIDAD",
+				"p_descripcion_principal": "A un precio sorprendentemente bajo. Trabaja, juega o simplemente haz lo que deseas, con sus cuatro modos de uso Lenovo YOGA 300 se adapta a ti para facilitarte todas las actividades"
+			}],
+			["I", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_03.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/IMG_5.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_300/IMG_04.png",
+				"t_caracteristica": "La diversión de un multimodo",
+				"p_caracteristica": "viene en cuatro formas de uso para hacerlo todo: Laptop, atril, de pié o como una tablet.",
+				"numero_caracteristica": "1"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Sonido DOLBY ®",
+				"p_caracteristica": "Cada uno de los modos de uso de tu YOGA 500 viene con un perfil de audio específico de DOLBY ® y así maximiza la calidad del sonido.",
+				"img_apoyo": "../img/NB_YOGA/YOGA_300/IMG_05.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_300/IMG_06.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_300/IMG_07.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_300/IMG_08.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_300/IMG_09.png",
+				"t_caracteristica": "Rendimiento y velocidad",
+				"p_caracteristica": "YOGA 300 viene con un poderoso procesador INTEL® que asegura un desempeño impresionante.",
+				"numero_caracteristica": "3"
+			}],
 			["fin", {}]
 		]
-	}, {
+	},
+	{
 		"nombre": "YOGA_500",
 		"categoria": "Notebook Yoga",
 		"mapa": [
