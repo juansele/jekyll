@@ -351,7 +351,7 @@
 	},
 
 	{
-		"nombre": "ficha_08",
+		"nombre": "G40_30",
 		"categoria": "Notebook",
 		"mapa": [
 			["inicio", {
@@ -365,10 +365,47 @@
 				"subtitulo_cabecera": "HECHO PARA TODOS LOS DÍAS",
 				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
 			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/G40_30/IMG_01.png",
+				"img_apoyo_2": "../img/NB/G40_30/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "SORPRENDENTEMENTE DELGADO PERO GRANDE EN RENDIMIENTO",
+				"p_descripcion_principal": "El portátil G40 30 tiene menos de una pulgada de espesor, pero viene con grandes características como una unidad DVD integrada, la última tecnología en procesadores y gráficos."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_03.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "Tiene todo lo mejor en su interior",
+				"p_caracteristica": "Lo último en procesadores Intel y sus gráficos hacen que tus juegos, fotos y multimedia cobren vida.",
+				"img_apoyo": "../img/NB/G40_30/IMG_04.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Perfecto para los amantes del cine",
+				"p_caracteristica": "Su unidad integrada de DVD y sus parlantes DOLBY estéreo hacen del portátil G40 el computador perfecto para disfrutar de tus peliculas favoritas.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_01.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/G40_30/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_07.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "diseño delgado y completo",
+				"p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.",
+				"img_apoyo": "../img/NB/G40_30/IMG_08.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/G40_30/IMG_10.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_09.png"
+			}],
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_09",
+		"nombre": "G40_45",
 		"categoria": "Notebook",
 		"mapa": [
 			["inicio", {
@@ -381,6 +418,43 @@
 				"nombre_producto": "LENOVO G40 45",
 				"subtitulo_cabecera": "HECHO PARA TODOS LOS DÍAS",
 				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/G40_45/IMG_01.png",
+				"img_apoyo_2": "../img/NB/G40_45/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "SORPRENDENTEMENTE DELGADO PERO GRANDE EN RENDIMIENTO",
+				"p_descripcion_principal": "El portátil G40 30 tiene menos de una pulgada de espesor, pero viene con grandes características como una unidad DVD integrada, la última tecnología en procesadores y gráficos."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_01.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "Tiene todo lo mejor en su interior",
+				"p_caracteristica": "Lo último en procesadores AMD y sus gráficos hacen que tus juegos, fotos y multimedia cobren vida.",
+				"img_apoyo": "../img/NB/G40_45/IMG_04.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Perfecto para los amantes del cine",
+				"p_caracteristica": "Su unidad integrada de DVD y sus parlantes DOLBY estéreo hacen del portátil G40 el computador perfecto para disfrutar de tus peliculas favoritas.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/G40_45/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_07.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "diseño delgado y completo",
+				"p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.",
+				"img_apoyo": "../img/NB/G40_45/IMG_08.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/NB/IMG_03.png",
+				"img_apoyo_2": "../img/NB/G40_45/IMG_09.png"
 			}],
 			["fin", {}]
 		]
@@ -408,7 +482,7 @@
 				"p_descripcion_principal": "Lenovo G40-80 combina un diseño de líneas delgadas con una variedad completa de funciones, incluyendo unidad de DVD y un rendimiento que enfrenta cualquier desafío con la quinta generación del procesador Intel ® Core (TM)."
 			}],
 			["I", {
-				"img_apoyo": "../img/NB/G40_80/IMG_04.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
 			}],
 			["P-I", {
 				"numero_caracteristica": "1",
@@ -420,11 +494,11 @@
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Perfecto para los amantes del cine",
 				"p_caracteristica": "Su unidad integrada de DVD y sus parlantes DOLBY estéreo hacen del portátil G40 el computador perfecto para disfrutar de tus peliculas favoritas.",
-				"img_apoyo": "../img/NB/G40_80/IMG_04.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_04.png"
 			}],
 			["I-I", {
 				"img_apoyo_1": "../img/NB/G40_80/IMG_06.png",
-				"img_apoyo_2": "../img/NB/G40_80/IMG_06.png"
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_05.png"
 			}],
 			["P-I", {
 				"numero_caracteristica": "3",
@@ -433,7 +507,7 @@
 				"img_apoyo": "../img/NB/G40_80/IMG_08.png"
 			}],
 			["I-P-I", {
-				"img_apoyo_1": "../img/NB/G40_80/IMG_09.png",
+				"img_apoyo_1": "../img/OTROS/GENERICAS/NB/IMG_02.png",
 				"img_apoyo_2": "../img/NB/G40_80/IMG_10.png",
 				"t_caracteristica": "Tecnología para ahorro de batería",
 				"p_caracteristica": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía.",
@@ -454,7 +528,7 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_11",
+		"nombre": "Ideapad 100",
 		"categoria": "Notebook",
 		"mapa": [
 			["inicio", {
@@ -468,39 +542,157 @@
 				"subtitulo_cabecera": "GRAN DISEÑO, PRECIO INMEJORABLE",
 				"logo_lenovo": "../img/OTROS/logo_5e8cda.png"
 			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_100/IMG_01.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_100/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "IDEAPAD 100 TE DA TODO",
+				"p_descripcion_principal": "En tu portátil Lenovo Ideapad 100 tienes todo lo que has estado buscando y nada de lo que no necesitas."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "La inversión más inteligente",
+				"p_caracteristica": "Lenovo Ideapad 100 tiene todo lo que has estado buscando al precio que no pensaste encontrar.",
+				"img_apoyo": "../img/NB/IDEAPAD_100/IMG_04.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Increíble pantalla 14\"",
+				"p_caracteristica": "Ideapad 100 cuenta con una asombrosa pantalla de 14\" en la cual podras disfrutar de todos tus contenidos favoritos.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_12.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_100/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_09.png"
+			}],
+			["P-I-I", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Rendimiento asegurado",
+				"p_caracteristica": "Lenovo Ideapad 100 viene equipado con lo último en procesadores Intel que aseguran su desempeño.",
+				"img_apoyo_1": "../img/OTROS/GENERICAS/NB/IMG_02.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_100/IMG_09.png"
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_3.png",
+				"detalle_caracteristica_1": "Con Lenovo OneKey Recovery puedes crear una copia de seguridad de tus archivos, restaurar tu máquina en 40-60 minutos o reiniciar el equipo al estado original de fábrica en tan solo 15 minutos. El botón que activa la aplicación está en los bordes laterales del equipo o como un agujero que se activa con la punta de un esfero o un clip.",
+				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
+				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápido que por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."
+			}],
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_12",
+		"nombre": "Ideapad 100s 11\" Azul",
 		"categoria": "Notebook",
 		"mapa": [
 			["inicio", {
-				"titulo": "IDEAPAD 100s 11'' AZUL",
+				"titulo": "IDEAPAD 100s 11\" Azul",
 				"color_primario": "#231f20",
 				"color_secundario": "#ed6b00",
 				"color_caracteristica": "#4a80af"
 			}],
 			["cabecera", {
-				"nombre_producto": "LENOVO IDEAPAD 100s 11\" AZUL",
+				"nombre_producto": "LENOVO IDEAPAD 100s 11\"",
 				"subtitulo_cabecera": "EL PORTÁTIL DELGADO Y LIGERO, CÓMODO Y FÁCIL DE USAR",
 				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_100S_AZUL/IMG_01.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_100S_AZUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "GRAN RENDIMIENTO, GRAN PRECIO",
+				"p_descripcion_principal": "Lenovo Ideapad 100s te da todo lo que necesitas y nada de lo que no necesitas de un portátil. es fácil de llevar gracias a su tamaño y peso."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "Sorprendetemente cómoda",
+				"p_caracteristica": "El notebook Lenovo Ideapad 100s es delgado y ligero, la compañía perfecta para llevar a todas partes.",
+				"img_apoyo": "../img/NB/IDEAPAD_100S_AZUL/IMG_04.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Llévala contigo",
+				"p_caracteristica": "Guárdala, ábrela y úsala. Lenovo Ideapad 100s está siempre lista para usar, todo el día, todos los días..",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_100S_AZUL/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_12.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Medidas perfectas",
+				"p_caracteristica": "Peso perfecto, rendimiento superior. Pantalla HD de 11\", gráficos integrados Intel HD y desde mas 1.5Kg de peso.",
+				"img_apoyo": "../img/NB/IDEAPAD_100S_AZUL/IMG_08.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Ideapad es un Cloudbook",
+				"p_caracteristica": "Olvídate de dispositivos para guardar tu información, Lenovo Ideapad 100s viene con 1TB para que almacenes todos tus archivos en la seguridad de la nube. - Opcional con Office 365 x un año -",
+				"img_apoyo": "../img/NB/IDEAPAD_100S_AZUL/IMG_09.png"
 			}],
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_13",
+		"nombre": "IDEAPAD 100S 11\" Blanco",
 		"categoria": "Notebook",
 		"mapa": [
 			["inicio", {
-				"titulo": "IDEAPAD 100s 11'' BLANCO",
+				"titulo": "IDEAPAD 100s 11\" BLANCO",
 				"color_primario": "#231f20",
 				"color_secundario": "#ed6b00",
 				"color_caracteristica": "#4a80af"
 			}],
 			["cabecera", {
-				"nombre_producto": "LENOVO IDEAPAD 100s 11\" BLANCO",
+				"nombre_producto": "LENOVO IDEAPAD 100s 11\"",
 				"subtitulo_cabecera": "EL PORTÁTIL DELGADO Y LIGERO, CÓMODO Y FÁCIL DE USAR",
 				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_100S_BLANCO/IMG_01.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_100S_BLANCO/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "GRAN RENDIMIENTO, GRAN PRECIO",
+				"p_descripcion_principal": "Lenovo Ideapad 100s te da todo lo que necesitas y nada de lo que no necesitas de un portátil. es fácil de llevar gracias a su tamaño y peso."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "Sorprendetemente cómoda",
+				"p_caracteristica": "El notebook Lenovo Ideapad 100s es delgado y ligero, la compañía perfecta para llevar a todas partes.",
+				"img_apoyo": "../img/NB/IDEAPAD_100S_BLANCO/IMG_04.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Llévala contigo",
+				"p_caracteristica": "Guárdala, ábrela y úsala. Lenovo Ideapad 100s está siempre lista para usar, todo el día, todos los días..",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_100S_BLANCO/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_12.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Medidas perfectas",
+				"p_caracteristica": "Peso perfecto, rendimiento superior. Pantalla HD de 11\", gráficos integrados Intel HD y desde mas 1.5Kg de peso.",
+				"img_apoyo": "../img/NB/IDEAPAD_100S_BLANCO/IMG_08.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Ideapad es un Cloudbook",
+				"p_caracteristica": "Olvídate de dispositivos para guardar tu información, Lenovo Ideapad 100s viene con 1TB para que almacenes todos tus archivos en la seguridad de la nube. - Opcional con Office 365 x un año -",
+				"img_apoyo": "../img/NB/IDEAPAD_100S_BLANCO/IMG_09.png"
 			}],
 			["fin", {}]
 		]
