@@ -35,7 +35,7 @@
 | NOMBRE FICHA                    | COLOR PRIMARIO | COLOR SECUNDARIO | COLOR CARACTERÍSTICA |
 |---------------------------------|----------------|------------------|----------------------|
 | LENOVO AIO_700                  | 221f20         | 77be4f           | ed6b00               |
-| LENOVO B50 30                   | c22821         | 231f20           | ed6b00               |
+| LENOVO B50 30                   | 221f20         | c22821           | ed6b00               |
 | LENOVO C40 05                   | 221f20         | c22821           | ed6b00               |
 | LENOVO C40 30                   | 221f20         | c22821           | ed6b00               |
 | LENOVO C40 30 EXITO             | 221f20         | c22821           | ed6b00               |
