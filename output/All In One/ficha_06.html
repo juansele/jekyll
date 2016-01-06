@@ -1,16 +1,9 @@
-#!/usr/bin/python
-#coding: utf-8
 
-from string import Template
-
-templates = {}
-
-templates['inicio'] = '''
 	<!DOCTYPE html>
 	<html LANG="ES">
 		<head>
 			<meta charset="UTF-8">
-			<title>${titulo}</title>
+			<title>C50 30</title>
 			<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 			<meta name="viewport" content="width=device-width, height=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		</head>
@@ -23,7 +16,7 @@ templates['inicio'] = '''
 	/* CLASES VARIABILIDAD DE COLORES */
 
 	.cont-circle-number{
-		background-color:${color_secundario};
+		background-color:#c22821;
 		width: 50px;
 		height:50px;
 		padding: 0.1em;
@@ -45,24 +38,24 @@ templates['inicio'] = '''
 	}
 
 	.cont-t-cabecera{
-		background-color: ${color_primario};
+		background-color: #221f20;
 		color: white;
 		border-radius: 10px;
 	}
 
 	.separador-info-t-cabecera{
-		background:${color_secundario};
+		background:#c22821;
 		height:3px;
 	}
 
 	.titulo-descripcion-main{
-		color: ${color_secundario};
+		color: #c22821;
 		font-size: 30px;
 		text-transform: uppercase;
 	}
 
 	.titulo-caracteristica{
-		color: ${color_caracteristica};
+		color: #ed6b00;
 		font-size: 30px;
 	}
 
@@ -89,10 +82,7 @@ templates['inicio'] = '''
 	}
 
 	</style>
-'''
 
-
-templates['cabecera'] = '''
 			<section class="layout-row justify-space-around align-center">
 				<div class="container-main flex-lg-75 flex-md-85 flex-sm-95 flex-xs-95 flex-gt-95" style="padding: 2vh 0vh;">
 
@@ -104,311 +94,19 @@ templates['cabecera'] = '''
 							<div class="flex-lg-80 flex-md-80 flex-sm-85 flex-xs-85 flex-gt-90 layout-row justify-start align-start">
 								<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-space-around align-center cont-t-cabecera">
 									<!-- Contenedor titulo principal -->
-									<div class="flex-lg-95 flex-md-95 flex-xs-sm flex-xs-95 flex-gt-95 uppercase main-text1 main-text2 main-text3" style="text-align:center;">${nombre_producto}</div>
+									<div class="flex-lg-95 flex-md-95 flex-xs-sm flex-xs-95 flex-gt-95 uppercase main-text1 main-text2 main-text3" style="text-align:center;">LENOVO C50 30</div>
 									<div class="flex-lg-95 flex-md-95 flex-xs-sm flex-xs-95 flex-gt-95 separador-info-t-cabecera"></div>
-									<div class="flex-lg-95 flex-md-95 flex-xs-sm flex-xs-95 flex-gt-95 uppercase second-text1 second-text2 second-text3" style="text-align:center;">${subtitulo_cabecera}</div>
+									<div class="flex-lg-95 flex-md-95 flex-xs-sm flex-xs-95 flex-gt-95 uppercase second-text1 second-text2 second-text3" style="text-align:center;">DECORA Y ECONOMIZA TUS ESPACIOS</div>
 								</div>
 							</div>
 							<!-- Logo Lenovo -->
 							<div class="flex-lg-10 flex-md-15 flex-sm-15 flex-xs-10 flex-gt-10 layout-row justify-end">
-								<div><img class="logo" src="${logo_lenovo}"></div>
+								<div><img class="logo" src="../img/OTROS/logo_c22821.png"></div>
 							</div>
 						</div>
 					</section>
 
-'''
 
-templates['P'] = '''
-
-					<!-- ESTRUCTURA DE INFORMACIÓN P -->
-
-					<section class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-center mod-section" style="margin:3em 0em;">
-						<div class="inner-section flex-lg-70 flex-sm-80 flex-xs-80 flex-gt-90">
-							<div>
-								<span class="titulo-descripcion-main">${t_descripcion_principal}</span>
-							</div>
-							<p style="margin-top:1em;">${p_descripcion_principal}</p>
-						</div>
-					</section>
-
-
-'''
-
-templates['I-P'] = '''
-
-					<!-- ESTRUCTURA DE INFORMACIÓN I | P-->
-
-					<section class="mod-section layout-row justify-space-around align-center">
-						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-55 flex-xs-70 flex-gt-70  content-img-small shadow-box order-lg-1 order-md-1 order-sm-2 order-xs-2 order-gt-2">
-							<img src="${img_apoyo}">
-						</div>
-						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-80 flex-xs-80 flex-gt-90  mod-texto order-lg-2 order-md-2 order-sm-1 order-xs-1 order-gt-1">
-							<!-- MOD. P -->
-							<div class="mod-p">
-								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-lg-75 flex-md-80 order-lg-1 order-md-1 order-sm-2 order-xs-2 order-gt-2">
-										<div>
-											<span class="titulo-caracteristica">${t_caracteristica}</span>
-										</div>
-										<p>${p_caracteristica}</p>
-									</div>
-									<div class="flex-lg-15 flex-md-20 flex-sm-100  layout-row justify-center align-center order-lg-2 order-md-2 order-sm-1  order-xs-1 order-gt-1 ">
-										<div class="mod-inline cont-circle-number">
-											<div>${numero_caracteristica}</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-
-'''
-
-templates['I'] = '''
-					<!-- ESTRUCTURA DE INFORMACIÓN I -->
-
-					<section class="layout-row justify-space-around align-center mod-section" style="margin-top:2em;">
-						<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small" style="text-align:center;">
-							<img src="${img_apoyo}">
-						</div>
-					</section>
-'''
-
-
-templates['P-I-I'] = '''
-
-					<!-- ESTRUCTURA DE INFORMACIÓN P | I | I GRANDE  -->
-					
-					<section class="mod-section layout-row justify-space-around align-center">
-						<div class="inner-section flex-lg-50 flex-md-50 flex-sm-85 flex-xs-80 flex-gt-90 justify-center align-stretch">
-							<!-- MOD. P -->
-							<div class="mod-p">
-								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-lg-15 flex-md-20 flex-sm-100 layout-row justify-center align-center">
-										<div class="mod-inline cont-circle-number">
-											<div>${numero_caracteristica}</div>
-										</div>
-									</div>
-									<div class="flex-lg-75 flex-md-80 flex-sm-100">
-										<div>
-											<span class="titulo-caracteristica">${t_caracteristica}</span>
-										</div>
-										<p>${p_caracteristica}</p>
-									</div>
-								</div>
-							</div>
-							<div class="layout-row justify-space-around align-center">
-								<div class="flex-lg-15 flex-md-15 flex-lg-show flex-md-show flex-sm-hide flex-xs-hide flex-gt-hide"></div>
-								<div class="flex-lg-75 flex-md-75 flex-sm-55 flex-xs-70 flex-gt-75 content-img-small">
-									<img src="${img_apoyo_1}">
-								</div>
-							</div>
-						</div>
-						<div class="inner-section flex-lg-40 flex-md-40 flex-sm-50 flex-xs-55 flex-gt-60 content-img-big">
-								<img src="${img_apoyo_2}">
-						</div>
-					</section>
-'''
-
-templates['I-IP-I'] = '''
-
-					<!-- ESTRUCTURA DE INFORMACIÓN I | I P | I -->
-
-					<section class="mod-section layout-row justify-space-around align-center">
-						<div class="inner-section flex-lg-25 flex-md-25 flex-sm-40 flex-xs-40 flex-gt-40 content-img-small shadow-box order-lg-1 order-md-1 order-sm-2 order-xs-2 order-gt-2">
-							<img src="${img_apoyo_1}">
-						</div>
-						<div class="inner-section layout-row flex-lg-45 flex-md-45 flex-sm-80 flex-xs-80 flex-gt-90 order-lg-2 order-md-2 order-sm-1 order-xs-1 order-gt-1">
-							
-							<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 layout-row justify-space-around align-center order-lg-1 order-md-1 order-sm-2 order-xs-2 order-gt-2">
-								<div class="flex-lg-80 flex-md-100 flex-sm-80 flex-xs-80 flex-gt-85" style="text-align:center;">
-									<img src="${img_apoyo_2}">
-								</div>
-							</div>
-							<!-- MOD. P -->
-							<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 mod-p order-lg-2 order-md-2 order-sm-1 order-xs-1 order-gt-1">
-								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-lg-15 flex-md-20 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-center align-center">
-										<div class="mod-inline cont-circle-number">
-											<div>${numero_caracteristica}</div>
-										</div>
-									</div>
-									<div class="flex-lg-75 flex-md-80 flex-sm-80 flex-xs-80 flex-gt-80">
-										<div>
-											<span class="titulo-caracteristica" >${t_caracteristica}</span>
-										</div>
-										<p>${p_caracteristica}</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="inner-section flex-lg-20 flex-md-15 flex-sm-30 flex-xs-35 flex-gt-35 content-img-small order-md-3 order-sm-3 order-xs-3 order-gt-3">
-							 <img src="${img_apoyo_3}">
-						</div>
-					</section>
-
-'''
-
-templates['P-I'] = '''
-
-					<!-- ESTRUCTURA DE INFORMACIÓN P | I-->
-					
-					<section class="layout-row justify-space-around align-center mod-section">
-						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-80 flex-xs-80 flex-gt-90  mod-texto">
-							<!-- MOD. P -->
-							<div class="mod-p">
-								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-lg-75 flex-md-80 order-lg-1 order-md-1 order-sm-2  order-xs-2 order-gt-2 ">
-										<div>
-											<span class="titulo-caracteristica">${t_caracteristica}</span>
-										</div>
-										<p>${p_caracteristica}</p>
-									</div>
-									<div class="flex-lg-15 flex-md-20 flex-sm-100  layout-row justify-center align-center order-lg-2 order-md-2 order-sm-1  order-xs-1 order-gt-1">
-										<div class="mod-inline cont-circle-number">
-											<div>${numero_caracteristica}</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-55 flex-xs-70 flex-gt-70 content-img-small">
-							<img src="${img_apoyo}">
-						</div>
-					</section>
-
-'''
-
-templates['I-I'] = '''
-
-
-					<!-- ESTRUCTURA DE INFORMACIÓN I | I  CHECK -->
-
-					<section class="layout-row justify-space-around align-center mod-section" style="margin-top:2em;">
-						<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small" style="text-align:center;">
-							<img src="${img_apoyo_1}">
-						</div>
-
-						<div class=" inner-section flex-lg-40 flex-md-45 flex-sm-80 flex-xs-70 flex-gt-70 content-img-small" style="text-align:center;">
-							<img src="${img_apoyo_2}">
-						</div>
-					</section>
-					
-'''
-
-templates['I-P-I'] = '''
-
-					<!-- ESTRUCTURA DE INFORMACIÓN I | P | I -->
-
-					<section class="mod-section layout-row justify-space-around align-center">
-						<div class="inner-section flex-lg-25 flex-md-25 flex-sm-50 flex-xs-70 flex-gt-70 content-img-small shadow-box order-lg-1 order-md-1 order-sm-2 order-xs-2 order-gt-2">
-							<img src="${img_apoyo_1}">
-						</div>
-						<div class="inner-section flex-lg-45 flex-md-45 flex-sm-80 flex-xs-80 flex-gt-90 order-lg-2 order-md-2 order-sm-1 order-xs-1 order-gt-1">
-							<!-- MOD. P -->
-							<div class="mod-p">
-								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-lg-15 flex-md-20 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-center align-center">
-										<div class="mod-inline cont-circle-number">
-											<div>${numero_caracteristica}</div>
-										</div>
-									</div>
-									<div class="flex-lg-75 flex-md-80 flex-sm-80 flex-xs-80 flex-gt-80 flex-xs-80">
-										<div>
-											<span class="titulo-caracteristica" >${t_caracteristica}</span>
-										</div>
-										<p>${p_caracteristica}</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="inner-section flex-lg-20 flex-md-15 flex-sm-55 flex-xs-55 flex-gt-70 content-img-small order-lg-3 order-md-2 order-sm-3 order-xs-3 order-gt-3">
-							 <img src="${img_apoyo_2}">
-						</div>
-					</section>
-'''
-
-templates['P-P'] = '''
-					<!-- ESTRUCTURA DE INFORMACIÓN P | P -->
-
-					<section class="mod-section layout-row justify-space-around align-start">
-						<div class="inner-section flex-lg-45 flex-md-45 flex-sm-80 flex-xs-80 flex-gt-90">
-							<div class="mod-list layout-row justify-center align-start">
-								<!-- Logo-especificación -->
-								<div class="layout-row justify-center align-start flex-lg-30 flex-md-30 flex-sm-80 flex-xs-90 flex-gt-100">
-									<img style="max-width:110px;max-height:102px;" src="${icono_caracteristica_1}">
-								</div>
-								<!-- Parrafo-especificación -->
-								<div class="flex-lg-70 flex-md-70 flex-sm-80 flex-xs-90 flex-gt-100">
-									<p class="text-align-lg text-align-md text-align-sm text-align-xs text-align-gt">${detalle_caracteristica_1}</p>
-								</div>
-							</div>
-						</div>
-						<div class="inner-section flex-lg-45 flex-md-45 flex-sm-80 flex-xs-80 flex-gt-90">
-							<div class="mod-list layout-row justify-center align-start">
-								<!-- Logo-especificación -->
-								<div class="layout-row justify-center align-start flex-lg-30 flex-md-30 flex-sm-80 flex-xs-90 flex-gt-100">
-									<img style="max-width:110px;max-height:102px;" src="${icono_caracteristica_2}">
-								</div>
-								<!-- Parrafo-especificación -->
-								<div class="flex-lg-70 flex-md-70 flex-sm-80 flex-xs-90 flex-gt-100">
-									<p class="text-align-lg text-align-md text-align-sm text-align-xs text-align-gt">${detalle_caracteristica_2}</p>
-								</div>
-							</div>
-						</div>
-					</section>
-
-'''
-
-templates['I-P-nonumero'] = '''
-					<!-- ESTRUCTURA DE INFORMACIÓN I | P SIN NÚMERO-->
-
-					<section class="mod-section layout-row justify-space-around align-center">
-						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-55 flex-xs-70 flex-gt-70  content-img-small shadow-box order-lg-1 order-md-1 order-sm-2 order-xs-2 order-gt-2">
-							<img src="${img_apoyo}">
-						</div>
-						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-80 flex-xs-80 flex-gt-90  mod-texto order-lg-2 order-md-2 order-sm-1 order-xs-1 order-gt-1">
-							<!-- MOD. P -->
-							<div class="mod-p">
-								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-lg-100 flex-md-90 order-lg-1 order-md-1 order-sm-2 order-xs-2 order-gt-2">
-										<p>${p_caracteristica}</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-'''
-
-templates['Igrande-P-I'] = '''
-					<!-- ESTRUCTURA DE INFORMACIÓN I GRANDE | P | I   -->
-					
-					<section class="mod-section layout-row justify-space-around align-start">
-						<div class="inner-section flex-lg-40 flex-md-40 flex-sm-50 flex-xs-55 flex-gt-60 content-img-big order-lg-1 order-md-1 order-sm-2 order-xs-2 order-gt-2">
-								<img src="${img_apoyo_1}">
-						</div>
-						<div class="inner-section flex-lg-50 flex-md-50 flex-sm-85 flex-xs-80 flex-gt-90 justify-center align-stretch order-lg-2 order-md-2 order-sm-1 order-xs-1 order-gt-1">
-							<!-- MOD. P -->
-							<div class="mod-p">
-								<div class="layout-row justify-space-around align-start mod-texto">
-									<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
-										<div>
-											<span class="titulo-caracteristica">${t_caracteristica}</span>
-										</div>
-										<p>${p_caracteristica}</p>
-									</div>
-								</div>
-							</div>
-							<div class="layout-row justify-space-around align-center">
-								<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 flex-xs-60 flex-gt-80 flex-md-80">
-									<img src="${img_apoyo_2}">
-								</div>
-							</div>
-						</div>
-					</section>
-'''
-
-templates['fin'] = '''
 
 				</div>
 
@@ -434,10 +132,3 @@ templates['fin'] = '''
 			</section>
         </body>
     </html>
-'''
-
-def generar_ficha(mapa):
-    salida = ''
-    for seccion in mapa:
-        salida = salida + Template(templates[seccion[0]].decode('utf-8')).substitute(seccion[1])
-    return salida

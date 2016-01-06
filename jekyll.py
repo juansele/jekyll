@@ -13,6 +13,6 @@ input_json_file.close()
 
 for ficha in input_json_data:
     output_html = jekyll_templates.generar_ficha(ficha['mapa'])
-    output_html_file = open('output/' + ficha['nombre'] + '.html', 'w')
+    output_html_file = open('output/' + ficha['categoria'] + '/' + ficha['nombre'] + '.html', 'w')
     output_html_file.write(output_html.encode('utf-8'))
     output_html_file.close()
