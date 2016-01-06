@@ -1,775 +1,351 @@
 [{
-		"nombre": "AIO_700",
-		"categoria": "All In One",
-		"mapa": [
-			["inicio", {
-				"titulo": "AIO_700",
-				"color_primario": "#221f20",
-				"color_secundario": "#77be4f",
-				"color_caracteristica": "#ed6b00"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO AIO 700",
-				"subtitulo_cabecera": "EL BALANCE PERFECTO ENTRE TRABAJO Y ENTRETENIMIENTO",
-				"logo_lenovo": "../img/OTROS/logo_77be4f.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/AIO/AIO_700/IMG_01.png",
-				"img_apoyo_2": "../img/AIO/AIO_700/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "EL ALL IN ONE COMBINA LO MEJOR EN RENDIEMIENTO CON UN DISEÑO MARAVILLOSO.",
-				"p_descripcion_principal": "Lenovo All in one 700 Combina un increíble rendimiento con su destacado diseño, potenciado con la 6ta generación de procesadores Intel QuadCore i7 y tarjeta de video independiente."
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_03.png"
-			}],
-			["P-I-I", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Cámara 3D RealSense",
-				"p_caracteristica": "La Cámara 3d Intel RealSense te permite ver, capturar y compartir fotos tridimensionales de personas y objetos.",
-				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_04.png",
-				"img_apoyo_2": "../img/AIO/AIO_700/IMG_05.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Sonido envolvente Imágenes sorprendentes",
-				"p_caracteristica": "Parlantes integrados con sonido envolvente JBL pantalla multitouch de 10 puntos.",
-				"img_apoyo": "../img/AIO/AIO_700/IMG_06.png"
-			}],
-			["P-I", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Fácil de actualizar",
-				"p_caracteristica": "El AIO 700 viene con una cubierta posterior desmontable para ofrecer un acceso sencillo a sus componentes internos.",
-				"img_apoyo": "../img/AIO/AIO_700/IMG_07.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_08.png",
-				"img_apoyo_2": "../img/AIO/AIO_700/IMG_08.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "B50_30",
-		"categoria": "All In One",
-		"mapa": [
-			["inicio", {
-				"titulo": "B50 30",
-				"color_primario": "#221f20",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#ed6b00"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO B50 30",
-				"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
+	"nombre": "AIO_700",
+	"categoria": "All In One",
+	"mapa": [
+		["inicio", {
+			"titulo": "AIO_700",
+			"color_primario": "#221f20",
+			"color_secundario": "#77be4f",
+			"color_caracteristica": "#ed6b00"
+		}],
+		["cabecera", {
+			"nombre_producto": "LENOVO AIO 700",
+			"subtitulo_cabecera": "EL BALANCE PERFECTO ENTRE TRABAJO Y ENTRETENIMIENTO",
+			"logo_lenovo": "../img/OTROS/logo_77be4f.png"
+		}],
+		["I-I", {
+			"img_apoyo_1": "../img/AIO/AIO_700/IMG_01.png",
+			"img_apoyo_2": "../img/AIO/AIO_700/IMG_02.png"
+		}],
+		["P", {
+			"t_descripcion_principal": "EL ALL IN ONE COMBINA LO MEJOR EN RENDIEMIENTO CON UN DISEÑO MARAVILLOSO.",
+			"p_descripcion_principal": "Lenovo All in one 700 Combina un increíble rendimiento con su destacado diseño, potenciado con la 6ta generación de procesadores Intel QuadCore i7 y tarjeta de video independiente."
+		}],
+		["I", {
+			"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_03.png"
+		}],
+		["P-I-I", {
+			"numero_caracteristica": "1",
+			"t_caracteristica": "Cámara 3D RealSense",
+			"p_caracteristica": "La Cámara 3d Intel RealSense te permite ver, capturar y compartir fotos tridimensionales de personas y objetos.",
+			"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_04.png",
+			"img_apoyo_2": "../img/AIO/AIO_700/IMG_05.png"
+		}],
+		["I-P", {
+			"numero_caracteristica": "2",
+			"t_caracteristica": "Sonido envolvente Imágenes sorprendentes",
+			"p_caracteristica": "Parlantes integrados con sonido envolvente JBL pantalla multitouch de 10 puntos.",
+			"img_apoyo": "../img/AIO/AIO_700/IMG_06.png"
+		}],
+		["P-I", {
+			"numero_caracteristica": "3",
+			"t_caracteristica": "Fácil de actualizar",
+			"p_caracteristica": "El AIO 700 viene con una cubierta posterior desmontable para ofrecer un acceso sencillo a sus componentes internos.",
+			"img_apoyo": "../img/AIO/AIO_700/IMG_07.png"
+		}],
+		["I-I", {
+			"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_08.png",
+			"img_apoyo_2": "../img/AIO/AIO_700/IMG_08.png"
+		}],
+		["fin", {}]
+	]
+}, {
+	"nombre": "B50_30",
+	"categoria": "All In One",
+	"mapa": [
+		["inicio", {
+			"titulo": "B50 30",
+			"color_primario": "#221f20",
+			"color_secundario": "#c22821",
+			"color_caracteristica": "#ed6b00"
+		}],
+		["cabecera", {
+			"nombre_producto": "LENOVO B50 30",
+			"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
+			"logo_lenovo": "../img/OTROS/logo_c22821.png"
+		}],
 
-			["I-I", {
-				"img_apoyo_1": "../img/AIO/B50_30/IMG_01.png",
-				"img_apoyo_2": "../img/AIO/B50_30/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "EL ALL IN ONE EXCEPCIONAL EN AUDIO E IMAGEN",
-				"p_descripcion_principal": "Lenovo All in one B50 30 Combina una increíble pantalla IPS con tecnología Multitouch de 10 puntos y sistema de sonido JBL."
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_03.png"
-			}],
-			["P-I-I", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Pantalla Increible",
-				"p_caracteristica": "permite un completo ángulo de visión para imágenes maravillosas que puedes controlar con el multitouch de 10 puntos.",
-				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_04.png",
-				"img_apoyo_2": "../img/AIO/B50_30/IMG_06.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Sonido envolvente",
-				"p_caracteristica": "El sistema de sonido JBL con parlantes estéreo diseñados con DOLBY ofrecen una experiencia de sonido excepcional.",
-				"img_apoyo": "../img/AIO/B50_30/IMG_05.png"
-			}],
-			["P-I", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Diseño y rendimiento",
-				"p_caracteristica": "Rendimiento superior con lo último en procesadores Intel para PC de escritorio.",
-				"img_apoyo": "../img/AIO/B50_30/IMG_07.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_08.png",
-				"img_apoyo_2": "../img/AIO/B50_30/IMG_09.png"
-			}],
+		["I-I", {
+			"img_apoyo_1": "../img/AIO/B50_30/IMG_01.png",
+			"img_apoyo_2": "../img/AIO/B50_30/IMG_02.png"
+		}],
+		["P", {
+			"t_descripcion_principal": "EL ALL IN ONE EXCEPCIONAL EN AUDIO E IMAGEN",
+			"p_descripcion_principal": "Lenovo All in one B50 30 Combina una increíble pantalla IPS con tecnología Multitouch de 10 puntos y sistema de sonido JBL."
+		}],
+		["I", {
+			"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_03.png"
+		}],
+		["P-I-I", {
+			"numero_caracteristica": "1",
+			"t_caracteristica": "Pantalla Increible",
+			"p_caracteristica": "permite un completo ángulo de visión para imágenes maravillosas que puedes controlar con el multitouch de 10 puntos.",
+			"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_04.png",
+			"img_apoyo_2": "../img/AIO/B50_30/IMG_06.png"
+		}],
+		["I-P", {
+			"numero_caracteristica": "2",
+			"t_caracteristica": "Sonido envolvente",
+			"p_caracteristica": "El sistema de sonido JBL con parlantes estéreo diseñados con DOLBY ofrecen una experiencia de sonido excepcional.",
+			"img_apoyo": "../img/AIO/B50_30/IMG_05.png"
+		}],
+		["P-I", {
+			"numero_caracteristica": "3",
+			"t_caracteristica": "Diseño y rendimiento",
+			"p_caracteristica": "Rendimiento superior con lo último en procesadores Intel para PC de escritorio.",
+			"img_apoyo": "../img/AIO/B50_30/IMG_07.png"
+		}],
+		["I-I", {
+			"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_08.png",
+			"img_apoyo_2": "../img/AIO/B50_30/IMG_09.png"
+		}],
 
-			["fin", {}]
-		]
-	}, {
-		"nombre": "C40_05",
-		"categoria": "All In One",
-		"mapa": [
-			["inicio", {
-				"titulo": "C40 05",
-				"color_primario": "#221f20",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#ed6b00"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO C40 05",
-				"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/AIO/C40_05/IMG_01.png",
-				"img_apoyo_2": "../img/AIO/C40_05/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "LA ÚLTIMA TECNOLOGÍA EN PROCESADORES",
-				"p_descripcion_principal": "El computador perfecto para el hogar: de diseño compacto, combina ahorro inteligente de los espacios y dos colores diferentes con una pantalla multitouch opcional de 10 puntos."
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_08.png"
-			}],
-			["P-I-I", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Redecora tu hogar",
-				"p_caracteristica": "con el PC de diseño delgado y fino de precio inimitable..",
-				"img_apoyo_1": "../img/AIO/C40_05/IMG_04.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
-			}],
-			["P-I", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Pantalla de 21,5\"",
-				"p_caracteristica": "con multitouch opcional y un soporte metálico en v que refresca tu espacio.",
-				"img_apoyo": "../img/AIO/C40_05/IMG_06.png"
-			}],
-			["P-I-I", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Amplicacion sin Herramientas",
-				"p_caracteristica": "Cubiertas corredizas que facilitan la actualización de almacenamiento y memoria..",
-				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
-				"img_apoyo_2": "../img/AIO/C40_05/IMG_08.png"
-			}],
-			["fin", {}]
-		]
-	},{
-		"nombre": "ficha_04",
-		"categoria": "All In One",
-		"mapa": [
-			["inicio", {
-				"titulo": "C40 30",
-				"color_primario": "#221f20",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#ed6b00"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO C40 30",
-				"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_05",
-		"categoria": "All In One",
-		"mapa": [
-			["inicio", {
-				"titulo": "C40 30 EXITO",
-				"color_primario": "#221f20",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#ed6b00"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO C40 30 EXITO",
-				"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_06",
-		"categoria": "All In One",
-		"mapa": [
-			["inicio", {
-				"titulo": "C50 30",
-				"color_primario": "#221f20",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#ed6b00"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO C50 30",
-				"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_07",
-		"categoria": "All In One",
-		"mapa": [
-			["inicio", {
-				"titulo": "C260 ",
-				"color_primario": "#717170",
-				"color_secundario": "#8abf54",
-				"color_caracteristica": "#4a80b0"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO C260",
-				"subtitulo_cabecera": "EL ALL IN ONE CON LO ÚLTIMO EN PROCESADORES",
-				"logo_lenovo": "../img/OTROS/logo_8abf54.png"
-			}],
-			["fin", {}]
-		]
-	},
-
-
-
-
-
-
-
-
-
-
-
-	{
-		"nombre": "ficha_08",
-		"categoria": "Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "G40 30",
-				"color_primario": "#717170",
-				"color_secundario": "#ed6b00",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO G40 30",
-				"subtitulo_cabecera": "HECHO PARA TODOS LOS DÍAS",
-				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_09",
-		"categoria": "Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "G40 45",
-				"color_primario": "#717170",
-				"color_secundario": "#ed6b00",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO G40 45",
-				"subtitulo_cabecera": "HECHO PARA TODOS LOS DÍAS",
-				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "G40_80",
-		"categoria": "Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "G40 80",
-				"color_primario": "#717170",
-				"color_secundario": "#ed6b00",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO G40 80",
-				"subtitulo_cabecera": "PORTÁTIL DE 14\" CON UNIDAD DE DVD",
-				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB/G40_80/IMG_01.png",
-				"img_apoyo_2": "../img/NB/G40_80/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "ACCESIBLE Y VERSATIL PORTATIL",
-				"p_descripcion_principal": "Lenovo G40-80 combina un diseño de líneas delgadas con una variedad completa de funciones, incluyendo unidad de DVD y un rendimiento que enfrenta cualquier desafío con la quinta generación del procesador Intel ® Core (TM)."
-			}],
-			["I", {
-				"img_apoyo": "../img/NB/G40_80/IMG_04.png"
-			}],
-			["P-I", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Pantalla HD de 14\"",
-				"p_caracteristica": "Esta pantalla ofrece una imagen nítida y brillante en un formato de imagen 16.9 y una resolución de 1366 x 768.",
-				"img_apoyo": "../img/NB/G40_80/IMG_04.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Perfecto para los amantes del cine",
-				"p_caracteristica": "Su unidad integrada de DVD y sus parlantes DOLBY estéreo hacen del portátil G40 el computador perfecto para disfrutar de tus peliculas favoritas.",
-				"img_apoyo": "../img/NB/G40_80/IMG_04.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB/G40_80/IMG_06.png",
-				"img_apoyo_2": "../img/NB/G40_80/IMG_06.png"
-			}],
-			["P-I", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Teclado AccuType",
-				"p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.",
-				"img_apoyo": "../img/NB/G40_80/IMG_08.png"
-			}],
-			["I-P-I", {
-				"img_apoyo_1": "../img/NB/G40_80/IMG_09.png",
-				"img_apoyo_2": "../img/NB/G40_80/IMG_10.png",
-				"t_caracteristica": "Tecnología para ahorro de batería",
-				"p_caracteristica": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía.",
-				"numero_caracteristica": "4"
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
-				"detalle_caracteristica_1": "Experimenta sonido profundo con los parlantes incorporados y salidas para audifonos, con certificación Dolby® Advanced AudioTM.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápido que por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_3.png",
-				"detalle_caracteristica_1": "Con Lenovo OneKey Recovery puedes crear una copia de seguridad de tus archivos, restaurar tu máquina en 40-60 minutos o reiniciar el equipo al estado original de fábrica en tan solo 15 minutos. El botón que activa la aplicación está en los bordes laterales del equipo o como un agujero que se activa con la punta de un esfero o un clip.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_4.png",
-				"detalle_caracteristica_2": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía."
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_11",
-		"categoria": "Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "IDEAPAD 100",
-				"color_primario": "#717170",
-				"color_secundario": "#5e8cda",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO IDEAPAD 100",
-				"subtitulo_cabecera": "GRAN DISEÑO, PRECIO INMEJORABLE",
-				"logo_lenovo": "../img/OTROS/logo_5e8cda.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_12",
-		"categoria": "Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "IDEAPAD 100s 11'' AZUL",
-				"color_primario": "#231f20",
-				"color_secundario": "#ed6b00",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO IDEAPAD 100s 11\" AZUL",
-				"subtitulo_cabecera": "EL PORTÁTIL DELGADO Y LIGERO, CÓMODO Y FÁCIL DE USAR",
-				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_13",
-		"categoria": "Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "IDEAPAD 100s 11'' BLANCO",
-				"color_primario": "#231f20",
-				"color_secundario": "#ed6b00",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO IDEAPAD 100s 11\" BLANCO",
-				"subtitulo_cabecera": "EL PORTÁTIL DELGADO Y LIGERO, CÓMODO Y FÁCIL DE USAR",
-				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_14",
-		"categoria": "Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "IDEAPAD  300",
-				"color_primario": "#231f20",
-				"color_secundario": "#d06bac",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO IDEAPAD 300",
-				"subtitulo_cabecera": "MÁXIMA PORTABILIDAD Y MÁXIMO RENDIMIENTO",
-				"logo_lenovo": "../img/OTROS/logo_d06bac.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_15",
-		"categoria": "Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "Y50 70",
-				"color_primario": "#717170",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO Y50 70",
-				"subtitulo_cabecera": "DESEMPEÑO EXTRA, MAXIMA DIVERSIÓN",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_16",
-		"categoria": "Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "Z40 70",
-				"color_primario": "#717170",
-				"color_secundario": "#d06bac",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO Z40 70",
-				"subtitulo_cabecera": "EL PORTÁTIL QUE LO HACE TODO",
-				"logo_lenovo": "../img/OTROS/logo_d06bac.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_17",
-		"categoria": "Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "Z50 70",
-				"color_primario": "#717170",
-				"color_secundario": "#d06bac",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO Z50 70",
-				"subtitulo_cabecera": "EL PORTÁTIL QUE LO HACE TODO",
-				"logo_lenovo": "../img/OTROS/logo_d06bac.png"
-			}],
-			["fin", {}]
-		]
-	},
-
-
-
-
-
-
-
-
-
-
-
-
-
-	{
-		"nombre": "ficha_18",
-		"categoria": "Notebook Yoga",
-		"mapa": [
-			["inicio", {
-				"titulo": "YOGA 2 13\"",
-				"color_primario": "#717170",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO YOGA 2 13\"",
-				"subtitulo_cabecera": "PORTÁTIL MULTIMODO A UN PRECIO INCREIBLE",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_19",
-		"categoria": "Notebook Yoga",
-		"mapa": [
-			["inicio", {
-				"titulo": "YOGA 3 14\"",
-				"color_primario": "#717170",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO YOGA 3 14\"",
-				"subtitulo_cabecera": "PORTÁTIL MULTIMODO A UN PRECIO INCREIBLE",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_20",
-		"categoria": "Notebook Yoga",
-		"mapa": [
-			["inicio", {
-				"titulo": "YOGA 300 11\"",
-				"color_primario": "#717170",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO YOGA 300 11\"",
-				"subtitulo_cabecera": "TABLET Y COMPUTADOR EN UN SOLO EQUIPO",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "YOGA_500",
-		"categoria": "Notebook Yoga",
-		"mapa": [
-			["inicio", {
-				"titulo": "YOGA 500",
-				"color_primario": "#717170",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO YOGA 500",
-				"subtitulo_cabecera": "TABLET Y COMPUTADOR EN UN SOLO EQUIPO",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_500/IMG_01.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "YOGA 500 TE DA 360° DE FLEXIBILIDAD",
-				"p_descripcion_principal": "A un precio sorprendentemente bajo. Trabaja, juega o simplemente haz lo que deseas, con sus cuatro modos de uso Lenovo YOGA 500 se adapta a ti para facilitarte todas las actividades."
-			}],
-			["I", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_03.png"
-			}],
-			["P-I-I", {
-				"img_apoyo_1": "../img/OTROS/IMG_5.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_04.png",
-				"t_caracteristica": "La diversión de un multimodo",
-				"p_caracteristica": "viene en cuatro formas de uso para hacerlo todo: Laptop, atril, de pié o como una tablet.",
-				"numero_caracteristica": "1"
-			}],
-			["I-P", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Sonido DOLBY ®",
-				"p_caracteristica": "Cada uno de los modos de uso de tu YOGA 500 viene con un perfil de audio específico de DOLBY ® y así maximiza la calidad del sonido.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_500/IMG_06.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_07.png"
-			}],
-			["I-P-I", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Rendimiento y velocidad",
-				"p_caracteristica": "YOGA 500 viene con un poderoso procesador INTEL ® que asegura un desempeño impresionante.",
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_500/IMG_08.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_09.png"
-			}],
-			["fin", {}]
-		]
-	},
-
-
-
-
-
-
-
-
-
-
-
-	{
-		"nombre": "PHAB",
-		"categoria": "Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "PHAB",
-				"color_primario": "#6e8dc4",
-				"color_secundario": "#8abf54",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO PHAB",
-				"subtitulo_cabecera": "TODO LO QUE NECESITAS EN UN SOLO EQUIPO",
-				"logo_lenovo": "../img/OTROS/logo_8abf54.png"
-			}],
-			["I", {
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_01.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "UN DISPOSITIVO A TU ALCANCE QUE PODRÁS LLEVAR CONTIGO SIEMPRE.",
-				"p_descripcion_principal": "Portabilidad y desempeño; con su amplia y cómoda pantalla, navegar la web, conectarte a tus redes sociales, jugar y disfrutar de tus contenidos digitales favoritos nunca fue tan divertido!."
-			}],
-			["I-P-nonumero", {
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_02.png",
-				"p_caracteristica": "Lenovo PHAB te da toda la versatilidad que estas buscando, pantalla de alta definicion y sonido envolvente acompañado de una velocidad de conectividad LTE."
-			}],
-			["I-IP-I", {
-				"img_apoyo_1": "../img/TABLETS/PHABLET/IMG_03.png",
-				"img_apoyo_2": "../img/TABLETS/PHABLET/IMG_04.png",
-				"t_caracteristica": "Gran pantalla",
-				"p_caracteristica": "Vívelo todo en su amplia y cómoda pantalla para reproducir tu multimedia con colores y claridad increíble.",
-				"numero_caracteristica": "1",
-				"img_apoyo_3": "../img/TABLETS/PHABLET/IMG_05.png"
-			}],
-			["P-I", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Sonido envolvente",
-				"p_caracteristica": "La música y las películas cobran vida con el impresionante sonido envolvente.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_06.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Diseño y rendimiento",
-				"p_caracteristica": "Lenovo PHAB cuenta con una batería de 4250 mAh para usarla hasta por 2 dias seguidos.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_07.png"
-			}],
-			["P-I", {
-				"numero_caracteristica": "4",
-				"t_caracteristica": "Velocidad y conectividad",
-				"p_caracteristica": "Lenovo PHAB cuenta con una velocidad de conectividad 4G LTE que te permitira disfrutar de tus contenidos multimedia al instante.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_23",
-		"categoria": "Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TAB2 A7 10 + BOUNDLE",
-				"color_primario": "#ed6b00",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO TAB2 A7 10 + BOUNDLE",
-				"subtitulo_cabecera": "AUDIFONOS + BOUNDLE",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_24",
-		"categoria": "Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TAB2 A7 10",
-				"color_primario": "#ed6b00",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO TAB2 A7 10",
-				"subtitulo_cabecera": "MULTIMEDIA QUE VA A TODAS PARTES",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_25",
-		"categoria": "Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TAB2 A7 20",
-				"color_primario": "#ed6b00",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO TAB2 A7 20",
-				"subtitulo_cabecera": "ENTRETENIMIENTO A DONDE VAYAS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_26",
-		"categoria": "Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TAB2 A7 30",
-				"color_primario": "#ed6b00",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO TAB2 A7 30",
-				"subtitulo_cabecera": "ENTRETENIMIENTO A DONDE VAYAS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_27",
-		"categoria": "Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "YOGA TABLET 3 8\"",
-				"color_primario": "#8dc1e1",
-				"color_secundario": "#d07100",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO YOGA TABLET 3 8\"",
-				"subtitulo_cabecera": "UNA TABLETA CON GRANDES INNOVACIONES",
-				"logo_lenovo": "../img/OTROS/logo_d07100.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_28",
-		"categoria": "Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TABLET 2 10\" 4G",
-				"color_primario": "#6e8dc4",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "YOGA TABLET 2 10\" 4G",
-				"subtitulo_cabecera": "UNA TABLET QUE SE ADAPTA A TI",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_29",
-		"categoria": "Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TABLET 2 10\"",
-				"color_primario": "#6e8dc4",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "YOGA TABLET 2 10\"",
-				"subtitulo_cabecera": "UNA TABLET QUE SE ADAPTA A TI",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "ficha_30",
-		"categoria": "Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TABLET 2 13\"",
-				"color_primario": "#6e8dc4",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "YOGA TABLET 2 13\"",
-				"subtitulo_cabecera": "UN TEATRO EN CASA A DONDE VAYAS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["fin", {}]
-		]
-	}
-]
+		["fin", {}]
+	]
+}, {
+	"nombre": "C40_05",
+	"categoria": "All In One",
+	"mapa": [
+		["inicio", {
+			"titulo": "C40 05",
+			"color_primario": "#221f20",
+			"color_secundario": "#c22821",
+			"color_caracteristica": "#ed6b00"
+		}],
+		["cabecera", {
+			"nombre_producto": "LENOVO C40 05",
+			"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
+			"logo_lenovo": "../img/OTROS/logo_c22821.png"
+		}],
+		["I-I", {
+			"img_apoyo_1": "../img/AIO/C40_05/IMG_01.png",
+			"img_apoyo_2": "../img/AIO/C40_05/IMG_02.png"
+		}],
+		["P", {
+			"t_descripcion_principal": "LA ÚLTIMA TECNOLOGÍA EN PROCESADORES",
+			"p_descripcion_principal": "El computador perfecto para el hogar: de diseño compacto, combina ahorro inteligente de los espacios y dos colores diferentes con una pantalla multitouch opcional de 10 puntos."
+		}],
+		["I", {
+			"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_08.png"
+		}],
+		["P-I-I", {
+			"numero_caracteristica": "1",
+			"t_caracteristica": "Redecora tu hogar",
+			"p_caracteristica": "con el PC de diseño delgado y fino de precio inimitable.",
+			"img_apoyo_1": "../img/AIO/C40_05/IMG_04.png",
+			"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
+		}],
+		["P-I", {
+			"numero_caracteristica": "2",
+			"t_caracteristica": "Pantalla de 21,5\"",
+			"p_caracteristica": "con multitouch opcional y un soporte metálico en v que refresca tu espacio.",
+			"img_apoyo": "../img/AIO/C40_05/IMG_06.png"
+		}],
+		["P-I-I", {
+			"numero_caracteristica": "3",
+			"t_caracteristica": "Amplicacion sin Herramientas",
+			"p_caracteristica": "Cubiertas corredizas que facilitan la actualización de almacenamiento y memoria.",
+			"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
+			"img_apoyo_2": "../img/AIO/C40_05/IMG_08.png"
+		}],
+		["fin", {}]
+	]
+}, {
+	"nombre": "C40_30_Alkosto",
+	"categoria": "All In One",
+	"mapa": [
+		["inicio", {
+			"titulo": "C40 30",
+			"color_primario": "#221f20",
+			"color_secundario": "#c22821",
+			"color_caracteristica": "#ed6b00"
+		}],
+		["cabecera", {
+			"nombre_producto": "LENOVO C40 30",
+			"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
+			"logo_lenovo": "../img/OTROS/logo_c22821.png"
+		}],
+		["I-I", {
+			"img_apoyo_1": "../img/AIO/C40_30_ALKOSTO/IMG_01.png",
+			"img_apoyo_2": "../img/AIO/C40_30_ALKOSTO/IMG_02.png"
+		}],
+		["P", {
+			"t_descripcion_principal": "LA ÚLTIMA TECNOLOGÍA EN PROCESADORES",
+			"p_descripcion_principal": "El computador perfecto para el hogar: de diseño compacto, combina ahorro inteligente de los espacios y dos colores diferentes con una pantalla multitouch opcional de 10 puntos."
+		}],
+		["I", {
+			"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_08.png"
+		}],
+		["P-I-I", {
+			"numero_caracteristica": "1",
+			"t_caracteristica": "Redecora tu hogar",
+			"p_caracteristica": "con el PC de diseño delgado y fino de precio inimitable.",
+			"img_apoyo_1": "../img/AIO/C40_30_ALKOSTO/IMG_04.png",
+			"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
+		}],
+		["P-I", {
+			"numero_caracteristica": "2",
+			"t_caracteristica": "Pantalla de 21,5\"",
+			"p_caracteristica": "con multitouch opcional y un soporte metálico en v que refresca tu espacio.",
+			"img_apoyo": "../img/AIO/C40_30_ALKOSTO/IMG_06.png"
+		}],
+		["P-I-I", {
+			"numero_caracteristica": "3",
+			"t_caracteristica": "Amplicacion sin Herramientas",
+			"p_caracteristica": "Cubiertas corredizas que facilitan la actualización de almacenamiento y memoria.",
+			"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
+			"img_apoyo_2": "../img/AIO/C40_30_ALKOSTO/IMG_08.png"
+		}],
+		["fin", {}]
+	]
+}, {
+	"nombre": "C40_30_Exito",
+	"categoria": "All In One",
+	"mapa": [
+		["inicio", {
+			"titulo": "C40 30",
+			"color_primario": "#221f20",
+			"color_secundario": "#c22821",
+			"color_caracteristica": "#ed6b00"
+		}],
+		["cabecera", {
+			"nombre_producto": "LENOVO C40 30",
+			"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
+			"logo_lenovo": "../img/OTROS/logo_c22821.png"
+		}],
+		["I-I", {
+			"img_apoyo_1": "../img/AIO/C40_30_EXITO/IMG_01.png",
+			"img_apoyo_2": "../img/AIO/C40_30_EXITO/IMG_02.png"
+		}],
+		["P", {
+			"t_descripcion_principal": "LA ÚLTIMA TECNOLOGÍA EN PROCESADORES",
+			"p_descripcion_principal": "El computador perfecto para el hogar: de diseño compacto, combina ahorro inteligente de los espacios y dos colores diferentes con una pantalla multitouch opcional de 10 puntos."
+		}],
+		["I", {
+			"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_08.png"
+		}],
+		["P-I-I", {
+			"numero_caracteristica": "1",
+			"t_caracteristica": "Redecora tu hogar",
+			"p_caracteristica": "con el PC de diseño delgado y fino de precio inimitable.",
+			"img_apoyo_1": "../img/AIO/C40_30_EXITO/IMG_04.png",
+			"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
+		}],
+		["P-I", {
+			"numero_caracteristica": "2",
+			"t_caracteristica": "Pantalla de 21,5\"",
+			"p_caracteristica": "con multitouch opcional y un soporte metálico en v que refresca tu espacio.",
+			"img_apoyo": "../img/AIO/C40_30_EXITO/IMG_06.png"
+		}],
+		["P-I-I", {
+			"numero_caracteristica": "3",
+			"t_caracteristica": "Amplicacion sin Herramientas",
+			"p_caracteristica": "Cubiertas corredizas que facilitan la actualización de almacenamiento y memoria.",
+			"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
+			"img_apoyo_2": "../img/AIO/C40_30_EXITO/IMG_08.png"
+		}],
+		["fin", {}]
+	]
+}, {
+	"nombre": "C50_30",
+	"categoria": "All In One",
+	"mapa": [
+		["inicio", {
+			"titulo": "C50 30",
+			"color_primario": "#221f20",
+			"color_secundario": "#c22821",
+			"color_caracteristica": "#ed6b00"
+		}],
+		["cabecera", {
+			"nombre_producto": "LENOVO C50 30",
+			"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
+			"logo_lenovo": "../img/OTROS/logo_c22821.png"
+		}],
+		["I-I", {
+			"img_apoyo_1": "../img/AIO/C50_30/IMG_01.png",
+			"img_apoyo_2": "../img/AIO/C50_30/IMG_02.png"
+		}],
+		["P", {
+			"t_descripcion_principal": "EL COMPUTADOR PERFECTO PARA EL HOGAR",
+			"p_descripcion_principal": "Lenovo All in one C50 30 de 23\" y la última tecnología en procesadores. Combina ahorro inteligente de los espacios con una pantalla multitouch opcional de 10 puntos."
+		}],
+		["I", {
+			"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_08.png"
+		}],
+		["P-I-I", {
+			"numero_caracteristica": "1",
+			"t_caracteristica": "Precio Inmejorable",
+			"p_caracteristica": "Redecora tu hogar con el PC de diseño delgado y elegante, a precio inimitable.",
+			"img_apoyo_2": "../img/AIO/C50_30/IMG_05.png",
+			"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
+		}],
+		["I-P", {
+			"numero_caracteristica": "2",
+			"t_caracteristica": "Ahorra Espacio",
+			"p_caracteristica": "Pantalla con multitouch opcional y soporte metálico en V. que refresca tu espacio.",
+			"img_apoyo": "../img/AIO/C50_30/IMG_06.png"
+		}],
+		["P-I", {
+			"numero_caracteristica": "3",
+			"t_caracteristica": "Amplicacion sin Herramientas",
+			"p_caracteristica": "Su cubierta posterior puede retirarse fácilmente para que actualices su almacenamiento y memoria.",
+			"img_apoyo": "../img/AIO/C50_30/IMG_07.png"
+		}],
+		["I-I", {
+			"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
+			"img_apoyo_2": "../img/AIO/C50_30/IMG_09.png"
+		}],
+		["fin", {}]
+	]
+}, {
+	"nombre": "C260",
+	"categoria": "All In One",
+	"mapa": [
+		["inicio", {
+			"titulo": "C260 ",
+			"color_primario": "#717170",
+			"color_secundario": "#8abf54",
+			"color_caracteristica": "#4a80b0"
+		}],
+		["cabecera", {
+			"nombre_producto": "LENOVO C260",
+			"subtitulo_cabecera": "EL ALL IN ONE CON LO ÚLTIMO EN PROCESADORES",
+			"logo_lenovo": "../img/OTROS/logo_8abf54.png"
+		}],
+		["I-I", {
+			"img_apoyo_1": "../img/AIO/C260/IMG_01.png",
+			"img_apoyo_2": "../img/AIO/C260/IMG_02.png"
+		}],
+		["P", {
+			"t_descripcion_principal": "ECONOMIZA Y DECORA TU ESPACIO",
+			"p_descripcion_principal": "El All in one de diseño compacto con pantalla de multitouch opcional y con la capacidad de procesamiento de hasta cuatro núcleos."
+		}],
+		["I", {
+			"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_05.png"
+		}],
+		["P-I", {
+			"numero_caracteristica": "1",
+			"t_caracteristica": "Procesamiento increible",
+			"p_caracteristica": "Poderosa capacidad de procesamiento a un costo sorprendente.",
+			"img_apoyo": "../img/AIO/C260/IMG_04.png"
+		}],
+		["I-P", {
+			"numero_caracteristica": "2",
+			"t_caracteristica": "Diseño inteligente",
+			"p_caracteristica": "Su diseño, le permite ubicarlo en cualquier espacio de su hogar, por angosto que sea.",
+			"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_05.png"
+		}],
+		["I-I", {
+			"img_apoyo_1": "../img/AIO/C260/IMG_06.png",
+			"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_07.png"
+		}],
+		["P-I-I", {
+			"numero_caracteristica": "3",
+			"t_caracteristica": "Multitouch opcional",
+			"p_caracteristica": "pon tus manos en todas las aplicaciones de Windows.",
+			"img_apoyo_1": "../img/AIO/C260/IMG_08.png",
+			"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_08.png"
+		}],
+		["fin", {}]
+	]
+}]
