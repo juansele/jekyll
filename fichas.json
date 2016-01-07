@@ -1367,7 +1367,7 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_28",
+		"nombre": "TABLET_2_10_4G",
 		"categoria": "Tablet",
 		"mapa": [
 			["inicio", {
@@ -1381,10 +1381,52 @@
 				"subtitulo_cabecera": "UNA TABLET QUE SE ADAPTA A TI",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
+			["I-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_01.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "IDEAL PARA VIDEO, MUSICA, JUEGOS Y WEB",
+				"p_descripcion_principal": "Únete a la diversión con el gran diseño de la nueva YOGA Tablet 2. Su pestaña metálica se adapta para que puedas realizar cómodamente todas tus actividades - ver videos, escuchar música, disfrutar tus juegos, navegar en la web y tus redes sociales todo lo puedes hacer. Para  completar la experiencia."
+			}],
+			["Igrande-P-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_03.png",
+				"img_apoyo_2": "../img/OTROS/IMG_5.png",
+				"p_caracteristica": "YOGA Tablet 2 viene equipada con un rápido procesador, una batería de ultra duración y audio asombroso."
+			}],
+			["I-IP-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_04.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_05.png",
+				"t_caracteristica": "Increiblemente versatil",
+				"p_caracteristica": "Si buscas una tablet que ofrezca toda la versatilidad, YOGA Tablet 2 será tu preferida.",
+				"numero_caracteristica": "1",
+				"img_apoyo_3": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_06.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Perfecto para Multimedia",
+				"p_caracteristica": "Si lo tuyo son los juegos, la multimedia, navegar y consultar tus redes, YOGA Tablet 2 te hará olvidar de los cables y cargadores.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_07.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Diseño y rendimiento",
+				"p_caracteristica": "Si buscas conectividad en todo momento y lugar, no encontrarás otra como YOGA Tablet 2.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_10.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_08.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Velocidad y conectividad",
+				"p_caracteristica": "YOGA tablet 2 cuenta con una velocidad de conectividad 4G LTE que te permitira disfrutar de tus contenidos multimedia al instante.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_09.png"
+			}],
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_29",
+		"nombre": "TABLET_2_10",
 		"categoria": "Tablet",
 		"mapa": [
 			["inicio", {
@@ -1398,10 +1440,52 @@
 				"subtitulo_cabecera": "UNA TABLET QUE SE ADAPTA A TI",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
+			["I-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_01.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "IDEAL PARA VIDEO, MUSICA, JUEGOS Y WEB",
+				"p_descripcion_principal": "Únete a la diversión con el gran diseño de la nueva YOGA Tablet 2. Su pestaña metálica se adapta para que puedas realizar cómodamente todas tus actividades - ver videos, escuchar música, disfrutar tus juegos, navegar en la web y tus redes sociales todo lo puedes hacer. Para  completar la experiencia."
+			}],
+			["Igrande-P-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_03.png",
+				"img_apoyo_2": "../img/OTROS/IMG_5.png",
+				"p_caracteristica": "YOGA Tablet 2 viene equipada con un rápido procesador, una batería de ultra duración y audio asombroso."
+			}],
+			["I-IP-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_04.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_05.png",
+				"t_caracteristica": "Increiblemente versatil",
+				"p_caracteristica": "Si buscas una tablet que ofrezca toda la versatilidad, YOGA Tablet 2 será tu preferida.",
+				"numero_caracteristica": "1",
+				"img_apoyo_3": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_06.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Perfecto para Multimedia",
+				"p_caracteristica": "Si lo tuyo son los juegos, la multimedia, navegar y consultar tus redes, YOGA Tablet 2 te hará olvidar de los cables y cargadores.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_07.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Diseño y rendimiento",
+				"p_caracteristica": "Si buscas conectividad en todo momento y lugar, no encontrarás otra como YOGA Tablet 2.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_10.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_08.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Fotos increibles",
+				"p_caracteristica": "Su cámara posterior de 8MP te permite capturar y compartir fotos y videos de gran calidad.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_09.png"
+			}],
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_30",
+		"nombre": "TABLET_2_13",
 		"categoria": "Tablet",
 		"mapa": [
 			["inicio", {
@@ -1414,6 +1498,48 @@
 				"nombre_producto": "YOGA TABLET 2 13\"",
 				"subtitulo_cabecera": "UN TEATRO EN CASA A DONDE VAYAS",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_01.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "UNA TABLET VERSATIL HECHA PARA LA DIVERSION",
+				"p_descripcion_principal": "Convierte cualquier muro en una gran pantalla y proyecta tus películas y videojuegos. Con su micro-proyector LED de 854x480 de resolución, royecta una pantalla de hasta 52”en cualquier pared blanca para disfrutar de una pantalla de cinema en donde quieras. Sus cuatro modos de uso se adaptan para que puedas realizar mejores trabajos, disfrutar mejor tu música, tus videos o tus juegos. Su poderoso procesador con tecnología Intel Burst y su batería de hasta 15 horas de duración en estado de uso, complementan una experiencia sin igual."
+			}],
+			["Igrande-P-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_03.png",
+				"img_apoyo_2": "../img/OTROS/IMG_5.png",
+				"p_caracteristica": "La tablet que se adapta a ti con sus 4 formas de uso y una experiencia de teatro en casa."
+			}],
+			["I-IP-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_04.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_05.png",
+				"t_caracteristica": "Tu propio teatro",
+				"p_caracteristica": "con su proyector tendrás al instante una pantalla de 52 pulgadas.Esto la hace ideal para quienes disfrutan contenidos multimedia, juegos, visitar la web y las redes sociales.",
+				"numero_caracteristica": "1",
+				"img_apoyo_3": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_06.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Perfecto para ti",
+				"p_caracteristica": "Su pantalla de alta definición, su sonido integrado JBL con DOLBY y subwoofer de 5W y por supuesto…su proyector; hacen de la YOGA Tablet 2 PRO 13\", el mejor dispositivo para disfrutar tus películas favoritas.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_07.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Increiblemente versatil",
+				"p_caracteristica": "Sus cuatro formas de uso te dan toda la versatilidad que necesitas para tu trabajo y tu entretenimiento. Nunca navegar, consultar las redes sociales, leer y compartir ha sido tan fácil y divertido.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_10.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_08.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Diseño y rendimiento",
+				"p_caracteristica": "Llega pisando fuerte a tus reuniones de trabajo o a tus clases proyectando tus presentaciones desde la YOGA Tablet 2 PRO 13\" . Agréga efectos de sonido y observa la cara de asombro de tu audiencia.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_09.png"
 			}],
 			["fin", {}]
 		]
