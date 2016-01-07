@@ -1257,7 +1257,7 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_24",
+		"nombre": "TAB2_A7_10",
 		"categoria": "Tablet",
 		"mapa": [
 			["inicio", {
@@ -1271,10 +1271,46 @@
 				"subtitulo_cabecera": "MULTIMEDIA QUE VA A TODAS PARTES",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
+			["I", {
+				"img_apoyo": "../img/TABLETS/TAB_2_A7_10PUL/IMG_01.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "UNA TABLET VERSÁTIL EQUIPADA CON SONIDO ENVOLVENTE DOLBY",
+				"p_descripcion_principal": "Versátil, cómoda, para llevar tu música y videos a todas partes. Percibe una experiencia de sonido diferente a través de su sonido envolvente DOLBY. Observa cómo los videos e imágenes cobran vida con su pantalla brillante de 7 pulgadas de visibilidad perfecta y tecnología IPS. Esta tableta, delgada y ligera, viene con un poderoso procesador quad-core, perfecto para todo lo que hagas a donde quiera que vayas. Es tu tiquete al entretenimiento, cuando quieras y a donde vayas."
+			}],
+			["I-IP-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_04.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/TABLETS/IMG_06.png",
+				"t_caracteristica": "El mejor dispositivo",
+				"p_caracteristica": "Si te gusta la música es ideal para ti, ya que te permite escuchar tus canciones favoritas y disfrutar las demás utilidades de tu tablet.",
+				"numero_caracteristica": "1",
+				"img_apoyo_3": "../img/TABLETS/YOGA_TAB_2_A7_BOUNDLE/IMG_03.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Sonido DOLBY",
+				"p_caracteristica": "Te ofrece la mejor calidad de sonido envolvente e imágenes sorprendentes. Gracias a su pantalla con tecnología IPS, podrás ver tus videos e imágenes desde cualquier ángulo.",
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Diseño Unico",
+				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Se adapta de tal manera a tu mano que vas a querer llevarla a todas partes",
+				"img_apoyo": "../img/TABLETS/TAB_2_A7_10PUL/IMG_06.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Perfecto para Multimedia",
+				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_A7_BOUNDLE/IMG_08.png"
+			}],
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_25",
+		"nombre": "TAB2_A7_20",
 		"categoria": "Tablet",
 		"mapa": [
 			["inicio", {
@@ -1288,10 +1324,46 @@
 				"subtitulo_cabecera": "ENTRETENIMIENTO A DONDE VAYAS",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
+			["I", {
+				"img_apoyo": "../img/TABLETS/TAB_2_A7_20/IMG_01.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "UNA TABLET ULTRADELGADA EQUIPADA CON SONIDO INCREIBLE DOLBY",
+				"p_descripcion_principal": "Disfruta de tu música o multimedia favoritos con sonido envolvente DOLBY y llévalos a donde tú quieras ya que tu Tab2 A7 20 es ligera y ultradelgada, no querrás desprenderte de ella. Su asombrosa pantalla de 7 pulgadas y su poderoso procesador quad-core logran hacer de esta tablet el equipo portable más versátil."
+			}],
+			["I-IP-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_04.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/TABLETS/IMG_06.png",
+				"t_caracteristica": "Hecho a tu medida",
+				"p_caracteristica": "Si te gusta la música es ideal para ti, ya que podrás escuchar tus canciones favoritas y disfrutar las demás utilidades de tu tablet.",
+				"numero_caracteristica": "1",
+				"img_apoyo_3": "../img/TABLETS/TAB_2_A7_20/IMG_03.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Sonido DOLBY",
+				"p_caracteristica": "Te ofrece la mejor calidad de sonido envolvente e imágenes sorprendentes. Gracias a su pantalla con tecnología IPS, podrás ver tus videos e imágenes desde cualquier ángulo.",
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Diseño Unico",
+				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Puedes elegirla en  uno de sus cuatro colores que van con tu estilo.",
+				"img_apoyo": "../img/TABLETS/TAB_2_A7_20/IMG_06.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Perfecto para Multimedia",
+				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
+				"img_apoyo": "../img/TABLETS/TAB_2_A7_20/IMG_08.png"
+			}],
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_26",
+		"nombre": "TAB2_A7_30",
 		"categoria": "Tablet",
 		"mapa": [
 			["inicio", {
@@ -1304,6 +1376,42 @@
 				"nombre_producto": "LENOVO TAB2 A7 30",
 				"subtitulo_cabecera": "ENTRETENIMIENTO A DONDE VAYAS",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/TABLETS/TAB2_A7_30/IMG_01.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "UNA TABLET ULTRADELGADA EQUIPADA CON SONIDO INCREIBLE DOLBY",
+				"p_descripcion_principal": "Agrégale una SIM Card y conviértela en un \"Phablet\" una grandiosa combinación entre tableta y smartphone. Disfruta de tu música o multimedia favoritos con sonido envolvente DOLBY y llévalos a donde tú quieras ya que tu Tab2 A7 30 es ligera y ultradelgada, no querrás desprenderte de ella. Su pantalla de 7 pulgadas, su poderoso procesador quad-core y su capacidad de convertirse en un PHABLET, la hacen el equipo portable más versátil."
+			}],
+			["I-IP-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_04.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/TABLETS/IMG_06.png",
+				"t_caracteristica": "Más que una tablet...",
+				"p_caracteristica": "¡Es un Phablet! Disfruta del contenido multimedia, chats, llamadas y redes sociales en una fabulosa pantalla de 7 pulgadas.",
+				"numero_caracteristica": "1",
+				"img_apoyo_3": "../img/TABLETS/TAB2_A7_30/IMG_03.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Perfecto para ti",
+				"p_caracteristica": "Si te gusta la música es ideal para ti, ya que podrás escuchar tus canciones favoritas y disfrutar las demás utilidades de tu tablet.",
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Sonido DOLBY",
+				"p_caracteristica": "Te ofrece la mejor calidad de sonido envolvente e imágenes sorprendentes. Gracias a su pantalla con tecnología IPS, podrás ver tus videos e imágenes desde cualquier ángulo.",
+				"img_apoyo": "../img/TABLETS/TAB2_A7_30/IMG_06.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Diseño Unico",
+				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Puedes elegirla en  uno de sus cuatro colores que van con tu estilo.",
+				"img_apoyo": "../img/TABLETS/TAB2_A7_30/IMG_08.png"
 			}],
 			["fin", {}]
 		]
