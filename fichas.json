@@ -981,8 +981,7 @@
 			}],
 			["fin", {}]
 		]
-	}, 
-	{
+	}, {
 		"nombre": "YOGA_3",
 		"categoria": "Notebook Yoga",
 		"mapa": [
@@ -1034,8 +1033,7 @@
 			}],
 			["fin", {}]
 		]
-	}, 
-	{
+	}, {
 		"nombre": "YOGA_300",
 		"categoria": "Notebook Yoga",
 		"mapa": [
@@ -1087,8 +1085,7 @@
 			}],
 			["fin", {}]
 		]
-	},
-	{
+	}, {
 		"nombre": "YOGA_500",
 		"categoria": "Notebook Yoga",
 		"mapa": [
@@ -1207,7 +1204,7 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_23",
+		"nombre": "TAB2_A7_10_BOUNDLE",
 		"categoria": "Tablet",
 		"mapa": [
 			["inicio", {
@@ -1217,9 +1214,45 @@
 				"color_caracteristica": "#4a80af"
 			}],
 			["cabecera", {
-				"nombre_producto": "LENOVO TAB2 A7 10 + BOUNDLE",
+				"nombre_producto": "LENOVO TAB2 A7 10",
 				"subtitulo_cabecera": "AUDIFONOS + BOUNDLE",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_A7_BOUNDLE/IMG_01.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "UNA TABLET VERSÁTIL EQUIPADA CON SONIDO ENVOLVENTE DOLBY",
+				"p_descripcion_principal": "Versátil, cómoda, para llevar tu música y videos a todas partes. Percibe una experiencia de sonido diferente a través de su sonido envolvente DOLBY. Observa cómo los videos e imágenes cobran vida con su pantalla brillante de 7 pulgadas de visibilidad perfecta y tecnología IPS. Esta tableta, delgada y ligera, viene con un poderoso procesador quad-core, perfecto para todo lo que hagas a donde quiera que vayas. Es tu tiquete al entretenimiento, cuando quieras y a donde vayas."
+			}],
+			["I-IP-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_04.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/TABLETS/IMG_06.png",
+				"t_caracteristica": "El mejor dispositivo",
+				"p_caracteristica": "Si te gusta la música es ideal para ti, ya que te permite escuchar tus canciones favoritas y disfrutar las",
+				"numero_caracteristica": "1",
+				"img_apoyo_3": "../img/TABLETS/YOGA_TAB_2_A7_BOUNDLE/IMG_03.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Sonido DOLBY",
+				"p_caracteristica": "Te ofrece la mejor calidad de sonido envolvente e imágenes sorprendentes. Gracias a su pantalla con tecnología IPS, podrás ver tus videos e imágenes desde cualquier ángulo.",
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Diseño Unico",
+				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Se adapta de tal manera a tu mano que vas a querer llevarla a todas partes",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_A7_BOUNDLE/IMG_06.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
+			}],
+			["P-I", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Perfecto para Multimedia",
+				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_A7_BOUNDLE/IMG_08.png"
 			}],
 			["fin", {}]
 		]
@@ -1275,7 +1308,7 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ficha_27",
+		"nombre": "YOGA_TABLET_3_8",
 		"categoria": "Tablet",
 		"mapa": [
 			["inicio", {
@@ -1285,9 +1318,51 @@
 				"color_caracteristica": "#4a80af"
 			}],
 			["cabecera", {
-				"nombre_producto": "LENOVO YOGA TABLET 3 8\"",
+				"nombre_producto": "YOGA TABLET 3 8\"",
 				"subtitulo_cabecera": "UNA TABLETA CON GRANDES INNOVACIONES",
 				"logo_lenovo": "../img/OTROS/logo_d07100.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_01.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_3_8PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "LA DIVERSIÓN NO SE DETIENE CON LA ULTRA PORTABLE YOGA TABLET 3.",
+				"p_descripcion_principal": "Sumérjete en la música, juega con tus amigos y disfruta contenidos en línea con su increíble pantalla HD."
+			}],
+			["Igrande-P-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_03.png",
+				"img_apoyo_2": "../img/OTROS/IMG_5.png",
+				"p_caracteristica": "Úsala todo el día y dile adiós a los cargadores. La cámara giratoria te permitirá capturar selfies asombrosas y con la tecnología AnyPen nunca más tendrás que llevar accesorios para escribir o dibujar sobre ella."
+			}],
+			["I-IP-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_04.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_3_8PUL/IMG_05.png",
+				"img_apoyo_3": "../img/TABLETS/YOGA_3_8PUL/IMG_06.png",
+				"t_caracteristica": "El mejor dispositivo",
+				"p_caracteristica": "portable para multimedia con sonido DOLBY ATMOS",
+				"numero_caracteristica": "1"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_08.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/TABLETS/IMG_09.png",
+				"t_caracteristica": "Selfies asombrosas",
+				"p_caracteristica": "con su cámara giratoria de 180° y 8mp.",
+				"numero_caracteristica": "2"
+			}],
+			["I-P", {
+				"img_apoyo": "../img/TABLETS/YOGA_3_8PUL/IMG_07.png",
+				"t_caracteristica": "Perfecta visibilidad",
+				"p_caracteristica": "desde cualquier ángulo en su pantalla HD.",
+				"numero_caracteristica": "3"
+			}],
+			["I-IP-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_10.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_3_8PUL/IMG_12.png",
+				"img_apoyo_3": "../img/TABLETS/YOGA_3_8PUL/IMG_11.png",
+				"t_caracteristica": "Tecnología AnyPen",
+				"p_caracteristica": "para escribir sobre la pantalla con cualquier objeto.",
+				"numero_caracteristica": "4"
 			}],
 			["fin", {}]
 		]
