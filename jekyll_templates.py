@@ -82,7 +82,7 @@ templates['cabecera'] = '''
 						
 						<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 layout-row layout-wrap justify-space-between">
 							<div class="flex-lg-80 flex-md-80 flex-sm-85 flex-xs-85 flex-gt-90 layout-row layout-wrap justify-start align-start">
-								<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 justify-space-around align-center cont-t-cabecera">
+								<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 layout-row layout-wrap justify-space-around align-center cont-t-cabecera">
 									<!-- Contenedor titulo principal -->
 									<div class="flex-lg-95 flex-md-95 flex-xs-95 flex-xs-95 flex-gt-95 uppercase main-text1 main-text2 main-text3" style="text-align:center;">		
 										${nombre_producto}
@@ -234,7 +234,7 @@ templates['I-IP-I'] = '''
 
 '''
 
-templates['P-I'] = '''
+templates['P-I-num_centro'] = '''
 
 					<!-- ESTRUCTURA DE INFORMACIÓN P | I-->
 					
@@ -263,7 +263,33 @@ templates['P-I'] = '''
 					</section>
 
 '''
-
+templates['P-I-num_izq'] = '''
+					<!-- ESTRUCTURA DE INFORMACIÓN P | I NUMERO IZQ -->
+					
+					<section class="layout-row layout-wrap justify-space-around align-center mod-section">
+						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-80 flex-xs-80 flex-gt-90  mod-texto">
+							<!-- MOD. P -->
+							<div class="mod-p">
+								<div class="layout-row layout-wrap justify-space-around align-start mod-texto">
+									<div class="flex-lg-15 flex-md-20 flex-sm-100  layout-row layout-wrap justify-center align-center">
+										<div class="mod-inline cont-circle-number">
+											<div>${numero_caracteristica}</div>
+										</div>
+									</div>
+									<div class="flex-lg-75 flex-md-80">
+										<div>
+											<span class="titulo-caracteristica">${t_caracteristica}</span>
+										</div>
+										<p>${p_caracteristica}</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex-lg-45 flex-md-45 flex-45 flex-sm-55 flex-xs-70 flex-gt-70 content-img-small">
+							<img src="${img_apoyo}">
+						</div>
+					</section>
+'''
 templates['I-I'] = '''
 
 

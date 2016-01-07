@@ -37,7 +37,7 @@
 				"p_caracteristica": "Parlantes integrados con sonido envolvente JBL pantalla multitouch de 10 puntos.",
 				"img_apoyo": "../img/AIO/AIO_700/IMG_06.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Fácil de actualizar",
 				"p_caracteristica": "El AIO 700 viene con una cubierta posterior desmontable para ofrecer un acceso sencillo a sus componentes internos.",
@@ -89,7 +89,7 @@
 				"p_caracteristica": "El sistema de sonido JBL con parlantes estéreo diseñados con DOLBY ofrecen una experiencia de sonido excepcional.",
 				"img_apoyo": "../img/AIO/B50_30/IMG_06.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Diseño y rendimiento",
 				"p_caracteristica": "Rendimiento superior con lo último en procesadores Intel para PC de escritorio.",
@@ -135,7 +135,7 @@
 				"img_apoyo_1": "../img/AIO/C40_05/IMG_04.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Pantalla de 21,5\"",
 				"p_caracteristica": "con multitouch opcional y un soporte metálico en v que refresca tu espacio.",
@@ -183,7 +183,7 @@
 				"img_apoyo_1": "../img/AIO/C40_30_ALKOSTO/IMG_04.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Pantalla de 21,5\"",
 				"p_caracteristica": "con multitouch opcional y un soporte metálico en v que refresca tu espacio.",
@@ -231,7 +231,7 @@
 				"img_apoyo_1": "../img/AIO/C40_30_EXITO/IMG_04.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Pantalla de 21,5\"",
 				"p_caracteristica": "con multitouch opcional y un soporte metálico en v que refresca tu espacio.",
@@ -285,7 +285,7 @@
 				"p_caracteristica": "Pantalla con multitouch opcional y soporte metálico en V. que refresca tu espacio.",
 				"img_apoyo": "../img/AIO/C50_30/IMG_06.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Amplicacion sin Herramientas",
 				"p_caracteristica": "Su cubierta posterior puede retirarse fácilmente para que actualices su almacenamiento y memoria.",
@@ -323,7 +323,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Procesamiento increible",
 				"p_caracteristica": "Poderosa capacidad de procesamiento a un costo sorprendente.",
@@ -376,7 +376,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_03.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Tiene todo lo mejor en su interior",
 				"p_caracteristica": "Lo último en procesadores Intel y sus gráficos hacen que tus juegos, fotos y multimedia cobren vida.",
@@ -430,7 +430,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_01.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Tiene todo lo mejor en su interior",
 				"p_caracteristica": "Lo último en procesadores AMD y sus gráficos hacen que tus juegos, fotos y multimedia cobren vida.",
@@ -484,7 +484,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Pantalla HD de 14\"",
 				"p_caracteristica": "Esta pantalla ofrece una imagen nítida y brillante en un formato de imagen 16.9 y una resolución de 1366 x 768.",
@@ -500,7 +500,7 @@
 				"img_apoyo_1": "../img/NB/G40_80/IMG_06.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_12.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Teclado AccuType",
 				"p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.",
@@ -553,7 +553,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "La inversión más inteligente",
 				"p_caracteristica": "Lenovo Ideapad 100 tiene todo lo que has estado buscando al precio que no pensaste encontrar.",
@@ -569,7 +569,7 @@
 				"img_apoyo_1": "../img/NB/IDEAPAD_100/IMG_06.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_09.png"
 			}],
-			["P-I-I", {
+			["I-P-I", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Rendimiento asegurado",
 				"p_caracteristica": "Lenovo Ideapad 100 viene equipado con lo último en procesadores Intel que aseguran su desempeño.",
@@ -610,7 +610,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Sorprendetemente cómoda",
 				"p_caracteristica": "El notebook Lenovo Ideapad 100s es delgado y ligero, la compañía perfecta para llevar a todas partes.",
@@ -626,7 +626,7 @@
 				"img_apoyo_1": "../img/NB/IDEAPAD_100S_AZUL/IMG_06.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_12.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Medidas perfectas",
 				"p_caracteristica": "Peso perfecto, rendimiento superior. Pantalla HD de 11\", gráficos integrados Intel HD y desde mas 1.5Kg de peso.",
@@ -666,7 +666,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Sorprendetemente cómoda",
 				"p_caracteristica": "El notebook Lenovo Ideapad 100s es delgado y ligero, la compañía perfecta para llevar a todas partes.",
@@ -682,7 +682,7 @@
 				"img_apoyo_1": "../img/NB/IDEAPAD_100S_BLANCO/IMG_06.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_12.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Medidas perfectas",
 				"p_caracteristica": "Peso perfecto, rendimiento superior. Pantalla HD de 11\", gráficos integrados Intel HD y desde mas 1.5Kg de peso.",
@@ -722,7 +722,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Velocidad sorprendente",
 				"p_caracteristica": "Visita páginas web, disfruta películas o escucha música en línea con su WiFi hasta tres veces más veloz que el tradicional.",
@@ -738,7 +738,7 @@
 				"img_apoyo_1": "../img/NB/IDEAPAD_300/IMG_06.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_12.png"
 			}],
-			["P-I-I", {
+			["I-P-I", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Rendimiento superior",
 				"p_caracteristica": "Lenovo Ideapad 300 viene con los mejores procesadores Intel y pantalla de 14\" te da máxima portabilidad y el máximo rendimiento.",
@@ -773,7 +773,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_04.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Resolución sorprendente",
 				"p_caracteristica": "Juega como nunca lo has hecho con su increible pantalla (1920x1080).",
@@ -789,7 +789,7 @@
 				"img_apoyo_1": "../img/NB/Y50_70/IMG_06.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_10.png"
 			}],
-			["P-I-I", {
+			["I-P-I", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Sonido Envolvente",
 				"p_caracteristica": "Sus parlantes JBL hacen que la música, las películas y los juegos se vivan como nunca antes.",
@@ -824,7 +824,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Pantalla HD",
 				"p_caracteristica": "Su pantalla lo hace ideal para reproducir cualquier contenido multimedia.",
@@ -840,7 +840,7 @@
 				"img_apoyo_1": "../img/NB/Z40_70/IMG_05.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_09.png"
 			}],
-			["P-I-I", {
+			["I-P-I", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Maximo desempeño",
 				"p_caracteristica": "Explora tu costado creativo La computadora Lenovo Z40 tiene el poder de seguirle el ritmo al creador que llevas dentro. Produce, desarrolla o diseña: Todo depende de ti.",
@@ -887,7 +887,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
 			}],
-			["P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Pantalla HD",
 				"p_caracteristica": "Su pantalla lo hace ideal para reproducir cualquier contenido multimedia.",
@@ -903,7 +903,7 @@
 				"img_apoyo_1": "../img/NB/Z50_70/IMG_06.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_09.png"
 			}],
-			["P-I-I", {
+			["I-P-I", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Maximo desempeño",
 				"p_caracteristica": "Explora tu costado creativo La computadora Lenovo Z40 tiene el poder de seguirle el ritmo al creador que llevas dentro. Produce, desarrolla o diseña: Todo depende de ti.",
@@ -1183,7 +1183,7 @@
 				"numero_caracteristica": "1",
 				"img_apoyo_3": "../img/TABLETS/PHABLET/IMG_05.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Sonido envolvente",
 				"p_caracteristica": "La música y las películas cobran vida con el impresionante sonido envolvente.",
@@ -1195,7 +1195,7 @@
 				"p_caracteristica": "Lenovo PHAB cuenta con una batería de 4250 mAh para usarla hasta por 2 dias seguidos.",
 				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Velocidad y conectividad",
 				"p_caracteristica": "Lenovo PHAB cuenta con una velocidad de conectividad 4G LTE que te permitira disfrutar de tus contenidos multimedia al instante.",
@@ -1233,7 +1233,7 @@
 				"numero_caracteristica": "1",
 				"img_apoyo_3": "../img/TABLETS/YOGA_TAB_2_A7_BOUNDLE/IMG_03.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Sonido DOLBY",
 				"p_caracteristica": "Te ofrece la mejor calidad de sonido envolvente e imágenes sorprendentes. Gracias a su pantalla con tecnología IPS, podrás ver tus videos e imágenes desde cualquier ángulo.",
@@ -1248,7 +1248,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Perfecto para Multimedia",
 				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
@@ -1286,7 +1286,7 @@
 				"numero_caracteristica": "1",
 				"img_apoyo_3": "../img/TABLETS/YOGA_TAB_2_A7_BOUNDLE/IMG_03.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Sonido DOLBY",
 				"p_caracteristica": "Te ofrece la mejor calidad de sonido envolvente e imágenes sorprendentes. Gracias a su pantalla con tecnología IPS, podrás ver tus videos e imágenes desde cualquier ángulo.",
@@ -1301,7 +1301,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Perfecto para Multimedia",
 				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
@@ -1339,7 +1339,7 @@
 				"numero_caracteristica": "1",
 				"img_apoyo_3": "../img/TABLETS/TAB_2_A7_20/IMG_03.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Sonido DOLBY",
 				"p_caracteristica": "Te ofrece la mejor calidad de sonido envolvente e imágenes sorprendentes. Gracias a su pantalla con tecnología IPS, podrás ver tus videos e imágenes desde cualquier ángulo.",
@@ -1354,7 +1354,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Perfecto para Multimedia",
 				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
@@ -1392,7 +1392,7 @@
 				"numero_caracteristica": "1",
 				"img_apoyo_3": "../img/TABLETS/TAB2_A7_30/IMG_03.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Perfecto para ti",
 				"p_caracteristica": "Si te gusta la música es ideal para ti, ya que podrás escuchar tus canciones favoritas y disfrutar las demás utilidades de tu tablet.",
@@ -1407,7 +1407,7 @@
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Diseño Unico",
 				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Puedes elegirla en  uno de sus cuatro colores que van con tu estilo.",
@@ -1510,7 +1510,7 @@
 				"numero_caracteristica": "1",
 				"img_apoyo_3": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_06.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Perfecto para Multimedia",
 				"p_caracteristica": "Si lo tuyo son los juegos, la multimedia, navegar y consultar tus redes, YOGA Tablet 2 te hará olvidar de los cables y cargadores.",
@@ -1525,7 +1525,7 @@
 			["I", {
 				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_08.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Velocidad y conectividad",
 				"p_caracteristica": "YOGA tablet 2 cuenta con una velocidad de conectividad 4G LTE que te permitira disfrutar de tus contenidos multimedia al instante.",
@@ -1569,7 +1569,7 @@
 				"numero_caracteristica": "1",
 				"img_apoyo_3": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_06.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Perfecto para Multimedia",
 				"p_caracteristica": "Si lo tuyo son los juegos, la multimedia, navegar y consultar tus redes, YOGA Tablet 2 te hará olvidar de los cables y cargadores.",
@@ -1584,7 +1584,7 @@
 			["I", {
 				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_08.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Fotos increibles",
 				"p_caracteristica": "Su cámara posterior de 8MP te permite capturar y compartir fotos y videos de gran calidad.",
@@ -1628,7 +1628,7 @@
 				"numero_caracteristica": "1",
 				"img_apoyo_3": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_06.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Perfecto para ti",
 				"p_caracteristica": "Su pantalla de alta definición, su sonido integrado JBL con DOLBY y subwoofer de 5W y por supuesto…su proyector; hacen de la YOGA Tablet 2 PRO 13\", el mejor dispositivo para disfrutar tus películas favoritas.",
@@ -1643,7 +1643,7 @@
 			["I", {
 				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_10PUL&BIS_4G&YOGATAB2_13PUL/IMG_08.png"
 			}],
-			["P-I", {
+			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Diseño y rendimiento",
 				"p_caracteristica": "Llega pisando fuerte a tus reuniones de trabajo o a tus clases proyectando tus presentaciones desde la YOGA Tablet 2 PRO 13\" . Agréga efectos de sonido y observa la cara de asombro de tu audiencia.",
