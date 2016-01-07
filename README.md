@@ -21,7 +21,8 @@
 | I-I          | img_apoyo_1, img_apoyo_2                                                                           |
 | I-P          | img_apoyo, t_caracteristica, p_caracteristica, numero_caracteristica                               |
 | I-P-nonumero | img_apoyo, p_caracteristica                                                                        |
-| P-I          | img_apoyo, t_caracteristica, p_caracteristica, numero_caracteristica                               |
+| P-I-num_centro          | img_apoyo, t_caracteristica, p_caracteristica, numero_caracteristica                               |
+| P-I-num_izq          | img_apoyo, t_caracteristica, p_caracteristica, numero_caracteristica                               |
 | P-I-I        | img_apoyo_1, img_apoyo_2, t_caracteristica, p_caracteristica, numero_caracteristica                |
 | I-P-I        | img_apoyo_1, img_apoyo_2, t_caracteristica, p_caracteristica, numero_caracteristica                |
 | Igrande-P-I  | img_apoyo_1, img_apoyo_2, p_caracteristica                                       |
@@ -34,12 +35,12 @@
 
 | NOMBRE FICHA                    | COLOR PRIMARIO | COLOR SECUNDARIO | COLOR CARACTERÍSTICA |
 |---------------------------------|----------------|------------------|----------------------|
-| LENOVO AIO_700                  | 221f20         | 77be4f           | ed6b00               |
-| LENOVO B50 30                   | 221f20         | c22821           | ed6b00               |
-| LENOVO C40 05                   | 221f20         | c22821           | ed6b00               |
-| LENOVO C40 30                   | 221f20         | c22821           | ed6b00               |
-| LENOVO C40 30 EXITO             | 221f20         | c22821           | ed6b00               |
-| LENOVO C50 30                   | 221f20         | c22821           | ed6b00               |
+| LENOVO AIO_700                  | 231f20         | 8abf54           | ed6b00               |
+| LENOVO B50 30                   | 231f20         | c22821           | ed6b00               |
+| LENOVO C40 05                   | 231f20         | c22821           | ed6b00               |
+| LENOVO C40 30                   | 231f20         | c22821           | ed6b00               |
+| LENOVO C40 30 EXITO             | 231f20         | c22821           | ed6b00               |
+| LENOVO C50 30                   | 231f20         | c22821           | ed6b00               |
 | LENOVO C260                     | 717170         | 8abf54           | 4a80b0               |
 |                                 |                |                  |                      |
 | LENOVO G40 30                   | 717170         | ed6b00           | 4a80af               |
@@ -66,4 +67,4 @@
 | LENOVO YOGA TABLET 3 8"         | 8dc1e1         | d07100           | 4a80af               |
 | YOGA TABLET 2 10’’ 4G           | 6e8dc4         | c22821           | 4a80af               |
 | YOGA TABLET 2 10’’              | 6e8dc4         | c22821           | 4a80af               |
-| YOGA TABLET 2 13’’              | 6e8dc4         | c22821           | 4a80af               |
+| YOGA TABLET 2 13’’              | 4981b9         | c22821           | 4a80af               |
