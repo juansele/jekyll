@@ -1214,8 +1214,8 @@
 				"color_caracteristica": "#4a80af"
 			}],
 			["cabecera", {
-				"nombre_producto": "LENOVO TAB2 A7 10",
-				"subtitulo_cabecera": "AUDIFONOS JBL + FUNDA SAMSONITE",
+				"nombre_producto": "Lenovo TAB2 A 7 10\"",
+				"subtitulo_cabecera": "Audífonos JBL™ + Funda Samsonite®",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
 			["I", {
@@ -1241,8 +1241,8 @@
 			}],
 			["I-P", {
 				"numero_caracteristica": "3",
-				"t_caracteristica": "Diseño Unico",
-				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Se adapta de tal manera a tu mano que vas a querer llevarla a todas partes",
+				"t_caracteristica": "Diseño Único",
+				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Se adapta de tal manera a tu mano que vas a querer llevarla a todas partes. Disfrútala en su funda Samsonite®.",
 				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_A7_BOUNDLE/IMG_06.png"
 			}],
 			["I", {
@@ -1251,7 +1251,7 @@
 			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Perfecto para Multimedia",
-				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
+				"p_caracteristica": "Disfruta del contenido multimedia en su fabulosa pantalla de 7 pulgadas y del sonido nítido en sus audífonos JBL™",
 				"img_apoyo": "../img/TABLETS/YOGA_TAB_2_A7_BOUNDLE/IMG_08.png"
 			}],
 			["fin", {}]
