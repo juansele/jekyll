@@ -1651,5 +1651,103 @@
 			}],
 			["fin", {}]
 		]
+	},{
+		"nombre": "YOGA_TABLET_3_PRO_10",
+		"categoria": "Tablet",
+		"mapa": [
+			["inicio", {
+				"titulo": "YOGA™ TABLET 3 PRO 10",
+				"color_primario": "#498BC9",
+				"color_secundario": "#6BC048",
+				"color_caracteristica": "#6BC048"
+			}],
+			["cabecera", {
+				"nombre_producto": "YOGA™ TABLET 3 PRO 10",
+				"subtitulo_cabecera": "DIVERSIÓN SIN LÍMITE A DONDE QUIERA QUE VAYAS",
+				"logo_lenovo": "../img/OTROS/logo_6BC048.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TABLET_3_PRO_10/IMG_01.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_TABLET_3_PRO_10/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "LA PRIMERA TABLET DEL MUNDO CON PROYECTOR INTEGRADO DE 70\".",
+				"p_descripcion_principal": "Transforma cualquier muro, en una pantalla brillante de 70\" y entrégate a la mejor experiencia multimedia, con su sonido envolvente en la barra frontal de cuatro parlantes JBL. Disfruta tú música y tus películas favoritas, en un teatro en casa personal con el mejor sonido y pantalla QHD de 10.1\". Olvídate de los cargadores, su batería de 10,200 MAH te brinda 18 horas de uso en una sola carga, !puedes organizar tú propio festival de cine!"
+			}],
+			["I-P", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "Un teatro para llevar a donde vayas",
+				"p_caracteristica": "Es la primera Tablet multimedia en el mundo, con un proyector de 70\" que rota 180°. Puedes hacer de cualquier muro un cine.",
+				"img_apoyo": "../img/TABLETS/YOGA_TABLET_3_PRO_10/IMG_03.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Sumérgete en la experiencia de un cine",
+				"p_caracteristica": "Con su pantalla de 10.1\" QHD de tecnología Smart Display y su barra de cuatro parlantes JBL, creerás que estás directamente en el cine.",
+				"img_apoyo": "../img/TABLETS/YOGA_TABLET_3_PRO_10/IMG_04.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Juega día y noche",
+				"p_caracteristica": "Disfruta de tus series y películas favoritas. Su poderosa batería de 10,200 MAH te brinda hasta 18 horas de uso general.",
+				"img_apoyo": "../img/TABLETS/YOGA_TABLET_3_PRO_10/IMG_05.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Máxima versatilidad con sus cuatro modos de uso",
+				"p_caracteristica": "Lenovo YOGA Tablet 3 Pro se adapta a todas tus tareas. Juega, estudia, escucha tú música preferida, revisa tus redes sociales o simplemente navega; sus modos Lectura, Atril, Inclinar y Colgar se adaptan a lo que necesidades.",
+				"img_apoyo": "../img/TABLETS/YOGA_TABLET_3_PRO_10/IMG_06.png"
+			}],
+			["fin", {}]
+		]
+	},{
+		"nombre": "YOGA_TAB_3_10_1",
+		"categoria": "Tablet",
+		"mapa": [
+			["inicio", {
+				"titulo": "YOGA™ TAB 3 10.1",
+				"color_primario": "#498BC9",
+				"color_secundario": "#6BC048",
+				"color_caracteristica": "#6BC048"
+			}],
+			["cabecera", {
+				"nombre_producto": "YOGA™ TAB 3 10.1",
+				"subtitulo_cabecera": "DIVERSIÓN SIN LÍMITE A DONDE QUIERA QUE VAYAS",
+				"logo_lenovo": "../img/OTROS/logo_6BC048.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/TABLETS/YOGA_TAB_3_10_1/IMG_01.png",
+				"img_apoyo_2": "../img/TABLETS/YOGA_TAB_3_10_1/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "ENTRETENIMIENTO TODO EL DÍA Y A DONDE VAYAS",
+				"p_descripcion_principal": "Prepárate para vivir el entretenimiento sin límites con la ultraportable YOGA Tablet 3 10\". Sumérgete en tu música, juega con tus amigos y mira todas tus películas y programas favoritos en su pantalla HD de 10.1\". Olvídate de cables y cargadores con su batería de 18 horas de duración en estado de uso general. Toma selfies sorprendentes con su cámara giratoria de 180° y 8MP."
+			}],
+			["I-P", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "Tecnología AnyPen.",
+				"p_caracteristica": "Te permite usar tus dedos o cualquier otro objeto para escribir o dibujar sobre su pantalla.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_3_10_1/IMG_03.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Úsala todo el día.",
+				"p_caracteristica": "No le pongas pausa a la diversión y olvídate de los cargadores con su batería de 8400 mAh que te permite 18 horas de uso continuo.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_3_10_1/IMG_04.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "La Cámara más cool del mercado.",
+				"p_caracteristica": "Tómate fotos junto a tus amigos y enseguida gira su cámara y captura una selfie asombrosa con su cámara de 8MP.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_3_10_1/IMG_05.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Lo último en entretenimiento portable.",
+				"p_caracteristica": "Disfruta a donde vayas de todo el contenido multimedia en su brillante pantalla HD y su sonido envolvente Dolby® Atmos™.",
+				"img_apoyo": "../img/TABLETS/YOGA_TAB_3_10_1/IMG_06.png"
+			}],
+			["fin", {}]
+		]
 	}
 ]
