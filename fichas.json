@@ -27,14 +27,14 @@
 			["P-I-I", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Cámara 3D RealSense",
-				"p_caracteristica": "La Cámara 3d Intel RealSense te permite ver, capturar y compartir fotos tridimensionales de personas y objetos.",
+				"p_caracteristica": "La Cámara 3d Intel RealSense te permite ver y capturar  fotos tridimensionales de personas y objetos.",
 				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_04.png",
 				"img_apoyo_2": "../img/AIO/AIO_700/IMG_05.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Sonido envolvente Imágenes sorprendentes",
-				"p_caracteristica": "Parlantes integrados con sonido envolvente JBL pantalla multitouch de 10 puntos.",
+				"p_caracteristica": "Parlantes integrados JBL con sonido envolvente y  pantalla multitouch de 10 puntos.",
 				"img_apoyo": "../img/AIO/AIO_700/IMG_06.png"
 			}],
 			["P-I-num_izq", {
@@ -138,13 +138,13 @@
 			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Pantalla de 21,5\"",
-				"p_caracteristica": "con multitouch opcional y un soporte metálico en v que refresca tu espacio.",
+				"p_caracteristica": "Con multitouch opcional y un soporte metálico en v que le agrega un toque de elegancia a tu espacio.",
 				"img_apoyo": "../img/AIO/C40_05/IMG_06.png"
 			}],
 			["P-I-I", {
 				"numero_caracteristica": "3",
-				"t_caracteristica": "Amplicacion sin Herramientas",
-				"p_caracteristica": "Cubiertas corredizas que facilitan la actualización de almacenamiento y memoria.",
+				"t_caracteristica": "Expandible sin Herramientas",
+				"p_caracteristica": "Cubiertas móviles que facilitan la actualización de almacenamiento y memoria.",
 				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
 				"img_apoyo_2": "../img/AIO/C40_05/IMG_08.png"
 			}],
@@ -186,13 +186,13 @@
 			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Pantalla de 21,5\"",
-				"p_caracteristica": "con multitouch opcional y un soporte metálico en v que refresca tu espacio.",
+				"p_caracteristica": "Con multitouch opcional y un soporte metálico en v que le agrega un toque de elegancia a tu espacio.",
 				"img_apoyo": "../img/AIO/C40_30_ALKOSTO/IMG_06.png"
 			}],
 			["P-I-I", {
 				"numero_caracteristica": "3",
-				"t_caracteristica": "Amplicacion sin Herramientas",
-				"p_caracteristica": "Cubiertas corredizas que facilitan la actualización de almacenamiento y memoria.",
+				"t_caracteristica": "Expandible sin Herramientas",
+				"p_caracteristica": "Cubiertas móviles que facilitan la actualización de almacenamiento y memoria.",
 				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
 				"img_apoyo_2": "../img/AIO/C40_30_ALKOSTO/IMG_08.png"
 			}],
@@ -234,13 +234,13 @@
 			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Pantalla de 21,5\"",
-				"p_caracteristica": "con multitouch opcional y un soporte metálico en v que refresca tu espacio.",
+				"p_caracteristica": "Con multitouch opcional y un soporte metálico en v que le agrega un toque de elegancia a tu espacio.",
 				"img_apoyo": "../img/AIO/C40_30_EXITO/IMG_06.png"
 			}],
 			["P-I-I", {
 				"numero_caracteristica": "3",
-				"t_caracteristica": "Amplicacion sin Herramientas",
-				"p_caracteristica": "Cubiertas corredizas que facilitan la actualización de almacenamiento y memoria.",
+				"t_caracteristica": "Expandible sin Herramientas",
+				"p_caracteristica": "Cubiertas móviles que facilitan la actualización de almacenamiento y memoria.",
 				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
 				"img_apoyo_2": "../img/AIO/C40_30_EXITO/IMG_08.png"
 			}],
@@ -287,7 +287,7 @@
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "3",
-				"t_caracteristica": "Amplicacion sin Herramientas",
+				"t_caracteristica": "Expandible sin Herramientas",
 				"p_caracteristica": "Su cubierta posterior puede retirarse fácilmente para que actualices su almacenamiento y memoria.",
 				"img_apoyo": "../img/AIO/C50_30/IMG_07.png"
 			}],
@@ -309,7 +309,7 @@
 			}],
 			["cabecera", {
 				"nombre_producto": "LENOVO C260",
-				"subtitulo_cabecera": "EL ALL IN ONE CON LO ÚLTIMO EN PROCESADORES",
+				"subtitulo_cabecera": "El ALL IN ONE ESCENCIAL PARA TUS TAREAS DIARIAS",
 				"logo_lenovo": "../img/OTROS/logo_8abf54.png"
 			}],
 			["I-I", {
@@ -394,7 +394,7 @@
 			}],
 			["I-P", {
 				"numero_caracteristica": "3",
-				"t_caracteristica": "diseño delgado y completo",
+				"t_caracteristica": "Ergonomía y precisión",
 				"p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.",
 				"img_apoyo": "../img/NB/G40_30/IMG_08.png"
 			}],
@@ -425,7 +425,7 @@
 			}],
 			["P", {
 				"t_descripcion_principal": "SORPRENDENTEMENTE DELGADO PERO GRANDE EN RENDIMIENTO",
-				"p_descripcion_principal": "El portátil G40 30 tiene menos de una pulgada de espesor, pero viene con grandes características como una unidad DVD integrada, la última tecnología en procesadores y gráficos."
+				"p_descripcion_principal": "El portátil G40-45 tiene menos de una pulgada de espesor, pero viene con grandes características como una unidad DVD integrada, la última tecnología en procesadores y gráficos."
 			}],
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_01.png"
@@ -448,7 +448,7 @@
 			}],
 			["I-P", {
 				"numero_caracteristica": "3",
-				"t_caracteristica": "diseño delgado y completo",
+				"t_caracteristica": "Ergonomía y precisión",
 				"p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.",
 				"img_apoyo": "../img/NB/G40_45/IMG_08.png"
 			}],
@@ -479,7 +479,7 @@
 			}],
 			["P", {
 				"t_descripcion_principal": "ACCESIBLE Y VERSATIL PORTATIL",
-				"p_descripcion_principal": "Lenovo G40-80 combina un diseño de líneas delgadas con una variedad completa de funciones, incluyendo unidad de DVD y un rendimiento que enfrenta cualquier desafío con la quinta generación del procesador Intel ® Core (TM)."
+				"p_descripcion_principal": "Lenovo G40-80 combina un diseño de líneas delgadas con una variedad completa de funciones, incluyendo unidad de DVD y un rendimiento que enfrenta cualquier desafío con el procesador Intel ® Core (TM)."
 			}],
 			["I", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
@@ -628,14 +628,14 @@
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "3",
-				"t_caracteristica": "Medidas perfectas",
-				"p_caracteristica": "Peso perfecto, rendimiento superior. Pantalla HD de 11\", gráficos integrados Intel HD y desde mas 1.5Kg de peso.",
+				"t_caracteristica": "Increíble rendimiento en un dispositivo tan cómodo",
+				"p_caracteristica": "Rendimiento superior. Pantalla HD de 11\", gráficos integrados Intel HD y desde 1.5Kg de peso.",
 				"img_apoyo": "../img/NB/IDEAPAD_100S_AZUL/IMG_08.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Ideapad es un Cloudbook",
-				"p_caracteristica": "Olvídate de dispositivos para guardar tu información, Lenovo Ideapad 100s viene con 1TB para que almacenes todos tus archivos en la seguridad de la nube. - Opcional con Office 365 x un año -",
+				"p_caracteristica": "Olvídate de dispositivos para guardar tu información, Lenovo Ideapad 100s viene con 1TB para que almacenes todos tus archivos en la seguridad de la nube. Es opcional con el Office 365 por un año.",
 				"img_apoyo": "../img/NB/IDEAPAD_100S_AZUL/IMG_09.png"
 			}],
 			["fin", {}]
@@ -684,14 +684,14 @@
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "3",
-				"t_caracteristica": "Medidas perfectas",
-				"p_caracteristica": "Peso perfecto, rendimiento superior. Pantalla HD de 11\", gráficos integrados Intel HD y desde mas 1.5Kg de peso.",
+				"t_caracteristica": "Increíble rendimiento en un dispositivo tan cómodo",
+				"p_caracteristica": "Rendimiento superior. Pantalla HD de 11\", gráficos integrados Intel HD y desde 1.5Kg de peso.",
 				"img_apoyo": "../img/NB/IDEAPAD_100S_BLANCO/IMG_08.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Ideapad es un Cloudbook",
-				"p_caracteristica": "Olvídate de dispositivos para guardar tu información, Lenovo Ideapad 100s viene con 1TB para que almacenes todos tus archivos en la seguridad de la nube. - Opcional con Office 365 x un año -",
+				"p_caracteristica": "Olvídate de dispositivos para guardar tu información, Lenovo Ideapad 100s viene con 1TB para que almacenes todos tus archivos en la seguridad de la nube. Es opcional con el Office 365 por un año.",
 				"img_apoyo": "../img/NB/IDEAPAD_100S_BLANCO/IMG_09.png"
 			}],
 			["fin", {}]
@@ -1651,7 +1651,7 @@
 			}],
 			["fin", {}]
 		]
-	},{
+	}, {
 		"nombre": "YOGA_TABLET_3_PRO_10",
 		"categoria": "Tablet",
 		"mapa": [
@@ -1700,7 +1700,7 @@
 			}],
 			["fin", {}]
 		]
-	},{
+	}, {
 		"nombre": "YOGA_TAB_3_10_1",
 		"categoria": "Tablet",
 		"mapa": [
