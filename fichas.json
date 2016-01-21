@@ -1137,18 +1137,56 @@
 			}],
 			["fin", {}]
 		]
+	},{
+		"nombre": "Y_700",
+		"categoria": "Notebook",
+		"mapa": [
+			["inicio", {
+				"titulo": "Lenovo™ ideapad™ Y700",
+				"color_primario": "#717170",
+				"color_secundario": "#c22821",
+				"color_caracteristica": "#4a80af"
+			}],
+			["cabecera", {
+				"nombre_producto": "Lenovo™ ideapad™ Y700",
+				"subtitulo_cabecera": "CUALQUIER LUGAR ES BUENO PARA ENTRAR AL JUEGO",
+				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/Y_700/IMG_01.png",
+				"img_apoyo_2": "../img/NB/Y_700/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "ENTRA A LA ARENA CUANDO QUIERAS",
+				"p_descripcion_principal": "Lenovo™ Ideapad™ Y700 es todo el arsenal que necesitas. Ponte en el centro de la acción con su pantalla Antireflejos Full HD de 15\" y tecnología IPS. Sumérgete en el juego con sus parlantes y subwoofer JBL® que te ofrecen una experiencia inimitable."
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/NB/Y_700/IMG_03.png",
+				"img_apoyo_2": "../img/NB/Y_700/IMG_04.png",
+				"t_caracteristica": "El poder del juego en tus manos",
+				"p_caracteristica": "Con la sexta generación del procesador Intel® Quad-Core i7 tienes toda la potencia que necesitas para perderte en el juego.",
+				"numero_caracteristica": "1"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Vive la mejor experiencia multimedia",
+				"p_caracteristica": "Con su tarjeta de gráficos independiente NVIDIA® GTX 960M de 4 GB, su sonido envolvente y su pantalla Full HD tienes todo lo que necesitas para encender la diversión.",
+				"img_apoyo": "../img/NB/Y_700/IMG_05.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/Y_700/IMG_06.png",
+				"img_apoyo_2": "../img/NB/Y_700/IMG_07.png"
+			}],
+			["I-P-I", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Sonido Increíble",
+				"p_caracteristica": "Lenovo™ ideapad™ Y700 viene equipada con 2 parlantes JBL® de 2W, Subwoofer JBL® de 3W y Dolby® Home Theater™ disfruta la aventura con todos tus sentidos y siempre podrás estar un paso adelante.",
+				"img_apoyo_1": "../img/NB/Y_700/IMG_08.png",
+				"img_apoyo_2": "../img/NB/Y_700/IMG_09.png"
+			}],
+			["fin", {}]
+		]
 	},
-
-
-
-
-
-
-
-
-
-
-
 	{
 		"nombre": "PHAB",
 		"categoria": "Tablet",
