@@ -550,6 +550,30 @@
 			box-shadow:         7px 7px 1px 0px rgba(50, 50, 50, 0.35);
 		}
 		a{text-decoration: none;}
+
+		.lista-accesos{
+			max-height: 0px;
+			position: absolute;
+			overflow: hidden;
+			-webkit-transition: all 1s ease-in-out;
+			-moz-transition: all 1s ease-in-out;
+			-o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+			background: #ffffff;
+		}
+
+		.lista-accesos .item-list{
+			padding: 1em;
+			border-bottom:1px solid #eee; 
+
+		}
+		.open-list{
+			max-height: 600px;
+			-webkit-transition: all 1s ease-in-out;
+			-moz-transition: all 1s ease-in-out;
+			-o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+		}
 	</style>
 
 
@@ -571,8 +595,17 @@
 
 			<!-- NAV FOR SMALL RESOLUTIONS -->
 			<div class="navigator-access-small flex-lg-70 flex-md-70 flex-sm-80 flex-gt-100 flex-xs-100 layout-row justify-space-between align-center">
-				<div class="item flex-lg-20 flex-md-20">Menú</div>
+				<div class="item flex-lg-20 flex-md-20 btn-primary">Menú</div>
+
 			</div>
+				<!-- Lista de accesos -->
+				<div class="layout-row flex-gt-100 lista-accesos layout-row layout-wrap open-list" >
+					<div class="item-list flex-gt-100 flex-xs-100">Primer acceso</div>
+					<div class="item-list flex-gt-100 flex-xs-100">segundo acceso</div>
+					<div class="item-list flex-gt-100 flex-xs-100">Tercer acceso</div>
+					<div class="item-list flex-gt-100 flex-xs-100">Cuarto acceso</div>
+					<div class="item-list flex-gt-100 flex-xs-100">Quito acceso</div>
+				</div>
 
 			<div class="flex-lg-15 flex-md-10 flex-sm-0 flex-xs-100 flex-gt-100"></div>
 		</nav>
