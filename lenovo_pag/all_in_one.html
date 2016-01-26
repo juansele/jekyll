@@ -594,12 +594,17 @@
 			</div>
 
 			<!-- NAV FOR SMALL RESOLUTIONS -->
+            <script>
+                function toggle_menu() {
+                    document.getElementById("small_res_menu").classList.toggle('open-list');
+                };
+            </script>
 			<div class="navigator-access-small flex-lg-70 flex-md-70 flex-sm-80 flex-gt-100 flex-xs-100 layout-row justify-space-between align-center">
-				<div class="item flex-lg-20 flex-md-20 btn-primary">Menú</div>
+				<div class="item flex-lg-20 flex-md-20 btn-primary" onclick="toggle_menu()">Menú</div>
 
 			</div>
 				<!-- Lista de accesos -->
-				<div class="layout-row flex-gt-100 lista-accesos layout-row layout-wrap open-list" >
+				<div id="small_res_menu" class="navigator-access-small layout-row flex-gt-100 lista-accesos layout-row layout-wrap">
 					<div class="item-list flex-gt-100 flex-xs-100">Primer acceso</div>
 					<div class="item-list flex-gt-100 flex-xs-100">segundo acceso</div>
 					<div class="item-list flex-gt-100 flex-xs-100">Tercer acceso</div>
