@@ -94,6 +94,8 @@
 		 	@media (min-width: 320px){
 		 		.navigator-access-long{display: none;}
 				.navigator-access-small{display: flex;}
+				.logo-bg-long{display: block;} 
+				.log-bg-small{display: none;}
 		 		.msj-not-resolution{display: none;
 		 		}
 		 		.text-align-gt{text-align: center; 
@@ -158,8 +160,10 @@
 		 	}
 		 	/* SMALL DEVICES (TABLETS, 600PX AND UP) */ 
 		 	@media (min-width: 600px){
-		 		.navigator-access-long{display: none;}
-				.navigator-access-small{display: flex;}
+		 		.navigator-access-long{display: flex;}
+				.navigator-access-small{display: none;}
+				.logo-bg-long{display: none;} 
+				.log-bg-small{display: block;}
 		 		.msj-not-resolution{display: none;
 		 		}
 		 		.text-align-xs{text-align: center; 
@@ -226,6 +230,8 @@
 		 	@media (min-width: 768px) {
 		 		.navigator-access-long{display:flex;}
 				.navigator-access-small{display: none;}
+				.logo-bg-long{display: none;} 
+				.log-bg-small{display: block;}
 		 		.msj-not-resolution{display: none;
 		 		}
 		 		.text-align-sm{text-align: left; 
@@ -295,6 +301,8 @@
 		 	@media (min-width: 992px) {
 		 		.navigator-access-long{display:flex;}
 				.navigator-access-small{display: none;}
+				.logo-bg-long{display: none;} 
+				.log-bg-small{display: block;}
 		 		.msj-not-resolution{display: none;
 		 		}
 		 		.flex-md-show{display:block;
@@ -361,6 +369,8 @@
 		 	@media (min-width: 1200px) {
 		 		.navigator-access-long{display: flex;}
 				.navigator-access-small{display: none;}
+				.logo-bg-long{display: none;} 
+				.log-bg-small{display: block;}
 		 		.msj-not-resolution{display: none;
 		 		}
 		 		.flex-lg-show{display:block;
@@ -480,7 +490,7 @@
 			padding: 1em;
 			text-align: center;
 			cursor: pointer;
-			font-size: 15px;
+			font-size: 14px;
 			font-weight: bold;
 			opacity:0.8;
 		}
@@ -549,50 +559,127 @@
 			-moz-box-shadow:    7px 7px 1px 0px rgba(50, 50, 50, 0.35);
 			box-shadow:         7px 7px 1px 0px rgba(50, 50, 50, 0.35);
 		}
-		a{text-decoration: none;}
+		a{text-decoration: none; color: rgba(0,0,0,0.7);}
+		a:hover{color: #D06BAC}
+
+		.lista-accesos{
+			max-height: 0px;
+			overflow: hidden;
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+			background: #ffffff;
+		}
+
+		.lista-accesos .item-list{
+			padding: 1em;
+			border-bottom:1px solid #eee; 
+			text-transform: uppercase;
+			font-size: 14px;
+			-webkit-transition: all 0.28s ease-in-out;
+			-moz-transition: all 0.28s ease-in-out;
+			-o-transition: all 0.28s ease-in-out;
+			transition: all 0.28s ease-in-out;
+		}
+
+		.lista-accesos > .item-list:hover{
+			background: #eee;
+		}
+		.open-list{
+			max-height: 600px;
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		}
+		@font-face {
+		    font-family: 'icomoon';
+		    src:    url('fonts/icomoon.eot?9cuerd');
+		    src:    url('fonts/icomoon.eot?9cuerd#iefix') format('embedded-opentype'),
+		        url('fonts/icomoon.ttf?9cuerd') format('truetype'),
+		        url('fonts/icomoon.woff?9cuerd') format('woff'),
+		        url('fonts/icomoon.svg?9cuerd#icomoon') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+
+		[class^="icon-"], [class*=" icon-"] {
+		    /* use !important to prevent issues with browser extensions that change fonts */
+		    font-family: 'icomoon' !important;
+		    speak: none;
+		    font-style: normal;
+		    font-weight: normal;
+		    font-variant: normal;
+		    text-transform: none;
+		    line-height: 1;
+
+		    /* Better Font Rendering =========== */
+		    -webkit-font-smoothing: antialiased;
+		    -moz-osx-font-smoothing: grayscale;
+		}
+
+		.icon-Menu:before {
+		    content: "\e909";
+		}
+
+		nav{
+			min-height: 55px;
+		}
+		.item-selected-long{
+			color: #D06BAC !important;
+		}
+
+		.selected{
+			color: #D06BAC !important;
+		}
 	</style>
 
 
 	<section class="height-full layout-row layout-wrap layout-fill">
 		<!-- Navigator -->
-		<nav class="layout-row justify-center align-center flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
+		<nav class="layout-row layout-wrap justify-center align-center flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
 			<div class="flex-lg-15 flex-md-10 flex-sm-0 flex-xs-100 flex-gt-100"></div>
-			
-
 			<!-- NAV FOR LONG RESOLUTIONS -->
 			<div class="navigator-access-long flex-lg-70 flex-md-80 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-space-between align-center">
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20">HOME</div>
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="all_in_one.html">ALL IN ONE</a></div>
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="multi.html">CONVERTIBLES </a></div>
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="notebooks.html">PORTÁTILES</a></div>
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="tablets.html">TABLETAS</a></div>
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="phablets.html">PHABLET</a></div>
+				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><b>HOME</b></div>
+				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="all_in_one.html"><b>ALL IN ONE</b></a></div>
+				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="multi.html"><b>CONVERTIBLES </b></a></div>
+				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="notebooks.html"><b>PORTÁTILES</b></a></div>
+				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="tablets.html" class="item-selected-long"><b>TABLETAS</b></a></div>
+				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="phablets.html"><b>PHABLET</b></a></div>
 			</div>
-
 			<!-- NAV FOR SMALL RESOLUTIONS -->
+			<div class="navigator-access-small flex-gt-100 flex-xs-100 layout-row justify-space-between align-center">
+				<div class="layout-row justify-start align-center flex-xs-15 flex-gt-15" style="margin-top: 2px;">
+					<div>
+						<img style="min-width:60px;margin-top: 2px;" src="img/logos/logo_s-04.svg">
+					</div>
+				</div>
+				<div class="selected">TABLETAS</div>
+				<div class="item flex-gt-15 flex-xs-15" onclick="toggle_menu()">
+					<i class="icon-Menu" style="font-size:30px;"></i>
+				</div>
+			</div>
+			<!-- Lista de accesos -->
+			<div id="small_res_menu" class="navigator-access-small layout-row flex-gt-100 lista-accesos layout-row layout-wrap">
+				<div class="item-list flex-gt-100 flex-xs-100">HOME</div>
+				<a class="item-list flex-gt-100 flex-xs-100" href="all_in_one.html"><div class=" flex-gt-100 flex-xs-100">ALL IN ONE</div></a>
+				<a class="item-list flex-gt-100 flex-xs-100" href="multi.html"><div class=" flex-gt-100 flex-xs-100">CONVERTIBLES</div></a>
+				<a class="item-list flex-gt-100 flex-xs-100" href="notebooks.html"><div class=" flex-gt-100 flex-xs-100">PORTÁTILES</div></a>
+				<a class="item-list flex-gt-100 flex-xs-100" href="phablets.html"><div class=" flex-gt-100 flex-xs-100">PHABLET</div></a>
+			</div>
+			<div class="flex-lg-15 flex-md-10 flex-sm-0 flex-xs-100 flex-gt-100"></div>
             <script>
                 function toggle_menu() {
                     document.getElementById("small_res_menu").classList.toggle('open-list');
                 };
             </script>
-			<div class="navigator-access-small flex-lg-70 flex-md-70 flex-sm-80 flex-gt-100 flex-xs-100 layout-row justify-space-between align-center">
-				<div class="item flex-lg-20 flex-md-20 btn-primary" onclick="toggle_menu()">Menú</div>
 
-			</div>
-				<!-- Lista de accesos -->
-				<div id="small_res_menu" class="navigator-access-small layout-row flex-gt-100 lista-accesos layout-row layout-wrap">
-					<div class="item-list flex-gt-100 flex-xs-100">Primer acceso</div>
-					<div class="item-list flex-gt-100 flex-xs-100">segundo acceso</div>
-					<div class="item-list flex-gt-100 flex-xs-100">Tercer acceso</div>
-					<div class="item-list flex-gt-100 flex-xs-100">Cuarto acceso</div>
-					<div class="item-list flex-gt-100 flex-xs-100">Quito acceso</div>
-				</div>
-
-			<div class="flex-lg-15 flex-md-10 flex-sm-0 flex-xs-100 flex-gt-100"></div>
 		</nav>
 		<!-- Contenedor GIF -->
 		<section class="main-container-gif layout-row justify-start align-start flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
-			<div class="flex-lg-5 flex-md-5 flex-sm-5 flex-xs-5 flex-gt-5"><img style="max-width: 90px;min-width: 70px;" src="img/logos/logo_TAB.png"></div>
+			<div class="logo-bg-long log-bg-small flex-lg-5 flex-md-5 flex-sm-5 flex-xs-5 flex-gt-5"><img style="max-width: 90px;min-width: 70px;" src="img/logos/logo_TAB.png"></div>
 		</section>
 
 		<!--  Módulo Info. I-P -->
