@@ -487,7 +487,7 @@
 		}
 
 		nav .item{
-			padding: 1em;
+			padding: 1em 0.5em;
 			text-align: center;
 			cursor: pointer;
 			font-size: 14px;
@@ -535,7 +535,7 @@
 		}
 
 		.btn-primary:active{
-			background: #cc4e1c;
+			background:#b55c94 !important
 		}
 
 		.price{
@@ -624,7 +624,8 @@
 		}
 
 		nav{
-			min-height: 55px;
+			min-height: 56px;
+			max-height: 56px !important;
 		}
 		.item-selected-long{
 			color: #D06BAC !important;
@@ -633,6 +634,9 @@
 		.selected{
 			color: #D06BAC !important;
 		}
+		.navigator-access-small{
+				    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.12);
+			}
 	</style>
 
 
@@ -642,7 +646,7 @@
 			<div class="flex-lg-15 flex-md-10 flex-sm-0 flex-xs-100 flex-gt-100"></div>
 			<!-- NAV FOR LONG RESOLUTIONS -->
 			<div class="navigator-access-long flex-lg-70 flex-md-80 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-space-between align-center">
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><b>HOME</b></div>
+				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="home.html"><b>HOME</b></a></div>
 				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="all_in_one.html"><b>ALL IN ONE</b></a></div>
 				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="multi.html"><b>CONVERTIBLES </b></a></div>
 				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="notebooks.html"><b>PORTÁTILES</b></a></div>
@@ -653,7 +657,9 @@
 			<div class="navigator-access-small flex-gt-100 flex-xs-100 layout-row justify-space-between align-center">
 				<div class="layout-row justify-start align-center flex-xs-15 flex-gt-15" style="margin-top: 2px;">
 					<div>
-						<img style="min-width:60px;margin-top: 2px;" src="img/logos/logo_s-04.svg">
+						<a href="home.html">
+							<img style="min-width:60px;margin-top: 2px;" src="img/logos/logo_s-04.svg">
+						</a>
 					</div>
 				</div>
 				<div class="selected">TABLETAS</div>
@@ -663,7 +669,7 @@
 			</div>
 			<!-- Lista de accesos -->
 			<div id="small_res_menu" class="navigator-access-small layout-row flex-gt-100 lista-accesos layout-row layout-wrap">
-				<div class="item-list flex-gt-100 flex-xs-100">HOME</div>
+				<a class="item-list flex-gt-100 flex-xs-100" href="home.html"><div class="flex-gt-100 flex-xs-100">HOME</div></a>
 				<a class="item-list flex-gt-100 flex-xs-100" href="all_in_one.html"><div class=" flex-gt-100 flex-xs-100">ALL IN ONE</div></a>
 				<a class="item-list flex-gt-100 flex-xs-100" href="multi.html"><div class=" flex-gt-100 flex-xs-100">CONVERTIBLES</div></a>
 				<a class="item-list flex-gt-100 flex-xs-100" href="notebooks.html"><div class=" flex-gt-100 flex-xs-100">PORTÁTILES</div></a>
