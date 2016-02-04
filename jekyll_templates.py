@@ -47,8 +47,8 @@ templates['inicio'] = '''
 
 			.cont-circle-number{
 				background-color:${color_secundario};
-				width: 55px;
-				height: 55px;
+				width: 50px;
+				height: 50px;
 				padding: 0.1em;
 				margin: 0.5em 0em;
 				color: white;
@@ -116,7 +116,7 @@ templates['cabecera'] = '''
 		<!-- CONTENEDOR DE LA FICHA -->
 		<div class="container contenedor-ficha">
 			<section class="layout-row layout-wrap justify-space-around align-center">
-				<div class="container-main flex-lg-75 flex-md-85 flex-sm-95 flex-xs-95 flex-gt-95" style="padding: 2vh 0vh;">
+				<div class="container-main flex-lg-90 flex-md-85 flex-sm-95 flex-xs-95 flex-gt-95" style="padding: 2vh 0vh;">
 
 
 					<!-- CABECERA -->
@@ -479,7 +479,7 @@ templates['fin'] = '''
 
 
 				<!-- FOOTER -->
-				<footer style="margin:2em 0em;" class="layout-row layout-wrap justify-center align-center flex-lg-75 flex-md-85 flex-sm-95 flex-xs-95 flex-gt-95">
+				<footer style="margin:2em 0em;" class="layout-row layout-wrap justify-center align-center flex-lg-90 flex-md-85 flex-sm-95 flex-xs-95 flex-gt-95">
 					<div class="layout-row layout-wrap justify-center align-center flex-lg-60 flex-md-60 flex-sm-60 flex-xs-60 flex-gt-60">
 						<a href="https://es-es.facebook.com/LenovoCo">
 							<div class="cont-icon-footer facebook">
