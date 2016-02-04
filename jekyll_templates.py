@@ -53,7 +53,7 @@ templates['inicio'] = '''
 				color: white;
 				font-family: Arial;
 				font-weight: bold;
-				font-size: 26px;
+				font-size: 30px;
 				text-align: center;
 				border-radius: 10em;
 				-webkit-border-radius: 10em;
