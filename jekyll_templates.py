@@ -20,7 +20,7 @@ templates['inicio'] = '''
 		<style type="text/css">
 
 	 		p{margin-top: 0.5em !important; } 
-	 		div span{text-align: center; font-size: 16px; margin: 0 auto; display: block; } 
+	 		div.titulo-ficha span{text-align: center; font-size: 16px; margin: 0 auto; display: block; } 
 	 		.mod-inline{display: inline-block; vertical-align: middle; text-align: center; } 
 	 		.mod-section{padding: 1em 0em; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+44,0+100 */ background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 44%, rgba(255,255,255,0) 100%); /* FF3.6-15 */ background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 44%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */ background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 44%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ } 
 	 		.mod-section .inner-section{margin: 1em 0em; } 
@@ -174,7 +174,7 @@ templates['P'] = '''
 
 					<section class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-center mod-section" style="margin:3em 0em;">
 						<div class="inner-section flex-lg-70 flex-sm-80 flex-xs-80 flex-gt-90">
-							<div>
+							<div class="titulo-ficha">
 								<span class="titulo-descripcion-main">${t_descripcion_principal}</span>
 							</div>
 							<p style="margin-top:1em;">
@@ -199,7 +199,7 @@ templates['I-P'] = '''
 							<div class="mod-p">
 								<div class="layout-row layout-wrap justify-space-around align-start mod-texto">
 									<div class="flex-lg-75 flex-md-80 order-lg-1 order-md-1 order-sm-2 order-xs-2 order-gt-2">
-										<div>
+										<div class="titulo-ficha">
 											<span class="titulo-caracteristica">${t_caracteristica}</span>
 										</div>
 										<p>${p_caracteristica}</p>
@@ -242,7 +242,7 @@ templates['P-I-I'] = '''
 										</div>
 									</div>
 									<div class="flex-lg-75 flex-md-80 flex-sm-100">
-										<div>
+										<div class="titulo-ficha">
 											<span class="titulo-caracteristica">${t_caracteristica}</span>
 										</div>
 										<p>${p_caracteristica}</p>
@@ -286,7 +286,7 @@ templates['I-IP-I'] = '''
 										</div>
 									</div>
 									<div class="flex-lg-75 flex-md-75 flex-sm-100 flex-xs-80 flex-gt-100">
-										<div>
+										<div class="titulo-ficha">
 											<span class="titulo-caracteristica" >${t_caracteristica}</span>
 										</div>
 										<p>${p_caracteristica}</p>
@@ -311,7 +311,7 @@ templates['P-I-num_centro'] = '''
 							<div class="mod-p">
 								<div class="layout-row layout-wrap justify-space-around align-start mod-texto">
 									<div class="flex-lg-75 flex-md-80 order-lg-1 order-md-1 order-sm-2  order-xs-2 order-gt-2 ">
-										<div>
+										<div class="titulo-ficha">
 											<span class="titulo-caracteristica">${t_caracteristica}</span>
 										</div>
 										<p>${p_caracteristica}</p>
@@ -344,7 +344,7 @@ templates['P-I-num_izq'] = '''
 										</div>
 									</div>
 									<div class="flex-lg-75 flex-md-80">
-										<div>
+										<div class="titulo-ficha">
 											<span class="titulo-caracteristica">${t_caracteristica}</span>
 										</div>
 										<p>${p_caracteristica}</p>
@@ -392,7 +392,7 @@ templates['I-P-I'] = '''
 										</div>
 									</div>
 									<div class="flex-lg-75 flex-md-75 flex-sm-100 flex-xs-100 flex-gt-100">
-										<div>
+										<div class="titulo-ficha">
 											<span class="titulo-caracteristica" >${t_caracteristica}</span>
 										</div>
 										<p>${p_caracteristica}</p>
