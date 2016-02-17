@@ -39,7 +39,7 @@ templates['inicio'] = '''
 					min-height: 100%;
 				}
 
-				p, span{
+				.parrafo{
 					margin: 0; 
 					font-size: 22px; 
 					width: 100%; 
@@ -89,7 +89,7 @@ templates['inicio'] = '''
 
 			.titulo-caracteristica{
 				color: ${color_caracteristica};
-				font-size: 30px;
+				font-size: 30px !important;
 			}
 
 			iframe{
@@ -179,7 +179,7 @@ templates['I-P'] = '''
 										<div class="titulo-ficha">
 											<span class="titulo-caracteristica">${t_caracteristica}</span>
 										</div>
-										<p>${p_caracteristica}</p>
+										<p class="parrafo">${p_caracteristica}</p>
 									</div>
 									<div class="flex-lg-15 flex-md-20 flex-sm-100  layout-row justify-center align-center order-lg-2 order-md-2 order-sm-1  order-xs-1 order-gt-1 ">
 										<div class="mod-inline cont-circle-number layout-row layout-wrap justify-center align-center">
@@ -222,7 +222,7 @@ templates['P-I-I'] = '''
 										<div class="titulo-ficha">
 											<span class="titulo-caracteristica">${t_caracteristica}</span>
 										</div>
-										<p>${p_caracteristica}</p>
+										<p class="parrafo">${p_caracteristica}</p>
 									</div>
 								</div>
 							</div>
@@ -266,7 +266,7 @@ templates['I-IP-I'] = '''
 										<div class="titulo-ficha">
 											<span class="titulo-caracteristica" >${t_caracteristica}</span>
 										</div>
-										<p>${p_caracteristica}</p>
+										<p class="parrafo">${p_caracteristica}</p>
 									</div>
 								</div>
 							</div>
@@ -291,7 +291,7 @@ templates['P-I-num_centro'] = '''
 										<div class="titulo-ficha">
 											<span class="titulo-caracteristica">${t_caracteristica}</span>
 										</div>
-										<p>${p_caracteristica}</p>
+										<p class="parrafo">${p_caracteristica}</p>
 									</div>
 									<div class="flex-lg-15 flex-md-20 flex-sm-100  layout-row layout-wrap justify-center align-center order-lg-2 order-md-2 order-sm-1  order-xs-1 order-gt-1">
 										<div class="mod-inline cont-circle-number layout-row layout-wrap justify-center align-center">
@@ -324,7 +324,7 @@ templates['P-I-num_izq'] = '''
 										<div class="titulo-ficha">
 											<span class="titulo-caracteristica">${t_caracteristica}</span>
 										</div>
-										<p>${p_caracteristica}</p>
+										<p class="parrafo">${p_caracteristica}</p>
 									</div>
 								</div>
 							</div>
@@ -372,7 +372,7 @@ templates['I-P-I'] = '''
 										<div class="titulo-ficha">
 											<span class="titulo-caracteristica" >${t_caracteristica}</span>
 										</div>
-										<p>${p_caracteristica}</p>
+										<p class="parrafo">${p_caracteristica}</p>
 									</div>
 								</div>
 							</div>
@@ -395,7 +395,7 @@ templates['P-P'] = '''
 								</div>
 								<!-- Parrafo-especificación -->
 								<div class="flex-lg-70 flex-md-70 flex-sm-100 flex-xs-100 flex-gt-100">
-									<p class="text-align-lg text-align-md text-align-sm text-align-xs text-align-gt">${detalle_caracteristica_1}</p>
+									<p class="text-align-lg text-align-md text-align-sm text-align-xs text-align-gt parrafo">${detalle_caracteristica_1}</p>
 								</div>
 							</div>
 						</div>
@@ -407,7 +407,7 @@ templates['P-P'] = '''
 								</div>
 								<!-- Parrafo-especificación -->
 								<div class="flex-lg-70 flex-md-70 flex-sm-100 flex-xs-100 flex-gt-100">
-									<p class="text-align-lg text-align-md text-align-sm text-align-xs text-align-gt">${detalle_caracteristica_2}</p>
+									<p class="text-align-lg text-align-md text-align-sm text-align-xs text-align-gt parrafo">${detalle_caracteristica_2}</p>
 								</div>
 							</div>
 						</div>
@@ -427,7 +427,7 @@ templates['I-P-nonumero'] = '''
 							<div class="mod-p">
 								<div class="layout-row layout-wrap justify-space-around align-start mod-texto">
 									<div class="flex-lg-100 flex-md-90 order-lg-1 order-md-1 order-sm-2 order-xs-2 order-gt-2">
-										<p>${p_caracteristica}</p>
+										<p class="parrafo">${p_caracteristica}</p>
 									</div>
 								</div>
 							</div>
@@ -448,7 +448,7 @@ templates['Igrande-P-I'] = '''
 							<div class="mod-p">
 								<div class="layout-row layout-wrap layout-wrap justify-space-around align-start mod-texto">
 									<div class="flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
-										<p>${p_caracteristica}</p>
+										<p class="parrafo">${p_caracteristica}</p>
 									</div>
 								</div>
 							</div>
