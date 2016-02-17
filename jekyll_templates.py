@@ -31,7 +31,7 @@ templates['inicio'] = '''
 	 		.content-img-small{overflow: hidden; border-radius: 16px; -webkit-border-radius: 16px; } 
 	 		.shadow-box{-webkit-box-shadow: 7px 7px 1px 0px rgba(50, 50, 50, 0.15); -moz-box-shadow:    7px 7px 1px 0px rgba(50, 50, 50, 0.15); box-shadow:         7px 7px 1px 0px rgba(50, 50, 50, 0.15); -webkit-border-radius: 16px; -moz-border-radius: 16px; -ms-border-radius: 16px; -o-border-radius: 16px; } 
 	 		.content-img-small img{width: 100%; }
-	 		.image-ficha img{width: 100%;}
+	 		img.image-ficha{width: 100%;}
 	 		.uppercase{text-transform: uppercase; } 
 	 		/* IMPORT FONTS */ @font-face {font-family:'HelveticaNeueLT-Light'; src: url('fonts/HelveticaNeueLT-Light_gdi.eot'); src: url('fonts/HelveticaNeueLT-Light_gdi.eot?#iefix') format('embedded-opentype'), url('fonts/HelveticaNeueLT-Light_gdi.woff') format('woff'), url('fonts/HelveticaNeueLT-Light_gdi.ttf') format('truetype'), url('fonts/HelveticaNeueLT-Light_gdi.svg#HelveticaNeueLT-Light') format('svg'); font-weight: 3; font-style: normal; font-stretch: normal; unicode-range: U+0-10FFFF; } 
 	 		@font-face {font-family:'HelveticaNeue-Thin'; src: url('fonts/HelveticaNeue-Thin_gdi.eot'); src: url('fonts/HelveticaNeue-Thin_gdi.eot?#iefix') format('embedded-opentype'), url('fonts/HelveticaNeue-Thin_gdi.woff') format('woff'), url('fonts/HelveticaNeue-Thin_gdi.ttf') format('truetype'), url('fonts/HelveticaNeue-Thin_gdi.svg#HelveticaNeue-Thin') format('svg'); font-weight: 100; font-style: normal; font-stretch: normal; unicode-range: U+0020-2212; } 
