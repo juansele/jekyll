@@ -82,14 +82,14 @@ templates['inicio'] = '''
 
 			.titulo-descripcion-main{
 				color: ${color_secundario};
-				font-size: 45px;
+				font-size: 45px !important;
 				text-transform: uppercase;
 				line-height: 51px;
 			}
 
 			.titulo-caracteristica{
 				color: ${color_caracteristica};
-				font-size: 30px;
+				font-size: 30px !important;
 			}
 
 			iframe{
