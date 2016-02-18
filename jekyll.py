@@ -3,7 +3,7 @@
 
 import os
 import json
-import jekyll_templates
+import jekyll_templates_embeber as jekyll_templates
 
 input_json_file = open('fichas.json', 'r')
 input_json_data = json.load(input_json_file)
