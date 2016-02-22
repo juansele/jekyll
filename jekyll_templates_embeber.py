@@ -6,7 +6,6 @@ from string import Template
 templates = {}
 
 templates['inicio'] = '''
-	
 		<!-- ESTILOS DE LA FICHA -->
 		<style type="text/css">
 		
@@ -95,7 +94,7 @@ templates['I-P'] = '''
 										<p class="mett__parrafo">${p_caracteristica}</p>
 									</div>
 									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100  mett__layout-row mett__justify-center mett__align-center mett__order-lg-2 mett__order-md-2 mett__order-sm-1  mett__order-xs-1 mett__order-gt-1 ">
-										<div class="mett__mod-inline mett__cont-circle-number">
+										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>${numero_caracteristica}</div>
 										</div>
 									</div>
@@ -127,7 +126,7 @@ templates['P-I-I'] = '''
 							<div class="mett__mod-p">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mett__mod-texto">
 									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100 mett__layout-row mett__justify-center mett__align-center">
-										<div class="mett__mod-inline mett__cont-circle-number">
+										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>${numero_caracteristica}</div>
 										</div>
 									</div>
@@ -171,7 +170,7 @@ templates['I-IP-I'] = '''
 							<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__mod-p mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mett__mod-texto">
 									<div class="mett__layout-row mett__layout-wrap mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__justify-center mett__align-center">
-										<div class="mett__mod-inline mett__cont-circle-number">
+										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>${numero_caracteristica}</div>
 										</div>
 									</div>
@@ -207,7 +206,7 @@ templates['P-I-num_centro'] = '''
 										<p class="mett__parrafo">${p_caracteristica}</p>
 									</div>
 									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100  mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__order-lg-2 mett__order-md-2 mett__order-sm-1  mett__order-xs-1 mett__order-gt-1">
-										<div class="mett__mod-inline mett__cont-circle-number">
+										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>${numero_caracteristica}</div>
 										</div>
 									</div>
@@ -229,7 +228,7 @@ templates['P-I-num_izq'] = '''
 							<div class="mett__mod-p">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mett__mod-texto">
 									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100  mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
-										<div class="mett__mod-inline mett__cont-circle-number">
+										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>${numero_caracteristica}</div>
 										</div>
 									</div>
@@ -276,7 +275,7 @@ templates['I-P-I'] = '''
 							<div class="mett__mod-p">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mett__mod-texto">
 									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
-										<div class="mett__mod-inline mett__cont-circle-number">
+										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>${numero_caracteristica}</div>
 										</div>
 									</div>
@@ -419,7 +418,6 @@ templates['fin'] = '''
 				</div>
 			</section>
 		</div>
-        
 '''
 
 def generar_ficha(mapa):
