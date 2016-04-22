@@ -1581,8 +1581,8 @@
 				"color_caracteristica": "#4a80af"
 			}],
 			["cabecera", {
-				"nombre_producto": "YOGA TABLET 3 8\"",
-				"subtitulo_cabecera": "UNA TABLETA CON GRANDES INNOVACIONES",
+				"nombre_producto": "Lenovo™ YOGA Tab 3 8\"",
+				"subtitulo_cabecera": "LA DIVERSIÓN NO SE DETIENE CON LA ULTRA PORTABLE YOGA TABLET 3",
 				"logo_lenovo": "../img/OTROS/logo_d07100.png"
 			}],
 			["I-I", {
@@ -1590,8 +1590,14 @@
 				"img_apoyo_2": "../img/TABLETS/YOGA_3_8PUL/IMG_02.png"
 			}],
 			["P", {
-				"t_descripcion_principal": "LA DIVERSIÓN NO SE DETIENE CON LA ULTRA PORTABLE YOGA TABLET 3.",
-				"p_descripcion_principal": "Sumérjete en la música, juega con tus amigos y disfruta contenidos en línea con su increíble pantalla HD."
+				"t_descripcion_principal": "EL MEJOR DISPOSITIVO PORTABLE PARA MULTIMEDIA",
+				"p_descripcion_principal": "Sumérjete en la música, juega con tus amigos y disfruta contenidos en línea con su increíble pantalla HD. Úsala todo el día y dile adiós a los cargadores. La cámara giratoria te permitirá capturar selfies asombrosas. Y con la tecnología AnyPen nunca más tendras que llevar accesorios para escribir o dibujar sobre ella."
+			}],
+			["I-P",{
+				"img_apoyo": "../img/TABLETS/YOGA_3_8PUL/IMG_03.png",
+				"t_caracteristica": "Selfies asombrosas con sucámara giratria de 180° y 8mp.\"",
+				"p_caracteristica": "Deja de preocuparte por la baja resolucion de tu camara frontal. Con Lenovo Yoga Tablet 3 tienes 8MP de gran calidad tanto para 'selfies' y 'groupies' asombrosas como para capturar contenido con la misma camara, que gira 180 grados para adaptarse a lo que tu necesitas.",
+				"numero_caracteristica": "1"
 			}],
 			["Igrande-P-I", {
 				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_03.png",
@@ -1905,4 +1911,5 @@
 			["fin", {}]
 		]
 	}
+
 ]
