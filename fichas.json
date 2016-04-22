@@ -1453,7 +1453,60 @@
 			}],
 			["fin", {}]
 		]
-	}, {
+	}, // fichas en desarrollo
+	{
+		"nombre": "TAB2_A7_30_AZUL",
+		"categoria": "Tablet",
+		"mapa": [
+			["inicio", {
+				"titulo": "TAB2 A7 30",
+				"color_primario": "#ed6b00",
+				"color_secundario": "#c22821",
+				"color_caracteristica": "#4a80af"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO TAB2 A7 30",
+				"subtitulo_cabecera": "AÑADE UNA SIM CARD Y TENDRAS LO MEJOR DE UN PHABLET A TU ALCANCE",
+				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/TABLETS/TAB2_A7_30/IMG_01.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "Una Tablet versatil equipada con sonido Dolby",
+				"p_descripcion_principal": "Versátil, cómoda, para llevar tu música y videos a todas partes. Percibe una experiencia de sonido diferente a través de su sonido envolvente DOLBY. Observa cómo los videos e imágenes cobran vida con su pantalla brillante de 7 pulgadas de visibilidad perfecta y tecnología IPS. Esta tableta, delgada y ligera, viene con un poderoso procesador quad-core, perfecto para todo lo que hagas a donde quiera que vayas. Es tu tiquete al entretenimiento, cuando quieras y a donde vayas."
+			}],
+			["I-P", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "Increiblemente delgada y liviana.La mejor experiencia de Sonido. Poderosa, con respuesta rapida.Totalmente versatil. ",
+				"p_caracteristica": "Si te gusta la música es ideal para ti, ya que te permite escuchar tus canciones favoritas y disfrutar las demás utilidades de tu tablet.",
+				"img_apoyo": "../img/TABLETS/TAB2_A7_30/IMG_06.png"
+			}],
+			["P-I-num_centro", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "MAS QUE UN TABLET, ES UN PHABLET!!!",
+				"p_caracteristica": "Añade una sim card en tu dispositivo y ademas de realizar y recibir llamadas podras mantenerte conectado a donde quiera que vayas, reproducir tu contenido multimedia, streaming, fotos, videos y compartirlos en tus redes sociales.",
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "DISEÑO ÚNICO",
+				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Se adapta de tal manera a tu mano que vas a querer llevarla a todas partes",
+				"img_apoyo": "../img/TABLETS/TAB2_A7_30/IMG_06.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
+			}],
+			["P-I-num_centro", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "PERFECTO PARA MULTIMEDIA",
+				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
+				"img_apoyo": "../img/TABLETS/TAB2_A7_30/IMG_08.png"
+			}],
+			["fin", {}]
+		]
+	},
+	{
 		"nombre": "YOGA_TABLET_3_8",
 		"categoria": "Tablet",
 		"mapa": [
