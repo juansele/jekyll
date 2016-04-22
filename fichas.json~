@@ -1235,8 +1235,8 @@
 			}],
 			["P-I-num_centro", {
 				"numero_caracteristica": "4",
-				"t_caracteristica": "Para todo el día",
-				"p_caracteristica": "La batería de 4250 mAh de Lenovo™ PHAB, durará todo el día.",
+				"t_caracteristica": "Velocidad y conectividad",
+				"p_caracteristica": "Lenovo PHAB cuenta con una velocidad de conectividad 4G LTE que te permitira disfrutar de tus contenidos multimedia al instante.",
 				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_07.png"
 			}],
 			["fin", {}]
