@@ -1593,45 +1593,38 @@
 				"t_descripcion_principal": "EL MEJOR DISPOSITIVO PORTABLE PARA MULTIMEDIA",
 				"p_descripcion_principal": "Sumérjete en la música, juega con tus amigos y disfruta contenidos en línea con su increíble pantalla HD. Úsala todo el día y dile adiós a los cargadores. La cámara giratoria te permitirá capturar selfies asombrosas. Y con la tecnología AnyPen nunca más tendras que llevar accesorios para escribir o dibujar sobre ella."
 			}],
-			["I-P",{
-				"img_apoyo": "../img/TABLETS/YOGA_3_8PUL/IMG_03.png",
+			["P-I-num_izq",{
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_09.png",
 				"t_caracteristica": "Selfies asombrosas con sucámara giratria de 180° y 8mp.\"",
 				"p_caracteristica": "Deja de preocuparte por la baja resolucion de tu camara frontal. Con Lenovo Yoga Tablet 3 tienes 8MP de gran calidad tanto para 'selfies' y 'groupies' asombrosas como para capturar contenido con la misma camara, que gira 180 grados para adaptarse a lo que tu necesitas.",
 				"numero_caracteristica": "1"
 			}],
-			["Igrande-P-I", {
-				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_03.png",
-				"img_apoyo_2": "../img/OTROS/IMG_5.png",
-				"p_caracteristica": "Úsala todo el día y dile adiós a los cargadores. La cámara giratoria te permitirá capturar selfies asombrosas y con la tecnología AnyPen nunca más tendrás que llevar accesorios para escribir o dibujar sobre ella."
-			}],
 			["I-IP-I", {
-				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_04.png",
-				"img_apoyo_2": "../img/TABLETS/YOGA_3_8PUL/IMG_05.png",
-				"img_apoyo_3": "../img/TABLETS/YOGA_3_8PUL/IMG_06.png",
-				"t_caracteristica": "El mejor dispositivo",
-				"p_caracteristica": "portable para multimedia con sonido DOLBY ATMOS",
-				"numero_caracteristica": "1"
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_8PUL/IMG_05.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_8PUL/IMG_07.png",
+				"img_apoyo_3": "../img/NB_YOGA/YOGA_3_8PUL/IMG_06.png",
+				"t_caracteristica": "Tecnología AnyPen para escribir sobre la pantalla con cualquier objeto.",
+				"p_caracteristica": "Escribe, dibuja o interactua con tu tableta usando cualquier objeto metalico como si fuera un lapiz.",
+				"numero_caracteristica": "2"
 			}],
 			["P-I-I", {
 				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_08.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/TABLETS/IMG_09.png",
-				"t_caracteristica": "Selfies asombrosas",
-				"p_caracteristica": "con su cámara giratoria de 180° y 8mp.",
-				"numero_caracteristica": "2"
+				"t_caracteristica": "4 modos que se adaptan a ti.",
+				"p_caracteristica": "Parala, sujetala, inclinala o cuelgala segun prefieras. Trabaja o juega comodamente por horas sin importar en donde te encuentres.",
+				"numero_caracteristica": "3"
 			}],
 			["I-P", {
 				"img_apoyo": "../img/TABLETS/YOGA_3_8PUL/IMG_07.png",
-				"t_caracteristica": "Perfecta visibilidad",
-				"p_caracteristica": "desde cualquier ángulo en su pantalla HD.",
-				"numero_caracteristica": "3"
-			}],
-			["I-IP-I", {
-				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_10.png",
-				"img_apoyo_2": "../img/TABLETS/YOGA_3_8PUL/IMG_12.png",
-				"img_apoyo_3": "../img/TABLETS/YOGA_3_8PUL/IMG_11.png",
-				"t_caracteristica": "Tecnología AnyPen",
-				"p_caracteristica": "para escribir sobre la pantalla con cualquier objeto.",
+				"t_caracteristica": "Asombroso rendimiento de bateria.",
+				"p_caracteristica": "Mas de 18 horas de duracion de bateria.",
 				"numero_caracteristica": "4"
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
+				"icono_caracteristica_2": "../img/OTROS/IMG_1.png",
+				"detalle_caracteristica_1": "Experimenta sonido de 360 grados con los parlantes incorporados Dolby® Atmos",
+				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápido que por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."		
 			}],
 			["fin", {}]
 		]
