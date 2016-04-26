@@ -1607,9 +1607,8 @@
 				"p_caracteristica": "Escribe, dibuja o interactua con tu tableta usando cualquier objeto metalico como si fuera un lapiz.",
 				"numero_caracteristica": "2"
 			}],
-			["P-I-I", {
-				"img_apoyo_1": "../img/OTROS/IMG_5.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_8PUL/IMG_09.png",
+			["P-I-num_izq",{
+				"img_apoyo": "../img/NB_YOGA/YOGA_3_8PUL/IMG_09.png",
 				"t_caracteristica": "4 modos que se adaptan a ti.",
 				"p_caracteristica": "Parala, sujetala, inclinala o cuelgala segun prefieras. Trabaja o juega comodamente por horas sin importar en donde te encuentres.",
 				"numero_caracteristica": "3"
