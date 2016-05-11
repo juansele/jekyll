@@ -44,10 +44,10 @@
 
 		@font-face {
 			font-family: 'Helvetica Neue Thin';
-			src: url('HelveticaNeue-Thin.eot');
-			src: url('HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'),
-				url('HelveticaNeue-Thin.woff') format('woff'),
-				url('HelveticaNeue-Thin.ttf') format('truetype');
+			src: url('fonts/HelveticaNeue-Thin.eot');
+			src: url('fonts/HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'),
+				url('fonts/HelveticaNeue-Thin.woff') format('woff'),
+				url('fonts/HelveticaNeue-Thin.ttf') format('truetype');
 			font-weight: 100;
 			font-style: normal;
 		}
@@ -142,6 +142,7 @@
 
 
 		.mett__text-white{color: rgba(255,255,255,0.7)!important;}
+		.mett__text-center{text-align: center;}
 
 	/* LISTA NAV */
 
@@ -243,17 +244,17 @@
 
 	.mett__mod-info{
 		padding: 2em 0em;
-		height: 225px;
+		min-height: 225px;
 	}
 
 	/* MOD. HOME LINEA */
 
 
 	.mett__deep-base{
-		min-height: 700px;
 		background: url('../img/bg-main.jpg') #0d0c17; 
 		background-repeat: no-repeat;
 		width: 100%;
+		.mixin-transition-all();
 	}
 
 	.mett__cont-first{
@@ -290,6 +291,8 @@
 		z-index: 2;
 		background: rgba(255,255,255,0.2);
 		border-radius: 3px;
+		margin-bottom: 0.4em;
+		.mixin-transition-all();
 		/*  */
 		.mett__pic-caption{
 			opacity: 0;
@@ -360,7 +363,7 @@
 		background: #d32a1f;
 		width: 50px;
 		height: 50px;
-		margin: 0em 1em;
+		margin: 1.5em 0.5em;
 		.mett__cont-icon-social{
 			color: white;
 			font-size: 18px;
