@@ -94,11 +94,11 @@
 
     $.fn.fullpage = function(options) {
         //only once my friend!
-        if($('#mett__container-to-embed').hasClass(ENABLED)){ displayWarnings(); return };
+        if($('html').hasClass(ENABLED)){ displayWarnings(); return };
 
         // common jQuery objects
-        var $htmlBody = $('#mett__container-to-embed');
-        var $body = $('#mett__container-to-embed');
+        var $htmlBody = $('html, body');
+        var $body = $('body');
 
         var FP = $.fn.fullpage;
         // Create some defaults, extending them with any options that were provided
