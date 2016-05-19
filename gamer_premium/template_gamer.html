@@ -8,30 +8,90 @@
 		<link rel="stylesheet" type="text/css" href="lib/bower_components/venobox/dist/venobox.css">
 		<link rel="stylesheet" type="text/css" href="css/mett__grid.css">
 		<link rel="stylesheet" type="text/css" href="css/gamer_style.css">
+
+		<script type="text/javascript" src="lib/bower_components/scrollreveal/dist/scrollreveal.js"></script>
+		<script>
+			window.sr = ScrollReveal();
+			// Add class to <html> if ScrollReveal is supported
+			if (sr.isSupported()) {
+				document.documentElement.classList.add('sr');
+			}
+		</script>
+
+		<style>
+			/* Ensure elements load hidden before ScrollReveal runs */
+			.sr .reveal-left { visibility: hidden; }
+		</style>
+    
 	</head>
 	<body>
 		<div style="width: 1170px;margin-right: auto;margin-left: auto;">
 			<h1 style="text-align:center;text-transform:uppercase">modulos página exito</h1>
 			<br>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-			<br>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-			<br>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-			<br>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-			<br>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-			<br>
+			<h3>Test de animaciones Scrollreveal</h3>
+			<div class="mett__layout-row" style="margin:2em 0em;">	
+				<div class="mett__flex-lg-25">
+					<div class="reveal-left">
+						<p>izquerda a derecha</p>
+					</div>
+
+					<div class="reveal-left">
+						<p>izquerda a derecha</p>
+					</div>
+
+					<div class="reveal-left">
+						<p>derecha a izquerda</p>
+					</div>
+				</div>
+				<div class="mett__flex-lg-25">
+					<div class="reveal-right">
+						<p>derecha a izquerda</p>
+					</div>
+
+					<div class="reveal-right">
+						<p>derecha a izquerda</p>
+					</div>
+
+					<div class="reveal-right">
+						<p>derecha a izquerda</p>
+					</div>
+				</div>
+
+				<div class="mett__flex-lg-25">
+					<div class="reveal-top">
+						<p>derecha a izquerda</p>
+					</div>
+
+					<div class="reveal-top">
+						<p>derecha a izquerda</p>
+					</div>
+
+					<div class="reveal-top">
+						<p>derecha a izquerda</p>
+					</div>
+				</div>
+
+				<div class="mett__flex-lg-25">
+					<div class="reveal-bottom">
+						<p>derecha a izquerda</p>
+					</div>
+
+					<div class="reveal-bottom">
+						<p>derecha a izquerda</p>
+					</div>
+
+					<div class="reveal-bottom">
+						<p>derecha a izquerda</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div style="width: 1170px;margin-right: auto;margin-left: auto;">
 			<section id="mett__container-to-embed">
 				
 				<!-- Nav -->
 				<nav class="mett__nav mett__layout-row">
-					<div class="mett__flex-lg-10 mett__layout-row mett__justify-end">
-							<!-- <img width="65px" height="195px" src="img/logo_lenovo.png"> -->
-					</div>
+					<div class="mett__flex-lg-10 mett__layout-row mett__justify-end"></div>
 					<div class="mett__flex-lg-80 mett__layout-row">
 						<div class="mett__flex-lg-40">
 							<img style="width: 220px; padding: 0.8em 0em;" src="img/logo.svg">
@@ -164,15 +224,15 @@
 
 		<footer style="height:150px;background:#0d0c17"></footer>
 
-		<!-- IMportación de dependencias [jquery, jquery.fullpage] -->
+		<!-- Importación de dependencias [jquery, jquery.fullpage] -->
 
 		<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
 		<script type="text/javascript" src="lib/bower_components/fullpage.js/dist/jquery.fullpage.js"></script>
 		<script type="text/javascript" src="lib/bower_components/venobox/dist/venobox.min.js"></script>
+		
 
 		<script type="text/javascript">
 			$(document).ready(function() {
-			   //$('#fullpage').fullpage();
 
 			   $('#fullpage').fullpage({
 				    menu: '#mainMenu',
@@ -181,22 +241,30 @@
 				    navigation: true,
 				});
 
-			   //modal video
+			   //Modal video
 			  
 	   			 $('.venobox').venobox({
-	   			 	framewidth: '640px',        // default: ''
-	        		frameheight: '480px',       // default: ''
+	   			 	framewidth: '640px', 
+	        		frameheight: '480px',
 	   			 }); 
 
+	   			//Modal galería imágenes
 	   			 $('.venobox_gallery').venobox({
-	   			 	framewidth: '700px',        // default: ''
-	        		frameheight: '423px',       // default: ''
+	   			 	framewidth: '700px', 
+	        		frameheight: '423px',
 	   			 });
 
 			});
-
-
 		</script>
+
+		
+		<script>
+		  sr.reveal('.reveal-left', {  origin: 'left', reset: 'true', distance: '100px', duration: '1500'});
+		  sr.reveal('.reveal-right', {  origin: 'right', reset: 'true', distance: '100px', duration: '1500'});
+		  sr.reveal('.reveal-top', {  origin: 'top', reset: 'true', distance: '100px', duration: '1500'});
+		  sr.reveal('.reveal-bottom', {  origin: 'bottom', reset: 'true', distance: '100px', duration: '1500'});
+		</script>
+		
 
 	</body>
 
