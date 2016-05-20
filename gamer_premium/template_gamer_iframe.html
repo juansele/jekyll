@@ -11,6 +11,7 @@
 
 		<link rel="stylesheet" type="text/css" href="lib/bower_components/fullpage.js/dist/jquery.fullpage.css">
 
+		<link rel="stylesheet" type="text/css" href="lib/bower_components/animate.css/animate.css">
 
 		<link rel="stylesheet" type="text/css" href="lib/bower_components/venobox/dist/venobox.css">
 
@@ -18,23 +19,9 @@
 
 		<link rel="stylesheet" type="text/css" href="css/gamer_style.css">
 
-
-		<script type="text/javascript" src="lib/bower_components/scrollreveal/dist/scrollreveal.js"></script>
-		
-		<script>
-			window.sr = ScrollReveal();
-			// Add class to <html> if ScrollReveal is supported
-			if (sr.isSupported()) {
-				document.documentElement.classList.add('sr');
-			}
-		</script>
-
-		<style>
-			/* Ensure elements load hidden before ScrollReveal runs */
-			.sr .reveal-left { visibility: hidden; }
-		</style>
-    
+	
 	</head>
+
 
 	<body>
 
@@ -101,8 +88,12 @@
 
 			<section class="fullpage" id="fullpage">
 
+				<!--   -->
+				<!-- PRIMERA SECCIÓN -->
+				<!--   -->
 
-				<div class="section" data-anchor="firstPage" id="mett__presentation">
+
+				<div class="section s1" data-anchor="firstPage" id="mett__presentation">
 					<div class="mett__layout-row">
 
 						<div class="mett__flex-lg-10"></div>
@@ -150,7 +141,7 @@
 								
 							</div>
 
-							<div class="mett__flex-lg-60 reveal-right">
+							<div class="mett__flex-lg-60  animated fadeInRight">
 
 								<img style="width:100%" src="img/lenovo-ideacentre-y900.png">
 
@@ -164,45 +155,52 @@
 
 				</div>
 
+				<!--   -->
+				<!-- SEGUNDA SECCIÓN -->
+				<!--   -->
 
-				<div class="section" data-anchor="secondPage" id="mett__section2">
-					<div class="mett__layout-row">
+				<div class="section s2" data-anchor="secondPage" id="mett__section2">
 
-						<div class="mett__flex-lg-10"></div>
+					<div class="mett__cont-base-flex mett__layout-row mett__justify-center mett__layout-wrap">
 
-						<div class="mett__flex-lg-80 mett__layout-row mett__justify-space-between">
+						<div class="mett__animated mett__flex-lg-80 mett__layout-row mett__justify-center">
+							
+								<h1 class="mett__text-center mett__title-main" style="color:rgba(253,21,16,0.7);font-size: 48px;margin: 0.8em 0em;line-height:45px; text-align:center;">POTENCIA DISEÑADA PARA TÍ</h1>
 
-							<div class="mett__flex-lg-100">
+						</div>
 
-								<h1 class="mett__text-center mett__title-main" style="color:rgba(253,21,16,0.7);font-size: 48px;margin: 0.8em 0em;line-height:45px;">POTENCIA DISEÑADA PARA TÍ</h1>
+						<div class="mett__cont-base-flex mett__flex-lg-80 mett__layout-row mett__justify-space-between">
 
-								<div class="mett__layout-row">
-									<div class="mett__content-fature mett__text-center">
-										<div>PROCESADOR</div>
-										<div style="font-family:'Lenovo Do bold';font-size:25px;"> Intel® Quad-Core i7 K</div>
-									</div>
-									<div class="mett__content-fature mett__text-center">
-										<div>GRAFICOS</div>
-										<div style="font-family:'Lenovo Do bold';font-size:25px;">NVIDIA GTX 980 4GB</div>
-									</div>
-									<div class="mett__content-fature mett__text-center">
-										<div>RAM</div>
-										<div style="font-family:'Lenovo Do bold';font-size:25px;">32 GB (4 DIMM Slots) DDR4</div>
-									</div>
-									<div class="mett__content-fature mett__text-center">
-										<div>DISCO DURO</div>
-										<div style="font-family:'Lenovo Do bold';font-size:25px;">2TB + 8GB SSHD with 256GB SSD</div>
-									</div>
+							
+								
+								<div class="mett__animated mett__content-fature mett__text-center">
+									<div>PROCESADOR</div>
+									<div class="title-f"> Intel® Quad-Core i7 K</div>
 								</div>
-							</div>
+
+								<div class="mett__animated mett__content-fature mett__text-center">
+									<div>GRAFICOS</div>
+									<div class="title-f">NVIDIA GTX 980 4GB</div>
+								</div>
+
+								<div class="mett__animated mett__content-fature mett__text-center">
+									<div>RAM</div>
+									<div class="title-f">32 GB (4 DIMM Slots) DDR4</div>
+								</div>
+
+								<div class="mett__animated mett__content-fature mett__text-center">
+									<div>DISCO DURO</div>
+									<div class="title-f">2TB + 8GB SSHD with 256GB SSD</div>
+								</div>
+								
 							
 						</div>
-						<div class="mett__flex-lg-10"></div>
+					
 					</div>
 				</div>
 
 
-				<div class="section" data-anchor="thirdPage">
+				<div class="section s1" data-anchor="thirdPage">
 					<div class="mett__layout-row">
 						<div class="mett__flex-lg-10"></div>
 						<div class="mett__flex-lg-80 mett__layout-row">
@@ -211,13 +209,13 @@
 								<p class="mett__p">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
 							</div>
 						</div>
-						<div class="mett__flex-lg-10"></div>
+						
 					</div>
 				</div>
 
 
-				<div class="section" data-anchor="fourthPage">
-					<div class="mett__layout-row">
+				<div class="section s1" data-anchor="fourthPage">
+					<div class="mett__layout-row mett__justify-center">
 						<div class="mett__flex-lg-10"></div>
 						<div class="mett__flex-lg-80 mett__layout-row">
 							<div class="mett__flex-lg-50">
@@ -248,37 +246,49 @@
 
 			$(document).ready(function() {
 
+				var $AnimatedSecond = $('.s2 .mett__cont-base-flex .mett__animated');
+				console.log($AnimatedSecond)
+
 			   $('#fullpage').fullpage({
-				    menu: '#mainMenu',
-				    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
-				    navigationTooltips: ['Generalidades', 'Descripción', 'Especificaciones', 'Cambios y devoluciones'],
-				    navigation: true,
+					menu: '#mainMenu',
+					anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+					navigationTooltips: ['Generalidades', 'Descripción', 'Especificaciones', 'Cambios y devoluciones'],
+					navigation: true,
+					onLeave: function(index, nextIndex, direction){
+							
+							 // first animation
+							  if( index == 1 && nextIndex == 2 ) { 
+								
+								$AnimatedSecond.addClass('animated fadeInUp fadeIn');
+								$AnimatedSecond.eq(0).css('animation-delay', '.1s');
+						        $AnimatedSecond.eq(1).css('animation-delay', '.2s');
+						        $AnimatedSecond.eq(2).css('animation-delay', '.3s');
+						        $AnimatedSecond.eq(3).css('animation-delay', '.4s');
+						        $AnimatedSecond.eq(4).css('animation-delay', '.5s');
+							   // $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
+							  }
+
+						}
+				   
 				});
 
 			   //Modal video
 			  
-	   			 $('.venobox').venobox({
-	   			 	framewidth: '640px', 
-	        		frameheight: '480px',
-	   			 }); 
+				 $('.venobox').venobox({
+					framewidth: '640px', 
+					frameheight: '480px',
+				 }); 
 
-	   			//Modal galería imágenes
-	   			 $('.venobox_gallery').venobox({
-	   			 	framewidth: '700px', 
-	        		frameheight: '423px',
-	   			 });
+				//Modal galería imágenes
+				 $('.venobox_gallery').venobox({
+					framewidth: '700px', 
+					frameheight: '423px',
+				 });
+
+
+
 
 			});
-		</script>
-
-		
-		<!--parámetros de las animaciones-->
-
-		<script>
-			sr.reveal('.reveal-left', {  origin: 'left', reset: 'true', distance: '100px', duration: '1500'}, 500);
-			sr.reveal('.reveal-right', {  origin: 'right', reset: 'true', distance: '100px', duration: '1500'});
-			sr.reveal('.reveal-top', {  origin: 'top', reset: 'true', distance: '100px', duration: '1500'});
-			sr.reveal('.reveal-bottom', {  origin: 'bottom', reset: 'true', distance: '100px', duration: '1500'});
 		</script>
 	
 
