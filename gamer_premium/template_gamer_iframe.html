@@ -31,56 +31,89 @@
 			<!-- Navigator -->
 			<nav class="mett__nav mett__layout-row">
 
-				<div class="mett__flex-lg-10 mett__layout-row mett__justify-end"></div>
+				<div class="mett__flex-lg-10 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5 mett__layout-row mett__justify-end"></div>
 
-				<div class="mett__flex-lg-80 mett__layout-row">
+				<div class="mett__flex-lg-80 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90 mett__layout-row">
 
-					<div class="mett__flex-lg-40">
+					<div class="mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-40">
 
 						<img class="mett__logo-main" src="img/logo.svg">
 
 					</div>
 
-					<div class="mett__flex-lg-60">
+					<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-70 mett__flex-xs-70 mett__flex-gt-60 mett__layout-row mett__justify-end mett__align-center">
 
-						<ul id="mainMenu" class="mett__layout-row mett__justify-space-between">
-							<li data-menuanchor="firstPage" class="mett__li active">
+						<!-- NAVIGATOR PRIMARIO -->
+						<div class="mett__flex-lg-show mett__flex-md-show mett__flex-sm-hide mett__flex-xs-hide mett__flex-gt-hide" style="width:100%;">
+							
+							<ul id="mainMenu" class="mett__layout-row mett__justify-space-between">
+								<li data-menuanchor="firstPage" class="mett__li active">
 
-								<a href="#firstPage">Overview</a>
+									<a href="#firstPage">Overview</a>
 
-							</li>
+								</li>
 
-							<li data-menuanchor="secondPage" class="mett__li">
+								<li data-menuanchor="secondPage" class="mett__li">
 
-								<a href="#secondPage">Technical</a>
+									<a href="#secondPage">Technical</a>
 
-							</li>
+								</li>
 
-							<li data-menuanchor="thirdPage" class="mett__li">
+								<li data-menuanchor="thirdPage" class="mett__li">
 
-								<a href="#thirdPage">Especifications</a>
+									<a href="#thirdPage">Especifications</a>
 
-							</li>
+								</li>
 
-							<li data-menuanchor="fourthPage" class="mett__li">
+								<li data-menuanchor="fourthPage" class="mett__li">
 
-								<a href="#fourthPage">Related</a>
+									<a href="#fourthPage">Related</a>
 
-							</li>
+								</li>
 
-							<li class="mett__li">
+								<li class="mett__li">
 
-								<a href="#" class="mett__btn-comprar"><i class="icon-shop"></i> Comprar</a>
+									<a href="#" class="mett__btn-comprar"><i class="icon-shop"></i> Comprar</a>
 
-							</li>
+								</li>
 
-						</ul>
+							</ul>
+
+						</div>
+
+
+						<!-- NAVIGATOR SECUNDARIO TABLETAS Y TELEFONOS -->
+						<div class="mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-show mett__flex-xs-show mett__flex-gt-show" style="width:100%;">
+
+							<div class="mett__layout-row mett__justify-end mett__align-center">
+
+								<div>
+
+									<a href="#" class="mett__btn-comprar expander">menu</a>
+
+								</div>
+
+							</div>
+
+							<div class="mett__lista-nav-small mett__flex-sm-100" id="list-menu">
+
+								<a href="#firstPage"><div class="mett__item-lista">Overview</div></a>
+
+								<a href="#secondPage"><div class="mett__item-lista">Technical</div></a>
+
+								<a href="#thirdPage"><div class="mett__item-lista">Especifications</div></a>
+
+								<a href="#fourthPage"><div class="mett__item-lista">Related</div></a>
+
+							</div>
+
+						</div>
 
 					</div>
 
 				</div>
 
-				<div class="mett__flex-lg-10"></div>
+				<div class="mett__flex-lg-10 mett__flex-md-5 mett__flex-xs-5 mett__flex-gt-5"></div>
 
 			</nav>
 			
@@ -96,52 +129,60 @@
 				<div class="section s1" data-anchor="firstPage" id="mett__presentation">
 					<div class="mett__layout-row">
 
-						<div class="mett__flex-lg-10"></div>
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
 
-						<div class="mett__flex-lg-80 mett__layout-row mett__layout-wrap">
+						<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90 mett__layout-row mett__justify-center mett__align-center mett__layout-wrap">
 
-							<div class="mett__flex-lg-40 mett__layout-row mett__align-center">
+							<!-- Contenedor info -->
+							<div class="mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-60 mett__flex-xs-80 mett__layout-row mett__align-center animated fadeIn mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2 mett__transition-all">
 
-								<div class="mett__flex-lg-90">
+								<div class="mett__flex-lg-90 mett__flex-md-90">
 
 									
-									<h1 class="mett__title-product-init">
-										
+									<h1 class="mett__title-product-init mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
+										<!-- Nombre producto -->
 										lenovo Y900
 
 									</h1>
 
-									<div class="mett__line-divider-small"></div>
-									<br>
-									<p class="mett__p_white">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestia.</p>
+									<div class="mett__line-divider-small mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">_____</div>
+									
+									<p class="mett__p_white mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
+										<!-- Descripción corta -->
+										At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.
+
+									</p>
 									
 									<br>
 
 									<!-- acceso para abrir galeria -->
-									<a class="mett__btn-line-red venobox_gallery" data-gall="myGallery" href="img/gallery/big_y900_01.jpg">
-										<i class="icon-images"></i> Ver galeria
-									</a>
+									<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
+										<a class="mett__btn-line-red venobox_gallery" data-gall="myGallery" href="img/gallery/big_y900_01.jpg">
+											<i class="icon-images"></i> Ver galeria
+										</a>
 
-									<!-- fotos galería producto -->
+										<!-- fotos galería producto -->
 
-									<a class="venobox_gallery" data-gall="myGallery" href="img/gallery/big_y900_02.jpg"></a>
+										<a class="venobox_gallery" data-gall="myGallery" href="img/gallery/big_y900_02.jpg"></a>
 
-									<a class="venobox_gallery" data-gall="myGallery" href="img/gallery/big_y900_03.jpg"></a>
+										<a class="venobox_gallery" data-gall="myGallery" href="img/gallery/big_y900_03.jpg"></a>
 
-									<a class="venobox_gallery" data-gall="myGallery" href="img/gallery/big_y900_04.jpg"></a>
+										<a class="venobox_gallery" data-gall="myGallery" href="img/gallery/big_y900_04.jpg"></a>
 
-									<!-- acceso para abrir video del producto -->
+										<!-- acceso para abrir video del producto -->
 
-									<a class="mett__btn-line-red venobox" data-type="iframe" href="https://www.youtube.com/embed/0Qq5F2Qg5Js" style="margin-left:2em;">
+										<a class="mett__btn-line-red venobox" data-type="iframe" href="https://www.youtube.com/embed/0Qq5F2Qg5Js" style="margin-left:2em;">
 
-										<i class="icon-play"></i> Ver video
-									</a>
+											<i class="icon-play"></i> Ver video
+										</a>
+									</div>
 
 								</div>
 								
 							</div>
 
-							<div class="mett__flex-lg-60  animated fadeInRight">
+							<!-- foto presentación del procucto -->
+							<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-60 animated fadeInRight mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1 mett__transition-all">
 
 								<img style="width:100%" src="img/lenovo-ideacentre-y900.png">
 
@@ -149,7 +190,7 @@
 
 						</div>
 
-						<div class="mett__flex-lg-10"></div>
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
 
 					</div>
 
@@ -163,36 +204,36 @@
 
 					<div class="mett__cont-base-flex mett__layout-row mett__justify-center mett__layout-wrap">
 
-					<div class="mett__animated mett__flex-lg-80 mett__layout-row mett__justify-center">
-						<img src="img/light_gamer.png" style="width:100px; height:104px;">
-					</div>
+						<div class="mett__animated mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__layout-row mett__justify-center">
+							<img src="img/light_gamer.png" style="width:100px; height:104px;">
+						</div>
 
-						<div class="mett__animated mett__flex-lg-80 mett__layout-row mett__justify-center" style="margin-bottom: 4em;">
+						<div class="mett__animated mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__layout-row mett__justify-center" style="margin-bottom: 4em;">
 							
-								<h1 class="mett__text-center mett__title-main" style="color: rgba(253,21,16,0.7);font-size: 34px;margin: 0.8em 0em;/* line-height: 24px; */text-align: center;">POTENCIA & DISEÑO</h1>
+								<h1 class="mett__text-center mett__title-main" style="color: rgba(253,21,16,0.7);font-size: 34px;margin: 0.8em 0em;line-height: 1em;/* line-height: 24px; */text-align: center;">POTENCIA & DISEÑO</h1>
 
 						</div>
 
-						<div class="mett__cont-base-flex mett__flex-lg-80 mett__layout-row mett__justify-space-between">
+						<div class="mett__cont-base-flex mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__layout-row mett__justify-space-between mett__layout-wrap">
 
 							
-								
-								<div class="mett__animated mett__content-fature mett__text-center mett__flex-lg-25">
+								<!-- caracteristicas principales -->	
+								<div class="mett__animated mett__content-fature mett__text-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-50 mett__flex-xs-100 mett__transition-all">
 									<div>PROCESADOR</div>
 									<div class="title-f"> Intel® Quad-Core i7 K</div>
 								</div>
 
-								<div class="mett__animated mett__content-fature mett__text-center mett__flex-lg-25">
+								<div class="mett__animated mett__content-fature mett__text-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-50 mett__flex-xs-100 mett__transition-all">
 									<div>GRAFICOS</div>
 									<div class="title-f">NVIDIA GTX 980 <br> 4GB</div>
 								</div>
 
-								<div class="mett__animated mett__content-fature mett__text-center mett__flex-lg-25">
+								<div class="mett__animated mett__content-fature mett__text-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-50 mett__flex-xs-100 mett__transition-all">
 									<div>RAM</div>
 									<div class="title-f">32 GB (4 DIMM Slots) DDR4</div>
 								</div>
 
-								<div class="mett__animated mett__content-fature mett__text-center mett__flex-lg-25">
+								<div class="mett__animated mett__content-fature mett__text-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-50 mett__flex-xs-100 mett__transition-all">
 									<div>DISCO DURO</div>
 									<div class="title-f">2TB + 8GB SSHD <br> with 256GB SSD</div>
 								</div>
@@ -204,40 +245,61 @@
 				</div>
 
 
-				<div class="section s1" data-anchor="thirdPage" id="mett__section3">
-					<div class="mett__layout-row">
-						<div class="mett__flex-lg-10"></div>
-						<div class="mett__flex-lg-80 mett__layout-row">
-							<div class="mett__flex-lg-40">
-								<h1 style="color: rgba(253,21,16,0.7);font-size: 34px;margin: 0.8em 0em;/* line-height: 24px; */">NVIDIA GTX 980 DE 4GB</h1>
+				<div class="section s3" data-anchor="thirdPage" id="mett__section3">
+					
+					<div class="mett__cont-base-flex mett__layout-row">
+
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10"></div>
+
+						<div class="mett__animated mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__layout-row mett__transition-all mett__layout-wrap">
+							
+							<div class="mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-sm-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs">
+								
+								<h1 style="color: rgba(253,21,16,0.7);font-size: 34px;margin: 0.8em 0em;line-height: 1em;">NVIDIA GTX 980 DE 4GB</h1>
 								<p class="mett__p_white">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias. </p>
 
-								<img src="img/nvidia_sli_led_bridges.jpg">
+								<div class="">
+									<img style="width:90%;max-width: 380px;" src="img/geforce-gtx-980-front.png">
+								</div>
+
 							</div>
 
-							<div style="position:absolute;right:0;top: 0;height:100%; min-height: 500px; width:52%; background-image: url('img/games/monitor-gaming.png'); background-size:cover;">
+							<div class="mett__animated mett__flex-lg-show mett__flex-md-show mett__flex-sm-hide mett__flex-xs-hide" style="    position: absolute;right: -150px;height: 100%;min-height: 567px;width: 53%;background-image: url('img/games/monitor-gaming.png'); background-size:cover;">
 								
+							</div>
+						</div>
+
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10"></div>
+						
+					</div>
+
+				</div>
+
+
+				<div class="section s4" data-anchor="fourthPage" id="mett__section3">
+					
+					<div class="mett__cont-base-flex mett__layout-row">
+
+						<div class="mett__flex-lg-10 mett__flex-md-10"></div>
+
+						<div class="mett__animated mett__flex-lg-90 mett__flex-md-90 mett__layout-row mett__layout-wrap">
+							
+							<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-100" style="border: 1px solid red;">
+								<div class="mett__animated" style="position:absolute;left:0;top: 52px;height:100%; min-height: 500px; width:48%; background-image: url('img/games/monitor-gaming.png'); background-size:cover;">
+									
+								</div>
+							</div>
+							<div class="mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-100" style="border: 1px solid red;">
+								<h1 style="color: rgba(253,21,16,0.7);font-size: 34px;margin: 0.8em 0em;">NVIDIA GTX 980 DE 4GB</h1>
+								<p class="mett__p_white">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias. </p>
+
+								<div class="mett__text-center">
+									<img style="width:90%;" src="img/geforce-gtx-980-front.png">
+								</div>
 							</div>
 						</div>
 						
 					</div>
-
-					
-				</div>
-
-
-				<div class="section s1" data-anchor="fourthPage">
-					<div class="mett__layout-row mett__justify-center">
-						<div class="mett__flex-lg-10"></div>
-						<div class="mett__flex-lg-80 mett__layout-row">
-							<div class="mett__flex-lg-50">
-								<h1>Section 4</h1>
-								<p class="mett__p">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </p>
-							</div>
-						</div>
-						<div class="mett__flex-lg-10"></div>
-					</div>
-				</div>
 			</section>
 		</section>
 		
@@ -247,21 +309,11 @@
 
 		<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
 
-		<script type="text/javascript" src="lib/bower_components/fullpage.js/dist/jquery.fullpage.js"></script>
+		<script>
+			if (screen && screen.width > 768) {
+				document.write('<script type="text/javascript" src="http://your-file-path/fullpage.js"><\/script>');
 
-		<script type="text/javascript" src="lib/bower_components/venobox/dist/venobox.min.js"></script>
-
-		
-		<!-- Instrucciones de jquery -->
-
-		<script type="text/javascript">
-
-			$(document).ready(function() {
-
-				var $AnimatedSecond = $('.s2 .mett__cont-base-flex .mett__animated');
-				console.log($AnimatedSecond)
-
-			   $('#fullpage').fullpage({
+				 $('#fullpage').fullpage({
 					menu: '#mainMenu',
 					anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
 					navigationTooltips: ['Generalidades', 'Descripción', 'Especificaciones', 'Cambios y devoluciones'],
@@ -279,11 +331,32 @@
 						        $AnimatedSecond.eq(4).css('animation-delay', '.5s');
 						        $AnimatedSecond.eq(5).css('animation-delay', '.6s');
 							   // $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
+							  
+
+							  } else if ( ( index == 1 || index == 2) && nextIndex == 3 ) {
+							  	$AnimatedThird.addClass('animated fadeInRight fadeIn');
+							  	
 							  }
 
 						}
 				   
 				});
+			}
+		</script>
+
+		<script type="text/javascript" src="lib/bower_components/venobox/dist/venobox.min.js"></script>
+
+		
+		<!-- Instrucciones de jquery -->
+
+		<script type="text/javascript">
+
+			$(document).ready(function() {
+
+				var $AnimatedSecond = $('.s2 .mett__cont-base-flex .mett__animated');
+				var $AnimatedThird = $('.s3 .mett__cont-base-flex .mett__animated');
+
+			  
 
 			   //Modal video
 			  
@@ -299,12 +372,20 @@
 				 });
 
 
-
-
+				
 			});
 		</script>
 	
+		<script type="text/javascript">
+			$(function () {
+				 //toogle function open menu
+					$('#list-menu').hide();
+				  $('.expander').on('click', function() {
 
+				        $('#list-menu').toggle('slow');
+				   });
+			});
+		</script>
 	</body>
 
 </html>

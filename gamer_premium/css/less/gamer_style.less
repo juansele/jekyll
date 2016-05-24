@@ -197,7 +197,9 @@
 
 		p.mett__p_white{
 			color: rgba(255,255,255,0.7);
-			font-family: @fuente-h-light;
+			font-family: @fuente-lenovo-regular;
+			font-size: 18px;
+			line-height: 1.6em;
 		}
 
 
@@ -224,7 +226,7 @@
 			font-family: @fuente-lenovo-medium;
 		}
 
-		li.mett__li a.mett__btn-comprar{
+		 a.mett__btn-comprar{
 			text-decoration: none;
 			color: rgba(255,255,255,1);
 			background: #d32a1f;
@@ -302,7 +304,8 @@
 		}
 
 		.mett__logo-main{
-			width: 220px; 
+			min-width: 170px;
+			max-width: 220px; 
 			padding: 0.8em 0em;
 		}
 
@@ -316,7 +319,9 @@
 
 
 		.mett__line-divider-small{
-			height:3px; background:#d32a1f;width:40px;
+			color:red;
+			font-family: @fuente-lenovo-bold;
+			font-weight: bold;
 		}
 
 
@@ -326,4 +331,41 @@
 
 		.title-f{
 			font-family:'Lenovo Do bold';font-size:20px;
+		}
+
+		.mett__transition-all{
+			transition: all 0.8s ease;
+			-webkit-transition: all 0.8s ease;
+			-moz-transition: all 0.8s ease;
+			-ms-transition: all 0.8s ease;
+			-o-transition: all 0.8s ease;
+		}
+
+		.mett__lista-nav-small{
+			position: absolute;
+			width: 100%;
+			top: 58px;
+			left: 0;
+			background: #1B1B1B;
+			padding: 1.5em 0em;
+			a{
+				text-decoration: none;
+				.mett__item-lista{
+					background: #1B1B1B;
+					color: rgba(255,255,255,0.8);
+					padding: 1em 2em;
+					font-family: @fuente-lenovo-medium;
+					border-bottom: 1px solid #252424;
+					cursor: pointer;
+				}
+				.mett__item-lista:hover{
+					background: #232222;
+				}
+				
+			}
+		}
+
+
+		.open-list-menu-small{
+			border: 1px solid red;
 		}
