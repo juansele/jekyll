@@ -121,6 +121,7 @@
 
 			<section class="fullpage" id="fullpage">
 
+
 				<!--   -->
 				<!-- PRIMERA SECCIÓN -->
 				<!--   -->
@@ -284,19 +285,7 @@
 
 						<div class="mett__animated mett__flex-lg-90 mett__flex-md-90 mett__layout-row mett__layout-wrap">
 							
-							<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-100" style="border: 1px solid red;">
-								<div class="mett__animated" style="position:absolute;left:0;top: 52px;height:100%; min-height: 500px; width:48%; background-image: url('img/games/monitor-gaming.png'); background-size:cover;">
-									
-								</div>
-							</div>
-							<div class="mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-100" style="border: 1px solid red;">
-								<h1 style="color: rgba(253,21,16,0.7);font-size: 34px;margin: 0.8em 0em;">NVIDIA GTX 980 DE 4GB</h1>
-								<p class="mett__p_white">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias. </p>
-
-								<div class="mett__text-center">
-									<img style="width:90%;" src="img/geforce-gtx-980-front.png">
-								</div>
-							</div>
+							
 						</div>
 						
 					</div>
@@ -305,11 +294,44 @@
 		
 
 
-		<!-- Importación de dependencias [jquery, jquery.fullpage] -->
+		<!-- IMPORTACIÓN DE DEPENDENCIAS -->
+
+		<!-- Librería Jquery -->
 
 		<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
 
-		<script>
+		<!-- Librería para  -->
+
+		<script type="text/javascript" src="lib/bower_components/venobox/dist/venobox.min.js"></script>
+
+		<!-- galería de fotos y videos -->
+
+		<script type="text/javascript">
+
+			$(document).ready(function() {
+
+			   //Modal video
+			  
+				 $('.venobox').venobox({
+					framewidth: '640px', 
+					frameheight: '480px',
+				 }); 
+
+				//Modal galería imágenes
+				 $('.venobox_gallery').venobox({
+					framewidth: '700px', 
+					frameheight: '423px',
+				 });
+				
+			});
+		</script>
+
+		<!-- Validación aplicación de libraría fullpage para resoluciones mayores a 768px (Tabletas) -->
+
+		<!-- Se realiza esta validación por Legibilidad de información en Phones -->
+		
+		<script type="text/javascript">
+
 			if (screen && screen.width > 768) {
 
 				console.log(screen)
@@ -328,62 +350,30 @@
 						navigation: true,
 						onLeave: function(index, nextIndex, direction){
 								
-								 // first animation
-								  if( index == 1 && nextIndex == 2 ) { 
-									
-									$AnimatedSecond.addClass('animated fadeInUp fadeIn');
-									$AnimatedSecond.eq(0).css('animation-delay', '.1s');
-							        $AnimatedSecond.eq(1).css('animation-delay', '.2s');
-							        $AnimatedSecond.eq(2).css('animation-delay', '.3s');
-							        $AnimatedSecond.eq(3).css('animation-delay', '.4s');
-							        $AnimatedSecond.eq(4).css('animation-delay', '.5s');
-							        $AnimatedSecond.eq(5).css('animation-delay', '.6s');
-								   // $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
-								  
+						// first animation
+						if( index == 1 && nextIndex == 2 ) { 
 
-								  } else if ( ( index == 1 || index == 2) && nextIndex == 3 ) {
-								  	$AnimatedThird.addClass('animated fadeInRight fadeIn');
-								  	
-								  }
+							$AnimatedSecond.addClass('animated fadeInUp fadeIn');
+							$AnimatedSecond.eq(0).css('animation-delay', '.1s');
+							$AnimatedSecond.eq(1).css('animation-delay', '.2s');
+							$AnimatedSecond.eq(2).css('animation-delay', '.3s');
+							$AnimatedSecond.eq(3).css('animation-delay', '.4s');
+							$AnimatedSecond.eq(4).css('animation-delay', '.5s');
+							$AnimatedSecond.eq(5).css('animation-delay', '.6s');
+							// $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
 
+
+							} else if ( ( index == 1 || index == 2) && nextIndex == 3 ) {
+								$AnimatedThird.addClass('animated fadeInRight fadeIn');
+								
 							}
-					   
+						}
 					});
 				});
 			}
 		</script>
 
-		<script type="text/javascript" src="lib/bower_components/venobox/dist/venobox.min.js"></script>
-
-		
-		<!-- Instrucciones de jquery -->
-
-		<script type="text/javascript">
-
-			$(document).ready(function() {
-
-				
-
-			  
-
-			   //Modal video
-			  
-				 $('.venobox').venobox({
-					framewidth: '640px', 
-					frameheight: '480px',
-				 }); 
-
-				//Modal galería imágenes
-				 $('.venobox_gallery').venobox({
-					framewidth: '700px', 
-					frameheight: '423px',
-				 });
-
-
-				
-			});
-		</script>
-	
+		<!-- Open menu -->
 		<script type="text/javascript">
 			$(function () {
 				 //toogle function open menu
