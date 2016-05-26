@@ -46,7 +46,7 @@
 
 				 $('#fullpage').fullpage({
 					menu: '#mainMenu',
-					anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
+					anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
 					navigationTooltips: ['Generalidades', 'Descripción', 'Especificaciones', 'Cambios y devoluciones'],
 					navigation: true,
 					onLeave: function(index, nextIndex, direction){
