@@ -43,6 +43,7 @@
 
 				var $AnimatedSecond = $('.s2 .mett__cont-base-flex .mett__animated');
 				var $AnimatedThird = $('.s3 .mett__cont-base-flex .mett__animated');
+				var $AnimatedFourth = $('.s4 .mett__cont-base-flex .mett__animated');
 
 				 $('#fullpage').fullpage({
 					menu: '#mainMenu',
@@ -58,15 +59,18 @@
 						$AnimatedSecond.eq(0).css('animation-delay', '.1s');
 						$AnimatedSecond.eq(1).css('animation-delay', '.2s');
 						$AnimatedSecond.eq(2).css('animation-delay', '.3s');
-						$AnimatedSecond.eq(3).css('animation-delay', '.4s');
-						$AnimatedSecond.eq(4).css('animation-delay', '.5s');
-						$AnimatedSecond.eq(5).css('animation-delay', '.6s');
 						// $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
 
 
 						} else if ( ( index == 1 || index == 2) && nextIndex == 3 ) {
-							$AnimatedThird.addClass('animated fadeInRight fadeIn');
 							
+							$AnimatedThird.eq(0).addClass('animated fadeInLeft fadeIn');
+							$AnimatedThird.eq(1).addClass('animated fadeInRight fadeIn');
+
+						} else if ( ( index == 1 || index == 2 || index == 3) && nextIndex == 4 ) {
+							
+							$AnimatedFourth.eq(0).addClass('animated fadeInRight fadeIn');
+							$AnimatedFourth.eq(1).addClass('animated fadeInRight fadeIn');
 						}
 					}
 				});
