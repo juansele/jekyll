@@ -190,18 +190,21 @@
 			background-image: url('../img/textures/main_y.png');
 			background-repeat: no-repeat;
 			background-size: cover;
+			position: relative;
 		}
 
 		#mett__section2{
 			background-image: url('../img/banners/b1.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
+			position: relative;
 		}
 
 		#mett__section3{
 			background-image: url('../img/textures/t1_dark.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
+			position: relative;
 		}
 
 		#mett__section4{
@@ -210,12 +213,14 @@
 			background-size: cover;
 			background-position: -27em 0em;
 			background-color: #111;
+			position: relative;
 		}
 
 		#mett__section5{
 			background-image: url('../img/textures/t1_dark.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
+			position: relative;
 		}
 
 		#mett__section6{
@@ -223,6 +228,7 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: 13em 0em;
+			position: relative;
 		}
 
 	/**/
@@ -258,8 +264,7 @@
 
 
 		.mett__content-fature{
-			
-			height: 120px;
+	
 			border-right:1px solid red;
 			opacity: 0.5;
 			color: #d32a1f;
@@ -286,6 +291,7 @@
 			line-height:45px;
 			margin-bottom:1.5em;
 			margin-top:0.8em;
+			margin-left: 1.5em;
 		}
 
 		.mett__title-slide{
@@ -367,13 +373,17 @@
 		}
 
 		.mett__btn-arrow-scroll{
-			bottom: 25px;
-			color: red;
-			margin-top: 2.5em;
+			    bottom: 25px;
+				color: red;
+				/* margin-top: 2.5em; */
+				position: absolute;
+				left: 0;
+				right: 0;
+				text-transform: uppercase;
 			.mett__label-btn{
-				font-size: 14px;
+				font-size: 13px;
 				font-family: @fuente-lenovo-bold;
-				margin-left: 0.5em;
+				margin-left: 0.3em;
 				a{text-decoration: none;color: red;}
 			}
 			.mett__cont-arrow{
@@ -409,11 +419,28 @@
 				transition: all ease 0.28s; 
 				-webkit-transition: all ease 0.28s; 
 				-moz-transition: all ease 0.28s;
-				background: #111;
+				background-image: url('../img/textures/t1_dark.jpg');
+				background-size: cover;
+				background-repeat: no-repeat; 
 			}
 		}
 
 
 		img.mett__logo-lenovo{
 			width:44px; height:132px; position:absolute;top:0;left:0;
+		}
+
+
+		.mett__degradado-dark{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#111111+19,111111+48,2d2d2d+100&1+0,0.94+47,1+100,1+100 */
+background: -moz-linear-gradient(top,  rgba(17,17,17,1) 0%, rgba(17,17,17,0.98) 19%, rgba(17,17,17,0.94) 47%, rgba(17,17,17,0.94) 48%, rgba(45,45,45,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(17,17,17,1) 0%,rgba(17,17,17,0.98) 19%,rgba(17,17,17,0.94) 47%,rgba(17,17,17,0.94) 48%,rgba(45,45,45,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(17,17,17,1) 0%,rgba(17,17,17,0.98) 19%,rgba(17,17,17,0.94) 47%,rgba(17,17,17,0.94) 48%,rgba(45,45,45,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#2d2d2d',GradientType=0 ); /* IE6-9 */
+
+
+
+
+
+
 		}

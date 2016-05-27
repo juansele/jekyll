@@ -1,0 +1,6 @@
+/* Instrucciones en ausencia de librería de scroll */
+
+	.mett__s-nofullpage{
+		padding-bottom: 4em;
+		min-height: 400px;
+	}
