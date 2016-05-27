@@ -44,6 +44,7 @@
 				var $AnimatedSecond = $('.s2 .mett__cont-base-flex .mett__animated');
 				var $AnimatedThird = $('.s3 .mett__cont-base-flex .mett__animated');
 				var $AnimatedFourth = $('.s4 .mett__cont-base-flex .mett__animated');
+				var $AnimatedFifth = $('.s5 .mett__cont-base-flex .mett__animated');
 
 				 $('#fullpage').fullpage({
 					menu: '#mainMenu',
@@ -68,9 +69,17 @@
 							$AnimatedThird.eq(1).addClass('animated fadeInRight fadeIn');
 
 						} else if ( ( index == 1 || index == 2 || index == 3) && nextIndex == 4 ) {
-							
+
 							$AnimatedFourth.eq(0).addClass('animated fadeInRight fadeIn');
 							$AnimatedFourth.eq(1).addClass('animated fadeInRight fadeIn');
+
+						}  else if ( ( index == 1 || index == 2 || index == 3 || 4) && nextIndex == 5 ) {
+
+							$AnimatedFifth.eq(0).addClass('animated fadeInUp fadeIn');
+							$AnimatedFifth.eq(1).addClass('animated fadeInLeft fadeIn');
+							$AnimatedFifth.eq(1).css('animation-delay', '.3s');
+							$AnimatedFifth.eq(2).addClass('animated fadeInRight fadeIn');
+							$AnimatedFifth.eq(2).css('animation-delay', '.6s');
 						}
 					}
 				});
