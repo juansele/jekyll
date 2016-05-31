@@ -10,14 +10,14 @@
 			//Modal video
 
 			$('.venobox').venobox({
-				framewidth: '640px', 
-				frameheight: '480px',
+				framewidth: '100%', 
+				frameheight: '400px',
 			}); 
 
 			//Modal galería imágenes
 			$('.venobox_gallery').venobox({
-				framewidth: '700px', 
-				frameheight: '423px',
+				framewidth: '100%', 
+				frameheight: '50%',
 			});
 			
 		});

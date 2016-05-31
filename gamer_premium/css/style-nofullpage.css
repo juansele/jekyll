@@ -2,5 +2,12 @@
 
 	.mett__s-nofullpage{
 		padding-bottom: 4em;
+		padding-top: 4em;
 		min-height: 400px;
+	}
+
+
+	.mett__s-nofulpage-inner-mod{
+		padding-bottom: 2em;
+		padding-top: 2em;
 	}
