@@ -26,23 +26,63 @@
 			background-image: url('../img/bgs_y900_ideapad_02.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
-			background-position: -20em 0em;
+			background-position: -5em 0em;
 			background-color: #111;
 			position: relative;
 		}
 
 		#mett__section5{
-			background-image: url('../img/bgs_y700_torre_03.jpg');
+			background-image: url('../img/bgs_y900_ideapad_03.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			background-position: -18em -20em
+		}
+
+		#mett__section6{
+			background-image: url('../img/bgs_y900_ideapad_04.png');
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
 		}
 
-		#mett__section6{
-			background-image: url('../img/texture_black.jpg');
+		#mett__section7{
+			background-image: url('../img/bgs_y900_ideapad_05.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
+		}
+
+		#mett__section8{
+			background-image: url('../img/bgs_y900_ideapad_06.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			background-position: -24em 0em
+		}
+
+		#mett__section9{
+			background-image: url('../img/bgs_y900_ideapad_07.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			background-position: 0em 0em;
+		}
+
+		#mett__section10{
+			background-image: url('../img/bgs_y900_ideapad_08.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			background-position: 0em 0em;
+		}
+
+		#mett__section11{
+			background-image: url('../img/bgs_y900_ideapad_09.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			background-position: 6em -2em;
 		}
 
 
