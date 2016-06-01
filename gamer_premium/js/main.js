@@ -10,14 +10,20 @@
 			//Modal video
 
 			$('.venobox').venobox({
+
 				framewidth: '100%', 
+
 				frameheight: '400px',
+
 			}); 
 
 			//Modal galería imágenes
 			$('.venobox_gallery').venobox({
-				framewidth: '100%', 
+				
+				framewidth: '100%',
+				 
 				frameheight: '50%',
+				
 			});
 			
 		});
@@ -31,29 +37,46 @@
 
 		if (screen && screen.width > 768) {
 
-			 document.write('<link rel="stylesheet" type="text/css" href="lib/bower_components/fullpage.js/dist/jquery.fullpage.min.css">')
-			 document.write('<script type="text/javascript" src="lib/bower_components/fullpage.js/dist/jquery.fullpage.js"><\/script>');
+			document.write('<link rel="stylesheet" type="text/css" href="lib/bower_components/fullpage.js/dist/jquery.fullpage.min.css">')
+			 
+			document.write('<script type="text/javascript" src="lib/bower_components/fullpage.js/dist/jquery.fullpage.js"><\/script>');
 
 			 $(document).ready(function() {
 
 			 	var $AnimatedSecond = $('.s2 .mett__cont-base-flex .mett__animated');
+
 			 	var $AnimatedThird = $('.s3 .mett__cont-base-flex .mett__animated');
+
 			 	var $AnimatedFourth = $('.s4 .mett__cont-base-flex .mett__animated');
+
 			 	var $AnimatedFifth = $('.s5 .mett__cont-base-flex .mett__animated');
+
 				var $AnimatedSixth = $('.s6 .mett__cont-base-flex .mett__animated');
+
 				var $AnimatedSeventh = $('.s7 .mett__cont-base-flex .mett__animated');
+
 				var $AnimatedEight = $('.s8 .mett__cont-base-flex .mett__animated');
+
 				var $AnimatedNineht = $('.s9 .mett__cont-base-flex .mett__animated');
+
 				var $AnimatedTenth = $('.s10 .mett__cont-base-flex .mett__animated');
+
 				var $AnimatedEleventh = $('.s11 .mett__cont-base-flex .mett__animated');
+
 
 			 	 $('#fullpage').fullpage({
 
 					menu: '#mainMenu',
+
 					anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'eightPage', 'ninePage', 'tenthPage', 'eleventhPage'],
+
 					navigationTooltips: ['Generalidades', 'Descripción', 'Especificaciones', 'Cambios y devoluciones'],
+
 					navigation: true,
+
+
 					onLeave: function(index, nextIndex, direction){
+
 							
 
 					if( index == 1 && nextIndex == 2 ) { 
@@ -65,13 +88,13 @@
 						} else if ( ( index == 1 || index == 2) && nextIndex == 3 ) {
 							
 							$AnimatedThird.eq(0).addClass('animated fadeInLeft fadeIn');
-							
+
 							$AnimatedThird.eq(1).addClass('animated fadeInRight fadeIn');
 
 			 			} else if ( ( index == 1 || index == 2 || index == 3) && nextIndex == 4 ) {
 
 							$AnimatedFourth.eq(0).addClass('animated fadeInRight fadeIn');
-							
+
 							$AnimatedFourth.eq(1).addClass('animated fadeInRight fadeIn');
 
 						} else if ( ( index == 1 || index == 2 || index == 3 || index == 4) && nextIndex == 5 ) {
@@ -116,6 +139,8 @@
 				});
 			  });
 		} else if (screen && screen.width < 768){
-			document.write('<link rel="stylesheet" type="text/css" href="css/style-nofullpage.css">')
+
+			document.write('<link rel="stylesheet" type="text/css" href="css/style-nofullpage.css">');
+
 		}
 		
