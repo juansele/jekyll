@@ -9,7 +9,7 @@
 		}
 
 		#mett__section2{
-			background-image: url('../img/bgs_y700_torre_01.jpg');
+			background-image: url('../img/bgs_y900_ideapad_01.png');
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
@@ -23,10 +23,10 @@
 		}
 
 		#mett__section4{
-			background-image: url('../img/life_style_y700_torre_01.jpg');
+			background-image: url('../img/bgs_y900_ideapad_02.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
-			background-position: -27em 0em;
+			background-position: -20em 0em;
 			background-color: #111;
 			position: relative;
 		}
