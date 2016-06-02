@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<title>iframe</title>
+		<style type="text/css">
+			iframe{max-width: 888px; min-width: 320px; width: 100%; height: 550px; border:none; } body{margin: 0; } 
+			.contenedor-iframe{ padding:1em; border:1px solid #0560a7;margin-right: auto;margin-left: auto; margin: 0 auto; display: block;width:888px;border-radius: 5px;}
+			.top-img-alkosto{height:50px; width:100%; background: url('img/top_palkosto.jpg');}
+			.bottom-img-alkosto{height:50px; width:100%; background: url('img/bottom_palkosto.jpg');}
+			.margin-container{border-left:1px solid #0560a7; border-right:1px solid #0560a7;margin-right: auto;margin-left: auto; margin: 0 auto; display: block;width:1000px;}
+		</style>
+	</head>
+	<body>
+
+
+		<section class="top-img-alkosto"></section>
+		
+		<section class="margin-container">
+			
+			<div class="contenedor-iframe">
+
+				<iframe class="Scrollable" src="ficha_lenovo_ideacentre_Y700.html"></iframe>
+				
+			</div>
+
+		</section>
+		
+		<section class="bottom-img-alkosto"></section>
+
+		<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+
+		<script type="text/javascript">
+
+				
+			$('.Scrollable').on('DOMMouseScroll mousewheel', function(ev) {
+			var $this = $(this),
+			    scrollTop = this.scrollTop,
+			    scrollHeight = this.scrollHeight,
+			    height = $this.height(),
+			    delta = (ev.type == 'DOMMouseScroll' ?
+			        ev.originalEvent.detail * -40 :
+			        ev.originalEvent.wheelDelta),
+			    up = delta > 0;
+
+			var prevent = function() {
+			    ev.stopPropagation();
+			    ev.preventDefault();
+			    ev.returnValue = false;
+			    return false;
+			}
+
+			if (!up && -delta > scrollHeight - height - scrollTop) {
+			    // Scrolling down, but this will take us past the bottom.
+			    $this.scrollTop(scrollHeight);
+			    return prevent();
+			} else if (up && delta > scrollTop) {
+			    // Scrolling up, but this will take us past the top.
+			    $this.scrollTop(0);
+			    return prevent();
+			}
+			});
+
+			</script>
+			
+	</body>
+</html>
