@@ -1,0 +1,72 @@
+		
+		
+
+		#mett__presentation{
+			background-image: url('../img/texture_y.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+		#mett__section2{
+			background-image: url('../img/bgs_y700_torre_01.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+		#mett__section3{
+			background-image: url('../img/texture_black.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+		#mett__section4{
+			background-image: url('../img/life_style_y700_torre_01.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: -27em 0em;
+			background-color: #111;
+			position: relative;
+		}
+
+		#mett__section5{
+			background-image: url('../img/bgs_y700_torre_03.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+
+		#mett__section6{
+			background-image: url('../img/bgs_y700_torre_04.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			background-position: 0em -2em;
+		}
+
+
+		/* Módulo inclinación */
+
+		.mett__cont-mod-inclinado{
+			position: absolute;
+			width: 100%; 
+			top: 0;
+			right: 0; 
+			bottom: 0; 
+			z-index: 0;
+
+		}
+		.mett__cont-mod-inclinado	.mett___mod-inclinado{
+				-webkit-transform: skew(0deg); 
+				border-top: none; 
+				-moz-transform: skew(0deg); 
+				-o-transform: skew(0deg); 
+				transition: all ease 0.28s; 
+				-webkit-transition: all ease 0.28s; 
+				-moz-transition: all ease 0.28s;
+				background-image: url('../img/texture_black.jpg');
+				background-size: cover;
+				background-repeat: no-repeat; 
+			}
