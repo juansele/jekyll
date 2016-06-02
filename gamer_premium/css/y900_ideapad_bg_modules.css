@@ -9,7 +9,7 @@
 		}
 
 		#mett__section2{
-			background-image: url('../img/bgs_y700_ideapad_01.png');
+			background-image: url('../img/bgs_y900_ideapad_01.png');
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
@@ -23,10 +23,10 @@
 		}
 
 		#mett__section4{
-			background-image: url('../img/bgs_y700_ideapad_02.png');
+			background-image: url('../img/bgs_y900_ideapad_02.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
-			background-position: -23em 0em;
+			background-position: -4em 0em;
 			background-color: #111;
 			position: relative;
 		}
@@ -40,21 +40,21 @@
 		}
 
 		#mett__section6{
-			background-image: url('../img/bgs_y700_ideapad_06.png');
+			background-image: url('../img/bgs_y900_ideapad_04.png');
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
 		}
 
 		#mett__section7{
-			background-image: url('../img/bgs_y700_ideapad_04.png');
+			background-image: url('../img/bgs_y900_ideapad_05.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
 		}
 
 		#mett__section8{
-			background-image: url('../img/bgs_y700_ideapad_05.png');
+			background-image: url('../img/bgs_y900_ideapad_06.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
@@ -67,6 +67,22 @@
 			background-size: cover;
 			position: relative;
 			background-position: 0em 0em;
+		}
+
+		#mett__section10{
+			background-image: url('../img/bgs_y900_ideapad_08.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			background-position: 0em 0em;
+		}
+
+		#mett__section11{
+			background-image: url('../img/bgs_y900_ideapad_09.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			background-position: 6em -2em;
 		}
 
 		/* Módulo inclinación */
