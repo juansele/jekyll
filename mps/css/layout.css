@@ -193,7 +193,7 @@
 			-moz-transition: all ease 0.28s;
 		}
 	}
-	@media (min-width:1200px){.mett__deep-base-lg{min-height: 700px;}.mett__msj-not-resolution{display:none}
+	@media (min-width:1200px){.mett__deep-base-lg{min-height: 460px;}.mett__msj-not-resolution{display:none}
 		.mett__flex-lg-show{display:block}
 		.mett__text-align-lg{text-align:left}
 		.mett__order-lg-1{order:1;-webkit-order:1}
