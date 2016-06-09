@@ -460,7 +460,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 
 
 	.mett__mod-lifestyle-full{
-		min-height: 250px;
+		min-height: 175px;
 	}
 
 	.mett__bg-1{
@@ -469,33 +469,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 		background-repeat: no-repeat;
 	}
 
+	@color-blue: #3e8ddd;
+
+	.mett__color-text-blue{
+		color: @color-blue;
+	}
 
 	.mett__cont-dark-products{
 		min-height: 400px;
 		background-image: url('../img/bg-dark.jpg');
 		padding: 3em 0em;
+		border-top: 2px solid @color-blue;
 	}
 
-	.mett__module-product{
-		background: white;
-		height: 260px;
-		margin-top:3px;
-		width: 253px;
 
-	}
-
-	@color-blue: #3e8ddd;
 
 	.mett__cont-label-lenovo{
 		position: absolute;
-		border: 1px solid red;
 		top: 10px;
 		left: 60px;
 		.mett__label-blue{
 			padding: 0.5em;
 			background-color: @color-blue;
 			color: white;
-			width: 200px;
+			width: 210px;
 			font-size: 17px;
 		}
 	}
@@ -513,3 +510,50 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 		border-top: 35px solid @color-blue - 60;
 		border-left: 35px solid transparent;
 	}
+
+	/* CARDS DE PRODUCTOS */
+
+	.mett__module-product{
+		background: white;
+		height: 305px;
+		margin-top:3px;
+		width: 253px;
+
+	}
+	.mett__module-product{
+		position: relative;
+		.mett__img-product{
+			height: 150px;
+			background: #eee;
+			img{
+				width: 90%;
+				margin-top: -1.8em;
+			}
+		}
+		.mett__detail-product{
+			position: absolute;
+			padding: 0.8em 1.3em;
+			bottom: 0;
+			font-size: 14px;
+			background: #fff;
+			height: 126px;
+			h3{margin-bottom:0px;}
+			p{
+				margin-top:0.4em;
+				margin-bottom: 1.5em;
+				color: rgba(0,0,0,0.8);
+			}
+			.mett__btn-comprar{
+				text-decoration: none;
+				background: @color-blue;
+				padding: 0.4em 0.8em;
+				color: white;
+				margin-top: 1em;
+				margin-bottom: 1em;
+			}
+		}
+	}
+
+	/*ESTILOS DE FICHA*/
+
+	
