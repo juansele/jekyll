@@ -151,12 +151,16 @@
 		.mett__text-left{text-align: left;}
 		.mett__text-right{text-align: right;}
 
+
+		.mett__text-blue{color: rgba(62,141,221,0.7)!important;}
+		.mett__text-red{color: rgba(211, 42, 31, 0.9) !important;}
+
 	/* LISTA NAV */
 
 
 		.mett__cont-nav{
 			position: absolute;
-			top: 0;
+			top: 1em;
 			left: 0;
 			right: 0;
 		}
@@ -233,7 +237,7 @@
 		border: 1px solid #4DA8C5;
 		padding:0.7em 1em;
 		color: #4DA8C5;
-		font-size: 17px;
+		font-size: 16px;
 	}
 
 	button.mett__btn-line:active{
@@ -262,10 +266,12 @@
 		background-repeat: no-repeat;
 		width: 100%;
 		.mixin-transition-all();
+		background-size: cover;
+		background-position: 10em 0em;
 	}
 
 	.mett__cont-first{
-		min-height: 700px;
+		min-height: 462px;
 		position: absolute;
 		overflow: hidden;
 		width: 100%;
@@ -277,10 +283,11 @@
 
 	.mett__cont-info{
 		padding-top: 4em;
+		padding-bottom:1em; 
 	}
 
 	.mett__cont-botton{
-		padding: 0em 0em;
+		margin: 2em 0em;
 	}
 
 	/*All classes with similar attribute*/
@@ -358,7 +365,16 @@
 	}
 
 	.mett__cont-img-products{
-		margin: 4em 0em
+		padding-top:4em;
+		padding-bottom:2em;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0c0c17+0,0c0c17+100&0.94+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(12,12,23,0.94) 0%, rgba(12,12,23,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(12,12,23,0.94) 0%,rgba(12,12,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(12,12,23,0.94) 0%,rgba(12,12,23,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', endColorstr='#0c0c17',GradientType=0 ); /* IE6-9 */
+
+
+
 	}
 
 
@@ -425,4 +441,74 @@
 
 	.mett__cont-btn-home{
 		margin-top: 3em;
+	}
+
+
+	.mett__container-mps{
+		width:960px;
+		min-height: 890px;
+		border:1px solid black; 
+		margin-left:auto; 
+		margin-right:auto; 
+		margin: 0 auto; 
+		overflow:hidden; 
+	}
+
+	a.mett__a{
+		text-decoration: none;
+	}
+
+
+	.mett__mod-lifestyle-full{
+		min-height: 250px;
+	}
+
+	.mett__bg-1{
+		background-image: url('../img/bg1-franja.jpg');
+		background-position: 0em -6em;
+		background-repeat: no-repeat;
+	}
+
+
+	.mett__cont-dark-products{
+		min-height: 400px;
+		background-image: url('../img/bg-dark.jpg');
+		padding: 3em 0em;
+	}
+
+	.mett__module-product{
+		background: white;
+		height: 260px;
+		margin-top:3px;
+		width: 253px;
+
+	}
+
+	@color-blue: #3e8ddd;
+
+	.mett__cont-label-lenovo{
+		position: absolute;
+		border: 1px solid red;
+		left: 60px;
+		.mett__label-blue{
+			padding: 0.5em;
+			background-color: @color-blue;
+			color: white;
+			width: 200px;
+			font-size: 17px;
+		}
+	}
+	#mett__triangule{
+		width: 0;
+		height: 0;
+		border-top: 37px solid transparent;
+		border-left: 35px solid @color-blue;
+		border-bottom: 0px solid transparent;
+	}
+
+	#mett__triangule-left{
+		width: 0;
+		height: 0;
+		border-top: 35px solid @color-blue - 60;
+		border-left: 35px solid transparent;
 	}

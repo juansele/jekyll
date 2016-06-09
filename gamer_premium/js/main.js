@@ -144,3 +144,18 @@
 
 		}
 		
+
+		var b = $('html');
+
+			$('.Scrollable').hover(function() {
+			    var s = b.scrollTop();    
+			    b.css('overflow', 'hidden');
+			    b.css('margin-right', '17px');
+			    b.scrollTop(s);
+			}, function() {
+			    var s = b.scrollTop();   
+			    b.css('overflow', 'auto');
+			    b.css('margin-right', '0px');
+			    b.scrollTop(s);
+		});
+			
