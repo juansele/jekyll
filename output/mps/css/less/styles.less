@@ -64,43 +64,71 @@
 	/* IMPORTAR ICONOS */
 
 	@font-face {
-		font-family: 'icomoon';
-		src:    url('fonts/icomoon.eot?qf5g1r');
-		src:    url('fonts/icomoon.eot?qf5g1r#iefix') format('embedded-opentype'),
-			url('fonts/icomoon.ttf?qf5g1r') format('truetype'),
-			url('fonts/icomoon.woff?qf5g1r') format('woff'),
-			url('fonts/icomoon.svg?qf5g1r#icomoon') format('svg');
-		font-weight: normal;
-		font-style: normal;
-	}
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?nt28s3');
+    src:    url('fonts/icomoon.eot?nt28s3#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?nt28s3') format('truetype'),
+        url('fonts/icomoon.woff?nt28s3') format('woff'),
+        url('fonts/icomoon.svg?nt28s3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
-	[class^="icon-"], [class*=" icon-"] {
-		/* use !important to prevent issues with browser extensions that change fonts */
-		font-family: 'icomoon' !important;
-		speak: none;
-		font-style: normal;
-		font-weight: normal;
-		font-variant: normal;
-		text-transform: none;
-		line-height: 1;
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
-		/* Better Font Rendering =========== */
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
-	.icon-facebook:before {
-		content: "\e900";
-	}
-	.icon-instagram:before {
-		content: "\e901";
-	}
-	.icon-twitter:before {
-		content: "\e902";
-	}
-	.icon-youtube:before {
-		content: "\e903";
-	}
+.icon-facebook:before {
+    content: "\ea90";
+}
+.icon-instagram:before {
+    content: "\ea92";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+.icon-youtube:before {
+    content: "\ea9d";
+}
+.icon-pantone:before {
+    content: "\e907";
+}
+.icon-hard-disk:before {
+    content: "\e908";
+}
+.icon-os_win:before {
+    content: "\e906";
+}
+.icon-arrow_down:before {
+    content: "\e905";
+}
+.icon-chip:before {
+    content: "\e901";
+}
+.icon-hd:before {
+    content: "\e902";
+}
+.icon-nvidia:before {
+    content: "\e903";
+}
+.icon-harbor:before {
+    content: "\e904";
+}
+.icon-shop:before {
+    content: "\e900";
+}
+
 
 
 
@@ -227,20 +255,21 @@
 	
 	/* BUTTONS */
 
-	button.mett__btn{
+	a.mett__btn{
 		background: transparent;
 		border: none;
 		cursor: pointer;
 	}
 
-	button.mett__btn-line{
+	a.mett__btn-line{
 		border: 1px solid #4DA8C5;
 		padding:0.7em 1em;
 		color: #4DA8C5;
 		font-size: 16px;
+		text-decoration: none;
 	}
 
-	button.mett__btn-line:active{
+	a.mett__btn-line:active{
 		background: #4DA8C5;
 		color: white;
 		.mixin-transition-all();
@@ -557,3 +586,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 	/*ESTILOS DE FICHA*/
 
 	
+	@color-orange: #ee6a00;
+
+	/* CONSUMO HOME */
+
+	.mett__deep-base-consumption{
+		background: url('../img/bg-main2.jpg') #fff; 
+		background-repeat: no-repeat;
+		width: 100%;
+		.mixin-transition-all();
+		background-size: cover;
+		background-position: 19em 0em;
+	}
+
+	a.mett__btn-line-2{
+		border: 1px solid @color-orange;
+		padding:0.7em 1em;
+		color: @color-orange;
+		font-size: 16px;
+		text-decoration: none;
+	}
+
+	a.mett__btn-line-2:active{
+		background: @color-orange;
+		color: white;
+		.mixin-transition-all();
+	}
+
+
+	.mett__cont-img-products_2{
+    padding-top: 4em;
+    padding-bottom: 2em;
+    background: -moz-linear-gradient(top,rgba(255, 255, 255, 0.94) 0,#e5e5e5 100%);
+    background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0.94) 0,#e5e5e5 100%);
+    background: linear-gradient(to bottom,rgba(255, 255, 255, 0.94) 0,#e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
+}
+
+
+
+		li.mett__li_2{
+			text-align: center;
+			font-size: 14px;
+			font-family: @fuente-h-bold;
+			padding: 0.5em 0em;
+			overflow: hidden;
+			min-width: 170px;
+			min-width: 95px;
+		}

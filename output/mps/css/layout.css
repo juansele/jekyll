@@ -64,6 +64,17 @@
 				-webkit-transition: all ease 0.28s;
 				-moz-transition: all ease 0.28s;
 		}
+
+		.mett__paralelogram_container_gt_2{
+				background: url('../img/lenovo_pattern.png');
+				border-right: 3px solid #ee6a00;
+				-webkit-transform: skew(0deg);
+				-moz-transform: skew(0deg);
+				-o-transform: skew(0deg);
+				transition: all ease 0.28s;
+				-webkit-transition: all ease 0.28s;
+				-moz-transition: all ease 0.28s;
+		}
 	}
 	@media (min-width:600px){.mett__deep-base-xs{min-height: 1000px;} .mett__msj-not-resolution{display:none}
 		.mett__text-align-xs{text-align:center}
@@ -106,6 +117,18 @@
 			transition: all ease 0.28s;
 			-webkit-transition: all ease 0.28s;
 			-moz-transition: all ease 0.28s;
+		}
+
+		.mett__paralelogram_container_xs_2{
+				background: url('../img/lenovo_pattern.png');
+				border-right: 3px solid #ee6a00;
+		
+				-webkit-transform: skew(0deg);
+				-moz-transform: skew(0deg);
+				-o-transform: skew(0deg);
+				transition: all ease 0.28s;
+				-webkit-transition: all ease 0.28s;
+				-moz-transition: all ease 0.28s;
 		}
 	}
 	@media (min-width:768px){.mett__deep-base-sm{min-height: 700px;} .mett__msj-not-resolution{display:none}
@@ -150,6 +173,18 @@
 			-moz-transition: all ease 0.28s;
 			
 		}
+
+		.mett__paralelogram_container_sm_2{
+				background: url('../img/lenovo_pattern.png');
+				border-right: 3px solid #ee6a00;
+				
+				-webkit-transform: skew(0deg);
+				-moz-transform: skew(0deg);
+				-o-transform: skew(0deg);
+				transition: all ease 0.28s;
+				-webkit-transition: all ease 0.28s;
+				-moz-transition: all ease 0.28s;
+		}
 	}
 	@media (min-width:992px){.mett__deep-base-md{min-height: 700px;}.mett__msj-not-resolution{display:none}
 		.mett__flex-md-show{display:block}
@@ -193,6 +228,18 @@
 			-webkit-transition: all ease 0.28s;
 			-moz-transition: all ease 0.28s;
 		}
+
+		.mett__paralelogram_container_md_2{
+				background: url('../img/lenovo_pattern.png');
+				border-right: 3px solid #ee6a00;
+				border-right: none;
+				-webkit-transform: skew(-15deg);
+				-moz-transform: skew(-15deg);
+				-o-transform: skew(-15deg);
+				transition: all ease 0.28s;
+				-webkit-transition: all ease 0.28s;
+				-moz-transition: all ease 0.28s;
+		}
 	}
 	@media (min-width:1200px){.mett__deep-base-lg{min-height: 460px;}.mett__msj-not-resolution{display:none}
 		.mett__flex-lg-show{display:block}
@@ -234,6 +281,19 @@
 			transition: all ease 0.28s;
 			-webkit-transition: all ease 0.28s;
 			-moz-transition: all ease 0.28s;
+		}
+
+		.mett__paralelogram_container_lg_2{
+				background: url('../img/lenovo_pattern.png');
+				background-color: #fff;
+				border-right: 3px solid #ee6a00;
+				
+				-webkit-transform: skew(-15deg);
+				-moz-transform: skew(-15deg);
+				-o-transform: skew(-15deg);
+				transition: all ease 0.28s;
+				-webkit-transition: all ease 0.28s;
+				-moz-transition: all ease 0.28s;
 		}
 	}
 	.mett__mod-texto{margin:1.5em 0}
