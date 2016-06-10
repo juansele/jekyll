@@ -1,4 +1,4 @@
-	
+
 
 	
 
@@ -61,76 +61,73 @@
 		@fuente-h-thin:		'Helvetica Neue Thin', helvetica, sans-serif;
 
 
-	/* IMPORTAR ICONOS */
+		/* IMPORTAR ICONOS */
 
-	@font-face {
-    font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?nt28s3');
-    src:    url('fonts/icomoon.eot?nt28s3#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?nt28s3') format('truetype'),
-        url('fonts/icomoon.woff?nt28s3') format('woff'),
-        url('fonts/icomoon.svg?nt28s3#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+		@font-face {
+		    font-family: 'icomoon';
+		    src:    url('fonts/icomoon.eot?nt28s3');
+		    src:    url('fonts/icomoon.eot?nt28s3#iefix') format('embedded-opentype'),
+		        url('fonts/icomoon.ttf?nt28s3') format('truetype'),
+		        url('fonts/icomoon.woff?nt28s3') format('woff'),
+		        url('fonts/icomoon.svg?nt28s3#icomoon') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+		}
 
-[class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+		[class^="icon-"], [class*=" icon-"] {
+		    /* use !important to prevent issues with browser extensions that change fonts */
+		    font-family: 'icomoon' !important;
+		    speak: none;
+		    font-style: normal;
+		    font-weight: normal;
+		    font-variant: normal;
+		    text-transform: none;
+		    line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+		    /* Better Font Rendering =========== */
+		    -webkit-font-smoothing: antialiased;
+		    -moz-osx-font-smoothing: grayscale;
+		}
 
-.icon-facebook:before {
-    content: "\ea90";
-}
-.icon-instagram:before {
-    content: "\ea92";
-}
-.icon-twitter:before {
-    content: "\ea96";
-}
-.icon-youtube:before {
-    content: "\ea9d";
-}
-.icon-pantone:before {
-    content: "\e907";
-}
-.icon-hard-disk:before {
-    content: "\e908";
-}
-.icon-os_win:before {
-    content: "\e906";
-}
-.icon-arrow_down:before {
-    content: "\e905";
-}
-.icon-chip:before {
-    content: "\e901";
-}
-.icon-hd:before {
-    content: "\e902";
-}
-.icon-nvidia:before {
-    content: "\e903";
-}
-.icon-harbor:before {
-    content: "\e904";
-}
-.icon-shop:before {
-    content: "\e900";
-}
-
-
-
+		.icon-facebook:before {
+		    content: "\ea90";
+		}
+		.icon-instagram:before {
+		    content: "\ea92";
+		}
+		.icon-twitter:before {
+		    content: "\ea96";
+		}
+		.icon-youtube:before {
+		    content: "\ea9d";
+		}
+		.icon-pantone:before {
+		    content: "\e907";
+		}
+		.icon-hard-disk:before {
+		    content: "\e908";
+		}
+		.icon-os_win:before {
+		    content: "\e906";
+		}
+		.icon-arrow_down:before {
+		    content: "\e905";
+		}
+		.icon-chip:before {
+		    content: "\e901";
+		}
+		.icon-hd:before {
+		    content: "\e902";
+		}
+		.icon-nvidia:before {
+		    content: "\e903";
+		}
+		.icon-harbor:before {
+		    content: "\e904";
+		}
+		.icon-shop:before {
+		    content: "\e900";
+		}
 
 
 		.mixin-transition-all(@value: 0.28s){
@@ -139,13 +136,14 @@
 			-o-transition: all @value ease-in-out;
 			transition: all @value ease-in-out;
 		}
-	/* INITIAL BODY AND HTML */
+
+		/* INITIAL BODY AND HTML */
 
 		html, body{margin:0; min-height: 100%; height: 100%; }
 
 		body{font-family: @fuente-h-normal; font-size: 15.369552px; color: rgba(0,0,0,1); }
 
-	/* INITIAL TITLES */
+		/* INITIAL TITLES */
 
 		h1.mett__title, h2.mett__title, h3.mett__title, h4.mett__title, h5.mett__title{}
 
@@ -396,11 +394,11 @@
 	.mett__cont-img-products{
 		padding-top:4em;
 		padding-bottom:2em;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0c0c17+0,0c0c17+100&0.94+0,1+100 */
-background: -moz-linear-gradient(top,  rgba(12,12,23,0.94) 0%, rgba(12,12,23,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(12,12,23,0.94) 0%,rgba(12,12,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(12,12,23,0.94) 0%,rgba(12,12,23,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', endColorstr='#0c0c17',GradientType=0 ); /* IE6-9 */
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0c0c17+0,0c0c17+100&0.94+0,1+100 */
+		background: -moz-linear-gradient(top,  rgba(12,12,23,0.94) 0%, rgba(12,12,23,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(12,12,23,0.94) 0%,rgba(12,12,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(12,12,23,0.94) 0%,rgba(12,12,23,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', endColorstr='#0c0c17',GradientType=0 ); /* IE6-9 */
 
 
 
