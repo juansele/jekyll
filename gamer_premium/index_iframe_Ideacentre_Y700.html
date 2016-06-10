@@ -5,11 +5,45 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<title>iframe</title>
 		<style type="text/css">
-			iframe{max-width: 888px; min-width: 320px; width: 100%; height: 550px; border:none; } body{margin: 0; } 
-			.contenedor-iframe{ padding:1em; border:1px solid #0560a7;margin-right: auto;margin-left: auto; margin: 0 auto; display: block;width:888px;border-radius: 5px;}
-			/*.top-img-alkosto{height:50px; width:100%; background: url('img/top_palkosto.jpg');}*/
-			/*.bottom-img-alkosto{height:50px; width:100%; background: url('img/bottom_palkosto.jpg');}*/
-			.margin-container{border-left:1px solid #0560a7; border-right:1px solid #0560a7;margin-right: auto;margin-left: auto; margin: 0 auto; display: block;width:1000px;}
+			body{margin: 0; }
+
+			.contenedor-iframe{ 
+				padding:1em; 
+				border:1px solid #0560a7;
+				margin-right: auto;
+				margin-left: auto; 
+				margin: 0 auto; 
+				display: block;
+				width: 100%;
+				max-width:860px;
+				min-width: 320px;
+				border-radius: 5px;
+			}
+
+			.top-img-alkosto{ 
+				width:100%; 
+				height: 800px; background: url('img/top_alkosto.jpg');
+			}
+			.bottom-img-alkosto{ 
+				width:100%; 
+				height: 700px; 
+				background: url('img/bottom_alkosto.jpg');
+			}
+			.margin-container{
+				border-left:1px solid #0560a7; 
+				border-right:1px solid #0560a7;
+				margin-right: auto;
+				margin-left: auto; 
+				margin: 0 auto; 
+				display: block;
+				max-width:1000px;
+				min-width: 320px
+			}
+
+			.mett__scrollable{
+				overflow: auto;  
+				max-width: 860px; min-width: 320px; width: 100%; height: 550px;
+			}
 		</style>
 	</head>
 	<body>
@@ -21,7 +55,7 @@
 			
 			<div class="contenedor-iframe">
 
-				<iframe class="Scrollable" src="ficha_lenovo_ideacentre_Y700.html"></iframe>
+				<iframe class="mett__scrollable" src="ficha_lenovo_ideacentre_Y700.html"></iframe>
 				
 			</div>
 
@@ -34,35 +68,22 @@
 		<script type="text/javascript">
 
 				
-			$('.Scrollable').on('DOMMouseScroll mousewheel', function(ev) {
-			var $this = $(this),
-			    scrollTop = this.scrollTop,
-			    scrollHeight = this.scrollHeight,
-			    height = $this.height(),
-			    delta = (ev.type == 'DOMMouseScroll' ?
-			        ev.originalEvent.detail * -40 :
-			        ev.originalEvent.wheelDelta),
-			    up = delta > 0;
+			var mett__b = $('html');
 
-			var prevent = function() {
-			    ev.stopPropagation();
-			    ev.preventDefault();
-			    ev.returnValue = false;
-			    return false;
-			}
-
-			if (!up && -delta > scrollHeight - height - scrollTop) {
-			    // Scrolling down, but this will take us past the bottom.
-			    $this.scrollTop(scrollHeight);
-			    return prevent();
-			} else if (up && delta > scrollTop) {
-			    // Scrolling up, but this will take us past the top.
-			    $this.scrollTop(0);
-			    return prevent();
-			}
+			$('.mett__scrollable').hover(function() {
+			    var mett__s = mett__b.scrollTop();    
+			    mett__b.css('overflow', 'hidden');
+			    mett__b.css('margin-right', '17px');
+			    mett__b.scrollTop(mett__s);
+			}, function() {
+			    var mett__s = mett__b.scrollTop();   
+			    mett__b.css('overflow', 'auto');
+			    mett__b.css('margin-right', '0px');
+			    mett__b.scrollTop(mett__s);
 			});
 
-			</script>
+
+		</script>
 			
 	</body>
 </html>
