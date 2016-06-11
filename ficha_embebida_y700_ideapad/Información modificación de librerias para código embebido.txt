@@ -11,3 +11,11 @@ Modidicación lines 97, 100, 101 -- se reemplaza los elementos body y hatml por 
 Modificación line 387 -- variable de altura de página.
 Modificación line 465 -- inicialización variable de altura de página.
 Modificación line 607 -- inicialización variable de altura de página.
+
+
+--- DESHABILITAR EVENTO SCROLL AFUERA DEL DIV ---
+
+Se modifica la función addMouseWheelHandler(), que apunta al document para que apunte al id del div contenedor principal.
+
+Modificación line 2346
+Modificación Line 2351

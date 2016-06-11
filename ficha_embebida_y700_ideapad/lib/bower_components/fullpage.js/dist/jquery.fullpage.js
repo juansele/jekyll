@@ -848,7 +848,6 @@
         //when scrolling...
         function scrollHandler(){
             var currentSection;
-
             if(!options.autoScrolling || options.scrollBar){
                 var currentScroll = $window.scrollTop();
                 var scrollDirection = getScrollDirection(currentScroll);
@@ -968,6 +967,7 @@
         */
         function scrolling(type, scrollable){
             if (!isScrollAllowed.m[type]){
+                console.log('popo')
                 return;
             }
             var check, scrollSection;
@@ -1134,7 +1134,6 @@
         function MouseWheelHandler(e) {
             var curTime = new Date().getTime();
             var isNormalScroll = $(COMPLETELY_SEL).hasClass(NORMAL_SCROLL);
-
             //autoscrolling and not zooming?
             if(options.autoScrolling && !controlPressed && !isNormalScroll){
                 // cross-browser wheel delta
@@ -2344,12 +2343,12 @@
 
 
             if(support == 'DOMMouseScroll'){
-                document[ _addEventListener ](prefix + 'MozMousePixelScroll', MouseWheelHandler, false);
+                document.getElementById("mett__container-to-embed-html")[ _addEventListener ](prefix + 'MozMousePixelScroll', MouseWheelHandler, false);
             }
 
             //handle MozMousePixelScroll in older Firefox
             else{
-                document[ _addEventListener ](prefix + support, MouseWheelHandler, false);
+                document.getElementById("mett__container-to-embed-html")[ _addEventListener ](prefix + support, MouseWheelHandler, false);
             }
         }
 

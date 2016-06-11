@@ -879,6 +879,8 @@
 						navigation: true,
 
 
+
+
 						onLeave: function(index, nextIndex, direction){
 
 								
@@ -940,6 +942,7 @@
 			}
 
 
+
 			</script>
 
 
@@ -967,6 +970,13 @@
 						
 					});
 					
+
+					//$.fn.fullpage.setAllowScrolling(false);
+
+					$('#mett__container-to-embed-html').scroll(function(ev){
+						console.log('Entró')
+						console.log(ev);
+					});
 				});
 				
 			</script>
