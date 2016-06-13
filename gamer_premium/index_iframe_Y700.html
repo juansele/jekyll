@@ -6,9 +6,38 @@
 		<title>iframe</title>
 		<style type="text/css">
 
+			.contenedor-iframe{ 
+				padding:1em; 
+				border:1px solid #0560a7;
+				margin-right: auto;
+				margin-left: auto; 
+				margin: 0 auto; 
+				display: block;
+				width:888px;border-radius: 5px;}
+			.top-img-alkosto{
+				height:50px; 
+				width:100%;
+				height: 700px;
+				background: url('img/top_alkosto.jpg');
+			}
+			.bottom-img-alkosto{
+				height:50px; 
+				width:100%; 
+				background: url('img/bottom_alkosto.jpg');
+				height: 700px;
+			}
+			.margin-container{
+				border-left:1px solid #0560a7; 
+				border-right:1px solid #0560a7;
+				margin-right: auto;
+				margin-left: auto; 
+				margin: 0 auto; 
+				display: block;
+				width:1000px;
+			}
 			.mett__scrollable{
-				overflow: auto;  
-				max-width: 860px; min-width: 320px; width: 100%; height: 550px;
+				/*overflow: auto; */ 
+				max-width: 888px; min-width: 320px; width: 100%; height: 550px;
 			}
 		</style>
 	</head>
@@ -37,19 +66,28 @@
 			var mett__b = $('html');
 
 			$('.mett__scrollable').hover(function() {
-			    var mett__s = mett__b.scrollTop();    
-			    mett__b.css('overflow', 'hidden');
-			    mett__b.css('margin-right', '17px');
-			    mett__b.scrollTop(mett__s);
+
+				var mett__s = mett__b.scrollTop();
+
+				mett__b.css('overflow', 'hidden');
+
+				mett__b.css('margin-right', '17px');
+
+				mett__b.scrollTop(mett__s);
+
 			}, function() {
-			    var mett__s = mett__b.scrollTop();   
-			    mett__b.css('overflow', 'auto');
-			    mett__b.css('margin-right', '0px');
-			    mett__b.scrollTop(mett__s);
+				
+				var mett__s = mett__b.scrollTop(); 
+
+				mett__b.css('overflow', 'auto');
+
+				mett__b.css('margin-right', '0px');
+
+				mett__b.scrollTop(mett__s);
+
 			});
 
-
-		</script>
+			</script>
 			
 	</body>
 </html>
