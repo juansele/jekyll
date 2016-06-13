@@ -1,0 +1,51 @@
+
+
+
+
+
+	------------------------------------INSTRUCTIVO DE IMPLEMENTACIÓN DE CÓDIGO FICHA ----------------------------------------
+
+
+	Junto a este archivo se encuentra adjuntas carpenas que requiere la ficha para su pleno funcionamiento.
+
+	-- css -->  En esta carpeta se encuentran las fuentes tipograficas para la ficha
+				y una hoja es estilos adicional para las resoluciones pequeñas.
+
+	-- img -->  En esta, todas las imágenes de la ficha.
+
+	-- lib -->  En esta carpeta se ubican las librerías para el funcionamiento de las animaciones y
+				el movimiento en slide entre módulos de información.
+
+				NOTA: Para el pleno funcionamiento de la ficha en su sitio web es necesaria la libraría de
+				jquery.
+
+
+	IMPORTANTE: LAS CARPETAS DESCRITAS PREVIAMENTE Y EL ARCHIVO DONDE SE VA A PEGAR EL CÓDIGO DE LA FICHA TIENEN
+				QUE ESTAR EN EL MISMO NIVEL (TAL CUAL Y COMO SE ENTREGA), DE LO CONTRARIO NO SE CARGARAN ALGUNOS MÓDULOS
+				DE INFORMACIÓN.
+
+
+	--------------------------------------------------------------------------------------------------------------------------
+
+
+	Una vez revisado esto los pasos para copiar la ficha en el contenedor designado son los siguientes:
+
+
+		PASO 1: Copiar linea [ <link rel="stylesheet" type="text/css" href="lib/bower_components/animate.css/animate.css"> ] (linea 14).
+
+		PASO 2: Copiar linea [ <link rel="stylesheet" type="text/css" href="lib/bower_components/venobox/dist/venobox.css"> ] (linea 16).
+
+		PASO 3: Copiar tag <style type="text/css"> ... </style> con todo el código que contiene (linea 18).
+
+		PASO 4: Copiar las lineas de todo el contenido del tag <section> con el class="mett__scrollable", este es el código html de la ficha (linea 54). 
+
+		PASO 5: Copiar la linea [ <script type="text/javascript" src="lib/bower_components/venobox/dist/venobox.min.js"></script> ] (linea 777).
+
+		PASO 6: Copiar el tag <script type="text/javascript"> ... </script> junto a su contenido (linea 780).
+
+
+	*Si se siguen estos pasos no habrán problemas al agregar la ficha.
+
+
+
+	--------------------------------------------------------------------------------------------------------------------------
