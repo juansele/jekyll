@@ -1,4 +1,4 @@
-
+﻿
 
 
 
@@ -16,7 +16,7 @@
 	-- lib -->  En esta carpeta se ubican las librerías para el funcionamiento de las animaciones y
 				el movimiento en slide entre módulos de información.
 
-				NOTA: Para el pleno funcionamiento de la ficha en su sitio web es necesaria la libraría de
+				NOTA: Para su pleno funcionamiento en su sitio web es necesaria la librería
 				jquery.
 
 
