@@ -451,11 +451,11 @@
 
 		@font-face {
 			font-family:'HelveticaNeueLT-Light'; 
-			src: url('../fonts/HelveticaNeueLT-Light_gdi.eot'); 
-			src: url('../fonts/HelveticaNeueLT-Light_gdi.eot?#iefix') format('embedded-opentype'),
-			url('../fonts/HelveticaNeueLT-Light_gdi.woff') format('woff'),
-			url('../fonts/HelveticaNeueLT-Light_gdi.ttf') format('truetype'),
-			url('../fonts/HelveticaNeueLT-Light_gdi.svg#HelveticaNeueLT-Light') format('svg');
+			src: url('css/fonts/HelveticaNeueLT-Light_gdi.eot'); 
+			src: url('css/fonts/HelveticaNeueLT-Light_gdi.eot?#iefix') format('embedded-opentype'),
+			url('css/fonts/HelveticaNeueLT-Light_gdi.woff') format('woff'),
+			url('css/fonts/HelveticaNeueLT-Light_gdi.ttf') format('truetype'),
+			url('css/fonts/HelveticaNeueLT-Light_gdi.svg#HelveticaNeueLT-Light') format('svg');
 			font-weight: 3;
 			font-style: normal;
 			font-stretch: normal;
@@ -464,11 +464,11 @@
 
 		@font-face { 
 			font-family:'HelveticaNeue-Thin';
-			src: url('../fonts/HelveticaNeue-Thin_gdi.eot');
-			src: url('../fonts/HelveticaNeue-Thin_gdi.eot?#iefix') format('embedded-opentype'),
-			url('../fonts/HelveticaNeue-Thin_gdi.woff') format('woff'),
-			url('../fonts/HelveticaNeue-Thin_gdi.ttf') format('truetype'),
-			url('../fonts/HelveticaNeue-Thin_gdi.svg#HelveticaNeue-Thin') format('svg');
+			src: url('css/fonts/HelveticaNeue-Thin_gdi.eot');
+			src: url('css/fonts/HelveticaNeue-Thin_gdi.eot?#iefix') format('embedded-opentype'),
+			url('css/fonts/HelveticaNeue-Thin_gdi.woff') format('woff'),
+			url('css/fonts/HelveticaNeue-Thin_gdi.ttf') format('truetype'),
+			url('css/fonts/HelveticaNeue-Thin_gdi.svg#HelveticaNeue-Thin') format('svg');
 			font-weight: 100;
 			font-style: normal;
 			font-stretch: normal;
@@ -477,11 +477,11 @@
 
 		@font-face {
 			font-family:'HelveticaNeue-UltraLight'; 
-			src: url('fonts/HelveticaNeue-UltraLight_gdi.eot'); 
-			src: url('fonts/HelveticaNeue-UltraLight_gdi.eot?#iefix') format('embedded-opentype'), 
-			url('fonts/HelveticaNeue-UltraLight_gdi.woff') format('woff'), 
-			url('fonts/HelveticaNeue-UltraLight_gdi.ttf') format('truetype'), 
-			url('fonts/HelveticaNeue-UltraLight_gdi.svg#HelveticaNeue-UltraLight') format('svg'); 
+			src: url('css/fonts/HelveticaNeue-UltraLight_gdi.eot'); 
+			src: url('css/fonts/HelveticaNeue-UltraLight_gdi.eot?#iefix') format('embedded-opentype'), 
+			url('css/fonts/HelveticaNeue-UltraLight_gdi.woff') format('woff'), 
+			url('css/fonts/HelveticaNeue-UltraLight_gdi.ttf') format('truetype'), 
+			url('css/fonts/HelveticaNeue-UltraLight_gdi.svg#HelveticaNeue-UltraLight') format('svg'); 
 			font-weight: 100; 
 			font-style: normal; 
 			font-stretch: normal;
@@ -492,11 +492,11 @@
 
 		@font-face {
 			font-family: 'icomoon';
-			src:    url('fonts/icomoon.eot?9cuerd'); 
-			src:    url('fonts/icomoon.eot?9cuerd#iefix') format('embedded-opentype'),
-			url('fonts/icomoon.ttf?9cuerd') format('truetype'),
-			url('fonts/icomoon.woff?9cuerd') format('woff'), 
-			url('fonts/icomoon.svg?9cuerd#icomoon') format('svg'); 
+			src:    url('css/fonts/icomoon.eot?9cuerd'); 
+			src:    url('css/fonts/icomoon.eot?9cuerd#iefix') format('embedded-opentype'),
+			url('css/fonts/icomoon.ttf?9cuerd') format('truetype'),
+			url('css/fonts/icomoon.woff?9cuerd') format('woff'), 
+			url('css/fonts/icomoon.svg?9cuerd#icomoon') format('svg'); 
 			font-weight: normal; 
 			font-style: normal; 
 		}
@@ -528,7 +528,17 @@
 		
 		img.mett__img{width: 100%;} 
 		
-		nav.mett__nav{height: 10vh; max-height:10vh; position: relative; min-height: 56px; max-height: 56px !important; }
+		nav.mett__nav{
+			height: 10vh;
+			max-height:10vh; 
+		 	position: relative; 
+			min-height: 56px; 
+			max-height: 56px !important;
+			position: fixed;
+			box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 0px 2px 2px rgba(0, 0, 0, 0.098), 0px 0px 5px 1px rgba(0, 0, 0, 0.084);
+			background: white;
+			width:100%;
+		}
 
 		h2.mett__h2{color: #b5352e; font-size: 25px;}
 
@@ -749,9 +759,9 @@
 			text-transform: uppercase;
 		}
 
-		.mett__mod-separador-grande{
+		/*/*.mett__mod-separador-grande{
 			max-height: 225px;
-		}
+		}*/
 
 		.mett__bg-mod-1{
 			background: url('img/mods_home/bg1.png');
@@ -850,9 +860,9 @@
 
 				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="tablets.html"><b>TABLETAS</b></a></div>
 
-				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="phablets.html"><b>PHAB</b></a></div>
+				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="phablets.html"><b>PHABLET</b></a></div>
 
-				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="gamers.html"><b>GAMERS</b></a></div>
+				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="ficha_ideapad_Y700.html"><b>GAMERS</b></a></div>
 
 
 			</div>
@@ -918,7 +928,7 @@
 
 				<a class="mett__a mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="phablets.html">
 					
-					<div class="mett__flex-gt-100 mett__flex-xs-100">PHAB</div>
+					<div class="mett__flex-gt-100 mett__flex-xs-100">PHABLET</div>
 
 				</a>
 			</div>
@@ -946,7 +956,7 @@
 		</section> -->
 
 
-		<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background: #b4461c;">
+		<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background: #b4461c;padding-top:56px;">
 
 			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
 
@@ -962,9 +972,13 @@
 
 				<!-- logo -->
 
-				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-15">
+				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-end">
 
-					<img class="mett__img" src="img/logos/logo_AIO.png">
+					<div>
+						
+						<img style="max-width: 60px;min-width: 60px;" class="mett__img" src="img/logos/logo_AIO.png"/>
+
+					</div>
 
 				</div>
 
@@ -1036,9 +1050,13 @@
 
 				<!-- logo -->
 
-				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-15">
+				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-start">
 
-					<img class="mett__img" src="img/logos/logo_MULTI.png">
+					<div>
+						
+						<img class="mett__img"  style="max-width: 60px;min-width: 60px;" src="img/logos/logo_MULTI.png">
+
+					</div>
 
 				</div>
 
@@ -1121,9 +1139,14 @@
 
 				<!-- logo -->
 
-				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-15">
+				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-end">
 
-					<img class="mett__img" src="img/logos/logo_NB.png">
+					<div>
+						
+						<img class="mett__img"  style="max-width: 60px;min-width: 60px;" src="img/logos/logo_NB.png">
+						
+					</div>
+
 
 				</div>
 
@@ -1187,9 +1210,13 @@
 
 				<!-- logo -->
 
-				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-15">
+				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-start">
 
-					<img class="mett__img" src="img/logos/logo_TAB.png">
+					<div>
+						
+						<img class="mett__img" style="max-width: 60px;min-width: 60px;" src="img/logos/logo_TAB.png">
+
+					</div>
 
 				</div>
 
@@ -1279,9 +1306,13 @@
 
 				<!-- logo -->
 
-				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-15">
+				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-end">
 
-					<img  class="mett__img" src="img/logos/logo_PHAB.png">
+					<div>
+						
+						<img  class="mett__img" style="max-width: 60px;min-width: 60px;" src="img/logos/logo_PHAB.png">
+						
+					</div>
 
 				</div>
 
@@ -1342,7 +1373,7 @@
 
 	<script>
 		function toggle_menu() {
-			document.getElementById("small_res_menu").classList.toggle('open-list');
+			document.getElementById("small_res_menu").classList.toggle('mett__open-list');
 		};
 	</script>
 
