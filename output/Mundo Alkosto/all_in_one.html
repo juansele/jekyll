@@ -9,676 +9,1222 @@
 <body>
 	<style type="text/css">
 
-	/* BG-IMAGE HTML */
-		
-		
-		/* Archivo base sistema de grids flex */ 
-		.mett__container-main{min-width: 304px !important; }
-		.mett__layout,.mett__layout-column,.lmett__ayout-row {box-sizing: border-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-display:flex; }
-		.mett__layout-wrap{-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;}
-		.mett__layout-row{flex-direction: row; -webkit-flex-direction: row; -ms-direction: row; }
+
+		.mett__layout,.mett__layout-column,.mett__layout-row {box-sizing: border-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-display:flex; } 
+
+		.mett__layout-wrap{-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap; } 
+
+		.mett__layout-row{flex-direction: row; -webkit-flex-direction: row; -ms-direction: row; } 
+
 		/* JUSTIFY ELEMENTS */ 
-		.mett__justify-center{justify-content:center; -webkit-justify-content:center; }
-		.mett__justify-start{justify-content:flex-start; -webkit-justify-content:flex-start; }
-		.mett__justify-end{justify-content:flex-end; -webkit-justify-content:flex-end; }
-		.mett__justify-space-between{justify-content:space-between; -webkit-justify-content:space-between; }
-		.mett__justify-space-around{justify-content:space-around; -webkit-justify-content:space-around; }
+
+		.mett__justify-center{justify-content:center; -webkit-justify-content:center; } 
+
+		.mett__justify-start{justify-content:flex-start; -webkit-justify-content:flex-start; } 
+
+		.mett__justify-end{justify-content:flex-end; -webkit-justify-content:flex-end; } 
+
+		.mett__justify-space-between{justify-content:space-between; -webkit-justify-content:space-between; } 
+
+		.mett__justify-space-around{justify-content:space-around; -webkit-justify-content:space-around; } 
+
 		/* ALINGMENT ELEMENTS */ 
-		.mett__align-start{align-items: flex-start; -webkit-align-items: flex-start; }
-		.mett__align-end{align-items:flex-end; -webkit-align-items:flex-end; }
-		.mett__align-center{align-items:center; -webkit-align-items:center; }
-		.mett__align-stretch{align-items:stretch; -webkit-align-items:stretch; }
-		.mett__align-baseline{align-items:baseline; -webkit-align-items:baseline; }
+
+		.mett__align-start{align-items: flex-start; -webkit-align-items: flex-start; } 
+
+		.mett__align-end{align-items:flex-end; -webkit-align-items:flex-end; } 
+
+		.mett__align-center{align-items:center; -webkit-align-items:center; } 
+
+		.mett__align-stretch{align-items:stretch; -webkit-align-items:stretch; } 
+
+		.mett__align-baseline{align-items:baseline; -webkit-align-items:baseline; } 
+
 		/* ALINGMENT ALL CONTENT */ 
-		.mett__align-all-center{align-content:center; -webkit-align-content:center; }
-		.mett__align-all-start{align-content:flex-start; -webkit-align-content:flex-start; }
-		.mett__align-all-end{align-content:flex-end; -webkit-align-content:flex-end; }
-		.mett__align-all-space-between{align-content:space-between; -webkit-align-content:space-between; }
-		.mett__align-all-space-around{align-content:space-around; -webkit-align-content:space-around; }
-		/* INSTRUCCIONES PARA RESOLUCIONES DEMASIADO PEQUEÑAS */ 
-		@media screen and (max-width: 319px){
-			.mett__container-main{border:1px solid orange; display: none; }
-			.mett__msj-not-resolution{display: block; font-family: HelveticaNeueLT-Light; color: #28cad6; text-align: center; font-size: 20px; margin: 6em 0em; }
-		}
-		
 
-		/* SMALL DEVICES (SMARTPHONES, 320PX AND UP) */ 
-		@media (min-width: 320px){
+		.mett__align-all-center{align-content:center; -webkit-align-content:center; } 
 
-			h1{
-			color: #FF6C04;
-			font-size: 25px;
-			text-transform: uppercase;    
-			margin-top: 1em;
-			margin-bottom: 0.5em;
-			}
-			p, span{
-			margin: 0;
-			font-size: 17px;
-			width: 100%;
-			}
+		.mett__align-all-start{align-content:flex-start; -webkit-align-content:flex-start; } 
 
+		.mett__align-all-end{align-content:flex-end; -webkit-align-content:flex-end; } 
+
+		.mett__align-all-space-between{align-content:space-between; -webkit-align-content:space-between; } 
+
+		.mett__align-all-space-around{align-content:space-around; -webkit-align-content:space-around; } 
+
+		/* INSTRUCCIONES PARA RESOLUCIONES DEMASIADO PEQUEÑAS */ @media screen and (max-width: 319px){
+			
+		.mett__container-main{border:1px solid orange; display: none; }
+
+		.mett__msj-not-resolution{display: block; font-family: HelveticaNeueLT-Light; color: #28cad6; text-align: center; font-size: 20px; margin: 6em 0em; } 
+		} 
+		/* SMALL DEVICES (SMARTPHONES, 320PX AND UP) */ @media (min-width: 320px){
 		.mett__navigator-access-long{display: none;}
-		.mett__navigator-access-small{display: flex;}
-		.mett__logo-bg-long{display: block;} 
-		.mett__log-bg-small{display: none;}
-		.mett__msj-not-resolution{display: none;}
-		.mett__text-align-gt{text-align: center; }
-		.mett__order-gt-1{order:1; -webkit-order:1; }
-		.mett__order-gt-2{order:2; -webkit-order:2; }
-		.mett__order-gt-3{order:3; -webkit-order:3; }
-		.mett__order-gt-4{order:4; -webkit-order:4; }
-		.mett__main-text1{font-size:10vw; }
-		.mett__second-text1{font-size: 3.5vw;padding: 0.1em 0em 0.6em;opacity: 0.9; }
-		.mett__flex-gt-hide{display: none; }
-		.mett__flex-gt-0{-webkit-flex: 1 1 1%; -ms-flex: 1 1 1%; flex: 1 1 1%; max-width: 1%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-5{-webkit-flex: 1 1 5%; -ms-flex: 1 1 5%; flex: 1 1 5%; max-width: 5%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-10{-webkit-flex: 1 1 10%; -ms-flex: 1 1 10%; flex: 1 1 10%; max-width: 10%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-15{-webkit-flex: 1 1 15%; -ms-flex: 1 1 15%; flex: 1 1 15%; max-width: 15%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-20{-webkit-flex: 1 1 20%; -ms-flex: 1 1 20%; flex: 1 1 20%; max-width: 20%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-25{-webkit-flex: 1 1 25%; -ms-flex: 1 1 25%; flex: 1 1 25%; max-width: 25%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-30{-webkit-flex: 1 1 30%; -ms-flex: 1 1 30%; flex: 1 1 30%; max-width: 30%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-35{-webkit-flex: 1 1 35%; -ms-flex: 1 1 35%; flex: 1 1 35%; max-width: 35%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-40{-webkit-flex: 1 1 40%; -ms-flex: 1 1 40%; flex: 1 1 40%; max-width: 40%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-45{-webkit-flex: 1 1 45%; -ms-flex: 1 1 45%; flex: 1 1 45%; max-width: 45%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-50{-webkit-flex: 1 1 50%; -ms-flex: 1 1 50%; flex: 1 1 50%; max-width: 50%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-55{-webkit-flex: 1 1 55%; -ms-flex: 1 1 55%; flex: 1 1 55%; max-width: 55%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-60{-webkit-flex: 1 1 60%; -ms-flex: 1 1 60%; flex: 1 1 60%; max-width: 60%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-65{-webkit-flex: 1 1 65%; -ms-flex: 1 1 65%; flex: 1 1 65%; max-width: 65%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-70{-webkit-flex: 1 1 70%; -ms-flex: 1 1 70%; flex: 1 1 70%; max-width: 70%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-75{-webkit-flex: 1 1 75%; -ms-flex: 1 1 75%; flex: 1 1 75%; max-width: 75%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-80{-webkit-flex: 1 1 80%; -ms-flex: 1 1 80%; flex: 1 1 80%; max-width: 80%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-85{-webkit-flex: 1 1 85%; -ms-flex: 1 1 85%; flex: 1 1 85%; max-width: 85%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-90{-webkit-flex: 1 1 90%; -ms-flex: 1 1 90%; flex: 1 1 90%; max-width: 90%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-95{-webkit-flex: 1 1 95%; -ms-flex: 1 1 95%; flex: 1 1 95%; max-width: 95%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-gt-100{-webkit-flex: 1 1 100%; -ms-flex: 1 1 100%; flex: 1 1 100%; max-width: 100%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
 
-		}
+		.mett__navigator-access-small{display: flex;} 
+
+		.mett__logo-bg-long{display: block;} 
+
+		.mett__log-bg-small{display: none;} 
+
+		.mett__msj-not-resolution{display: none; } 
+
+		.mett__text-align-gt{text-align: center; }
+		 
+		.mett__order-gt-1{order:1; -webkit-order:1; } 
+
+		.mett__order-gt-2{order:2; -webkit-order:2; } 
+
+		.mett__order-gt-3{order:3; -webkit-order:3; } 
+
+		.mett__order-gt-4{order:4; -webkit-order:4; } 
+
+		.mett__flex-gt-hide{display: none; } 
+
+		.mett__flex-gt-0{-webkit-flex: 1 1 1%; -ms-flex: 1 1 1%; flex: 1 1 1%; max-width: 1%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-5{-webkit-flex: 1 1 5%; -ms-flex: 1 1 5%; flex: 1 1 5%; max-width: 5%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-10{-webkit-flex: 1 1 10%; -ms-flex: 1 1 10%; flex: 1 1 10%; max-width: 10%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-15{-webkit-flex: 1 1 15%; -ms-flex: 1 1 15%; flex: 1 1 15%; max-width: 15%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-20{-webkit-flex: 1 1 20%; -ms-flex: 1 1 20%; flex: 1 1 20%; max-width: 20%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-25{-webkit-flex: 1 1 25%; -ms-flex: 1 1 25%; flex: 1 1 25%; max-width: 25%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-30{-webkit-flex: 1 1 30%; -ms-flex: 1 1 30%; flex: 1 1 30%; max-width: 30%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-35{-webkit-flex: 1 1 35%; -ms-flex: 1 1 35%; flex: 1 1 35%; max-width: 35%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-40{-webkit-flex: 1 1 40%; -ms-flex: 1 1 40%; flex: 1 1 40%; max-width: 40%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-45{-webkit-flex: 1 1 45%; -ms-flex: 1 1 45%; flex: 1 1 45%; max-width: 45%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-50{-webkit-flex: 1 1 50%; -ms-flex: 1 1 50%; flex: 1 1 50%; max-width: 50%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-55{-webkit-flex: 1 1 55%; -ms-flex: 1 1 55%; flex: 1 1 55%; max-width: 55%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-60{-webkit-flex: 1 1 60%; -ms-flex: 1 1 60%; flex: 1 1 60%; max-width: 60%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-65{-webkit-flex: 1 1 65%; -ms-flex: 1 1 65%; flex: 1 1 65%; max-width: 65%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-70{-webkit-flex: 1 1 70%; -ms-flex: 1 1 70%; flex: 1 1 70%; max-width: 70%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-75{-webkit-flex: 1 1 75%; -ms-flex: 1 1 75%; flex: 1 1 75%; max-width: 75%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-80{-webkit-flex: 1 1 80%; -ms-flex: 1 1 80%; flex: 1 1 80%; max-width: 80%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-85{-webkit-flex: 1 1 85%; -ms-flex: 1 1 85%; flex: 1 1 85%; max-width: 85%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-90{-webkit-flex: 1 1 90%; -ms-flex: 1 1 90%; flex: 1 1 90%; max-width: 90%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-95{-webkit-flex: 1 1 95%; -ms-flex: 1 1 95%; flex: 1 1 95%; max-width: 95%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		.mett__flex-gt-100{-webkit-flex: 1 1 100%; -ms-flex: 1 1 100%; flex: 1 1 100%; max-width: 100%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		} 
 		/* SMALL DEVICES (TABLETS, 600PX AND UP) */ 
 		@media (min-width: 600px){
-		h1{
-		color: #FF6C04;
-		font-size: 26px;
-		text-transform: uppercase;    
-		margin-top: 1em;
-		margin-bottom: 0.5em;
-		}
-		p, span{
-		margin: 0;
-		font-size: 18px;
-		width: 100%;
-		}
 
-		.mett__navigator-access-long{display: flex;}
-		.mett__navigator-access-small{display: none;}
-		.mett__logo-bg-long{display: none;} 
-		.mett__log-bg-small{display: block;}
-		.mett__msj-not-resolution{display: none;}
-		.mett__text-align-xs{text-align: center; }
-		.mett__order-xs-1{order:1; -webkit-order:1; }
-		.mett__order-xs-2{order:2; -webkit-order:2; }
-		.mett__order-xs-3{order:3; -webkit-order:3; }
-		.mett__order-xs-4{order:4; -webkit-order:4; }
-		.mett__main-text1{font-size:37px; }
-		.mett__second-text1{font-size: 20px;padding: 0.1em 0em 0.6em;opacity: 0.9; }
-		.mett__flex-xs-hide{display: none; }
-		.mett__flex-xs-0{-webkit-flex: 1 1 1%; -ms-flex: 1 1 1%; flex: 1 1 1%; max-width: 1%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-5{-webkit-flex: 1 1 5%; -ms-flex: 1 1 5%; flex: 1 1 5%; max-width: 5%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-10{-webkit-flex: 1 1 10%; -ms-flex: 1 1 10%; flex: 1 1 10%; max-width: 10%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-15{-webkit-flex: 1 1 15%; -ms-flex: 1 1 15%; flex: 1 1 15%; max-width: 15%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-20{-webkit-flex: 1 1 20%; -ms-flex: 1 1 20%; flex: 1 1 20%; max-width: 20%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-25{-webkit-flex: 1 1 25%; -ms-flex: 1 1 25%; flex: 1 1 25%; max-width: 25%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-30{-webkit-flex: 1 1 30%; -ms-flex: 1 1 30%; flex: 1 1 30%; max-width: 30%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-35{-webkit-flex: 1 1 35%; -ms-flex: 1 1 35%; flex: 1 1 35%; max-width: 35%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-40{-webkit-flex: 1 1 40%; -ms-flex: 1 1 40%; flex: 1 1 40%; max-width: 40%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-45{-webkit-flex: 1 1 45%; -ms-flex: 1 1 45%; flex: 1 1 45%; max-width: 45%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-50{-webkit-flex: 1 1 50%; -ms-flex: 1 1 50%; flex: 1 1 50%; max-width: 50%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-55{-webkit-flex: 1 1 55%; -ms-flex: 1 1 55%; flex: 1 1 55%; max-width: 55%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-60{-webkit-flex: 1 1 60%; -ms-flex: 1 1 60%; flex: 1 1 60%; max-width: 60%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-65{-webkit-flex: 1 1 65%; -ms-flex: 1 1 65%; flex: 1 1 65%; max-width: 65%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-70{-webkit-flex: 1 1 70%; -ms-flex: 1 1 70%; flex: 1 1 70%; max-width: 70%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-75{-webkit-flex: 1 1 75%; -ms-flex: 1 1 75%; flex: 1 1 75%; max-width: 75%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-80{-webkit-flex: 1 1 80%; -ms-flex: 1 1 80%; flex: 1 1 80%; max-width: 80%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-85{-webkit-flex: 1 1 85%; -ms-flex: 1 1 85%; flex: 1 1 85%; max-width: 85%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-90{-webkit-flex: 1 1 90%; -ms-flex: 1 1 90%; flex: 1 1 90%; max-width: 90%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-95{-webkit-flex: 1 1 95%; -ms-flex: 1 1 95%; flex: 1 1 95%; max-width: 95%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-xs-100{-webkit-flex: 1 1 100%; -ms-flex: 1 1 100%; flex: 1 1 100%; max-width: 100%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
+			.mett__navigator-access-long{display: flex;} 
 
-		}
+			.mett__navigator-access-small{display: none;} 
+
+			.mett__logo-bg-long{display: none;} 
+
+			.mett__log-bg-small{display: block;} 
+
+			.mett__msj-not-resolution{display: none; } 
+
+			.mett__text-align-xs{text-align: center; } 
+
+			.mett__order-xs-1{order:1; -webkit-order:1; } 
+
+			.mett__order-xs-2{order:2; -webkit-order:2; } 
+
+			.mett__order-xs-3{order:3; -webkit-order:3; } 
+
+			.mett__order-xs-4{order:4; -webkit-order:4; } 
+
+			.mett__flex-xs-hide{display: none; } 
+
+			.mett__flex-xs-0{-webkit-flex: 1 1 1%; -ms-flex: 1 1 1%; flex: 1 1 1%; max-width: 1%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-5{-webkit-flex: 1 1 5%; -ms-flex: 1 1 5%; flex: 1 1 5%; max-width: 5%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-10{-webkit-flex: 1 1 10%; -ms-flex: 1 1 10%; flex: 1 1 10%; max-width: 10%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-15{-webkit-flex: 1 1 15%; -ms-flex: 1 1 15%; flex: 1 1 15%; max-width: 15%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+
+			.mett__flex-xs-20{-webkit-flex: 1 1 20%; -ms-flex: 1 1 20%; flex: 1 1 20%; max-width: 20%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-25{-webkit-flex: 1 1 25%; -ms-flex: 1 1 25%; flex: 1 1 25%; max-width: 25%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-30{-webkit-flex: 1 1 30%; -ms-flex: 1 1 30%; flex: 1 1 30%; max-width: 30%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-35{-webkit-flex: 1 1 35%; -ms-flex: 1 1 35%; flex: 1 1 35%; max-width: 35%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-40{-webkit-flex: 1 1 40%; -ms-flex: 1 1 40%; flex: 1 1 40%; max-width: 40%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-45{-webkit-flex: 1 1 45%; -ms-flex: 1 1 45%; flex: 1 1 45%; max-width: 45%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-50{-webkit-flex: 1 1 50%; -ms-flex: 1 1 50%; flex: 1 1 50%; max-width: 50%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-55{-webkit-flex: 1 1 55%; -ms-flex: 1 1 55%; flex: 1 1 55%; max-width: 55%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-60{-webkit-flex: 1 1 60%; -ms-flex: 1 1 60%; flex: 1 1 60%; max-width: 60%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-65{-webkit-flex: 1 1 65%; -ms-flex: 1 1 65%; flex: 1 1 65%; max-width: 65%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-70{-webkit-flex: 1 1 70%; -ms-flex: 1 1 70%; flex: 1 1 70%; max-width: 70%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-75{-webkit-flex: 1 1 75%; -ms-flex: 1 1 75%; flex: 1 1 75%; max-width: 75%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-80{-webkit-flex: 1 1 80%; -ms-flex: 1 1 80%; flex: 1 1 80%; max-width: 80%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-85{-webkit-flex: 1 1 85%; -ms-flex: 1 1 85%; flex: 1 1 85%; max-width: 85%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-90{-webkit-flex: 1 1 90%; -ms-flex: 1 1 90%; flex: 1 1 90%; max-width: 90%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-95{-webkit-flex: 1 1 95%; -ms-flex: 1 1 95%; flex: 1 1 95%; max-width: 95%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-xs-100{-webkit-flex: 1 1 100%; -ms-flex: 1 1 100%; flex: 1 1 100%; max-width: 100%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		} 
 		/* SMALL DEVICES (TABLETS, 768PX AND UP) */ 
 		@media (min-width: 768px) {
-		h1{
-		color: #FF6C04;
-		font-size: 26px;
-		text-transform: uppercase;    
-		margin-top: 1em;
-		margin-bottom: 0.5em;
-		}
-		p, span{
-		margin: 0;
-		font-size: 19px;
-		width: 100%;
-		}
+			.mett__navigator-access-long{display:flex;} 
 
-		.mett__navigator-access-long{display:flex;}
-		.mett__navigator-access-small{display: none;}
-		.mett__logo-bg-long{display: none;} 
-		.mett__log-bg-small{display: block;}
-		.mett__msj-not-resolution{display: none}
-		.mett__text-align-sm{text-align: left;}
-		/* Clases order */ 
-		.mett__order-sm-1{order:1; -webkit-order:1;}
-		.mett__order-sm-2{order:2; -webkit-order:2;}
-		.mett__order-sm-3{order:3; -webkit-order:3;}
-		.mett__order-sm-4{order:4; -webkit-order:4;}
-		.mett__main-text3{font-size:48px;}
-		.mett__second-text3{font-size: 23px; padding: 0.1em 0em 0.6em; opacity: 0.9;}
-		.mett__logo{width: 70px;}
-		.mett__flex-sm-0{-webkit-flex: 1 1 1%; -ms-flex: 1 1 1%; flex: 1 1 1%; max-width: 1%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-5{-webkit-flex: 1 1 5%; -ms-flex: 1 1 5%; flex: 1 1 5%; max-width: 5%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-10{-webkit-flex: 1 1 10%; -ms-flex: 1 1 10%; flex: 1 1 10%; max-width: 10%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-15{-webkit-flex: 1 1 15%; -ms-flex: 1 1 15%; flex: 1 1 15%; max-width: 15%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-20{-webkit-flex: 1 1 20%; -ms-flex: 1 1 20%; flex: 1 1 20%; max-width: 20%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-25{-webkit-flex: 1 1 25%; -ms-flex: 1 1 25%; flex: 1 1 25%; max-width: 25%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-30{-webkit-flex: 1 1 30%; -ms-flex: 1 1 30%; flex: 1 1 30%; max-width: 30%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-35{-webkit-flex: 1 1 35%; -ms-flex: 1 1 35%; flex: 1 1 35%; max-width: 35%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-40{-webkit-flex: 1 1 40%; -ms-flex: 1 1 40%; flex: 1 1 40%; max-width: 40%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-45{-webkit-flex: 1 1 45%; -ms-flex: 1 1 45%; flex: 1 1 45%; max-width: 45%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-50{-webkit-flex: 1 1 50%; -ms-flex: 1 1 50%; flex: 1 1 50%; max-width: 50%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-55{-webkit-flex: 1 1 55%; -ms-flex: 1 1 55%; flex: 1 1 55%; max-width: 55%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-60{-webkit-flex: 1 1 60%; -ms-flex: 1 1 60%; flex: 1 1 60%; max-width: 60%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-65{-webkit-flex: 1 1 65%; -ms-flex: 1 1 65%; flex: 1 1 65%; max-width: 65%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-70{-webkit-flex: 1 1 70%; -ms-flex: 1 1 70%; flex: 1 1 70%; max-width: 70%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-75{-webkit-flex: 1 1 75%; -ms-flex: 1 1 75%; flex: 1 1 75%; max-width: 75%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-80{-webkit-flex: 1 1 80%; -ms-flex: 1 1 80%; flex: 1 1 80%; max-width: 80%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-85{-webkit-flex: 1 1 85%; -ms-flex: 1 1 85%; flex: 1 1 85%; max-width: 85%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-90{-webkit-flex: 1 1 90%; -ms-flex: 1 1 90%; flex: 1 1 90%; max-width: 90%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-95{-webkit-flex: 1 1 95%; -ms-flex: 1 1 95%; flex: 1 1 95%; max-width: 95%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-100{-webkit-flex: 1 1 100%; -ms-flex: 1 1 100%; flex: 1 1 100%; max-width: 100%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-sm-hide{display: none;}
+			.mett__navigator-access-small{display: none;} 
 
-		}
+			.mett__logo-bg-long{display: none;} 
+
+			.mett__log-bg-small{display: block;} 
+
+			.mett__msj-not-resolution{display: none; } 
+
+			.mett__text-align-sm{text-align: left; } 
+
+			/* Clases order */ 
+
+			.mett__order-sm-1{order:1; -webkit-order:1; } 
+
+			.mett__order-sm-2{order:2; -webkit-order:2; } 
+
+			.mett__order-sm-3{order:3; -webkit-order:3; } 
+
+			.mett__order-sm-4{order:4; -webkit-order:4; } 
+
+			.mett__main-text3{font-size:48px; } 
+
+			.mett__second-text3{font-size: 23px; padding: 0.1em 0em 0.6em; opacity: 0.9; } 
+
+			.mett__logo{width: 70px; } 
+
+			.mett__flex-sm-0{-webkit-flex: 1 1 1%; -ms-flex: 1 1 1%; flex: 1 1 1%; max-width: 1%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-5{-webkit-flex: 1 1 5%; -ms-flex: 1 1 5%; flex: 1 1 5%; max-width: 5%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-10{-webkit-flex: 1 1 10%; -ms-flex: 1 1 10%; flex: 1 1 10%; max-width: 10%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-15{-webkit-flex: 1 1 15%; -ms-flex: 1 1 15%; flex: 1 1 15%; max-width: 15%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-20{-webkit-flex: 1 1 20%; -ms-flex: 1 1 20%; flex: 1 1 20%; max-width: 20%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-25{-webkit-flex: 1 1 25%; -ms-flex: 1 1 25%; flex: 1 1 25%; max-width: 25%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-30{-webkit-flex: 1 1 30%; -ms-flex: 1 1 30%; flex: 1 1 30%; max-width: 30%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-35{-webkit-flex: 1 1 35%; -ms-flex: 1 1 35%; flex: 1 1 35%; max-width: 35%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-40{-webkit-flex: 1 1 40%; -ms-flex: 1 1 40%; flex: 1 1 40%; max-width: 40%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-45{-webkit-flex: 1 1 45%; -ms-flex: 1 1 45%; flex: 1 1 45%; max-width: 45%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-50{-webkit-flex: 1 1 50%; -ms-flex: 1 1 50%; flex: 1 1 50%; max-width: 50%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-55{-webkit-flex: 1 1 55%; -ms-flex: 1 1 55%; flex: 1 1 55%; max-width: 55%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-60{-webkit-flex: 1 1 60%; -ms-flex: 1 1 60%; flex: 1 1 60%; max-width: 60%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-65{-webkit-flex: 1 1 65%; -ms-flex: 1 1 65%; flex: 1 1 65%; max-width: 65%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-70{-webkit-flex: 1 1 70%; -ms-flex: 1 1 70%; flex: 1 1 70%; max-width: 70%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-75{-webkit-flex: 1 1 75%; -ms-flex: 1 1 75%; flex: 1 1 75%; max-width: 75%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-80{-webkit-flex: 1 1 80%; -ms-flex: 1 1 80%; flex: 1 1 80%; max-width: 80%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-85{-webkit-flex: 1 1 85%; -ms-flex: 1 1 85%; flex: 1 1 85%; max-width: 85%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-90{-webkit-flex: 1 1 90%; -ms-flex: 1 1 90%; flex: 1 1 90%; max-width: 90%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-95{-webkit-flex: 1 1 95%; -ms-flex: 1 1 95%; flex: 1 1 95%; max-width: 95%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-100{-webkit-flex: 1 1 100%; -ms-flex: 1 1 100%; flex: 1 1 100%; max-width: 100%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-sm-hide{display: none; } 
+
+		} 
 		/* MEDIUM DEVICES (DESKTOPS, 992PX AND UP) */ 
 		@media (min-width: 992px) {
-		h1{
-		color: #FF6C04;
-		font-size: 30px;
-		text-transform: uppercase;    
-		margin-top: 1em;
-		margin-bottom: 0.5em;
-		}
-		p, span{
-		margin: 0;
-		font-size: 19px;
-		width: 100%;
-		}
+			.mett__navigator-access-long{display:flex;} 
 
-		.mett__navigator-access-long{display:flex;}
-		.mett__navigator-access-small{display: none;}
-		.mett__logo-bg-long{display: none;} 
-		.mett__log-bg-small{display: block;}
-		.mett__msj-not-resolution{display: none}
-		.mett__flex-md-show{display:block}
-		.mett__text-align-md{text-align: left;}
-		.mett__order-md-1{order:1; -webkit-order:1;}
-		.mett__order-md-2{order:2; -webkit-order:2;}
-		.mett__order-md-3{order:3; -webkit-order:3;}
-		.mett__order-md-4{order:4; -webkit-order:4;}
-		.mett__main-text2{font-size:52px;}
-		.mett__second-text2{font-size: 23px; padding: 0.1em 0em 0.6em; opacity: 0.9;}
-		.mett__flex-md-100{-webkit-flex: 1 1 100%; -ms-flex: 1 1 100%; flex: 1 1 100%; max-width: 100%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-0{-webkit-flex: 1 1 1%; -ms-flex: 1 1 1%; flex: 1 1 1%; max-width: 1%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-5{-webkit-flex: 1 1 5%; -ms-flex: 1 1 5%; flex: 1 1 5%; max-width: 5%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-10{-webkit-flex: 1 1 10%; -ms-flex: 1 1 10%; flex: 1 1 10%; max-width: 10%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-15{-webkit-flex: 1 1 15%; -ms-flex: 1 1 15%; flex: 1 1 15%; max-width: 15%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-20{-webkit-flex: 1 1 20%; -ms-flex: 1 1 20%; flex: 1 1 20%; max-width: 20%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-25{-webkit-flex: 1 1 25%; -ms-flex: 1 1 25%; flex: 1 1 25%; max-width: 25%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-30{-webkit-flex: 1 1 30%; -ms-flex: 1 1 30%; flex: 1 1 30%; max-width: 30%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-35{-webkit-flex: 1 1 35%; -ms-flex: 1 1 35%; flex: 1 1 35%; max-width: 35%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-40{-webkit-flex: 1 1 40%; -ms-flex: 1 1 40%; flex: 1 1 40%; max-width: 40%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-45{-webkit-flex: 1 1 45%; -ms-flex: 1 1 45%; flex: 1 1 45%; max-width: 45%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-50{-webkit-flex: 1 1 50%; -ms-flex: 1 1 50%; flex: 1 1 50%; max-width: 50%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-55{-webkit-flex: 1 1 55%; -ms-flex: 1 1 55%; flex: 1 1 55%; max-width: 55%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-60{-webkit-flex: 1 1 60%; -ms-flex: 1 1 60%; flex: 1 1 60%; max-width: 60%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-65{border:1px solid blue; -webkit-flex: 1 1 65%; -ms-flex: 1 1 65%; flex: 1 1 65%; max-width: 65%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-70{-webkit-flex: 1 1 70%; -ms-flex: 1 1 70%; flex: 1 1 70%; max-width: 70%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-75{-webkit-flex: 1 1 75%; -ms-flex: 1 1 75%; flex: 1 1 75%; max-width: 75%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-80{-webkit-flex: 1 1 80%; -ms-flex: 1 1 80%; flex: 1 1 80%; max-width: 80%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-85{-webkit-flex: 1 1 85%; -ms-flex: 1 1 85%; flex: 1 1 85%; max-width: 85%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-90{-webkit-flex: 1 1 90%; -ms-flex: 1 1 90%; flex: 1 1 90%; max-width: 90%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
-		.mett__flex-md-95{-webkit-flex: 1 1 95%; -ms-flex: 1 1 95%; flex: 1 1 95%; max-width: 95%; max-height: 100%; box-sizing: border-box; word-wrap:break-word;}
+			.mett__navigator-access-small{display: none;} 
 
-		}
+			.mett__logo-bg-long{display: none;} 
+
+			.mett__log-bg-small{display: block;} 
+
+			.mett__msj-not-resolution{display: none; } 
+
+			.mett__flex-md-show{display:block; } 
+
+			.mett__text-align-md{text-align: left; } 
+
+			.mett__order-md-1{order:1; -webkit-order:1; } 
+
+			.mett__order-md-2{order:2; -webkit-order:2; } 
+
+			.mett__order-md-3{order:3; -webkit-order:3; } 
+
+			.mett__order-md-4{order:4; -webkit-order:4; } 
+
+			.mett__main-text2{font-size:52px; } 
+
+			.mett__second-text2{font-size: 23px; padding: 0.1em 0em 0.6em; opacity: 0.9; } 
+
+			.mett__flex-md-100{-webkit-flex: 1 1 100%; -ms-flex: 1 1 100%; flex: 1 1 100%; max-width: 100%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-0{-webkit-flex: 1 1 1%; -ms-flex: 1 1 1%; flex: 1 1 1%; max-width: 1%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-5{-webkit-flex: 1 1 5%; -ms-flex: 1 1 5%; flex: 1 1 5%; max-width: 5%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-10{-webkit-flex: 1 1 10%; -ms-flex: 1 1 10%; flex: 1 1 10%; max-width: 10%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-15{-webkit-flex: 1 1 15%; -ms-flex: 1 1 15%; flex: 1 1 15%; max-width: 15%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-20{-webkit-flex: 1 1 20%; -ms-flex: 1 1 20%; flex: 1 1 20%; max-width: 20%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-25{-webkit-flex: 1 1 25%; -ms-flex: 1 1 25%; flex: 1 1 25%; max-width: 25%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-30{-webkit-flex: 1 1 30%; -ms-flex: 1 1 30%; flex: 1 1 30%; max-width: 30%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-35{-webkit-flex: 1 1 35%; -ms-flex: 1 1 35%; flex: 1 1 35%; max-width: 35%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-40{-webkit-flex: 1 1 40%; -ms-flex: 1 1 40%; flex: 1 1 40%; max-width: 40%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-45{-webkit-flex: 1 1 45%; -ms-flex: 1 1 45%; flex: 1 1 45%; max-width: 45%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-50{-webkit-flex: 1 1 50%; -ms-flex: 1 1 50%; flex: 1 1 50%; max-width: 50%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-55{-webkit-flex: 1 1 55%; -ms-flex: 1 1 55%; flex: 1 1 55%; max-width: 55%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-60{-webkit-flex: 1 1 60%; -ms-flex: 1 1 60%; flex: 1 1 60%; max-width: 60%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-65{border:1px solid blue; -webkit-flex: 1 1 65%; -ms-flex: 1 1 65%; flex: 1 1 65%; max-width: 65%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-70{-webkit-flex: 1 1 70%; -ms-flex: 1 1 70%; flex: 1 1 70%; max-width: 70%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-75{-webkit-flex: 1 1 75%; -ms-flex: 1 1 75%; flex: 1 1 75%; max-width: 75%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-80{-webkit-flex: 1 1 80%; -ms-flex: 1 1 80%; flex: 1 1 80%; max-width: 80%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-85{-webkit-flex: 1 1 85%; -ms-flex: 1 1 85%; flex: 1 1 85%; max-width: 85%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-90{-webkit-flex: 1 1 90%; -ms-flex: 1 1 90%; flex: 1 1 90%; max-width: 90%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-md-95{-webkit-flex: 1 1 95%; -ms-flex: 1 1 95%; flex: 1 1 95%; max-width: 95%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+		} 
 		/* LARGE DEVICES (LARGE DESKTOPS, 1200PX AND UP) */ 
 		@media (min-width: 1200px) {
-		h1{
-		color: #FF6C04;
-		font-size: 30px;
-		text-transform: uppercase;    
-		margin-top: 1em;
-		margin-bottom: 0.5em;
+
+			.mett__navigator-access-long{display: flex;} 
+
+			.mett__navigator-access-small{display: none;} 
+
+			.mett__logo-bg-long{display: none;} 
+
+			.mett__log-bg-small{display: block;} 
+
+			.mett__msj-not-resolution{display: none; } 
+
+			.mett__flex-lg-show{display:block; } 
+
+			.mett__text-align-lg{text-align: left; } 
+
+			.mett__order-lg-1{order:1; -webkit-order:1; } 
+
+			.mett__order-lg-2{order:2; -webkit-order:2; } 
+
+			.mett__order-lg-3{order:3; -webkit-order:3; } 
+
+			.mett__order-lg-4{order:4; -webkit-order:4; } 
+
+			.mett__flex-lg-0{-webkit-flex: 1 1 1%; -ms-flex: 1 1 1%; flex: 1 1 1%; max-width: 1%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-5{-webkit-flex: 1 1 5%; -ms-flex: 1 1 5%; flex: 1 1 5%; max-width: 5%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-10{-webkit-flex: 1 1 10%; -ms-flex: 1 1 10%; flex: 1 1 10%; max-width: 10%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-15{-webkit-flex: 1 1 15%; -ms-flex: 1 1 15%; flex: 1 1 15%; max-width: 15%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-20{-webkit-flex: 1 1 20%; -ms-flex: 1 1 20%; flex: 1 1 20%; max-width: 20%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-25{-webkit-flex: 1 1 25%; -ms-flex: 1 1 25%; flex: 1 1 25%; max-width: 25%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-30{-webkit-flex: 1 1 30%; -ms-flex: 1 1 30%; flex: 1 1 30%; max-width: 30%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-35{-webkit-flex: 1 1 35%; -ms-flex: 1 1 35%; flex: 1 1 35%; max-width: 35%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-40{-webkit-flex: 1 1 40%; -ms-flex: 1 1 40%; flex: 1 1 40%; max-width: 40%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-45{-webkit-flex: 1 1 45%; -ms-flex: 1 1 45%; flex: 1 1 45%; max-width: 45%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-50{-webkit-flex: 1 1 50%; -ms-flex: 1 1 50%; flex: 1 1 50%; max-width: 50%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-55{-webkit-flex: 1 1 55%; -ms-flex: 1 1 55%; flex: 1 1 55%; max-width: 55%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-60{-webkit-flex: 1 1 60%; -ms-flex: 1 1 60%; flex: 1 1 60%; max-width: 60%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-65{-webkit-flex: 1 1 65%; -ms-flex: 1 1 65%; flex: 1 1 65%; max-width: 65%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-70{-webkit-flex: 1 1 70%; -ms-flex: 1 1 70%; flex: 1 1 70%; max-width: 70%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-75{-webkit-flex: 1 1 75%; -ms-flex: 1 1 75%; flex: 1 1 75%; max-width: 75%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-80{-webkit-flex: 1 1 80%; -ms-flex: 1 1 80%; flex: 1 1 80%; max-width: 80%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
+
+			.mett__flex-lg-85{-webkit-flex: 1 1 85%; -ms-flex: 1 1 85%; flex: 1 1 85%; max-width: 85%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-90{-webkit-flex: 1 1 90%; -ms-flex: 1 1 90%; flex: 1 1 90%; max-width: 90%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-95{-webkit-flex: 1 1 95%; -ms-flex: 1 1 95%; flex: 1 1 95%; max-width: 95%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; } 
+
+			.mett__flex-lg-100{-webkit-flex: 1 1 100%;-ms-flex: 1 1 100%;flex: 1 1 100%;max-width: 100%;max-height: 100%;box-sizing: border-box;word-wrap:break-word; } 
+
 		}
-		p, span{
-		margin: 0;
-		font-size: 19px;
-		width: 100%;
-		}
 
-		.mett__navigator-access-long{display: flex;}
-		.mett__navigator-access-small{display: none;}
-		.mett__logo-bg-long{display: none;} 
-		.mett__log-bg-small{display: block;}
-		.mett__msj-not-resolution{display: none;}
-		.mett__flex-lg-show{display:block;}
-		.mett__text-align-lg{text-align: left; }
-		.mett__order-lg-1{order:1; -webkit-order:1; }
-		.mett__order-lg-2{order:2; -webkit-order:2; }
-		.mett__order-lg-3{order:3; -webkit-order:3; }
-		.mett__order-lg-4{order:4; -webkit-order:4; }
-		.mett__main-text1{font-size:55px; }
-		.mett__second-text1{font-size: 26px;padding: 0.1em 0em 0.6em;opacity: 0.9; }
-		.mett__flex-lg-0{-webkit-flex: 1 1 1%; -ms-flex: 1 1 1%; flex: 1 1 1%; max-width: 1%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-5{-webkit-flex: 1 1 5%; -ms-flex: 1 1 5%; flex: 1 1 5%; max-width: 5%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-10{-webkit-flex: 1 1 10%; -ms-flex: 1 1 10%; flex: 1 1 10%; max-width: 10%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-15{-webkit-flex: 1 1 15%; -ms-flex: 1 1 15%; flex: 1 1 15%; max-width: 15%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-20{-webkit-flex: 1 1 20%; -ms-flex: 1 1 20%; flex: 1 1 20%; max-width: 20%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-25{-webkit-flex: 1 1 25%; -ms-flex: 1 1 25%; flex: 1 1 25%; max-width: 25%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-30{-webkit-flex: 1 1 30%; -ms-flex: 1 1 30%; flex: 1 1 30%; max-width: 30%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-35{-webkit-flex: 1 1 35%; -ms-flex: 1 1 35%; flex: 1 1 35%; max-width: 35%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-40{-webkit-flex: 1 1 40%; -ms-flex: 1 1 40%; flex: 1 1 40%; max-width: 40%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-45{-webkit-flex: 1 1 45%; -ms-flex: 1 1 45%; flex: 1 1 45%; max-width: 45%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-50{-webkit-flex: 1 1 50%; -ms-flex: 1 1 50%; flex: 1 1 50%; max-width: 50%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-55{-webkit-flex: 1 1 55%; -ms-flex: 1 1 55%; flex: 1 1 55%; max-width: 55%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-60{-webkit-flex: 1 1 60%; -ms-flex: 1 1 60%; flex: 1 1 60%; max-width: 60%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-65{-webkit-flex: 1 1 65%; -ms-flex: 1 1 65%; flex: 1 1 65%; max-width: 65%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-70{-webkit-flex: 1 1 70%; -ms-flex: 1 1 70%; flex: 1 1 70%; max-width: 70%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-75{-webkit-flex: 1 1 75%; -ms-flex: 1 1 75%; flex: 1 1 75%; max-width: 75%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-80{-webkit-flex: 1 1 80%; -ms-flex: 1 1 80%; flex: 1 1 80%; max-width: 80%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-85{-webkit-flex: 1 1 85%; -ms-flex: 1 1 85%; flex: 1 1 85%; max-width: 85%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-90{-webkit-flex: 1 1 90%; -ms-flex: 1 1 90%; flex: 1 1 90%; max-width: 90%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-95{-webkit-flex: 1 1 95%; -ms-flex: 1 1 95%; flex: 1 1 95%; max-width: 95%; max-height: 100%; box-sizing: border-box; word-wrap:break-word; }
-		.mett__flex-lg-100{-webkit-flex: 1 1 100%;-ms-flex: 1 1 100%;flex: 1 1 100%;max-width: 100%;max-height: 100%;box-sizing: border-box;word-wrap:break-word;}}
-
-		
-
-		p{margin-top: 0.5em;}
-		div span{text-align: center; font-size: 16px; margin: 0 auto; display: block;}
-		.mett__mod-inline{display: inline-block; vertical-align: middle; text-align: center;}
-		.mett__mod-section{padding: 1em 0em; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+44,0+100 */ background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 44%, rgba(255,255,255,0) 100%); /* FF3.6-15 */ background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 44%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */ background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 44%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ }
-		.mett__mod-section .mett__inner-section{margin: 1em 0em;}
-		.mett__cont-circle-number > div {padding:7px 0px;}
-		.mett__borde{border: 1px solid red;}
-		.mett__mod-texto{margin: 1.5em 0em;}
-		/* p i i */ 
-		.mett__content-img-big{overflow: hidden; /*max-height: 400px;*/ text-align: center; }
-		.mett__content-img-big img{width: 90%;}
-		.mett__content-img-small{overflow: hidden; border-radius: 16px; -webkit-border-radius: 16px;}
-		.mett__shadow-box{-webkit-box-shadow: 7px 7px 1px 0px rgba(50, 50, 50, 0.15); -moz-box-shadow:    7px 7px 1px 0px rgba(50, 50, 50, 0.15); box-shadow:         7px 7px 1px 0px rgba(50, 50, 50, 0.15); -webkit-border-radius: 16px; -moz-border-radius: 16px; -ms-border-radius: 16px; -o-border-radius: 16px; }
-		.mett__content-img-small img{width: 100%;}
-		img{width: 100%;}
-		.mett__uppercase{text-transform: uppercase;}
-		/* IMPORT FONTS */ @font-face {font-family:'HelveticaNeueLT-Light'; src: url('../fonts/HelveticaNeueLT-Light_gdi.eot'); src: url('../fonts/HelveticaNeueLT-Light_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueLT-Light_gdi.woff') format('woff'), url('../fonts/HelveticaNeueLT-Light_gdi.ttf') format('truetype'), url('../fonts/HelveticaNeueLT-Light_gdi.svg#HelveticaNeueLT-Light') format('svg'); font-weight: 3; font-style: normal; font-stretch: normal; unicode-range: U+0-10FFFF; }
-		@font-face {font-family:'HelveticaNeue-Thin'; src: url('../fonts/HelveticaNeue-Thin_gdi.eot'); src: url('../fonts/HelveticaNeue-Thin_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue-Thin_gdi.woff') format('woff'), url('../fonts/HelveticaNeue-Thin_gdi.ttf') format('truetype'), url('../fonts/HelveticaNeue-Thin_gdi.svg#HelveticaNeue-Thin') format('svg'); font-weight: 100; font-style: normal; font-stretch: normal; unicode-range: U+0020-2212; }
+		/* COLOR MAIN #FF6C04 */
 
 		html{
-		background: url(img/lenovo_pattern-02.png) no-repeat center center fixed; 
-		-webkit-background-size: cover; 
-		-moz-background-size: cover; 
-		-o-background-size: cover; 
-		background-size: cover;
-		padding:0; margin: 0;
+			background: url(img/lenovo_pattern-02.png) no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover; 
+			background-size: cover; 
+			padding:0; 
+			margin: 0; 
 		} 
+
 		body{
-		padding:0; 
-		margin: 0; 
-		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-		color: rgba(0,0,0,0.7); 
-		}
+			padding:0; 
+			margin: 0; 
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+			color: rgba(0,0,0,0.7); 
+		} 
 
 		html, body{
-		-webkit-tap-highlight-color: transparent;
-		-webkit-touch-callout: none;
-		min-height: 100%;
-		-webkit-text-size-adjust: 100%;
-		-ms-text-size-adjust: 100%;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
+			-webkit-tap-highlight-color: transparent; 
+			-webkit-touch-callout: none;
+			min-height: 100%; 
+			-webkit-text-size-adjust: 100%; 
+			-ms-text-size-adjust: 100%;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale; 
 		}
 
-		button{
-		border: none;
-		cursor: pointer;
-		outline: none;
-		padding: 0.7em 1.3em;
-		text-transform: uppercase;
-		}
+		/* IMPORT FONTS */ 
 
-		.mett__layout-fill{
-		height:100%;
-		max-height: 100%;
-		}
-
-		/* NAV STYLES*/
-
-		nav{
-		height: 10vh;
-		max-height:10vh;
-		position: relative;
-		}
-
-		nav .mett__item{
-		padding: 1em 0.5em;
-		text-align: center;
-		cursor: pointer;
-		font-size: 14px;
-		font-weight: bold;
-		opacity:1;
-		}
-		.mett__main-container-gif{
-		height: 90vh;
-		max-height:90vh;
-		background: url('img/bg_gif/bg_AIO.png') no-repeat center #444;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-bamett__ckground-size: cover;
-		background-size: cover;
-		background-origin: border-box;
-		padding: 0;
-		}
-		.mett__height-full{
-		width: 100%;
-		}
-		h2{
-		color: #FF6C04;
-		font-size: 25px;
-		}
-		.mett__section-info{
-		margin: 1em 0em;
-		-webkit-transition: all 1s ease-in-out;
-		-moz-transition: all 1s ease-in-out;
-		-o-transition: all 1s ease-in-out;
-		transition: all 1s ease-in-out;
-		}
-
-		.mett__btn-primary{
-		background: #FF6C04;
-		color: white;
-		font-size: 16px;
-		}
-
-		.mett__btn-primary:active{
-		background: #cc4e1c;
-		}
-
-		.mett__price{
-		font-weight: bold;
-		font-size: 28px;
-		margin:1em 0em;
-		}
-
-		.mett__franja-color{
-		background: #FF6C04;
-		color: white;
-		min-height: 70px;
-		}
-
-		.mett__content-shadow{
-		border-radius: 10px;
-		overflow: hidden;
-		background: rgba(50, 50, 50, 0.35);
-		-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.35);
-		-webkit-box-shadow: 7px 7px 1px 0px rgba(50, 50, 50, 0.35);
-		-moz-box-shadow:    7px 7px 1px 0px rgba(50, 50, 50, 0.35);
-		box-shadow:         7px 7px 1px 0px rgba(50, 50, 50, 0.35);
-		margin-top: 1em;
-		}
-		a{text-decoration: none; color: rgba(0,0,0,0.7);}
-		a:hover{color: #FF6C04}
-
-		.mett__lista-accesos{
-		max-height: 0px;
-		overflow: hidden;
-		-webkit-transition: all 0.5s ease-in-out;
-		-moz-transition: all 0.5s ease-in-out;
-		-o-transition: all 0.5s ease-in-out;
-		transition: all 0.5s ease-in-out;
-		background: #ffffff;
-		}
-
-		.mett__lista-accesos .mett__item-list{
-		padding: 1em;
-		border-bottom:1px solid #eee; 
-		text-transform: uppercase;
-		font-size: 14px;
-		-webkit-transition: all 0.28s ease-in-out;
-		-moz-transition: all 0.28s ease-in-out;
-		-o-transition: all 0.28s ease-in-out;
-		transition: all 0.28s ease-in-out;
-		}
-
-		.mett__lista-accesos > .mett__item-list:hover{
-		background: #eee;
-		}
-		.mett__open-list{
-		max-height: 600px;
-		-webkit-transition: all 0.5s ease-in-out;
-		-moz-transition: all 0.5s ease-in-out;
-		-o-transition: all 0.5s ease-in-out;
-		transition: all 0.5s ease-in-out;
-		}
 		@font-face {
-		font-family: 'icomoon';
-		src:    url('fonts/icomoon.eot?9cuerd');
-		src:    url('fonts/icomoon.eot?9cuerd#iefix') format('embedded-opentype'),
-		url('fonts/icomoon.ttf?9cuerd') format('truetype'),
-		url('fonts/icomoon.woff?9cuerd') format('woff'),
-		url('fonts/icomoon.svg?9cuerd#icomoon') format('svg');
-		font-weight: normal;
-		font-style: normal;
+			font-family:'HelveticaNeueLT-Light'; 
+			src: url('../fonts/HelveticaNeueLT-Light_gdi.eot'); 
+			src: url('../fonts/HelveticaNeueLT-Light_gdi.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/HelveticaNeueLT-Light_gdi.woff') format('woff'),
+			url('../fonts/HelveticaNeueLT-Light_gdi.ttf') format('truetype'),
+			url('../fonts/HelveticaNeueLT-Light_gdi.svg#HelveticaNeueLT-Light') format('svg');
+			font-weight: 3;
+			font-style: normal;
+			font-stretch: normal;
+			unicode-range: U+0-10FFFF;
+		} 
+
+		@font-face { 
+			font-family:'HelveticaNeue-Thin';
+			src: url('../fonts/HelveticaNeue-Thin_gdi.eot');
+			src: url('../fonts/HelveticaNeue-Thin_gdi.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/HelveticaNeue-Thin_gdi.woff') format('woff'),
+			url('../fonts/HelveticaNeue-Thin_gdi.ttf') format('truetype'),
+			url('../fonts/HelveticaNeue-Thin_gdi.svg#HelveticaNeue-Thin') format('svg');
+			font-weight: 100;
+			font-style: normal;
+			font-stretch: normal;
+			unicode-range: U+0020-2212;
+		}
+
+		@font-face {
+			font-family:'HelveticaNeue-UltraLight'; 
+			src: url('fonts/HelveticaNeue-UltraLight_gdi.eot'); 
+			src: url('fonts/HelveticaNeue-UltraLight_gdi.eot?#iefix') format('embedded-opentype'), 
+			url('fonts/HelveticaNeue-UltraLight_gdi.woff') format('woff'), 
+			url('fonts/HelveticaNeue-UltraLight_gdi.ttf') format('truetype'), 
+			url('fonts/HelveticaNeue-UltraLight_gdi.svg#HelveticaNeue-UltraLight') format('svg'); 
+			font-weight: 100; 
+			font-style: normal; 
+			font-stretch: normal;
+			unicode-range: U+0-10FFFF; 
+		}
+
+		/* IMPORT ICON-FONTS */
+
+		@font-face {
+			font-family: 'icomoon';
+			src:    url('fonts/icomoon.eot?9cuerd'); 
+			src:    url('fonts/icomoon.eot?9cuerd#iefix') format('embedded-opentype'),
+			url('fonts/icomoon.ttf?9cuerd') format('truetype'),
+			url('fonts/icomoon.woff?9cuerd') format('woff'), 
+			url('fonts/icomoon.svg?9cuerd#icomoon') format('svg'); 
+			font-weight: normal; 
+			font-style: normal; 
 		}
 
 		[class^="icon-"], [class*=" icon-"] {
-		/* use !important to prevent issues with browser extensions that change fonts */
-		font-family: 'icomoon' !important;
-		speak: none;
-		font-style: normal;
-		font-weight: normal;
-		font-variant: normal;
-		text-transform: none;
-		line-height: 1;
+			/* use !important to prevent issues with browser extensions that change fonts */ 
+			font-family: 'icomoon' !important;
+			speak: none;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			line-height: 1; 
+			/* Better Font Rendering =========== */
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		} 
+		
+		.icon-Menu:before {content: "\e909"; } 
 
-		/* Better Font Rendering =========== */
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
+		/* BG-IMAGE HTML */
+
+		div span{
+			text-align: center; 
+			font-size: 16px; 
+			margin: 0 auto; 
+			display: block; 
+		} 
+		
+		img.mett__img{width: 100%;} 
+		
+		nav.mett__nav{height: 10vh; max-height:10vh; position: relative; min-height: 56px; max-height: 56px !important; }
+
+		h2.mett__h2{color: #b5352e; font-size: 25px;}
+
+		a.mett__a{text-decoration: none; color: rgba(0,0,0,0.7); } 
+
+		a.mett__a:hover{color: #b5352e }; 
+
+		.mett__p{
+			margin: 0;
+		    font-size: 19px;
+		    width: 100%;
 		}
 
-		.icon-Menu:before {
-		content: "\e909";
+		.mett__mod-inline{
+			display: inline-block; 
+			vertical-align: middle; 
+			text-align: center; 
+		} 
+
+		.mett__mod-section{
+			padding: 1em 0em;
+			background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 44%, rgba(255,255,255,0) 100%);
+			/* FF3.6-15 */ background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 44%,rgba(255,255,255,0) 100%);
+			/* Chrome10-25,Safari5.1-6 */ background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 44%,rgba(255,255,255,0) 100%);
+			/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ 
+		} 
+
+		.mett__mod-section .mett__inner-section{
+			margin: 1em 0em; 
+		} 
+
+		.mett__cont-circle-number > div {
+			padding:7px 0px;
+		} 
+
+		.mett__borde{
+			border: 1px solid red;
+		} 
+
+		.mett__mod-texto{
+			margin: 1.5em 0em;
+		} 
+
+		/* p i i */ 
+
+		.mett__content-img-big{
+			overflow: hidden;
+			/*max-height: 400px;*/ 
+			text-align: center; 
+		} 
+
+		.mett__content-img-big img{
+			width: 90%;
+		} 
+
+		.mett__content-img-small{
+			overflow: hidden; 
+			border-radius: 16px; 
+			-webkit-border-radius: 16px; 
+		} 
+
+		.mett__shadow-box{
+			-webkit-box-shadow: 7px 7px 1px 0px rgba(50, 50, 50, 0.15);
+			-moz-box-shadow:    7px 7px 1px 0px rgba(50, 50, 50, 0.15);
+			box-shadow:         7px 7px 1px 0px rgba(50, 50, 50, 0.15);
+			-webkit-border-radius: 16px;
+			-moz-border-radius: 16px;
+			-ms-border-radius: 16px;
+			-o-border-radius: 16px;
+		} 
+
+		.mett__content-img-small img{width: 100%; } 
+
+
+		.mett__uppercase{text-transform: uppercase; } 
+
+		
+
+
+		/* Archivo base sistema de grids flex */ 
+
+		.mett__container-main{
+			min-width: 304px !important; 
 		}
 
-		nav{
-		min-height: 56px;
-		max-height: 56px !important;
-		}
+		.mett__layout-fill{
+			height:100%;
+			max-height: 100%; 
+		} 
+
+		.mett__layout-wrap {
+			-webkit-flex-wrap: wrap; 
+			-ms-flex-wrap: wrap; 
+			flex-wrap: wrap; }
+
+		.mett__border{
+			border:1px solid red; 
+		} 
+
+		/* NAV STYLES*/ 
+
+
+		nav .mett__item{
+			padding: 1em 0.5; 
+			text-align: center; 
+			cursor: pointer; 
+			font-size: 14px; 
+			font-weight: bold; 
+			opacity:1; 
+		} 
+
+		.mett__main-container-section1{
+			height: 87vh; 
+			background: url('img/bg_gif/bg_AIO.png') no-repeat center #444; 
+			-webkit-background-size: cover; 
+			-moz-background-size: cover; 
+			-o-background-size: cover;
+			background-size: cover; 
+			background-origin: border-box;
+			
+		} 
+
+		.mett__height-full{width: 100%; } 
+
+
+		.mett__section-info{
+			margin: 1em 0em;
+			-webkit-transition: all 1s ease-in-out;
+			-moz-transition: all 1s ease-in-out; 
+			-o-transition: all 1s ease-in-out; 
+			transition: all 1s ease-in-out; 
+		} 
+
+		.mett__btn-primary{
+			background: #b5352e; 
+			color: white; 
+			font-size: 16px;
+		} 
+
+		.mett__btn-primary:active{
+			background: #cc4e1c; 
+		} 
+
+		.mett__price{
+			font-weight: bold; 
+			font-size: 28px; 
+			margin:1em 0em; 
+		} 
+
+		.mett__franja-color{
+			background: #FF6C04; 
+			color: white; 
+			min-height: 70px; 
+		} 
+
+		.mett__content-shadow{
+			border-radius: 10px; 
+			overflow: hidden; 
+			background: rgba(50, 50, 50, 0.35);
+			-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.35);
+			-webkit-box-shadow: 7px 7px 1px 0px rgba(50, 50, 50, 0.35);
+			-moz-box-shadow:    7px 7px 1px 0px rgba(50, 50, 50, 0.35);
+			box-shadow:7px 7px 1px 0px rgba(50, 50, 50, 0.35);
+		} 
+
+
+		.mett__lista-accesos{
+			max-height: 0px;
+			overflow: hidden;
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+			background: #ffffff;
+		} 
+
+		.mett__lista-accesos .mett__item-list{
+			padding: 1em;
+			border-bottom:1px solid #eee;
+			text-transform: uppercase;
+			font-size: 14px;
+			-webkit-transition: all 0.28s ease-in-out;
+			-moz-transition: all 0.28s ease-in-out;
+			-o-transition: all 0.28s ease-in-out; transition: all 0.28s ease-in-out;
+		} 
+
+		.mett__lista-accesos > .mett__item-list:hover{background: #eee; } 
+
+		.mett__open-list{
+			max-height: 600px;
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out; 
+		} 
+
 
 		.mett__item-selected-long{
-		color: #FF6C04 !important;
-		}
+			color: #b5352e !important; 
+		} 
+
 		.mett__selected{
-		color: #FF6C04 !important;
+			color: #b5352e !important; 
 		}
+
+		.mett__titulo-main{
+			margin-top: 30px;
+			margin-bottom: 13px;
+			font-size: 30px;
+			text-transform: uppercase;
+		}
+
+		.mett__mod-text-light{
+			font-family: HelveticaNeue-UltraLight;
+			font-size: 25px;
+			opacity: 1;
+			color: #000;
+			margin: 0;
+			text-transform: lowercase;
+		}
+
+		.mett__mod-text-light:first-letter{
+			text-transform: uppercase;
+		}
+
+		.mett__mod-separador-grande{
+			max-height: 225px;
+		}
+
+		.mett__bg-mod-1{
+			background: url('img/mods_home/bg1.png');
+			background-size: cover;
+		}
+
+		.mett__bg-mod-2{
+			background: url('img/mods_home/bg2.png');
+			background-size: cover;
+			background-position: center;
+		}
+
+		.mett__bg-mod-3{
+			background: url('img/mods_home/bg3.png');
+			background-size: cover;
+			background-position: center;
+		}
+
+		.mett__bg-mod-4{
+			background: url('img/mods_home/bg4.png');
+			background-size: cover;
+			background-position: center;
+		}
+
+		.mett__bg-mod-5{
+			background: url('img/mods_home/bg5.png');
+			background-size: cover;
+			background-position: center;
+		}
+
 		.mett__navigator-access-small{
-		box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.12);
+			box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.12);
+		}
+
+		/**/
+
+		.mett__c1{color:#FF6C04}
+
+		.mett__c2{color:#5E8CDA}
+
+		.mett__c3{color:#8ABF54}
+
+		.mett__c4{color:#D06BAC}
+
+		.mett__c5{color:#c22821}
+
+
+		a.mett__btn_1{background:#FF6C04 !important;border: none; cursor: pointer; outline: none; padding: 0.7em 1.3em; text-transform: uppercase;text-decoration: none;color: white;}
+
+		a.mett__btn_2{background:#5E8CDA !important;border: none; cursor: pointer; outline: none; padding: 0.7em 1.3em; text-transform: uppercase;text-decoration: none;color: white;}
+
+		a.mett__btn_3{background:#8ABF54 !important;border: none; cursor: pointer; outline: none; padding: 0.7em 1.3em; text-transform: uppercase;text-decoration: none;color: white;}
+
+		a.mett__btn_4{background:#D06BAC !important;border: none; cursor: pointer; outline: none; padding: 0.7em 1.3em; text-transform: uppercase;text-decoration: none;color: white;}
+
+		a.mett__btn_5{background:#c22821 !important;border: none; cursor: pointer; outline: none; padding: 0.7em 1.3em; text-transform: uppercase;text-decoration: none;color: white;}
+
+
+		a.meet__btn_1:active{background:#e55f06 !important}
+
+		a.meet__btn_2:active{background:#507abf !important}
+
+		a.meet__btn_3:active{background:#709b42 !important}
+
+		a.meet__btn_4:active{background:#b55c94 !important}
+
+		a.meet__btn_5:active{background:#a8221e !important}
+
+		.meet__section-info{
+
+		min-height: 600px;
+		
 		}
 	</style>
 
 
-	<section class="height-full layout-row layout-wrap layout-fill">
+	<section class="mett__height-full mett__layout-row mett__layout-wrap mett__layout-fill">
+
+		
+
+
 		<!-- Navigator -->
-		<nav class="layout-row layout-wrap justify-center align-center flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
-			<div class="flex-lg-15 flex-md-10 flex-sm-0 flex-xs-100 flex-gt-100"></div>
+
+		<nav class="mett__nav mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+
+
+
 			<!-- NAV FOR LONG RESOLUTIONS -->
-			<div class="navigator-access-long flex-lg-70 flex-md-80 flex-sm-100 flex-xs-100 flex-gt-100 layout-row justify-space-between align-center">
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="home.html"><b>HOME</b></a></div>
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="all_in_one.html" class="item-selected-long"><b>ALL IN ONE</b></a></div>
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="multi.html"><b>CONVERTIBLES </b></a></div>
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="notebooks.html"><b>PORTÁTILES</b></a></div>
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="tablets.html"><b>TABLETAS</b></a></div>
-				<div class="item flex-lg-20 flex-md-20 flex-sm-20 flex-xs-20"><a href="phablets.html"><b>PHABLET</b></a></div>
+
+			<div class="mett__navigator-access-long mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-center">
+
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="home.html"><b>HOME</b></a>
+
+				</div>
+
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="all_in_one.html" class="item-selected-long"><b>ALL IN ONE</b></a>
+
+				</div>
+
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="multi.html"><b>CONVERTIBLES </b></a>
+
+				</div>
+
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="notebooks.html"><b>PORTÁTILES</b></a>
+
+				</div>
+
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="tablets.html"><b>TABLETAS</b></a>
+
+				</div>
+
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="phablets.html"><b>PHABLET</b></a>
+
+				</div>
+
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="phablets.html"><b>GAMERS</b></a>
+
+				</div>
+
 			</div>
-			<!-- NAV FOR SMALL RESOLUTIONS -->
-			<div class="navigator-access-small flex-gt-100 flex-xs-100 layout-row justify-space-between align-center">
-				<div class="layout-row justify-start align-center flex-xs-15 flex-gt-15" style="margin-top: 2px;">
-					<div>
-						<a href="home.html">
-							<img style="min-width:60px;margin-top: 2px;" src="img/logos/logo_s-06.png">
-						</a>
+
+
+
+
+				<!-- NAV FOR SMALL RESOLUTIONS -->
+				<div class="mett__navigator-access-small mett__flex-gt-100 mett__flex-xs-100 mett__layout-row mett__justify-space-between mett__align-center">
+
+					<div class="mett__layout-row mett__justify-start mett__align-center mett__flex-xs-15 mett__flex-gt-15" style="margin-top: 2px;">
+
+						<div>
+
+							<a href="home.html">
+
+								<img style="min-width:60px;margin-top: 2px;" src="img/logos/logo_s-06.png">
+
+							</a>
+
+						</div>
+
+					</div>
+
+					<div class="mett__selected">ALL IN ONE</div>
+
+					<div class="mett__item mett__flex-gt-15 mett__flex-xs-15" onclick="toggle_menu()">
+
+						<i class="icon-Menu" style="font-size:30px;"></i>
 					</div>
 				</div>
-				<div class="selected">ALL IN ONE</div>
-				<div class="item flex-gt-15 flex-xs-15" onclick="toggle_menu()">
-					<i class="icon-Menu" style="font-size:30px;"></i>
-				</div>
+
+
+				<!-- Lista de accesos -->
+				<div id="small_res_menu" class="mett__navigator-access-small mett__layout-row mett__flex-gt-100 mett__lista-accesos mett__layout-row mett__layout-wrap">
+
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="home.html">
+
+						<div class="mett__flex-gt-100 mett__flex-xs-100">HOME</div>
+
+					</a>
+
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="multi.html">
+
+						<div class="mett__flex-gt-100 mett__flex-xs-100">CONVERTIBLES</div>
+
+					</a>
+
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="notebooks.html">
+
+						<div class="mett__flex-gt-100 mett__flex-xs-100">PORTÁTILES</div>
+
+					</a>
+
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="tablets.html">
+
+						<div class="mett__flex-gt-100 mett__flex-xs-100">TABLETAS</div>
+
+					</a>
+
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="phablets.html">
+
+						<div class="mett__flex-gt-100 mett__flex-xs-100">PHABLET</div>
+
+					</a>
+
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="phablets.html">
+
+						<div class="mett__flex-gt-100 mett__flex-xs-100">GAMERS</div>
+
+					</a>
+
 			</div>
-			<!-- Lista de accesos -->
-			<div id="small_res_menu" class="navigator-access-small layout-row flex-gt-100 lista-accesos layout-row layout-wrap">
-				<a class="item-list flex-gt-100 flex-xs-100" href="home.html"><div class="flex-gt-100 flex-xs-100">HOME</div></a>
-				<a class="item-list flex-gt-100 flex-xs-100" href="multi.html"><div class=" flex-gt-100 flex-xs-100">CONVERTIBLES</div></a>
-				<a class="item-list flex-gt-100 flex-xs-100" href="notebooks.html"><div class=" flex-gt-100 flex-xs-100">PORTÁTILES</div></a>
-				<a class="item-list flex-gt-100 flex-xs-100" href="tablets.html"><div class=" flex-gt-100 flex-xs-100">TABLETAS</div></a>
-				<a class="item-list flex-gt-100 flex-xs-100" href="phablets.html"><div class=" flex-gt-100 flex-xs-100">PHABLET</div></a>
-			</div>
-			<div class="flex-lg-15 flex-md-10 flex-sm-0 flex-xs-100 flex-gt-100"></div>
-            <script>
-                function toggle_menu() {
-                    document.getElementById("small_res_menu").classList.toggle('open-list');
-                };
-            </script>
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+
+			
 
 		</nav>
+
+
+
 		<!-- Contenedor GIF -->
-		<section class="main-container-gif layout-row justify-start align-start flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
-			<div class="logo-bg-long log-bg-small flex-lg-5 flex-md-5 flex-sm-5 flex-xs-5 flex-gt-5"><img style="max-width: 90px;min-width: 70px;" src="img/logos/logo_AIO.png"></div>
+
+		<section class="mett__main-container-section1 mett__layout-row mett__justify-start mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+			
+			<div class="mett__logo-bg-long mett__log-bg-small mett__flex-lg-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"><img style="max-width: 90px;min-width: 70px;" src="img/logos/logo_AIO.png"></div>
+
 		</section>
 
+
+
+
+
 		<!--  Módulo Info. I-P -->
-		<section class="section-info layout-row layout-wrap  justify-center align-center flex-lg-100 flex-md-100 flex-xs-100 flex-gt-100">
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
-			<div class="flex-lg-70 flex-md-80 flex-sm-80 flex-xs-80 flex-gt-80 layout-row layout-wrap justify-space-between align-center">
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100 flex-gt-100 order-lg-1 order-md-1 order-sm-1 order-xs-2">
-					<img src="img/producto/AIO_01.png">
+		<section class="mett__section-info mett__layout-row mett__layout-wrap  mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-xs-100 mett__flex-gt-100">
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-2">
+
+					<img class="mett__img" src="img/producto/AIO_01.png">
+
 				</div>
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100 flex-gt-100 text-align-lg text-align-md text-align-sm text-align-xs text-align-gt order-lg-2 order-md-2 order-sm-2 order-xs-1">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gtmett__ order-lg-2mett__ order-md-2 mett__order-sm-2 mett__order-xs-1">
+
 					<div>
-						<h1>Lenovo B50-30</h1>
-						<p>Incluye parlantes JBL</p>
-						<p>Pantalla Multitouch opcional</p>
-						<p>Excepcional en Audio e Imagen</p>
+
+						<h2 class="mett__titulo-main mett__c1">Lenovo B50-30</h2>
+
+						<p class="mett__p">Incluye parlantes JBL</p>
+
+						<p class="mett__p">Pantalla Multitouch opcional</p>
+
+						<p class="mett__p">Excepcional en Audio e Imagen</p>
+
 					</div>
+
 					<!-- <div class="price">
 						$4,299,900
 					</div> -->
 					<div style="margin:1.5em 0em;">
-						<button class="btn-primary">ver más</button>
+
+						<a class="mett__btn_1">ver más</a>
+
 					</div>
+
 				</div>
+
 			</div>
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
 		</section>
 
- 		<!--  Módulo Info. P-I-->
-		<section class="section-info layout-row layout-wrap justify-center align-center flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
-			<div class="flex-lg-70 flex-md-80 flex-sm-80 flex-xs-80 flex-gt-80 layout-row layout-wrap justify-space-between align-center">
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100 flex-gt-100 text-align-lg text-align-md text-align-sm text-align-xs text-align-gt">
-					<h1>El mejor en entretenimiento con sistema de audio Dolby Digital</h1>
-					<p>Equipo familiar con mejores características para entretenimiento (Videos en alta deﬁnición, Juegos Online, redes sociales, música) y el trabajo diario (estudiantes de colegio, hogar y pequeños negocios), la serie B está diseñada para ti. Doble parlante frontal.</p>
+
+
+
+		<!--  Módulo Info. P-I-->
+		<section class="mett__section-info mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
+
+					<h1 class="mett__titulo-main mett__c1">El mejor en entretenimiento con sistema de audio Dolby Digital</h1>
+
+					<p class="mett__p">Equipo familiar con mejores características para entretenimiento (Videos en alta deﬁnición, Juegos Online, redes sociales, música) y el trabajo diario (estudiantes de colegio, hogar y pequeños negocios), la serie B está diseñada para ti. Doble parlante frontal.</p>
+
 				</div>
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100 flex-gt-100">
-					<img src="img/producto/AIO_02.png">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100">
+
+					<img class="mett__img" src="img/producto/AIO_02.png">
+
 				</div>
+
 			</div>
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
+
+			<div class="mett__lex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
 		</section>
+
+
+
+
 
 		<!--  Módulo Info. P-I -->
-		<section class="section-info layout-row layout-wrap justify-center align-center flex-lg-100 flex-sm-100 flex-xs-100 flex-gt-100">
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
-			<div class="flex-lg-70 flex-md-80 flex-sm-80 flex-xs-80 flex-gt-80 layout-row layout-wrap justify-space-between align-center">
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100 flex-gt-100 text-align-lg text-align-md text-align-sm text-align-xs text-align-gt">
-					<h2>Rendimiento digno de los procesadores Intel Core i7, i5, i3 de última generación y Windows 8.1.Todos nuestros equipos Windows 8 están habilitados para Windows 10.<br><br> ¡Haz ya tu upgrade!</h2>
+		<section class="mett__section-info mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
+
+					<h1 class="mett__c1 mett__titulo-main">Rendimiento digno de los procesadores Intel Core i7, i5, i3 de última generación y Windows 8.1.Todos nuestros equipos Windows 8 están habilitados para Windows 10.<br><br> ¡Haz ya tu upgrade!</h1>
+
 				</div>
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100 flex-gt-100">
-					<img src="img/producto/AIO_03.png">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100">
+
+					<img class="mett__img" src="img/producto/AIO_03.png">
+
 				</div>
+
 			</div>
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
 		</section>
+
+
+
+
 
 		<!--  Módulo Info. I-P -->
-		<section class="section-info layout-row layout-wrap  justify-center align-center flex-lg-100 flex-md-100 flex-xs-100 flex-gt-100">
-			<div class="flex-lg-10 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
-			<div class="flex-lg-80 flex-md-80 flex-sm-80 flex-xs-80 flex-gt-80 layout-row layout-wrap justify-space-between align-center">
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100 flex-gt-100 order-lg-1 order-md-1 order-sm-1 order-xs-2">
-					<img src="img/producto/AIO_04.png">
+		<section class="mett__section-info mett__layout-row mett__layout-wrap  mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-xs-100 mett__flex-gt-100">
+
+			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-2">
+
+					<img class="mett__img" src="img/producto/AIO_04.png">
+
 				</div>
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100 flex-gt-100 text-align-lg text-align-md text-align-sm text-align-xs text-align-gt order-lg-2 order-md-2 order-sm-2 order-xs-1">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1">
+
 					<div>
-						<h1>Diseño versatíl y práctico</h1>
-						<p>Su base metálica es fácil de ensamblar y permite inclinar la pantalla de 5 a 30º según tu ángulo de visión. Posee múltiples puertos USB para poder conectar todos tus accesorios.</p>
-						<p>¿Quieres actualizar tu equipo? Simplemente, desmonta la cubierta posterior y podrás acceder a la memoria y al disco duro para su mantenimiento.</p>
+
+						<h1 class="mett__c1 mett__titulo-main">Diseño versatíl y práctico</h1>
+
+						<p class="mett__p">Su base metálica es fácil de ensamblar y permite inclinar la pantalla de 5 a 30º según tu ángulo de visión. Posee múltiples puertos USB para poder conectar todos tus accesorios.</p>
+
+						<p class="mett__p">¿Quieres actualizar tu equipo? Simplemente, desmonta la cubierta posterior y podrás acceder a la memoria y al disco duro para su mantenimiento.</p>
+
 					</div>
+
 				</div>
+
 			</div>
-			<div class="flex-lg-10 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
+
+			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
 		</section>
+
+
+
+
+
 			
 		<!--  Módulo Info. P-I -->
-		<section class="section-info layout-row layout-wrap justify-center align-center flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
-			<div class="flex-lg-70 flex-md-80 flex-sm-80 flex-xs-80 flex-gt-80 layout-row layout-wrap justify-space-between align-center">
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100 flex-gt-100 text-align-lg text-align-md text-align-sm text-align-xs text-align-gt">
-					<h1>Compartir archivos ahora es más fácil.</h1>
-					<p>SHAREit es la forma más SEGURA de compartir archivos de una forma rápida y sencilla, casi 40 veces más rápido que por Bluetooth. EnvÍa toda clase de archivos como fotos, música, videos y software para guardarlos en el dispositivo receptor.</p>
+		<section class="mett__section-info mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
+
+					<h1 class="mett__c1 mett__titulo-main">Compartir archivos ahora es más fácil.</h1>
+
+					<p class="mett__p">SHAREit es la forma más SEGURA de compartir archivos de una forma rápida y sencilla, casi 40 veces más rápido que por Bluetooth. EnvÍa toda clase de archivos como fotos, música, videos y software para guardarlos en el dispositivo receptor.</p>
+
 				</div>
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100 flex-gt-100">
-					<img src="img/producto/AIO_05.png">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100">
+
+					<img class="mett__img" src="img/producto/AIO_05.png">
+
 				</div>
+
 			</div>
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
 		</section>
+
+
+
+
+
 
 		<!-- Franja de color -->
-		<section class="section-info franja-color layout-row layout-wrap justify-center align-center flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-xs-100">
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
-			<div class="flex-lg-70 flex-lg-70 flex-md-80 flex-sm-80 flex-gt-80 flex-xs-80 layout-row layout-wrap justify-center align-center">
+		<section class="mett__section-info mett__franja-color mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__ flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-xs-100">
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			<div class="mett__flex-lg-70 mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-gt-80 mett__flex-xs-80 mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
+
 				<div style="font-size:25px;text-align:center;">MÁS ALL IN ONE LENOVO EN ALKOSTO</div>
+
 			</div>
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
 		</section>
 
-		<section class="section-info layout-row layout-wrap justify-center align-center flex-lg-100 flex-md-100 flex-sm-100 flex-xs-100 flex-gt-100">
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
-			<div class="flex-lg-70 flex-md-80 flex-sm-80 flex-xs-80 flex-gt-80 layout-row layout-wrap justify-space-between align-center">
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100" style="text-align: center !important;">
-					<img src="img/producto/AIO_06.png">
-					<h1>Lenovo Serie B</h1>
-					<p>Computadores de escritorio All In One para trabajo exigente, alto rendimiento para multimedia y entretenimiento.</p>
+
+
+
+
+
+
+		<section class="mett__section-info mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100" style="text-align: center !important;">
+
+					<img class="mett__img" src="img/producto/AIO_06.png">
+
+					<h1 class="mett__c1 mett__titulo-main">Lenovo Serie B</h1>
+
+					<p class="mett__p">Computadores de escritorio All In One para trabajo exigente, alto rendimiento para multimedia y entretenimiento.</p>
+
 					<div style="margin:1.5em 0em;">
-						<button class="btn-primary">ver más</button>
+
+						<a class="mett__btn_1" href="#">ver más</a>
+
 					</div>
+
 				</div>
-				<div class="flex-lg-45 flex-md-45 flex-sm-45 flex-xs-100" style="text-align: center !important;">
-					<img src="img/producto/AIO_07.png">
-					<h1>Lenovo Serie C</h1>
-					<p>Computadores de escritorio All In One para todos los dias! ideal para el hogar.</p>
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100" style="text-align: center !important;">
+
+					<img class="mett__img" src="img/producto/AIO_07.png">
+
+					<h1 class="mett__c1 mett__titulo-main">Lenovo Serie C</h1>
+
+					<p class="mett__p">Computadores de escritorio All In One para todos los dias! ideal para el hogar.</p>
+
 					<div style="margin:1.5em 0em;">
-						<button class="btn-primary">ver más</button>
+
+						<a class="mett__btn_1" href="#">ver más</a>
+
 					</div>
+
 				</div>
+
 			</div>
-			<div class="flex-lg-15 flex-md-10 flex-sm-10 flex-xs-10 flex-gt-10"></div>
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
 		</section>
+
 	</section>
+
+
+	<script>
+			function toggle_menu() {
+				document.getElementById("small_res_menu").classList.toggle('open-list');
+			};
+		</script>
 </body>
 </html>
