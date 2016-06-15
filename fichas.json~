@@ -1,6 +1,6 @@
 [{
 		"nombre": "AIO_700",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "AIO_700",
@@ -51,7 +51,7 @@
 		]
 	}, {
 		"nombre": "B50_30",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "B50 30",
@@ -104,7 +104,7 @@
 		]
 	}, {
 		"nombre": "C40_05",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "C40 05",
@@ -152,7 +152,7 @@
 		]
 	}, {
 		"nombre": "C40_30_Alkosto",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "C40 30",
@@ -200,7 +200,7 @@
 		]
 	}, {
 		"nombre": "C40_30_Exito",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "C40 30",
@@ -248,7 +248,7 @@
 		]
 	}, {
 		"nombre": "C50_30",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "C50 30",
@@ -299,7 +299,7 @@
 		]
 	}, {
 		"nombre": "C260",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "C260 ",
@@ -352,7 +352,7 @@
 
 	{
 		"nombre": "G40_30",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "G40 30",
@@ -406,7 +406,7 @@
 		]
 	}, {
 		"nombre": "G40_45",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "G40 45",
@@ -460,7 +460,7 @@
 		]
 	}, {
 		"nombre": "G40_80",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "G40 80",
@@ -529,7 +529,7 @@
 		]
 	}, {
 		"nombre": "Ideapad_100",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "IDEAPAD 100",
@@ -586,7 +586,7 @@
 		]
 	}, {
 		"nombre": "Ideapad_100s_Azul",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "IDEAPAD 100s 11\" Azul",
@@ -642,7 +642,7 @@
 		]
 	}, {
 		"nombre": "Ideapad_100S_Blanco",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "IDEAPAD 100s 11\" BLANCO",
@@ -698,7 +698,7 @@
 		]
 	}, {
 		"nombre": "IDEAPAD_300",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "IDEAPAD  300",
@@ -749,7 +749,7 @@
 		]
 	}, {
 		"nombre": "Y50_70",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "Y50 70",
@@ -800,7 +800,7 @@
 		]
 	}, {
 		"nombre": "Z40_70",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "Z40 70",
@@ -863,7 +863,7 @@
 		]
 	}, {
 		"nombre": "Z50_70",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "Z50 70",
@@ -931,7 +931,7 @@
 
 	{
 		"nombre": "YOGA_2",
-		"categoria": "Notebook Yoga",
+		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA 2 13\"",
@@ -983,7 +983,7 @@
 		]
 	}, {
 		"nombre": "YOGA_3",
-		"categoria": "Notebook Yoga",
+		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA 3 14\"",
@@ -1035,7 +1035,7 @@
 		]
 	}, {
 		"nombre": "YOGA_300",
-		"categoria": "Notebook Yoga",
+		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA 300 11\"",
@@ -1087,7 +1087,7 @@
 		]
 	}, {
 		"nombre": "YOGA_500",
-		"categoria": "Notebook Yoga",
+		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA 500",
@@ -1139,7 +1139,7 @@
 		]
 	},{
 		"nombre": "Y_700",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "Lenovo™ ideapad™ Y700",
@@ -1189,7 +1189,7 @@
 	},
 	{
 		"nombre": "PHAB",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "PHAB",
@@ -1235,15 +1235,15 @@
 			}],
 			["P-I-num_centro", {
 				"numero_caracteristica": "4",
-				"t_caracteristica": "Velocidad y conectividad",
-				"p_caracteristica": "Lenovo PHAB cuenta con una velocidad de conectividad 4G LTE que te permitira disfrutar de tus contenidos multimedia al instante.",
+				"t_caracteristica": "Para todo el día",
+				"p_caracteristica": "La batería de 4250 mAh de Lenovo™ PHAB, durará todo el día.",
 				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_07.png"
 			}],
 			["fin", {}]
 		]
 	}, {
 		"nombre": "TAB2_A7_10_BOUNDLE",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 10 + BOUNDLE",
@@ -1296,7 +1296,7 @@
 		]
 	}, {
 		"nombre": "TAB2_A7_10",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 10",
@@ -1349,7 +1349,7 @@
 		]
 	}, {
 		"nombre": "TAB2_A7_20",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 20",
@@ -1408,7 +1408,7 @@
 		]
 	}, {
 		"nombre": "TAB2_A7_30",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 30",
@@ -1462,7 +1462,7 @@
 	},
 	{
 		"nombre": "TAB2_A7_30_AZUL",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 30",
@@ -1517,7 +1517,7 @@
 	},
 	{
 		"nombre": "TAB2_A7_30_BLANCA",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 30",
@@ -1572,7 +1572,7 @@
 	},
 	{
 		"nombre": "YOGA_TABLET_3_8",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA TABLET 3 8\"",
@@ -1581,57 +1581,56 @@
 				"color_caracteristica": "#4a80af"
 			}],
 			["cabecera", {
-				"nombre_producto": "YOGA TABLET 3 8\"",
-				"subtitulo_cabecera": "UNA TABLETA CON GRANDES INNOVACIONES",
+				"nombre_producto": "Lenovo™ YOGA Tab 3 8\"",
+				"subtitulo_cabecera": "LA DIVERSIÓN NO SE DETIENE CON LA ULTRA PORTABLE YOGA TABLET 3",
 				"logo_lenovo": "../img/OTROS/logo_d07100.png"
 			}],
 			["I-I", {
-				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_01.png",
-				"img_apoyo_2": "../img/TABLETS/YOGA_3_8PUL/IMG_02.png"
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_8PUL/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_8PUL/IMG_02.png"
 			}],
 			["P", {
-				"t_descripcion_principal": "LA DIVERSIÓN NO SE DETIENE CON LA ULTRA PORTABLE YOGA TABLET 3.",
-				"p_descripcion_principal": "Sumérjete en la música, juega con tus amigos y disfruta contenidos en línea con su increíble pantalla HD."
+				"t_descripcion_principal": "EL MEJOR DISPOSITIVO PORTABLE PARA MULTIMEDIA",
+				"p_descripcion_principal": "Sumérjete en la música, juega con tus amigos y disfruta contenidos en línea con su increíble pantalla HD. Úsala todo el día y dile adiós a los cargadores. La cámara giratoria te permitirá capturar selfies asombrosas. Y con la tecnología AnyPen nunca más tendras que llevar accesorios para escribir o dibujar sobre ella."
 			}],
-			["Igrande-P-I", {
-				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_03.png",
-				"img_apoyo_2": "../img/OTROS/IMG_5.png",
-				"p_caracteristica": "Úsala todo el día y dile adiós a los cargadores. La cámara giratoria te permitirá capturar selfies asombrosas y con la tecnología AnyPen nunca más tendrás que llevar accesorios para escribir o dibujar sobre ella."
-			}],
-			["I-IP-I", {
-				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_04.png",
-				"img_apoyo_2": "../img/TABLETS/YOGA_3_8PUL/IMG_05.png",
-				"img_apoyo_3": "../img/TABLETS/YOGA_3_8PUL/IMG_06.png",
-				"t_caracteristica": "El mejor dispositivo",
-				"p_caracteristica": "portable para multimedia con sonido DOLBY ATMOS",
+			["P-I-num_izq",{
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_09.png",
+				"t_caracteristica": "Selfies asombrosas con sucámara giratria de 180° y 8mp.\"",
+				"p_caracteristica": "Deja de preocuparte por la baja resolucion de tu camara frontal. Con Lenovo Yoga Tablet 3 tienes 8MP de gran calidad tanto para 'selfies' y 'groupies' asombrosas como para capturar contenido con la misma camara, que gira 180 grados para adaptarse a lo que tu necesitas.",
 				"numero_caracteristica": "1"
 			}],
-			["P-I-I", {
-				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_08.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/TABLETS/IMG_09.png",
-				"t_caracteristica": "Selfies asombrosas",
-				"p_caracteristica": "con su cámara giratoria de 180° y 8mp.",
+			["I-IP-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_8PUL/IMG_05.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_8PUL/IMG_08.png",
+				"img_apoyo_3": "../img/NB_YOGA/YOGA_3_8PUL/IMG_06.png",
+				"t_caracteristica": "Tecnología AnyPen para escribir sobre la pantalla con cualquier objeto.",
+				"p_caracteristica": "Escribe, dibuja o interactua con tu tableta usando cualquier objeto metalico como si fuera un lapiz.",
 				"numero_caracteristica": "2"
 			}],
-			["I-P", {
-				"img_apoyo": "../img/TABLETS/YOGA_3_8PUL/IMG_07.png",
-				"t_caracteristica": "Perfecta visibilidad",
-				"p_caracteristica": "desde cualquier ángulo en su pantalla HD.",
+			["P-I-I" , {
+				"img_apoyo_1": "image_here",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_8PUL/IMG_09.png",
+				"t_caracteristica": "4 modos que se adaptan a ti.",
+				"p_caracteristica": "Parala, sujetala, inclinala o cuelgala segun prefieras. Trabaja o juega comodamente por horas sin importar en donde te encuentres.",
 				"numero_caracteristica": "3"
 			}],
-			["I-IP-I", {
-				"img_apoyo_1": "../img/TABLETS/YOGA_3_8PUL/IMG_10.png",
-				"img_apoyo_2": "../img/TABLETS/YOGA_3_8PUL/IMG_12.png",
-				"img_apoyo_3": "../img/TABLETS/YOGA_3_8PUL/IMG_11.png",
-				"t_caracteristica": "Tecnología AnyPen",
-				"p_caracteristica": "para escribir sobre la pantalla con cualquier objeto.",
+			["I-P", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_3_8PUL/IMG_10.png",
+				"t_caracteristica": "Asombroso rendimiento de bateria.",
+				"p_caracteristica": "Mas de 18 horas de duracion de bateria.",
 				"numero_caracteristica": "4"
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
+				"icono_caracteristica_2": "../img/OTROS/IMG_1.png",
+				"detalle_caracteristica_1": "Experimenta sonido de 360 grados con los parlantes incorporados Dolby® Atmos",
+				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápido que por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."		
 			}],
 			["fin", {}]
 		]
 	}, {
 		"nombre": "TABLET_2_10_4G",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TABLET 2 10\" 4G",
@@ -1690,7 +1689,7 @@
 		]
 	}, {
 		"nombre": "TABLET_2_10",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TABLET 2 10\"",
@@ -1749,7 +1748,7 @@
 		]
 	}, {
 		"nombre": "TABLET_2_13",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TABLET 2 13\"",
@@ -1808,7 +1807,7 @@
 		]
 	}, {
 		"nombre": "YOGA_TABLET_3_PRO_10",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA™ TABLET 3 PRO 10",
@@ -1857,7 +1856,7 @@
 		]
 	}, {
 		"nombre": "YOGA_TAB_3_10_1",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA™ TAB 3 10.1",
@@ -1904,5 +1903,75 @@
 			}],
 			["fin", {}]
 		]
+	}, {
+		"nombre": "AIO_300",
+		"categoria": "Clasicas/fase_2/All In One",
+		"mapa": [
+			["inicio", {
+				"titulo": "AIO_300",
+				"color_primario": "#231f20",
+				"color_secundario": "#8abf54",
+				"color_caracteristica": "#ed6b00"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO AIO 300",
+				"subtitulo_cabecera": "ATRACTIVO, ACCESIBLE Y ASEQUIBLE: EQUIPO TODO EN UNO",
+				"logo_lenovo": "../img/OTROS/logo_8abf54.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/AIO/AIO_300/IMG_01.png",
+				"img_apoyo_2": "../img/AIO/AIO_300/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "Los procesadores Intel® Core™ más recientes",
+				"p_descripcion_principal": "Rendimiento excelente, posibilidades infinitas. Con unas espectaculares imágenes y un rendimiento sin igual, la nueva familia de procesadores Intel® Core™ ofrece una potencia de procesamiento que llevará su experiencia informática al siguiente nivel para que pueda trabajar de manera más inteligente."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_03.png"
+			}],
+			["P-I-I", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "Windows 10 Home",
+				"p_caracteristica": "Windows 10 Home es la mejor combinación del Windows que ya conoce; además, incorpora montones de mejoras increíbles que le encantarán. Tecnologías como InstantGo* permiten arrancar y reanudar el sistema rápidamente, para que todo se ejecute de manera ágil y fluida. Si desea una fiabilidad total, Windows 10 Home mantiene su equipo actualizado y cuenta con más funciones de seguridad integradas que nunca para ayudarle a protegerse del software malicioso. * Depende del hardware",
+				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_05.png",
+				"img_apoyo_2": "../img/AIO/AIO_300/IMG_05.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Grande en rendimiento",
+				"p_caracteristica": "El potente Lenovo Ideacentre AIO 300, que permite ahorrar espacio, está diseñado con una memoria, un almacenamiento y un sistema de procesamiento suficientes como para satisfacer todas sus necesidades informáticas y multimedia. Y mucho más.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_06.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Entretenimiento inmersivo",
+				"p_caracteristica": "Gracias a las representaciones visuales Full HD (1920 x 1080) en la vibrante pantalla Full HD (1920 x 1080) de hasta 23”, el Ideacentre AIO 300 lleva el entretenimiento doméstico al siguiente nivel. Para disfrutar de una experiencia inmersiva de verdad, puede elegir una pantalla multitáctil opcional y una tarjeta gráfica independiente NVIDIA GeForce GF de hasta 2 GB.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_01.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_08.png",
+				"img_apoyo_2": "../img/AIO/AIO_300/IMG_07.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Gran Capacidad de almacenamiento",
+				"p_caracteristica": "El Ideacentre AIO 300 se suministra con un espacio de disco duro de hasta 2 TB. Por lo que podrá almacenar todos sus documentos, archivos de música, presentaciones y fotos con espacio de sobra. Además, con una memoria de hasta 8 GB, tiene todo lo necesario para afrontar cualquier tarea.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_08.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "5",
+				"t_caracteristica": "Pantalla ajustable",
+				"p_caracteristica": "Para lograr un manejo más cómodo y práctico, la pantalla se puede ajustar de -5 a 25 grados. Así podrá encontrar el ángulo de visión óptimo para sus aplicaciones o vídeos favoritos en Windows 10.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_09.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "6",
+				"t_caracteristica": "Fácil de actualizar y de ampliar",
+				"p_caracteristica": "Realizar el mantenimiento, la ampliación o la actualización de su Ideacentre AIO 300 es muy sencillo. Tan solo tiene que deslizar y apartar el panel trasero para tener un acceso instantáneo a todos los elementos que se encuentren debajo de la cubierta.",
+				"img_apoyo": "../img/TABLETS/YOGA_TABLET_3_PRO_10/IMG_06.png"
+			}],
+			["fin", {}]
+		]
 	}
+
 ]
