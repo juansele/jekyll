@@ -1904,71 +1904,72 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ideapad_500",
-		"categoria": "Clasicas/fase_2/Notebook",
+		"nombre": "AIO_300",
+		"categoria": "Clasicas/fase_2/All In One",
 		"mapa": [
 			["inicio", {
-				"titulo": "ideapad 500",
-				"color_primario": "#717170",
-				"color_secundario": "#ed6b00",
-				"color_caracteristica": "#4a80af"
+				"titulo": "AIO_300",
+				"color_primario": "#231f20",
+				"color_secundario": "#8abf54",
+				"color_caracteristica": "#ed6b00"
 			}],
 			["cabecera", {
-				"nombre_producto": "LENOVO G40 80",
-				"subtitulo_cabecera": "PORTÁTIL DE 14\" CON UNIDAD DE DVD",
-				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
+				"nombre_producto": "LENOVO AIO 300",
+				"subtitulo_cabecera": "ATRACTIVO, ACCESIBLE Y ASEQUIBLE: EQUIPO TODO EN UNO",
+				"logo_lenovo": "../img/OTROS/logo_8abf54.png"
 			}],
 			["I-I", {
-				"img_apoyo_1": "../img/NB/G40_80/IMG_01.png",
-				"img_apoyo_2": "../img/NB/G40_80/IMG_02.png"
+				"img_apoyo_1": "../img/AIO/AIO_300/IMG_01.png",
+				"img_apoyo_2": "../img/AIO/AIO_300/IMG_02.png"
 			}],
 			["P", {
-				"t_descripcion_principal": "ACCESIBLE Y VERSATIL PORTATIL",
-				"p_descripcion_principal": "Lenovo G40-80 combina un diseño de líneas delgadas con una variedad completa de funciones, incluyendo unidad de DVD y un rendimiento que enfrenta cualquier desafío con el procesador Intel ® Core (TM)."
+				"t_descripcion_principal": "Los procesadores Intel® Core™ más recientes",
+				"p_descripcion_principal": "Rendimiento excelente, posibilidades infinitas. Con unas espectaculares imágenes y un rendimiento sin igual, la nueva familia de procesadores Intel® Core™ ofrece una potencia de procesamiento que llevará su experiencia informática al siguiente nivel para que pueda trabajar de manera más inteligente."
 			}],
 			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_03.png"
 			}],
-			["P-I-num_izq", {
+			["P-I-I", {
 				"numero_caracteristica": "1",
-				"t_caracteristica": "Pantalla HD de 14\"",
-				"p_caracteristica": "Esta pantalla ofrece una imagen nítida y brillante en un formato de imagen 16.9 y una resolución de 1366 x 768.",
-				"img_apoyo": "../img/NB/G40_80/IMG_04.png"
+				"t_caracteristica": "Windows 10 Home",
+				"p_caracteristica": "Windows 10 Home es la mejor combinación del Windows que ya conoce; además, incorpora montones de mejoras increíbles que le encantarán. Tecnologías como InstantGo* permiten arrancar y reanudar el sistema rápidamente, para que todo se ejecute de manera ágil y fluida. Si desea una fiabilidad total, Windows 10 Home mantiene su equipo actualizado y cuenta con más funciones de seguridad integradas que nunca para ayudarle a protegerse del software malicioso. * Depende del hardware",
+				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_04.png",
+				"img_apoyo_2": "../img/AIO/AIO_300/IMG_05.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "2",
-				"t_caracteristica": "Perfecto para los amantes del cine",
-				"p_caracteristica": "Su unidad integrada de DVD y sus parlantes DOLBY estéreo hacen del portátil G40 el computador perfecto para disfrutar de tus peliculas favoritas.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB/G40_80/IMG_06.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_12.png"
+				"t_caracteristica": "Grande en rendimiento",
+				"p_caracteristica": "El potente Lenovo Ideacentre AIO 300, que permite ahorrar espacio, está diseñado con una memoria, un almacenamiento y un sistema de procesamiento suficientes como para satisfacer todas sus necesidades informáticas y multimedia. Y mucho más.",
+				"img_apoyo": "../img/AIO/AIO_700/IMG_06.png"
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "3",
-				"t_caracteristica": "Teclado AccuType",
-				"p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.",
-				"img_apoyo": "../img/NB/G40_80/IMG_08.png"
+				"t_caracteristica": "Entretenimiento inmersivo",
+				"p_caracteristica": "Gracias a las representaciones visuales Full HD (1920 x 1080) en la vibrante pantalla Full HD (1920 x 1080) de hasta 23”, el Ideacentre AIO 300 lleva el entretenimiento doméstico al siguiente nivel. Para disfrutar de una experiencia inmersiva de verdad, puede elegir una pantalla multitáctil opcional y una tarjeta gráfica independiente NVIDIA GeForce GF de hasta 2 GB.",
+				"img_apoyo": "../img/AIO/AIO_700/IMG_07.png"
 			}],
-			["I-P-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/NB/IMG_02.png",
-				"img_apoyo_2": "../img/NB/G40_80/IMG_10.png",
-				"t_caracteristica": "Tecnología para ahorro de batería",
-				"p_caracteristica": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía.",
-				"numero_caracteristica": "4"
+			["I-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_08.png",
+				"img_apoyo_2": "../img/AIO/AIO_700/IMG_08.png"
 			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
-				"detalle_caracteristica_1": "Experimenta sonido profundo con los parlantes incorporados y salidas para audifonos, con certificación Dolby® Advanced AudioTM.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápido que por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."
+			["P-I-num_izq", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Gran Capacidad de almacenamiento",
+				"p_caracteristica": "El Ideacentre AIO 300 se suministra con un espacio de disco duro de hasta 2 TB. Por lo que podrá almacenar todos sus documentos, archivos de música, presentaciones y fotos con espacio de sobra. Además, con una memoria de hasta 8 GB, tiene todo lo necesario para afrontar cualquier tarea.",
+				"img_apoyo": "../img/TABLETS/YOGA_TABLET_3_PRO_10/IMG_06.png"
 			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_3.png",
-				"detalle_caracteristica_1": "Con Lenovo OneKey Recovery puedes crear una copia de seguridad de tus archivos, restaurar tu máquina en 40-60 minutos o reiniciar el equipo al estado original de fábrica en tan solo 15 minutos. El botón que activa la aplicación está en los bordes laterales del equipo o como un agujero que se activa con la punta de un esfero o un clip.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_4.png",
-				"detalle_caracteristica_2": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía."
+			["I-P", {
+				"numero_caracteristica": "5",
+				"t_caracteristica": "Pantalla ajustable",
+				"p_caracteristica": "Para lograr un manejo más cómodo y práctico, la pantalla se puede ajustar de -5 a 25 grados. Así podrá encontrar el ángulo de visión óptimo para sus aplicaciones o vídeos favoritos en Windows 10.",
+				"img_apoyo": "../img/AIO/AIO_700/IMG_06.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "6",
+				"t_caracteristica": "Fácil de actualizar y de ampliar",
+				"p_caracteristica": "Realizar el mantenimiento, la ampliación o la actualización de su Ideacentre AIO 300 es muy sencillo. Tan solo tiene que deslizar y apartar el panel trasero para tener un acceso instantáneo a todos los elementos que se encuentren debajo de la cubierta.
+",
+				"img_apoyo": "../img/TABLETS/YOGA_TABLET_3_PRO_10/IMG_06.png"
 			}],
 			["fin", {}]
 		]
