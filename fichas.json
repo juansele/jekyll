@@ -1,6 +1,6 @@
 [{
 		"nombre": "AIO_700",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "AIO_700",
@@ -51,7 +51,7 @@
 		]
 	}, {
 		"nombre": "B50_30",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "B50 30",
@@ -104,7 +104,7 @@
 		]
 	}, {
 		"nombre": "C40_05",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "C40 05",
@@ -152,7 +152,7 @@
 		]
 	}, {
 		"nombre": "C40_30_Alkosto",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "C40 30",
@@ -200,7 +200,7 @@
 		]
 	}, {
 		"nombre": "C40_30_Exito",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "C40 30",
@@ -248,7 +248,7 @@
 		]
 	}, {
 		"nombre": "C50_30",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "C50 30",
@@ -299,7 +299,7 @@
 		]
 	}, {
 		"nombre": "C260",
-		"categoria": "All In One",
+		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
 				"titulo": "C260 ",
@@ -352,7 +352,7 @@
 
 	{
 		"nombre": "G40_30",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "G40 30",
@@ -406,7 +406,7 @@
 		]
 	}, {
 		"nombre": "G40_45",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "G40 45",
@@ -460,7 +460,7 @@
 		]
 	}, {
 		"nombre": "G40_80",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "G40 80",
@@ -529,7 +529,7 @@
 		]
 	}, {
 		"nombre": "Ideapad_100",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "IDEAPAD 100",
@@ -586,7 +586,7 @@
 		]
 	}, {
 		"nombre": "Ideapad_100s_Azul",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "IDEAPAD 100s 11\" Azul",
@@ -642,7 +642,7 @@
 		]
 	}, {
 		"nombre": "Ideapad_100S_Blanco",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "IDEAPAD 100s 11\" BLANCO",
@@ -698,7 +698,7 @@
 		]
 	}, {
 		"nombre": "IDEAPAD_300",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "IDEAPAD  300",
@@ -749,7 +749,7 @@
 		]
 	}, {
 		"nombre": "Y50_70",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "Y50 70",
@@ -800,7 +800,7 @@
 		]
 	}, {
 		"nombre": "Z40_70",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "Z40 70",
@@ -863,7 +863,7 @@
 		]
 	}, {
 		"nombre": "Z50_70",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "Z50 70",
@@ -931,7 +931,7 @@
 
 	{
 		"nombre": "YOGA_2",
-		"categoria": "Notebook Yoga",
+		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA 2 13\"",
@@ -983,7 +983,7 @@
 		]
 	}, {
 		"nombre": "YOGA_3",
-		"categoria": "Notebook Yoga",
+		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA 3 14\"",
@@ -1035,7 +1035,7 @@
 		]
 	}, {
 		"nombre": "YOGA_300",
-		"categoria": "Notebook Yoga",
+		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA 300 11\"",
@@ -1087,7 +1087,7 @@
 		]
 	}, {
 		"nombre": "YOGA_500",
-		"categoria": "Notebook Yoga",
+		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA 500",
@@ -1139,7 +1139,7 @@
 		]
 	},{
 		"nombre": "Y_700",
-		"categoria": "Notebook",
+		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
 				"titulo": "Lenovo™ ideapad™ Y700",
@@ -1189,7 +1189,7 @@
 	},
 	{
 		"nombre": "PHAB",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "PHAB",
@@ -1243,7 +1243,7 @@
 		]
 	}, {
 		"nombre": "TAB2_A7_10_BOUNDLE",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 10 + BOUNDLE",
@@ -1296,7 +1296,7 @@
 		]
 	}, {
 		"nombre": "TAB2_A7_10",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 10",
@@ -1349,7 +1349,7 @@
 		]
 	}, {
 		"nombre": "TAB2_A7_20",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 20",
@@ -1408,7 +1408,7 @@
 		]
 	}, {
 		"nombre": "TAB2_A7_30",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 30",
@@ -1462,7 +1462,7 @@
 	},
 	{
 		"nombre": "TAB2_A7_30_AZUL",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 30",
@@ -1517,7 +1517,7 @@
 	},
 	{
 		"nombre": "TAB2_A7_30_BLANCA",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TAB2 A7 30",
@@ -1572,7 +1572,7 @@
 	},
 	{
 		"nombre": "YOGA_TABLET_3_8",
-		"categoria": "Notebook Yoga",
+		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA TABLET 3 8\"",
@@ -1630,7 +1630,7 @@
 		]
 	}, {
 		"nombre": "TABLET_2_10_4G",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TABLET 2 10\" 4G",
@@ -1689,7 +1689,7 @@
 		]
 	}, {
 		"nombre": "TABLET_2_10",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TABLET 2 10\"",
@@ -1748,7 +1748,7 @@
 		]
 	}, {
 		"nombre": "TABLET_2_13",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "TABLET 2 13\"",
@@ -1807,7 +1807,7 @@
 		]
 	}, {
 		"nombre": "YOGA_TABLET_3_PRO_10",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA™ TABLET 3 PRO 10",
@@ -1856,7 +1856,7 @@
 		]
 	}, {
 		"nombre": "YOGA_TAB_3_10_1",
-		"categoria": "Tablet",
+		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
 				"titulo": "YOGA™ TAB 3 10.1",
