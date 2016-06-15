@@ -2077,13 +2077,13 @@
 				"t_caracteristica": "Audio Potente",
 				"p_caracteristica": "Disfrute de todo el impacto del sonido envolvente desde cualquier lugar con la tecnología Dolby® Home Theater® en el PC. Toda la potencia y los matices del cine, toda la inmediatez de las actuaciones en directo, ahora en un portátil.",
 				"img_apoyo_1": "../img/NB/IDEAPAD_500/IMG_01.png",
-				"img_apoyo_2": "../img/NB/Y_700/IMG_04.png"
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_04.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Opción de audio excelente",
 				"p_caracteristica": "Los altavoces diseñados por JBL® de gama alta ofrecen sonido envolvente de gran nitidez y claridad. Elija esta opción para disfrutar de una claridad de audio mejorada, una salida de volumen optimizada sin distorsión y una claridad de los diálogos superior al ver vídeos.",
-				"img_apoyo": "../img/NB/Y_700/IMG_07.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_08.png"
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "5",
