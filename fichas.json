@@ -2002,33 +2002,33 @@
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Pantalla multitouch para los 10 dedos",
 				"p_caracteristica": "Interactúa con tu PC de escritorio utilizando gestos fáciles y simples directamente en la pantalla de 19,5” multitouch. Su tecnología multitouch de avanzada ofrece una experiencia táctil superior y tiempos de respuesta más rápidos.",
-				"img_apoyo_1": "../img/AIO/C40_05/IMG_04.png",
+				"img_apoyo_1": "../img/AIO/C20/IMG_01.png",
 				"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
 			}],
 			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Experiencia multimedia completa",
 				"p_caracteristica": "Gracias a su soporte gráfico, la grabadora/lectora de DVD integrada, los parlantes estéreo y la salida HDMI opcional, esta PC ofrece imágenes nítidas y un sonido envolvente para brindarte una experiencia de entretenimiento en tu hogar mucho más completa.",
-				"img_apoyo": "../img/AIO/C40_05/IMG_06.png"
+				"img_apoyo": "../img/AIO/C20/IMG_03.png"
 			}],
 			["P-I-I", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Teclado inalámbrico AccuType",
 				"p_caracteristica": "Con una imagen moderna, el teclado AccuType tan reconocido tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa que con los teclados de diseño estándar.",
 				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
-				"img_apoyo_2": "../img/AIO/C40_05/IMG_08.png"
+				"img_apoyo_2": "../img/AIO/C20/IMG_03.png"
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Lenovo Assistant",
 				"p_caracteristica": "Haz las cosas fácilmente con Lenovo Assistant, una interfaz fácil de usar para organizar tus favoritos, limpiar el historial y los archivos de la papelera y para administrar las conexiones de red de la PC y el consumo de energía.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_08.png"
+				"img_apoyo": "../img/AIO/C20/IMG_03.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "5",
 				"t_caracteristica": "Lenovo Rescue System (Sistema de recuperación de Lenovo)",
 				"p_caracteristica": "Haz copias de seguridad y recupera archivos de sistema, aplicaciones, drivers y los archivos de los usuarios rápida y fácilmente.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_09.png"
+				"img_apoyo": "../img/AIO/C20/IMG_03.png"
 			}],
 			["fin", {}]
 		]
