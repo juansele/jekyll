@@ -4,7 +4,7 @@
 	INSTRUCTIVO DE IMPLEMENTACIÓN
 
 
-	Para implementar mundo alkosto solo son necesarios dos pasos despues de haber copiado tiodos los recursos entregados:
+	Para implementar mundo alkosto solo son necesarios dos pasos despues de haber copiado todos los recursos entregados:
 
 
 	Paso 1: Agregar en un tag <style></style> la clase "iframe.mett__iframe-mundo-alkosto", esta aplica al iframe las siguientes dimensiones
