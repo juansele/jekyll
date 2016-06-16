@@ -2887,6 +2887,69 @@
 			}],
 			["fin", {}]
 		]
+	}, {
+		"nombre": "IDEAPAD_G40",
+		"categoria": "Clasicas/fase_2/Notebook",
+		"mapa": [
+			["inicio", {
+				"titulo": "IDEAPAD G40",
+				"color_primario": "#717170",
+				"color_secundario": "#c22821",
+				"color_caracteristica": "#4a80af"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO IDEAPAD G40",
+				"subtitulo_cabecera": "PORTÁTIL CON UNIDAD DE DVD",
+				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "PANTALLA ANCHA HD",
+				"p_descripcion_principal": "Esta pantalla ancha ofrece una imagen nítida y brillante en un formato de imagen 16:9 y una resolución de 1366 x 768."
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/IMG_5.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_04.png",
+				"t_caracteristica": "Unidad de DVD o Blu-ray Disc™",
+				"p_caracteristica": "Encontrar una portátil con unidad de DVD o Blu-ray Disc™ incorporada es más difícil de lo que solía ser, pero la G40 ofrece esta opción, integrándola cómodamente en su estructura de menos de 1\" de espesor.",
+				"numero_caracteristica": "1"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Sonido y visión épicos",
+				"p_caracteristica": "Gracias a sus parlantes estéreo con Dolby® Advanced Audio™ y gráficos hasta AMD Radeon™ R5 M230 2GB 3D, la G40 ofrece imágenes asombrosas, sin parpadeos, y un sonido envolvente que te garantiza una experiencia más completa y satisfactoria de entretenimiento en el hogar.",
+				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+			}],
+			["I-P-I", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Teclado AccuType",
+				"p_caracteristica": "Con una imagen moderna, el teclado AccuType tan reconocido tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa que con los teclados de diseño estándar.",
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_500/IMG_08.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_09.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Rápidez en transferencia de datos",
+				"p_caracteristica": "Transfiere la información rápidamente entre la G40 y otros dispositivos con el USB 3.0 SuperSpeed: Es hasta 10 veces más veloz que las tecnologías USB anteriores y también es compatible con éstas.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "5",
+				"t_caracteristica": "Tecnología para ahorro de batería",
+				"p_caracteristica": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía para que las cargas no deban realizarse con tanta frecuencia.",
+				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "6",
+				"t_caracteristica": "Cámara web integrada",
+				"p_caracteristica": "La cámara web de 720p HD de la G40 te permitirá disfrutar de conferencias Web o chats de video en línea como si realmente estuvieras allí.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+			}],
+			["fin", {}]
+		]
 	}
 
 ]
