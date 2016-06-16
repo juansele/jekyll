@@ -2392,8 +2392,12 @@
 				"subtitulo_cabecera": "ALTA VELOCIDAD Y GRAN RENDIMIENTO",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+			}],
 			["I-P-nonumero" , {
-				"img_apoyo": "../img/OTROS/IMG_3.png",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_03.png",
 				"p_caracteristica": "Equipado con los procesadores de la siguiente generación y gráficos de gran riqueza, el ligero Ideapad 710S puede funcionar durante todo el día, por lo que resulta perfecto para su mundo siempre activo. Ofrece un sonido envolvente real y una conexión Wi-Fi ultrarrápida, cuenta con una unidad de disco de estado sólido PCIe de alta velocidad y presenta un marco engastado muy fino, de solo 5 mm de grosor; y todo ello en un cuerpo casi un 50 % más delgado que el de sus rivales."
 			}],
 			["I-I", {
