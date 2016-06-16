@@ -2557,6 +2557,208 @@
 			}],
 			["fin", {}]
 		]
+	},{
+		"nombre": "IDEAPAD_500",
+		"categoria": "Clasicas/fase_2/Notebook",
+		"mapa": [
+			["inicio", {
+				"titulo": "IDEAPAD 500",
+				"color_primario": "#717170",
+				"color_secundario": "#c22821",
+				"color_caracteristica": "#4a80af"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO IDEAPAD 500",
+				"subtitulo_cabecera": "POTENTE PORTÁTIL MULTIMEDIA ",
+				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "...",
+				"p_descripcion_principal": "Espectacular cámara de 3D disponible. Gráficos nítidos e intensos con la pantalla de alta definición. Personalizable con varias opciones de gráficos. Wi-Fi de velocidad sorprendente. Sonido envolvente como el de las salas de cine."
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/IMG_5.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_04.png",
+				"t_caracteristica": "Imágenes nítidas e intensas",
+				"p_caracteristica": "Lenovo Ideapad 500 ofrece la máxima resolución de imagen gracias a una pantalla Full HD (1920 x 1080) de serie. Mantenga más ventanas abiertas a la vez, vea sus juegos en alta resolución, o simplemente relájese al final de la jornada y disfrute de una película.",
+				"numero_caracteristica": "1"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Gráficos personalizables",
+				"p_caracteristica": "Consiga la combinación ideal de coste y potencia gráfica. Elija entre gráficos Intel integrados o gráficos AMD de gama alta por separado. Los gráficos por separado ofrecen un impulso a la hora de mostrar toda su creatividad para la edición de vídeo y fotografía.",
+				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+			}],
+			["I-P-I", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Velocidades de conexión ultrarrápidas",
+				"p_caracteristica": "Con la conectividad Wi-Fi 802.11 a/c ultrarrápida, podrá conectarse a Internet en cualquier lugar. La opción Wi-Fi 802.11 a/c ofrece hasta el triple de velocidad de conexión comparado con la especificación 802.11 b/g/n.",
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_500/IMG_08.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_09.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Audio Potente",
+				"p_caracteristica": "Disfrute de todo el impacto del sonido envolvente desde cualquier lugar con la tecnología Dolby® Home Theater® en el PC. Toda la potencia y los matices del cine, toda la inmediatez de las actuaciones en directo, ahora en un portátil.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "5",
+				"t_caracteristica": "Opción de audio excelente",
+				"p_caracteristica": "Los altavoces diseñados por JBL® de gama alta ofrecen sonido envolvente de gran nitidez y claridad. Elija esta opción para disfrutar de una claridad de audio mejorada, una salida de volumen optimizada sin distorsión y una claridad de los diálogos superior al ver vídeos.",
+				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "6",
+				"t_caracteristica": "Unidad lectora/grabadora de DVD opcional",
+				"p_caracteristica": "No es necesario comprar una unidad óptica externa con Ideapad 500 (determinados modelos vienen con una unidad de DVD/CD-RW integrada para que pueda cargar programas, escuchar CD o ver sus películas sin conexión).",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "7",
+				"t_caracteristica": "Sonría, cambie y ordene en segundos.",
+				"p_caracteristica": "Lenovo® Photo Master 2.0 combina una moderna biblioteca de fotografías con una navegación potente y de fácil uso, así como herramientas de edición. Ahora, con funciones como Auto Face Replace y Smart Event Sort, podrá organizar y optimizar sus fotografías a la máxima perfección.",
+				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+			}],
+			["fin", {}]
+		]
+	}, {
+		"nombre": "YOGA_900S",
+		"categoria": "Clasicas/fase_2/Notebook Yoga",
+		"mapa": [
+			["inicio", {
+				"titulo": "LENOVO YOGA 900S",
+				"color_primario": "#717170",
+				"color_secundario": "#c22821",
+				"color_caracteristica": "#4a80af"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO YOGA 900S",
+				"subtitulo_cabecera": "PORTÁTIL ULTRADELGADO CON UNA AUTONOMÍA DE LA BATERÍA INIGUALABLE.",
+				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "...",
+				"p_descripcion_principal": "El portátil convertible más plano del mundo con una increíble autonomía de la batería, elegante y distinguida articulación de cadena de reloj fácilmente reconocible Durabilidad de la fibra de carbono Compatible con el lápiz digital."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_03.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/IMG_5.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"t_caracteristica": "Hasta la 6ª generación del procesador Intel®",
+				"p_caracteristica": "El nuevo estándar para el rendimiento del PC ha llegado con los procesadores Intel® Core™ de 6ª generación. Esta familia de procesadores asombrosamente rápidos, con seguridad integrada y repleta de funciones, está preparada para llevar la productividad, la creatividad y los videojuegos en 3D al siguiente nivel. Además, al habilitar las interesantes funciones de Windows 10, los procesadores Intel® Core™ de 6ª generación le permitirán desatar su imaginación y explorar nuevas posibilidades.",
+				"numero_caracteristica": "1"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Bisagra de cadena de reloj",
+				"p_caracteristica": "Marcadamente diferenciada y reconocible, esta elegante articulación consta de 813 componentes individuales para proporcionar unas transiciones fluidas entre los modos, aunque deja unos espacios mínimos entre las piezas móviles para que la tensión sea uniforme. La tecnología de articulación de Bloqueo automático permite abrir y cerrar fácilmente el portátil, incluso con una sola mano. ",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB_YOGA/IMG_07.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_09.png",
+				"t_caracteristica": "El portátil convertible más plano del Lenovo",
+				"p_caracteristica": "Con tan solo 12,8 mm de grosor y un peso de 999 g, el YOGA 900S es el portátil convertible más plano de Lenovo. Apenas notará que lo lleva encima. Además, gracias a su diseño de fibra de carbono, es resistente y duradero.",
+				"numero_caracteristica": "3"
+			}],
+			["P-I-num_centro", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_06.png",
+				"t_caracteristica": "Compatible con el lápiz digital",
+				"p_caracteristica": "El YOGA 900S es compatible con los 2048 niveles de sensibilidad de presión para una experiencia de escritura fluida.",
+				"numero_caracteristica": "4"
+			}],
+			["I-P", {
+				"numero_caracteristica": "5",
+				"t_caracteristica": "Múltiples maneras de usar el Yoga",
+				"p_caracteristica": "El Yoga 900S es un PC con una extraordinaria capacidad de adaptación. Presenta cuatro modos distintos que le permiten hacer lo que desee: Portátil, Stand, Tienda o Tablet. El secreto: El diseño exclusivo, la articulación de cadena de reloj y la pantalla táctil del Yoga 900S permiten una rotación de la pantalla de 360 grados, para que pueda seleccionar el modo de uso según la tarea que se disponga a realizar. Puede colocarlo en un escritorio, girarlo, cambiarle la orientación y aún así seguirá teniendo un aspecto estupendo desde cualquier ángulo.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+			}],
+			["P-I-num_izq", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"t_caracteristica": "Hasta 10,5 horas de reproducción de vídeo en modo local",
+				"p_caracteristica": "La potente batería del YOGA 900S le permite utilizar el dispositivo durante todo el día y por la noche sin tener que recargarlo. Vuele de Las Vegas a Londres con una única carga o vea 10 episodios seguidos sin parar de su serie favorita. La prueba se basa en la reproducción de un vídeo de alta definición en modo local en una pantalla QHD establecida en 200 nits con el Wi-Fi apagado. La autonomía de la batería es aproximada y variará en función de diferentes factores, incluidos el uso y la configuración del sistema, así como de las funciones seleccionadas. La capacidad máxima de la batería se reducirá de forma natural con el paso del tiempo.",
+				"numero_caracteristica": "6"
+			}],
+			["I-P", {
+				"numero_caracteristica": "7",
+				"t_caracteristica": "Altavoces estéreo con tecnología Dolby® Home Theater®",
+				"p_caracteristica": "Los altavoces del Yoga 900S proporcionan un sonido estéreo de gran riqueza tonal, mientras que Dolby® Home Theater® ofrece una experiencia de audio inmersiva.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+			}],
+			["fin", {}]
+		]
+	}, {
+		"nombre": "IDEAPAD_500S",
+		"categoria": "Clasicas/fase_2/Notebook",
+		"mapa": [
+			["inicio", {
+				"titulo": "IDEAPAD 500S",
+				"color_primario": "#717170",
+				"color_secundario": "#c22821",
+				"color_caracteristica": "#4a80af"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO IDEAPAD 500S",
+				"subtitulo_cabecera": "...",
+				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "...",
+				"p_descripcion_principal": "Dé la bienvenida a Lenovo ideapad 510S: un portátil de alto rendimiento que nunca le fallará. Con su diseño compacto y ligero, cabe en prácticamente cualquier bolsa e incluye procesamiento fiable, conexión Wi-Fi superrápida y audio excelente de serie. Solo elija la pantalla y los gráficos que desea y vaya dónde quiera."
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/IMG_5.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_04.png",
+				"t_caracteristica": "Trabajo, descanso y juegos",
+				"p_caracteristica": "El nuevo estándar para el rendimiento del PC ha llegado con los procesadores Intel® Core™ de 6ª generación. Esta familia de procesadores asombrosamente rápidos, con seguridad integrada y repleta de funciones, está preparada para llevar la productividad, la creatividad y el entretenimiento al siguiente nivel. Además, al habilitar las interesantes funciones de Windows 10, los procesadores Intel Core de 6ª generación le permitirán desatar su imaginación y explorar nuevas posibilidades.",
+				"numero_caracteristica": "1"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Un portátil que no le pesará",
+				"p_caracteristica": "El Lenovo ideapad 510S es ultraportátil y muy potente, perfecto para las personas a las que les gusta trabajar, jugar o estar entretenido sobre la marcha. De hecho, el ideapad 510S es hasta un 20 % menos grueso y un 30 % más ligero que la mayoría de portátiles de su clase.",
+				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+			}],
+			["I-P-I", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Conexión Wi-Fi ultrarrápida",
+				"p_caracteristica": "A hasta tres veces la velocidad Wi-Fi tradicional, la conexión Wi-Fi 802.11 a/c del ideapad 510S le permite explorar la red, transmitir música y películas en tiempo real, y compartir datos con más rapidez que nunca.",
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_500/IMG_08.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_09.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Sonría, intercambie y ordene en cuestión de segundos",
+				"p_caracteristica": "Lenovo Photo Master 2.0 es una moderna biblioteca fotográfica con unas potentes herramientas de edición y navegación fáciles de usar. Con funciones como Auto Face Swap y Smart Event Sort, podrá organizar y optimizar sus fotos a la perfección en el ideapad 510S.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "5",
+				"t_caracteristica": "Mayor Tranquilidad",
+				"p_caracteristica": "Los altavoces diseñados por JBL® de gama alta ofrecen sonido envolvente de gran nitidez y claridad. Elija esta opción para disfrutar de una claridad de audio mejorada, una salida de volumen optimizada sin distorsión y una claridad de los diálogos superior al ver vídeos.",
+				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+			}],
+			["fin", {}]
+		]
 	}
 
 ]
