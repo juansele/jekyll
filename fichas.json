@@ -2206,6 +2206,183 @@
 			}],
 			["fin", {}]
 		]
+	},{
+		"nombre": "TAB3_ESSENTIAL",
+		"categoria": "Clasicas/fase_2/Tablet",
+		"mapa": [
+			["inicio", {
+				"titulo": "Lenovo Tab3 Essential",
+				"color_primario": "#6e8dc4",
+				"color_secundario": "#8abf54",
+				"color_caracteristica": "#4a80af"
+			}],
+			["cabecera", {
+				"nombre_producto": "Lenovo Tab3 Essential",
+				"subtitulo_cabecera": "...",
+				"logo_lenovo": "../img/OTROS/logo_8abf54.png"
+			}],
+			["I", {
+				"img_apoyo": "../img/TABLETS/PHABLET/IMG_01.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "...",
+				"p_descripcion_principal": "Disfrute lo divertido y conveniente de una tableta para ir a todos lados por un precio accesible. Detrás del genial diseño de la serie TAB 3 y vibrante display IPS de 7\" tenemos un procesador de cuatro núcleos rápido y potente que corre hasta 1.3 GHz, memoria interna expandible, GPS y WiFi incorporados y cámaras frontal y trasera para compartir fotos y fantásticas 'selfies' al instante. Socializa, captura contenido, navega, corre tus 'apps' todo el día sin necesidad de recargar."
+			}],
+			["I-IP-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_03.png",
+				"img_apoyo_2": "../img/TABLETS/PHABLET/IMG_04.png",
+				"t_caracteristica": "Video e Imágenes Vibrantes",
+				"p_caracteristica": "El Display de 7\" 1024 x 600 IPS trae a la realidad con color y claridad excepcional todas las fotos, videos, websites y programas en 'Streaming'.",
+				"numero_caracteristica": "1",
+				"img_apoyo_3": "../img/TABLETS/PHABLET/IMG_05.png"
+			}],
+			["P-I-num_centro", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Dos cámaras Geniales",
+				"p_caracteristica": "Podrás usar la Cámara Frontal Visio para 'Selfies' perfectas y la cámara trasera de 2MP para capturar imágenes y videos vibrantes.",
+				"img_apoyo": "../img/TABLETS/PHABLET/IMG_06.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Llega a todas partes con GPS",
+				"p_caracteristica": "Usa su GPS integrado para ayudarte a llegar a donde quiera que te dirijas.",
+				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+			}],
+			["P-I-num_centro", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Siempre a tu lado",
+				"p_caracteristica": "Disfruta de más de 10 horas de uso de batería y cuenta con la ayuda de tu Lenovo™ TAB3 7 Essential de manera incondicional.",
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_07.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "5",
+				"t_caracteristica": "Dolby® Audio.",
+				"p_caracteristica": "La tecnología de mejora del audio de Dolby® ofrece sonido más alto y natural sin distorsión, tanto si se escucha a través de los auriculares como de los altavoces estéreo integrados.",
+				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+			}],
+			["P-I-num_izq", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"t_caracteristica": "Rapido y confiable procesador de cuatro núcleos",
+				"p_caracteristica": "Equipado con un procesador de cuatro núcleos MediaTek® de 1,3 Ghz, el Tab3 7 Essential es ideal para las funciones multitarea, ofreciendo una experiencia Android más rápida y evita las interrupciones al jugar a juegos o visualizar vídeos de alta definición.",
+				"numero_caracteristica": "6"
+			}],
+			["I-P", {
+				"numero_caracteristica": "7",
+				"t_caracteristica": "Android™ 5.1 Lollipop",
+				"p_caracteristica": "Con la última versión de Android, prepárese para un rendimiento más rápido, fluida y potente. Encontrará que es más fácil mantenerse informado de todo, interactuar con los demás e incluso administrar la energía de la batería. Además, puede proteger mejor su Tab3 7 Essential y acceder a sus aplicaciones y juegos favoritos a través del Google Play Store, lo que le hará la vida más fácil.",
+				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+			}],
+			["P-I-num_izq", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"t_caracteristica": "Kids Mode: control de acceso para niños",
+				"p_caracteristica": "Podras crear perfiles especificos y controlar el manejo de aplicaciones según tus necesidades.",
+				"numero_caracteristica": "8"
+			}],
+			["I-P", {
+				"numero_caracteristica": "9",
+				"t_caracteristica": "Control de gestos",
+				"p_caracteristica": "Aun con la pantalla bloqueada podras acceder a tus apps y funciones favoritas con un simple y sencillo movimiento.",
+				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_01.png",
+				"icono_caracteristica_2": "../img/OTROS/IMG_07.png",
+				"detalle_caracteristica_1": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápido que por Bluetooth. Viene preinstalado en tablets y equipos Lenovo.",
+				"detalle_caracteristica_2": "..."
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_01.png",
+				"icono_caracteristica_2": "../img/OTROS/IMG_07.png",
+				"detalle_caracteristica_1": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápido que por Bluetooth. Viene preinstalado en tablets y equipos Lenovo.",
+				"detalle_caracteristica_2": "Lenovo SyncIt que ayuda a copia de seguridad o restaurar sus contactos, SMS y registros de llamadas de Lenovo almacenamiento en la nube."
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_07.png",
+				"icono_caracteristica_2": "",
+				"detalle_caracteristica_1": "ULTIMATE protection for your data, identity, and privacy on every device* you own.",
+				"detalle_caracteristica_2": ""
+			}],
+			["fin", {}]
+		]
+	},{
+		"nombre": "AIO_700",
+		"categoria": "Clasicas/fase_2/All In One",
+		"mapa": [
+			["inicio", {
+				"titulo": "AIO_700",
+				"color_primario": "#231f20",
+				"color_secundario": "#8abf54",
+				"color_caracteristica": "#ed6b00"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO AIO 700",
+				"subtitulo_cabecera": "TODO LO QUE NECESITA SISTEMA TODO EN UNO",
+				"logo_lenovo": "../img/OTROS/logo_8abf54.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/AIO/AIO_300/IMG_01.png",
+				"img_apoyo_2": "../img/AIO/AIO_300/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "Los procesadores Intel® Core™ más recientes",
+				"p_descripcion_principal": "Rendimiento excelente, posibilidades infinitas. Con unas espectaculares imágenes y un rendimiento sin igual, la nueva familia de procesadores Intel® Core™ ofrece una potencia de procesamiento que llevará su experiencia informática al siguiente nivel para que pueda trabajar de manera más inteligente."
+			}],
+			["I-P-nonumero", {
+				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_04.png",
+				"p_caracteristica": "Los procesadores más recientes, con opción de tarjeta gráfica independiente. Gran capacidad de almacenamiento y de memoria, fácil de actualizar. Excelente sonido y ángulos de pantalla ajustables. Pantalla multitáctil de alta resolución con opción sin marcos. Ideal para el trabajo, el entretenimiento y mucho más. Windows 10 Home. "
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_03.png"
+			}],
+			["P-I-I", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "Los procesadores Intel® Core™ más recientes",
+				"p_caracteristica": "Rendimiento excelente, posibilidades infinitas. Con unas espectaculares imágenes y un rendimiento sin igual, la nueva familia de procesadores Intel® Core™ ofrece una potencia de procesamiento que llevará su experiencia informática al siguiente nivel para que pueda trabajar de manera más inteligente.",
+				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_05.png",
+				"img_apoyo_2": "../img/AIO/AIO_300/IMG_05.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Grande en rendimiento",
+				"p_caracteristica": "El potente Lenovo Ideacentre AIO 700, que permite ahorrar espacio, está diseñado con una memoria, un almacenamiento y una potencia de procesamiento suficientes como para satisfacer todas sus necesidades informáticas y multimedia. Y mucho más.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_06.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Entretenimiento inmersivo",
+				"p_caracteristica": "Gracias a los altavoces estéreo JBL® de gama alta y a una impresionante pantalla Ultra HD (3840 x 2160) sin marcos de hasta 23,5”, el AIO 700 lleva el entretenimiento doméstico al siguiente nivel. Para disfrutar de una experiencia inmersiva de verdad, puede elegir una pantalla multitáctil opcional y una tarjeta gráfica independiente NVIDIA® GeForce GTX 950A de 2 GB.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_01.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_08.png",
+				"img_apoyo_2": "../img/AIO/AIO_300/IMG_07.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "4",
+				"t_caracteristica": "Gran Capacidad de almacenamiento",
+				"p_caracteristica": "El AIO 700 se suministra con una unidad de disco duro o una unidad de disco duro sólido de hasta 2 TB. Por lo que podrá almacenar todos sus documentos, archivos de música, presentaciones y fotos con espacio de sobra. Además, con una memoria de hasta 16 GB, tiene la capacidad necesaria para afrontar cualquier tarea.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_08.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "5",
+				"t_caracteristica": "Conectividad instantánea con Wi-Fi o Bluetooth®",
+				"p_caracteristica": "Gracias a las opciones de conectividad  Wi-Fi 802.11 b/g/n o a/c y Bluetooth® 4.0 , el AIO 700 puede convertirse en el concentrador de Internet/multimedia principal para toda la familia. Se trata de una manera potente de transmitir audio y vídeo en tiempo real a todos los dispositivos del domicilio.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_09.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "6",
+				"t_caracteristica": "Pantalla ajustable",
+				"p_caracteristica": "Para lograr un manejo más cómodo y práctico, la pantalla se puede ajustar de -5 a 25 grados. Así podrá encontrar el ángulo de visión óptimo para sus aplicaciones o vídeos favoritos en Windows 10.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "7",
+				"t_caracteristica": "Fácil de actualizar y de ampliar",
+				"p_caracteristica": "Realizar el mantenimiento, la ampliación o la actualización de su Ideacentre AIO 700 es una tarea fácil. Tan solo tiene que deslizar y apartar el panel trasero para tener un acceso instantáneo a todos los elementos que se encuentren debajo de la cubierta.",
+				"img_apoyo": "../img/AIO/AIO_300/IMG_09.png"
+			}],
+			["fin", {}]
+		]
 	}
 
 ]
