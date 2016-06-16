@@ -2028,7 +2028,7 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "ideapad_500",
+		"nombre": "IDEAPAD_500",
 		"categoria": "Clasicas/fase_2/Notebook",
 		"mapa": [
 			["inicio", {
@@ -2456,6 +2456,100 @@
 				"t_caracteristica": "Conectividad superrápida",
 				"p_caracteristica": "Proteja toda su vida digital con la protección integral que ofrece el software McAfee LiveSafe. LiveSafe protege todos los dispositivos a través de la nube y a nivel local para garantizar la máxima seguridad de sus datos y su identidad. Disfrute de una prueba gratuita de 30 días con la compra. O bien, realice una ampliación a la versión completa durante el proceso de compra y goce de tranquilidad y seguridad desde el primer día.",
 				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+			}],
+			["fin", {}]
+		]
+	}, {
+		"nombre": "YOGA_710",
+		"categoria": "Clasicas/fase_2/Notebook Yoga",
+		"mapa": [
+			["inicio", {
+				"titulo": "LENOVO YOGA 710",
+				"color_primario": "#717170",
+				"color_secundario": "#c22821",
+				"color_caracteristica": "#4a80af"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO YOGA 710",
+				"subtitulo_cabecera": "EXCLUSIVA BISAGRA DE ANTENA",
+				"logo_lenovo": "../img/OTROS/logo_c22821.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "...",
+				"p_descripcion_principal": "Las conexiones Wi-Fi poco fiables son una fuente de frustración habitual entre los usuarios de PC. El Yoga 710 (14\") de Lenovo ha solucionado el problema creando una antena que se integra físicamente en la bisagra Yoga, cubriendo una área de superficie mayor y haciendo que la intensidad de la señal sea más fuerte y estable."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_03.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/IMG_5.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"t_caracteristica": "Autonomía prolongada de la batería",
+				"p_caracteristica": "El Yoga 710 proporciona hasta 8 horas de actividad con una sola carga. Dado que la batería se ha probado en condiciones reales, puede tener la seguridad de que durará una jornada de trabajo entera sin recargar.",
+				"numero_caracteristica": "1"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Gráficos NVIDIA® de próxima generación (opcional)",
+				"p_caracteristica": "Con los gráficos NVIDIA® de próxima generación, tendrá asegurada una mayor riqueza visual y una experiencia operativa más rápida, lo que resulta perfecto para compartir fotos y vídeos.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB_YOGA/IMG_07.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_09.png",
+				"t_caracteristica": "Múltiples maneras de usar el Yoga",
+				"p_caracteristica": "El Yoga 900 es un PC con una extraordinaria capacidad de adaptación. Presenta cuatro modos distintos que le permiten hacer lo que desee: Portátil, Stand, Tienda o Tablet. El secreto: El diseño exclusivo, la bisagra de cadena de reloj y la pantalla táctil del Yoga 900 permiten una rotación de la pantalla de 360 grados, para que pueda seleccionar el modo de uso según la tarea que se disponga a realizar.",
+				"numero_caracteristica": "3"
+			}],
+			["P-I-num_centro", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_06.png",
+				"t_caracteristica": "Elegante y Ligero",
+				"p_caracteristica": "Con un peso de 3,52 lb y solo 0,58” de grosor, el ultraportátil Lenovo Yoga 710 está diseñado para que trabaje y juegue, dondequiera que la vida le lleve.",
+				"numero_caracteristica": "4"
+			}],
+			["I-P", {
+				"numero_caracteristica": "5",
+				"t_caracteristica": "Diseño Sólido",
+				"p_caracteristica": "El Yoga 710 está diseñado para durar. Su resistente chasis está hecho de aluminio, lo que le confiere un inconfundible aspecto Premium. Disponible en Plata platino y Negro ébano.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+			}],
+			["P-I-num_izq", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"t_caracteristica": "Varias Formas de Trabajar y Jugar",
+				"p_caracteristica": "Un PC cuando lo necesite, un tablet cuando lo desee, etc. El Yoga 710 posee una extraordinaria capacidad de adaptación. Presenta cuatro modos distintos que le permiten hacer lo que desee: Portátil, Stand, Tienda o Tablet. El secreto: El diseño exclusivo y la pantalla táctil del Yoga 710 permiten una rotación de la pantalla 360 grados, para que pueda seleccionar el modo según la tarea que se disponga a realizar.",
+				"numero_caracteristica": "6"
+			}],
+			["I-P", {
+				"numero_caracteristica": "7",
+				"t_caracteristica": "Elegante pantalla Full HD sin bordes",
+				"p_caracteristica": "La dinámica pantalla Full HD (1920 x 1080) sin bordes de 14” genera representaciones visuales brillantes y detalladas para ofrecer un rendimiento extraordinario en los videojuegos y las actividades multimedia. La tecnología MultiTouch de 10 puntos proporciona una experiencia táctil superior, mayor adaptabilidad y tiempos de respuesta más rápidos. La tecnología de intercambio de plano (IPS) significa que la pantalla del Yoga 710 ofrece representaciones visuales nítidas con un amplio ángulo de visión, lo que resulta perfecto para compartir contenido con los amigos.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+			}],
+			["P-I-num_izq", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"t_caracteristica": "Almacenamiento en disco duro sólido (SSD)",
+				"p_caracteristica": "Gracias al almacenamiento SSD incluido como estándar, el Yoga 710 inicia las aplicaciones con más rapidez, transfiere archivos a mayor velocidad y proporciona mejor protección en caso de que se le caiga el dispositivo.",
+				"numero_caracteristica": "8"
+			}],
+			["I-P", {
+				"numero_caracteristica": "9",
+				"t_caracteristica": "Audio Dolby®",
+				"p_caracteristica": "Saque el máximo partido de su ocio con Dolby Audio®. Resalta los diálogos, presenta una gran variedad de sonidos de forma detallada y maximiza el volumen de su PC sin distorsiones. También disfrutará de sonido envolvente virtual a través de los altavoces de su PC.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+			}],
+			["P-I-num_izq", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"t_caracteristica": "Sonría, intercambie y ordene en cuestión de segundos",
+				"p_caracteristica": "Lenovo® Photo Master 2.0 combina una moderna biblioteca fotográfica con unas potentes herramientas de edición y navegación fáciles de usar. Ahora, con funciones como Auto Face Replace y Smart Event Sort, podrá organizar y optimizar sus fotos a la perfección.",
+				"numero_caracteristica": "10"
 			}],
 			["fin", {}]
 		]
