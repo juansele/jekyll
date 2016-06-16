@@ -7,9 +7,8 @@
 	Para implementar mundo alkosto solo son necesarios dos pasos despues de haber copiado tiodos los recursos entregados:
 
 
-	Paso 1: Agregar en un tag <style></style> la siguente isntrucción, que aplica al iframe las siguientes dimensiones
-			860x750 pixeles es importante no alterarlas ya que de hacerlo la visualización del contenido se vera 
-			comprometida.
+	Paso 1: Agregar en un tag <style></style> la clase "iframe.mett__iframe-mundo-alkosto", esta aplica al iframe las siguientes dimensiones
+			860x750 pixeles es importante no alterarlas ya que de hacerlo la visualización del contenido se vera comprometida.
 
 			Debe quedar así:
 
@@ -24,7 +23,7 @@
 			</style>
 
 
-	Pass 2: Agregar en el espacio designado el iframe apuntando a la url proporcionada por mett
+	Pass 2: Agregar en el espacio designado el iframe apuntando a la url proporcionada por mett.
 
 
 			Debe quedar así:
