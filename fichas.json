@@ -2110,8 +2110,8 @@
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
 			["I-I", {
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_900/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_900/IMG_02.png"
 			}],
 			["P", {
 				"t_descripcion_principal": "EL PORTÁTIL INTELIGENTE QUE SE ADAPTA A TI",
@@ -2121,8 +2121,8 @@
 				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_03.png"
 			}],
 			["P-I-I", {
-				"img_apoyo_1": "../img/OTROS/IMG_5.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_900/IMG_03.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_900/IMG_04.png",
 				"t_caracteristica": "Hasta la 6ª generación del procesador Intel® Core™ i7",
 				"p_caracteristica": "El nuevo estándar para el rendimiento del PC ha llegado con los procesadores Intel® Core™ de 6ª generación. Esta familia de procesadores asombrosamente rápidos, con seguridad integrada y repleta de funciones, está preparada para llevar la productividad, la creatividad y los videojuegos en 3D al siguiente nivel. Además, al habilitar las interesantes funciones de Windows 10, los procesadores Intel® Core™ de 6ª generación le permitirán desatar su imaginación y explorar nuevas posibilidades.",
 				"numero_caracteristica": "1"
@@ -2131,7 +2131,7 @@
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Windows 10 Home",
 				"p_caracteristica": "Es la sensación familiar del Windows de siempre, aunque mejorada. El menú Inicio ha vuelto mejor que nunca. Amplíelo, personalícelo, hágalo suyo. Trabaje con los demás dispositivos que posea, como por ejemplo, impresoras, cámaras y unidades de memoria USB. Y disfrute de las funciones de seguridad adicionales que le ayudarán a protegerse de los robos de dispositivos y del software malicioso.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_900/IMG_05.png"
 			}],
 			["I-I", {
 				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_06.png",
