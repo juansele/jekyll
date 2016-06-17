@@ -2186,17 +2186,17 @@
 				"p_caracteristica": "Los altavoces JBL de 1,5 W proporcionan un sonido estéreo de gran riqueza tonal, mientras que Dolby® Home Theater® ofrece una experiencia de audio inmersiva.",
 				"numero_caracteristica": "10"
 			}],
-			["P-I-num_izq", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_900/IMG_04.png",
-				"t_caracteristica": "Aplicaciones Lenovo Doit",
-				"p_caracteristica": "Mejore su productividad con el portátil gracias a las excelentes aplicaciones de Lenovo, como SHAREit, que permite compartir archivos rápidamente sin cargos de red ni conexión Wi-Fi.",
-				"numero_caracteristica": "11"
-			}],
 			["I-P", {
-				"numero_caracteristica": "12",
+				"numero_caracteristica": "11",
 				"t_caracteristica": "Cámara web integrada",
 				"p_caracteristica": "La cámara web HD de 720p y 30 fps, así como el micrófono de matriz digital, le ayudarán a disfrutar de conferencias web o de chats de vídeo en línea como si estuviera realmente allí.",
 				"img_apoyo": "../img/NB_YOGA/YOGA_900/IMG_12.png"
+			}],
+			["P-I-num_izq", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_900/IMG_0.png",
+				"t_caracteristica": "Aplicaciones Lenovo Doit",
+				"p_caracteristica": "Mejore su productividad con el portátil gracias a las excelentes aplicaciones de Lenovo, como SHAREit, que permite compartir archivos rápidamente sin cargos de red ni conexión Wi-Fi.",
+				"numero_caracteristica": "12"
 			}],
 			["fin", {}]
 		]
