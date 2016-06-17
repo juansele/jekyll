@@ -2330,41 +2330,41 @@
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Grande en rendimiento",
 				"p_caracteristica": "El potente Lenovo Ideacentre AIO 700, que permite ahorrar espacio, está diseñado con una memoria, un almacenamiento y una potencia de procesamiento suficientes como para satisfacer todas sus necesidades informáticas y multimedia. Y mucho más.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_06.png"
+				"img_apoyo": "../img/AIO/AIO_700/IMG_06.png"
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Entretenimiento inmersivo",
 				"p_caracteristica": "Gracias a los altavoces estéreo JBL® de gama alta y a una impresionante pantalla Ultra HD (3840 x 2160) sin marcos de hasta 23,5”, el AIO 700 lleva el entretenimiento doméstico al siguiente nivel. Para disfrutar de una experiencia inmersiva de verdad, puede elegir una pantalla multitáctil opcional y una tarjeta gráfica independiente NVIDIA® GeForce GTX 950A de 2 GB.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_01.png"
+				"img_apoyo": "../img/AIO/AIO_700/IMG_09.png"
 			}],
 			["I-I", {
 				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_08.png",
-				"img_apoyo_2": "../img/AIO/AIO_300/IMG_07.png"
+				"img_apoyo_2": "../img/AIO/AIO_700/IMG_10.png"
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Gran Capacidad de almacenamiento",
 				"p_caracteristica": "El AIO 700 se suministra con una unidad de disco duro o una unidad de disco duro sólido de hasta 2 TB. Por lo que podrá almacenar todos sus documentos, archivos de música, presentaciones y fotos con espacio de sobra. Además, con una memoria de hasta 16 GB, tiene la capacidad necesaria para afrontar cualquier tarea.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_08.png"
+				"img_apoyo": "../img/AIO/AIO_700/IMG_12.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "5",
 				"t_caracteristica": "Conectividad instantánea con Wi-Fi o Bluetooth®",
 				"p_caracteristica": "Gracias a las opciones de conectividad  Wi-Fi 802.11 b/g/n o a/c y Bluetooth® 4.0 , el AIO 700 puede convertirse en el concentrador de Internet/multimedia principal para toda la familia. Se trata de una manera potente de transmitir audio y vídeo en tiempo real a todos los dispositivos del domicilio.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_09.png"
+				"img_apoyo": "../img/AIO/AIO_700/IMG_09.png"
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "6",
 				"t_caracteristica": "Pantalla ajustable",
 				"p_caracteristica": "Para lograr un manejo más cómodo y práctico, la pantalla se puede ajustar de -5 a 25 grados. Así podrá encontrar el ángulo de visión óptimo para sus aplicaciones o vídeos favoritos en Windows 10.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+				"img_apoyo": "../img/AIO/AIO_700/IMG_11.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "7",
 				"t_caracteristica": "Fácil de actualizar y de ampliar",
 				"p_caracteristica": "Realizar el mantenimiento, la ampliación o la actualización de su Ideacentre AIO 700 es una tarea fácil. Tan solo tiene que deslizar y apartar el panel trasero para tener un acceso instantáneo a todos los elementos que se encuentren debajo de la cubierta.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_09.png"
+				"img_apoyo": "../img/AIO/AIO_700/IMG_08.png"
 			}],
 			["fin", {}]
 		]
