@@ -2157,7 +2157,7 @@
 				"img_apoyo": "../img/NB_YOGA/YOGA_900/IMG_08.png"
 			}],
 			["P-I-num_izq", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"img_apoyo": "../img/NB_YOGA/YOGA_900/IMG_02.png",
 				"t_caracteristica": "Ventilado y silencioso",
 				"p_caracteristica": "El exclusivo ventilador de aleación metálica, que es un 32 % más grande pero tiene una densidad del 66 %, permite que el portátil sea delgado Y se mantenga ventilado. Asimismo, los respiraderos de la bisagra de diseño especial permiten una ventilación excelente, una gran resistencia al polvo y un aspecto limpio; por lo que resulta silencioso y, además, presenta un flujo de aire un 15 % mejor y una refrigeración un 30 % mejor.",
 				"numero_caracteristica": "6"
@@ -2166,10 +2166,10 @@
 				"numero_caracteristica": "7",
 				"t_caracteristica": "Ultraplano, ligero y portátil",
 				"p_caracteristica": "A partir de tan solo 1,29 kg de peso y un simple grosor de 14,9 mm, el Yoga 900 es ultraportátil; resulta perfecto para los usuarios móviles, y es el equipo convertible con tecnología Intel® Core™ i más compacto del mundo. Además, gracias a una autonomía de la batería real de hasta 10 horas (basada en los datos de uso reales procedentes de la reproducción de vídeo en modo local y de la exploración web intensa, en lugar de en las simulaciones), podrá utilizarlo todo el día sin tener que recargarlo.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_900/IMG_09.png"
 			}],
 			["P-I-num_izq", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"img_apoyo": "../img/NB_YOGA/YOGA_900/IMG_10.png",
 				"t_caracteristica": "Pantalla QHQ con tecnología IPS",
 				"p_caracteristica": "Pantallas LCD con tecnología IPS (Intercambio de plano) de alto brillo. La tecnología IPS proporciona colores intensos y ángulos de visión de casi 180 grados. La pantalla QHD+ tiene un aspecto estupendo desde cualquier ángulo.",
 				"numero_caracteristica": "8"
@@ -2178,7 +2178,7 @@
 				"numero_caracteristica": "9",
 				"t_caracteristica": "Sonría, intercambie y ordene en cuestión de segundos",
 				"p_caracteristica": "Lenovo® Photo Master 2.0 combina una moderna biblioteca fotográfica con unas potentes herramientas de edición y navegación fáciles de usar. Ahora, con funciones como Auto Face Replace y Smart Event Sort, podrá organizar y optimizar sus fotos a la perfección.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_900/IMG_11.png"
 			}],
 			["P-I-num_izq", {
 				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
