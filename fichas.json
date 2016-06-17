@@ -2479,7 +2479,7 @@
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Gráficos NVIDIA® de próxima generación (opcional)",
 				"p_caracteristica": "Con los gráficos NVIDIA® de próxima generación, tendrá asegurada una mayor riqueza visual y una experiencia operativa más rápida, lo que resulta perfecto para compartir fotos y vídeos.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_710/IMG_05.png"
 			}],
 			["I-I", {
 				"img_apoyo_1": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png",
@@ -2495,37 +2495,37 @@
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Diseño Sólido",
 				"p_caracteristica": "El Yoga 710 está diseñado para durar. Su resistente chasis está hecho de aluminio, lo que le confiere un inconfundible aspecto Premium. Disponible en Plata platino y Negro ébano.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_710/IMG_07.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_710/IMG_09.png"
 			}],
 			["P-I-num_izq", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"img_apoyo": "../img/NB_YOGA/YOGA_710/IMG_08.png",
 				"t_caracteristica": "Varias Formas de Trabajar y Jugar",
 				"p_caracteristica": "Un PC cuando lo necesite, un tablet cuando lo desee, etc. El Yoga 710 posee una extraordinaria capacidad de adaptación. Presenta cuatro modos distintos que le permiten hacer lo que desee: Portátil, Stand, Tienda o Tablet. El secreto: El diseño exclusivo y la pantalla táctil del Yoga 710 permiten una rotación de la pantalla 360 grados, para que pueda seleccionar el modo según la tarea que se disponga a realizar.",
-				"numero_caracteristica": "6"
+				"numero_caracteristica": "5"
 			}],
 			["I-P", {
-				"numero_caracteristica": "7",
+				"numero_caracteristica": "6",
 				"t_caracteristica": "Elegante pantalla Full HD sin bordes",
 				"p_caracteristica": "La dinámica pantalla Full HD (1920 x 1080) sin bordes de 14” genera representaciones visuales brillantes y detalladas para ofrecer un rendimiento extraordinario en los videojuegos y las actividades multimedia. La tecnología MultiTouch de 10 puntos proporciona una experiencia táctil superior, mayor adaptabilidad y tiempos de respuesta más rápidos. La tecnología de intercambio de plano (IPS) significa que la pantalla del Yoga 710 ofrece representaciones visuales nítidas con un amplio ángulo de visión, lo que resulta perfecto para compartir contenido con los amigos.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_710/IMG_04.png"
 			}],
 			["P-I-num_izq", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_03.png",
 				"t_caracteristica": "Almacenamiento en disco duro sólido (SSD)",
 				"p_caracteristica": "Gracias al almacenamiento SSD incluido como estándar, el Yoga 710 inicia las aplicaciones con más rapidez, transfiere archivos a mayor velocidad y proporciona mejor protección en caso de que se le caiga el dispositivo.",
-				"numero_caracteristica": "8"
+				"numero_caracteristica": "7"
 			}],
 			["I-P", {
-				"numero_caracteristica": "9",
+				"numero_caracteristica": "8",
 				"t_caracteristica": "Audio Dolby®",
 				"p_caracteristica": "Saque el máximo partido de su ocio con Dolby Audio®. Resalta los diálogos, presenta una gran variedad de sonidos de forma detallada y maximiza el volumen de su PC sin distorsiones. También disfrutará de sonido envolvente virtual a través de los altavoces de su PC.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_710/IMG_10.png"
 			}],
 			["P-I-num_izq", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png",
 				"t_caracteristica": "Sonría, intercambie y ordene en cuestión de segundos",
 				"p_caracteristica": "Lenovo® Photo Master 2.0 combina una moderna biblioteca fotográfica con unas potentes herramientas de edición y navegación fáciles de usar. Ahora, con funciones como Auto Face Replace y Smart Event Sort, podrá organizar y optimizar sus fotos a la perfección.",
-				"numero_caracteristica": "10"
+				"numero_caracteristica": "9"
 			}],
 			["fin", {}]
 		]
