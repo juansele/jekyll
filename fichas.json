@@ -2392,62 +2392,55 @@
 				"p_descripcion_principal": "A un precio sorprendentemente bajo. Trabaja, juega o simplemente haz lo que deseas, con sus cuatro modos de uso Lenovo YOGA 500 se adapta a ti para facilitarte todas las actividades."
 			}],
 			["I-P-nonumero" , {
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_03.png",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_12.png",
 				"p_caracteristica": "Equipado con los procesadores de la siguiente generación y gráficos de gran riqueza, el ligero Ideapad 710S puede funcionar durante todo el día, por lo que resulta perfecto para su mundo siempre activo. Ofrece un sonido envolvente real y una conexión Wi-Fi ultrarrápida, cuenta con una unidad de disco de estado sólido PCIe de alta velocidad y presenta un marco engastado muy fino, de solo 5 mm de grosor; y todo ello en un cuerpo casi un 50 % más delgado que el de sus rivales."
 			}],
 			["I-I", {
 				"img_apoyo_1": "../img/NB/IDEAPAD_710S/IMG_03.png",
-				"img_apoyo_2": "../img/NB/IDEAPAD_710S/IMG_04.png"
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_03.png"
 			}],
-			["P-I-I", {
-				"img_apoyo_1": "../img/OTROS/IMG_5.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_04.png",
+			["P-I-num_izq", {
+				"numero_caracteristica": "1",
 				"t_caracteristica": "Funciones Hasta la 6ª generación del procesador Intel® ",
 				"p_caracteristica": "Hasta la 6ª generación del procesador Intel® El nuevo estándar para el rendimiento del PC ha llegado con los procesadores Intel® Core™ de 6ª generación. Esta familia de procesadores asombrosamente rápidos, con seguridad integrada y repleta de funciones, está preparada para llevar la productividad, la creatividad y los videojuegos en 3D al siguiente nivel. Además, al habilitar las interesantes funciones de Windows 10, los procesadores Intel Core de 6ª generación le permitirán desatar su imaginación y explorar nuevas posibilidades.",
-				"numero_caracteristica": "1"
-			}],
-			["I-P", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Sonido DOLBY ®",
-				"p_caracteristica": "Cada uno de los modos de uso de tu YOGA 500 viene con un perfil de audio específico de DOLBY ® y así maximiza la calidad del sonido.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+				"img_apoyo": "../img/NB/IDEAPAD_710S/IMG_04.png"
 			}],
 			["I-P-I", {
-				"numero_caracteristica": "3",
+				"numero_caracteristica": "2",
 				"t_caracteristica": "Pantalla Atractiva",
 				"p_caracteristica": "Gracias a su pantalla QHD+ (3200 x 1800) de 13,3\", el Ideapad 710S le ofrece elementos visuales brillantes y definidos. Pero lo que realmente puede atraer su mirada es el marco engastado increíblemente fino, de solo 5 mm de grosor (es casi un 50 % más delgado que la mayoría de portátiles de su categoría).",
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_500/IMG_08.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_09.png"
+				"img_apoyo_1": "../img/NB/IDEAPAD_710S/IMG_05.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_710S/IMG_06.png"
 			}],
 			["P-I-num_izq", {
-				"numero_caracteristica": "4",
+				"numero_caracteristica": "3",
 				"t_caracteristica": "Gráficos Intel® Iris™ opcionales",
 				"p_caracteristica": "Para lograr unos elementos visuales mucho más variados y unos gráficos más espectaculares, elija un Ideapad 710S con gráficos Intel® Iris™. Creados directamente en el procesador, los gráficos Intel Iris representan las imágenes de forma separada de la CPU; con lo que mejoran su experiencia de entretenimiento para siempre.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+				"img_apoyo": "../img/NB/IDEAPAD_710S/IMG_07.png"
 			}],
 			["I-P", {
-				"numero_caracteristica": "5",
+				"numero_caracteristica": "4",
 				"t_caracteristica": "Audio superpotente",
 				"p_caracteristica": "El Ideapad 710S proporciona una experiencia cinematográfica inmersiva con la emoción del espectáculo en directo. Sus altavoces estéreo JBL® integrados se combinan para ofrecerle el máximo impacto del sonido envolvente, en cualquier lugar.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_08.png"
 			}],
 			["P-I-num_izq", {
-				"numero_caracteristica": "6",
+				"numero_caracteristica": "5",
 				"t_caracteristica": "Conectividad superrápida",
 				"p_caracteristica": "Acceder a Internet y conectarse a otros dispositivos no ofrece prácticamente ningún problema con la tecnología Bluetooth® 4.0 y Wi-Fi 802.11 a/c. De hecho, la conexión Wi-Fi 802.11 a/c le ofrece tres veces la velocidad de conexión de la especificación 802.11 b/g/n.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+				"img_apoyo": "../img/NB/IDEAPAD_710S/IMG_01.png"
 			}],
 			["I-P", {
-				"numero_caracteristica": "7",
+				"numero_caracteristica": "6",
 				"t_caracteristica": "Sonría, intercambie y ordene en cuestión de segundos",
 				"p_caracteristica": "El Ideapad 710S se suministra con Lenovo® Photo Master 2.0: una moderna biblioteca fotográfica con unas potentes herramientas de edición y navegación fáciles de usar. Con funciones como Auto Face Swap y Smart Event Sort, podrá organizar y optimizar sus fotos rápidamente y a la perfección.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_04.png"
 			}],
 			["P-I-num_izq", {
-				"numero_caracteristica": "8",
-				"t_caracteristica": "Conectividad superrápida",
+				"numero_caracteristica": "7",
+				"t_caracteristica": "Prueba gratuita de McAfee LiveSafe®",
 				"p_caracteristica": "Proteja toda su vida digital con la protección integral que ofrece el software McAfee LiveSafe. LiveSafe protege todos los dispositivos a través de la nube y a nivel local para garantizar la máxima seguridad de sus datos y su identidad. Disfrute de una prueba gratuita de 30 días con la compra. O bien, realice una ampliación a la versión completa durante el proceso de compra y goce de tranquilidad y seguridad desde el primer día.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+				"img_apoyo": "../img/NB/IDEAPAD_710S/IMG_08.png"
 			}],
 			["fin", {}]
 		]
