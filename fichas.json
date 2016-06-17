@@ -2308,26 +2308,23 @@
 				"logo_lenovo": "../img/OTROS/logo_8abf54.png"
 			}],
 			["I-I", {
-				"img_apoyo_1": "../img/AIO/AIO_300/IMG_01.png",
-				"img_apoyo_2": "../img/AIO/AIO_300/IMG_02.png"
+				"img_apoyo_1": "../img/AIO/AIO_700/IMG_01.png",
+				"img_apoyo_2": "../img/AIO/AIO_700/IMG_02.png"
 			}],
 			["P", {
 				"t_descripcion_principal": "Los procesadores Intel® Core™ más recientes",
 				"p_descripcion_principal": "Rendimiento excelente, posibilidades infinitas. Con unas espectaculares imágenes y un rendimiento sin igual, la nueva familia de procesadores Intel® Core™ ofrece una potencia de procesamiento que llevará su experiencia informática al siguiente nivel para que pueda trabajar de manera más inteligente."
 			}],
 			["I-P-nonumero", {
-				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_04.png",
+				"img_apoyo": "../img/AIO/AIO_700/IMG_03.png",
 				"p_caracteristica": "Los procesadores más recientes, con opción de tarjeta gráfica independiente. Gran capacidad de almacenamiento y de memoria, fácil de actualizar. Excelente sonido y ángulos de pantalla ajustables. Pantalla multitáctil de alta resolución con opción sin marcos. Ideal para el trabajo, el entretenimiento y mucho más. Windows 10 Home. "
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_03.png"
 			}],
 			["P-I-I", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Los procesadores Intel® Core™ más recientes",
 				"p_caracteristica": "Rendimiento excelente, posibilidades infinitas. Con unas espectaculares imágenes y un rendimiento sin igual, la nueva familia de procesadores Intel® Core™ ofrece una potencia de procesamiento que llevará su experiencia informática al siguiente nivel para que pueda trabajar de manera más inteligente.",
-				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_05.png",
-				"img_apoyo_2": "../img/AIO/AIO_300/IMG_05.png"
+				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
+				"img_apoyo_2": "../img/AIO/AIO_700/IMG_04.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "2",
