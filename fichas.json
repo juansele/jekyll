@@ -2388,22 +2388,21 @@
 				"img_apoyo_2": "../img/NB/IDEAPAD_710S/IMG_02.png"
 			}],
 			["P", {
-				"t_descripcion_principal": "YOGA 500 TE DA 360° DE FLEXIBILIDAD",
-				"p_descripcion_principal": "A un precio sorprendentemente bajo. Trabaja, juega o simplemente haz lo que deseas, con sus cuatro modos de uso Lenovo YOGA 500 se adapta a ti para facilitarte todas las actividades."
+				"t_descripcion_principal": "ALTA VELOCIDAD Y GRAN RENDIMIENTO",
+				"p_descripcion_principal": "Equipado con los procesadores de la siguiente generación y gráficos de gran riqueza, el ligero Ideapad 710S puede funcionar durante todo el día, por lo que resulta perfecto para su mundo siempre activo. Ofrece un sonido envolvente real y una conexión Wi-Fi ultrarrápida, cuenta con una unidad de disco de estado sólido PCIe de alta velocidad y presenta un marco engastado muy fino, de solo 5 mm de grosor; y todo ello en un cuerpo casi un 50 % más delgado que el de sus rivales."
 			}],
-			["I-P-nonumero" , {
-				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_12.png",
-				"p_caracteristica": "Equipado con los procesadores de la siguiente generación y gráficos de gran riqueza, el ligero Ideapad 710S puede funcionar durante todo el día, por lo que resulta perfecto para su mundo siempre activo. Ofrece un sonido envolvente real y una conexión Wi-Fi ultrarrápida, cuenta con una unidad de disco de estado sólido PCIe de alta velocidad y presenta un marco engastado muy fino, de solo 5 mm de grosor; y todo ello en un cuerpo casi un 50 % más delgado que el de sus rivales."
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB/IDEAPAD_710S/IMG_03.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_03.png"
+			["I" , {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_12.png"
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "1",
 				"t_caracteristica": "Funciones Hasta la 6ª generación del procesador Intel® ",
 				"p_caracteristica": "Hasta la 6ª generación del procesador Intel® El nuevo estándar para el rendimiento del PC ha llegado con los procesadores Intel® Core™ de 6ª generación. Esta familia de procesadores asombrosamente rápidos, con seguridad integrada y repleta de funciones, está preparada para llevar la productividad, la creatividad y los videojuegos en 3D al siguiente nivel. Además, al habilitar las interesantes funciones de Windows 10, los procesadores Intel Core de 6ª generación le permitirán desatar su imaginación y explorar nuevas posibilidades.",
 				"img_apoyo": "../img/NB/IDEAPAD_710S/IMG_04.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_710S/IMG_03.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_03.png"
 			}],
 			["I-P-I", {
 				"numero_caracteristica": "2",
