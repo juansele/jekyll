@@ -2610,15 +2610,15 @@
 			}],
 			["cabecera", {
 				"nombre_producto": "LENOVO YOGA 900S",
-				"subtitulo_cabecera": "PORTÁTIL ULTRADELGADO CON UNA AUTONOMÍA DE LA BATERÍA INIGUALABLE.",
+				"subtitulo_cabecera": "PORTÁTIL ULTRADELGADO CON UNA AUTONOMÍA DE LA BATERÍA INIGUALABLE",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
 			["I-I", {
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_900S/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_900S/IMG_02.png"
 			}],
 			["P", {
-				"t_descripcion_principal": "...",
+				"t_descripcion_principal": "PORTÁTIL ULTRADELGADO CON UNA AUTONOMÍA DE LA BATERÍA INIGUALABLE",
 				"p_descripcion_principal": "El portátil convertible más plano del mundo con una increíble autonomía de la batería, elegante y distinguida articulación de cadena de reloj fácilmente reconocible Durabilidad de la fibra de carbono Compatible con el lápiz digital."
 			}],
 			["I", {
