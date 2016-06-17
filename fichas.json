@@ -2459,19 +2459,18 @@
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
 			["I-I", {
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_710/IMG_01.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_710/IMG_02.png"
 			}],
 			["P", {
-				"t_descripcion_principal": "...",
+				"t_descripcion_principal": "EXCLUSIVA BISAGRA DE ANTENA",
 				"p_descripcion_principal": "Las conexiones Wi-Fi poco fiables son una fuente de frustración habitual entre los usuarios de PC. El Yoga 710 (14\") de Lenovo ha solucionado el problema creando una antena que se integra físicamente en la bisagra Yoga, cubriendo una área de superficie mayor y haciendo que la intensidad de la señal sea más fuerte y estable."
 			}],
 			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_03.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_710/IMG_03.png"
 			}],
-			["P-I-I", {
-				"img_apoyo_1": "../img/OTROS/IMG_5.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+			["P-I-num_izq", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_710/IMG_04.png",
 				"t_caracteristica": "Autonomía prolongada de la batería",
 				"p_caracteristica": "El Yoga 710 proporciona hasta 8 horas de actividad con una sola carga. Dado que la batería se ha probado en condiciones reales, puede tener la seguridad de que durará una jornada de trabajo entera sin recargar.",
 				"numero_caracteristica": "1"
@@ -2480,30 +2479,23 @@
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Gráficos NVIDIA® de próxima generación (opcional)",
 				"p_caracteristica": "Con los gráficos NVIDIA® de próxima generación, tendrá asegurada una mayor riqueza visual y una experiencia operativa más rápida, lo que resulta perfecto para compartir fotos y vídeos.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png"
 			}],
 			["I-I", {
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_06.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/NB_YOGA/IMG_07.png"
-			}],
-			["P-I-I", {
 				"img_apoyo_1": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_09.png",
-				"t_caracteristica": "Múltiples maneras de usar el Yoga",
-				"p_caracteristica": "El Yoga 900 es un PC con una extraordinaria capacidad de adaptación. Presenta cuatro modos distintos que le permiten hacer lo que desee: Portátil, Stand, Tienda o Tablet. El secreto: El diseño exclusivo, la bisagra de cadena de reloj y la pantalla táctil del Yoga 900 permiten una rotación de la pantalla de 360 grados, para que pueda seleccionar el modo de uso según la tarea que se disponga a realizar.",
-				"numero_caracteristica": "3"
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_710/IMG_06.png"
 			}],
 			["P-I-num_centro", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_06.png",
+				"img_apoyo": "../img/NB_YOGA/YOGA_710/IMG_01.png",
 				"t_caracteristica": "Elegante y Ligero",
 				"p_caracteristica": "Con un peso de 3,52 lb y solo 0,58” de grosor, el ultraportátil Lenovo Yoga 710 está diseñado para que trabaje y juegue, dondequiera que la vida le lleve.",
-				"numero_caracteristica": "4"
+				"numero_caracteristica": "3"
 			}],
 			["I-P", {
-				"numero_caracteristica": "5",
+				"numero_caracteristica": "4",
 				"t_caracteristica": "Diseño Sólido",
 				"p_caracteristica": "El Yoga 710 está diseñado para durar. Su resistente chasis está hecho de aluminio, lo que le confiere un inconfundible aspecto Premium. Disponible en Plata platino y Negro ébano.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_710/IMG_07.png"
 			}],
 			["P-I-num_izq", {
 				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
