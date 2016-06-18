@@ -2622,55 +2622,54 @@
 				"p_descripcion_principal": "El portátil convertible más plano del mundo con una increíble autonomía de la batería, elegante y distinguida articulación de cadena de reloj fácilmente reconocible Durabilidad de la fibra de carbono Compatible con el lápiz digital."
 			}],
 			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_03.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_900S/IMG_03.png"
 			}],
-			["P-I-I", {
-				"img_apoyo_1": "../img/OTROS/IMG_5.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+			["P-I-num_izq", {
+				"img_apoyo": "../img/NB_YOGA/YOGA_900S/IMG_04.png",
 				"t_caracteristica": "Hasta la 6ª generación del procesador Intel®",
 				"p_caracteristica": "El nuevo estándar para el rendimiento del PC ha llegado con los procesadores Intel® Core™ de 6ª generación. Esta familia de procesadores asombrosamente rápidos, con seguridad integrada y repleta de funciones, está preparada para llevar la productividad, la creatividad y los videojuegos en 3D al siguiente nivel. Además, al habilitar las interesantes funciones de Windows 10, los procesadores Intel® Core™ de 6ª generación le permitirán desatar su imaginación y explorar nuevas posibilidades.",
 				"numero_caracteristica": "1"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB_YOGA/YOGA_900S/IMG_05.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB_YOGA/IMG_07.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Bisagra de cadena de reloj",
 				"p_caracteristica": "Marcadamente diferenciada y reconocible, esta elegante articulación consta de 813 componentes individuales para proporcionar unas transiciones fluidas entre los modos, aunque deja unos espacios mínimos entre las piezas móviles para que la tensión sea uniforme. La tecnología de articulación de Bloqueo automático permite abrir y cerrar fácilmente el portátil, incluso con una sola mano. ",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_06.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/NB_YOGA/IMG_07.png"
-			}],
-			["P-I-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_09.png",
-				"t_caracteristica": "El portátil convertible más plano del Lenovo",
-				"p_caracteristica": "Con tan solo 12,8 mm de grosor y un peso de 999 g, el YOGA 900S es el portátil convertible más plano de Lenovo. Apenas notará que lo lleva encima. Además, gracias a su diseño de fibra de carbono, es resistente y duradero.",
-				"numero_caracteristica": "3"
+				"img_apoyo": "../img/NB_YOGA/YOGA_900S/IMG_06.png"
 			}],
 			["P-I-num_centro", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_06.png",
+				"img_apoyo": "../img/NB_YOGA/YOGA_900S/IMG_07.png",
 				"t_caracteristica": "Compatible con el lápiz digital",
 				"p_caracteristica": "El YOGA 900S es compatible con los 2048 niveles de sensibilidad de presión para una experiencia de escritura fluida.",
-				"numero_caracteristica": "4"
+				"numero_caracteristica": "3"
 			}],
 			["I-P", {
-				"numero_caracteristica": "5",
+				"numero_caracteristica": "4",
+				"t_caracteristica": "El portátil convertible más plano del Lenovo",
+				"p_caracteristica": "Con tan solo 12,8 mm de grosor y un peso de 999 g, el YOGA 900S es el portátil convertible más plano de Lenovo. Apenas notará que lo lleva encima. Además, gracias a su diseño de fibra de carbono, es resistente y duradero.",
+				"img_apoyo": "../img/NB_YOGA/YOGA_900S/IMG_08.png"
+			}],
+			["P-I-I", {
+				"img_apoyo_1": "../img/OTROS/IMG_5.png",
+				"img_apoyo_2": "../img/NB_YOGA/YOGA_900S/IMG_09.png",
 				"t_caracteristica": "Múltiples maneras de usar el Yoga",
 				"p_caracteristica": "El Yoga 900S es un PC con una extraordinaria capacidad de adaptación. Presenta cuatro modos distintos que le permiten hacer lo que desee: Portátil, Stand, Tienda o Tablet. El secreto: El diseño exclusivo, la articulación de cadena de reloj y la pantalla táctil del Yoga 900S permiten una rotación de la pantalla de 360 grados, para que pueda seleccionar el modo de uso según la tarea que se disponga a realizar. Puede colocarlo en un escritorio, girarlo, cambiarle la orientación y aún así seguirá teniendo un aspecto estupendo desde cualquier ángulo.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
-			}],
-			["P-I-num_izq", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
-				"t_caracteristica": "Hasta 10,5 horas de reproducción de vídeo en modo local",
-				"p_caracteristica": "La potente batería del YOGA 900S le permite utilizar el dispositivo durante todo el día y por la noche sin tener que recargarlo. Vuele de Las Vegas a Londres con una única carga o vea 10 episodios seguidos sin parar de su serie favorita. La prueba se basa en la reproducción de un vídeo de alta definición en modo local en una pantalla QHD establecida en 200 nits con el Wi-Fi apagado. La autonomía de la batería es aproximada y variará en función de diferentes factores, incluidos el uso y la configuración del sistema, así como de las funciones seleccionadas. La capacidad máxima de la batería se reducirá de forma natural con el paso del tiempo.",
-				"numero_caracteristica": "6"
+				"numero_caracteristica": "5"
 			}],
 			["I-P", {
-				"numero_caracteristica": "7",
+				"numero_caracteristica": "6",
 				"t_caracteristica": "Altavoces estéreo con tecnología Dolby® Home Theater®",
 				"p_caracteristica": "Los altavoces del Yoga 900S proporcionan un sonido estéreo de gran riqueza tonal, mientras que Dolby® Home Theater® ofrece una experiencia de audio inmersiva.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_05.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_900S/IMG_09.png"
+			}],
+			["P-I-num_izq", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png",
+				"t_caracteristica": "Hasta 10,5 horas de reproducción de vídeo en modo local",
+				"p_caracteristica": "La potente batería del YOGA 900S le permite utilizar el dispositivo durante todo el día y por la noche sin tener que recargarlo. Vuele de Las Vegas a Londres con una única carga o vea 10 episodios seguidos sin parar de su serie favorita. La prueba se basa en la reproducción de un vídeo de alta definición en modo local en una pantalla QHD establecida en 200 nits con el Wi-Fi apagado. La autonomía de la batería es aproximada y variará en función de diferentes factores, incluidos el uso y la configuración del sistema, así como de las funciones seleccionadas. La capacidad máxima de la batería se reducirá de forma natural con el paso del tiempo.",
+				"numero_caracteristica": "7"
 			}],
 			["fin", {}]
 		]
