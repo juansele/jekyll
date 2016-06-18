@@ -2616,7 +2616,7 @@
 			}],
 			["cabecera", {
 				"nombre_producto": "LENOVO IDEAPAD 500S",
-				"subtitulo_cabecera": "...",
+				"subtitulo_cabecera": "POTENTE PORTÁTIL MULTIMEDIA",
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
 			["I-I", {
@@ -2624,7 +2624,7 @@
 				"img_apoyo_2": "../img/NB/IDEAPAD_500S/IMG_02.png"
 			}],
 			["P", {
-				"t_descripcion_principal": "...",
+				"t_descripcion_principal": "POTENTE PORTÁTIL MULTIMEDIA",
 				"p_descripcion_principal": "Dé la bienvenida a Lenovo ideapad 510S: un portátil de alto rendimiento que nunca le fallará. Con su diseño compacto y ligero, cabe en prácticamente cualquier bolsa e incluye procesamiento fiable, conexión Wi-Fi superrápida y audio excelente de serie. Solo elija la pantalla y los gráficos que desea y vaya dónde quiera."
 			}],
 			["P-I-num_izq", {
