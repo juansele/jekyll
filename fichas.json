@@ -2529,75 +2529,6 @@
 			}],
 			["fin", {}]
 		]
-	},{
-		"nombre": "IDEAPAD_500",
-		"categoria": "Clasicas/fase_2/Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "IDEAPAD 500",
-				"color_primario": "#717170",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO IDEAPAD 500",
-				"subtitulo_cabecera": "POTENTE PORTÁTIL MULTIMEDIA ",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "...",
-				"p_descripcion_principal": "Espectacular cámara de 3D disponible. Gráficos nítidos e intensos con la pantalla de alta definición. Personalizable con varias opciones de gráficos. Wi-Fi de velocidad sorprendente. Sonido envolvente como el de las salas de cine."
-			}],
-			["P-I-I", {
-				"img_apoyo_1": "../img/OTROS/IMG_5.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_04.png",
-				"t_caracteristica": "Imágenes nítidas e intensas",
-				"p_caracteristica": "Lenovo Ideapad 500 ofrece la máxima resolución de imagen gracias a una pantalla Full HD (1920 x 1080) de serie. Mantenga más ventanas abiertas a la vez, vea sus juegos en alta resolución, o simplemente relájese al final de la jornada y disfrute de una película.",
-				"numero_caracteristica": "1"
-			}],
-			["I-P", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Gráficos personalizables",
-				"p_caracteristica": "Consiga la combinación ideal de coste y potencia gráfica. Elija entre gráficos Intel integrados o gráficos AMD de gama alta por separado. Los gráficos por separado ofrecen un impulso a la hora de mostrar toda su creatividad para la edición de vídeo y fotografía.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
-			}],
-			["I-P-I", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Velocidades de conexión ultrarrápidas",
-				"p_caracteristica": "Con la conectividad Wi-Fi 802.11 a/c ultrarrápida, podrá conectarse a Internet en cualquier lugar. La opción Wi-Fi 802.11 a/c ofrece hasta el triple de velocidad de conexión comparado con la especificación 802.11 b/g/n.",
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_500/IMG_08.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_09.png"
-			}],
-			["P-I-num_izq", {
-				"numero_caracteristica": "4",
-				"t_caracteristica": "Audio Potente",
-				"p_caracteristica": "Disfrute de todo el impacto del sonido envolvente desde cualquier lugar con la tecnología Dolby® Home Theater® en el PC. Toda la potencia y los matices del cine, toda la inmediatez de las actuaciones en directo, ahora en un portátil.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "5",
-				"t_caracteristica": "Opción de audio excelente",
-				"p_caracteristica": "Los altavoces diseñados por JBL® de gama alta ofrecen sonido envolvente de gran nitidez y claridad. Elija esta opción para disfrutar de una claridad de audio mejorada, una salida de volumen optimizada sin distorsión y una claridad de los diálogos superior al ver vídeos.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
-			}],
-			["P-I-num_izq", {
-				"numero_caracteristica": "6",
-				"t_caracteristica": "Unidad lectora/grabadora de DVD opcional",
-				"p_caracteristica": "No es necesario comprar una unidad óptica externa con Ideapad 500 (determinados modelos vienen con una unidad de DVD/CD-RW integrada para que pueda cargar programas, escuchar CD o ver sus películas sin conexión).",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "7",
-				"t_caracteristica": "Sonría, cambie y ordene en segundos.",
-				"p_caracteristica": "Lenovo® Photo Master 2.0 combina una moderna biblioteca de fotografías con una navegación potente y de fácil uso, así como herramientas de edición. Ahora, con funciones como Auto Face Replace y Smart Event Sort, podrá organizar y optimizar sus fotografías a la máxima perfección.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
-			}],
-			["fin", {}]
-		]
 	}, {
 		"nombre": "YOGA_900S",
 		"categoria": "Clasicas/fase_2/Notebook Yoga",
@@ -2663,7 +2594,7 @@
 				"numero_caracteristica": "6",
 				"t_caracteristica": "Altavoces estéreo con tecnología Dolby® Home Theater®",
 				"p_caracteristica": "Los altavoces del Yoga 900S proporcionan un sonido estéreo de gran riqueza tonal, mientras que Dolby® Home Theater® ofrece una experiencia de audio inmersiva.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_900S/IMG_09.png"
+				"img_apoyo": "../img/NB_YOGA/YOGA_900S/IMG_10.png"
 			}],
 			["P-I-num_izq", {
 				"img_apoyo": "../img/OTROS/GENERICAS/NB_YOGA/IMG_09.png",
