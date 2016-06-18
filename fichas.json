@@ -2620,44 +2620,43 @@
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
 			["I-I", {
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+				"img_apoyo_1": "../img/NB/IDEAPAD_500S/IMG_01.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_500S/IMG_02.png"
 			}],
 			["P", {
 				"t_descripcion_principal": "...",
 				"p_descripcion_principal": "Dé la bienvenida a Lenovo ideapad 510S: un portátil de alto rendimiento que nunca le fallará. Con su diseño compacto y ligero, cabe en prácticamente cualquier bolsa e incluye procesamiento fiable, conexión Wi-Fi superrápida y audio excelente de serie. Solo elija la pantalla y los gráficos que desea y vaya dónde quiera."
 			}],
-			["P-I-I", {
-				"img_apoyo_1": "../img/OTROS/IMG_5.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_04.png",
+			["P-I-num_izq", {
+				"numero_caracteristica": "1",
 				"t_caracteristica": "Trabajo, descanso y juegos",
 				"p_caracteristica": "El nuevo estándar para el rendimiento del PC ha llegado con los procesadores Intel® Core™ de 6ª generación. Esta familia de procesadores asombrosamente rápidos, con seguridad integrada y repleta de funciones, está preparada para llevar la productividad, la creatividad y el entretenimiento al siguiente nivel. Además, al habilitar las interesantes funciones de Windows 10, los procesadores Intel Core de 6ª generación le permitirán desatar su imaginación y explorar nuevas posibilidades.",
-				"numero_caracteristica": "1"
+				"img_apoyo": "../img/NB/IDEAPAD_500S/IMG_03.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Un portátil que no le pesará",
 				"p_caracteristica": "El Lenovo ideapad 510S es ultraportátil y muy potente, perfecto para las personas a las que les gusta trabajar, jugar o estar entretenido sobre la marcha. De hecho, el ideapad 510S es hasta un 20 % menos grueso y un 30 % más ligero que la mayoría de portátiles de su clase.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+				"img_apoyo": "../img/NB/IDEAPAD_500S/IMG_04.png"
 			}],
 			["I-P-I", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Conexión Wi-Fi ultrarrápida",
 				"p_caracteristica": "A hasta tres veces la velocidad Wi-Fi tradicional, la conexión Wi-Fi 802.11 a/c del ideapad 510S le permite explorar la red, transmitir música y películas en tiempo real, y compartir datos con más rapidez que nunca.",
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_500/IMG_08.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_09.png"
+				"img_apoyo_1": "../img/NB/IDEAPAD_500S/IMG_01.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_500S/IMG_05.png"
 			}],
 			["P-I-num_izq", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Sonría, intercambie y ordene en cuestión de segundos",
 				"p_caracteristica": "Lenovo Photo Master 2.0 es una moderna biblioteca fotográfica con unas potentes herramientas de edición y navegación fáciles de usar. Con funciones como Auto Face Swap y Smart Event Sort, podrá organizar y optimizar sus fotos a la perfección en el ideapad 510S.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_04.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "5",
 				"t_caracteristica": "Mayor Tranquilidad",
 				"p_caracteristica": "Los altavoces diseñados por JBL® de gama alta ofrecen sonido envolvente de gran nitidez y claridad. Elija esta opción para disfrutar de una claridad de audio mejorada, una salida de volumen optimizada sin distorsión y una claridad de los diálogos superior al ver vídeos.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_08.png"
 			}],
 			["fin", {}]
 		]
