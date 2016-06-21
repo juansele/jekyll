@@ -214,6 +214,17 @@
 			color: #5a5a5a;
 		}
 
+		a.mett__a-nav-marcado-consumo{
+			text-decoration: none;
+			color: rgba(255,106,0,1)!important;
+		}
+
+		a.mett__a-nav-marcado-corporativo{
+			text-decoration: none;
+			color: rgba(62,141,221,1) !important;
+		}
+
+
 		ul.mett__ul-inner{
 			overflow: hidden;
 			max-height: 0px;
@@ -296,7 +307,7 @@
 		width: 100%;
 		.mixin-transition-all();
 		background-size: cover;
-		background-position: 10em 0em;
+		background-position: 18em -61px;
 	}
 
 	.mett__cont-first{
@@ -499,10 +510,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 		background-repeat: no-repeat;
 	}
 
+	.mett__bg-2{
+		background-image: url('../img/bg-main2.jpg');
+		background-position: 0em -6em;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 	@color-blue: #3e8ddd;
 
 	.mett__color-text-blue{
 		color: @color-blue;
+	}
+
+	.mett__color-text-orange{
+		color: @color-orange;
 	}
 
 	.mett__cont-dark-products{
@@ -512,9 +534,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 		border-top: 2px solid @color-blue;
 	}
 
+	.mett__cont-white-products{
+		min-height: 400px;
+		background: #eee;
+		padding: 3em 0em;
+		border-top: 2px solid @color-orange;
+	}
 
 
-	.mett__cont-label-lenovo{
+
+
+	.mett__cont-label-lenovo-blue{
 		position: absolute;
 		top: 10px;
 		left: 60px;
@@ -526,7 +556,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 			font-size: 17px;
 		}
 	}
-	#mett__triangule{
+
+	.mett__cont-label-lenovo-orange{
+		position: absolute;
+		top: 10px;
+		left: 60px;
+		.mett__label-blue{
+			padding: 0.5em;
+			background-color: @color-orange;
+			color: white;
+			width: 210px;
+			font-size: 17px;
+		}
+	}
+
+	#mett__triangule-blue{
 		width: 0;
 		height: 0;
 		border-top: 37px solid transparent;
@@ -534,46 +578,69 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 		border-bottom: 0px solid transparent;
 	}
 
-	#mett__triangule-left{
+	#mett__triangule-left-blue{
 		width: 0;
 		height: 0;
 		border-top: 35px solid @color-blue - 60;
 		border-left: 35px solid transparent;
 	}
 
-	/* CARDS DE PRODUCTOS */
+
+	#mett__triangule-orange{
+		width: 0;
+		height: 0;
+		border-top: 37px solid transparent;
+		border-left: 35px solid @color-orange;
+		border-bottom: 0px solid transparent;
+	}
+
+	#mett__triangule-left-orange{
+		width: 0;
+		height: 0;
+		border-top: 35px solid @color-orange - 60;
+		border-left: 35px solid transparent;
+	}
+
+	/* CARDS DE PRODUCTOS CORPORATIVO */
 
 	.mett__module-product{
 		background: white;
-		height: 305px;
 		margin-top:3px;
 		width: 253px;
 
 	}
 	.mett__module-product{
 		position: relative;
-		.mett__img-product{
-			height: 150px;
+		.mett__img-product-dark{
 			background: #eee;
 			img{
-				width: 90%;
-				margin-top: -1.8em;
+				width: 100%;
+				
+			}
+		}
+		.mett__img-product-clare{
+			background: #d4d4d4;
+			img{
+				width: 100%;
+				
 			}
 		}
 		.mett__detail-product{
-			position: absolute;
-			padding: 0.8em 1.3em;
+			
+			padding: 0em 1.5em;
+			padding-top: 0.5em;
+			padding-bottom: 2em;
 			bottom: 0;
 			font-size: 14px;
 			background: #fff;
-			height: 126px;
+			
 			h3{margin-bottom:0px;}
 			p{
 				margin-top:0.4em;
 				margin-bottom: 1.5em;
 				color: rgba(0,0,0,0.8);
 			}
-			.mett__btn-comprar{
+			.mett__btn-comprar-corp{
 				text-decoration: none;
 				background: @color-blue;
 				padding: 0.4em 0.8em;
@@ -581,8 +648,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 				margin-top: 1em;
 				margin-bottom: 1em;
 			}
+
+			.mett__btn-comprar-cons{
+				text-decoration: none;
+				background: @color-orange;
+				padding: 0.4em 0.8em;
+				color: white;
+				margin-top: 1em;
+				margin-bottom: 1em;
+			}
 		}
 	}
+
+
 
 	/*ESTILOS DE FICHA*/
 
