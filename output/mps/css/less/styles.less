@@ -188,7 +188,7 @@
 
 		.mett__cont-nav{
 			position: absolute;
-			top: 1em;
+			top: 0.5em;
 			left: 0;
 			right: 0;
 		}
@@ -198,6 +198,7 @@
 			padding-left:0px; 
 			text-transform: uppercase;
 			width: 100%;
+			margin:0;
 		}
 
 		li.mett__li{
@@ -206,13 +207,23 @@
 			font-family: @fuente-h-bold;
 			padding: 0.5em 0em;
 			overflow: hidden;
-			min-width: 170px;
 		}
 		
 		a.mett__a-nav{
 			text-decoration: none;
-			color: rgba(0,0,0,1);
+			color: #5a5a5a;
 		}
+
+		a.mett__a-nav-marcado-consumo{
+			text-decoration: none;
+			color: rgba(255,106,0,1)!important;
+		}
+
+		a.mett__a-nav-marcado-corporativo{
+			text-decoration: none;
+			color: rgba(62,141,221,1) !important;
+		}
+
 
 		ul.mett__ul-inner{
 			overflow: hidden;
@@ -263,9 +274,9 @@
 
 	a.mett__btn-line{
 		border: 1px solid #4DA8C5;
-		padding:0.7em 1em;
+		padding:0.5em 1em;
 		color: #4DA8C5;
-		font-size: 16px;
+		font-size: 14px;
 		text-decoration: none;
 	}
 
@@ -279,7 +290,7 @@
 	/* main container */
 
 	.mett__main-container{
-		position: relative; width: 100%;  border-top: 2px solid #222; border-bottom: 2px solid #222;
+		position: relative; width: 100%; 
 	}
 
 	.mett__mod-info{
@@ -296,7 +307,7 @@
 		width: 100%;
 		.mixin-transition-all();
 		background-size: cover;
-		background-position: 10em 0em;
+		background-position: 18em -61px;
 	}
 
 	.mett__cont-first{
@@ -311,7 +322,7 @@
 	}
 
 	.mett__cont-info{
-		padding-top: 4em;
+		padding-top: 1em;
 		padding-bottom:1em; 
 	}
 
@@ -394,8 +405,8 @@
 	}
 
 	.mett__cont-img-products{
-		padding-top:4em;
-		padding-bottom:2em;
+		padding-top:2em;
+		padding-bottom:3em;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0c0c17+0,0c0c17+100&0.94+0,1+100 */
 background: -moz-linear-gradient(top,  rgba(12,12,23,0.94) 0%, rgba(12,12,23,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgba(12,12,23,0.94) 0%,rgba(12,12,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -490,7 +501,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 
 
 	.mett__mod-lifestyle-full{
-		min-height: 175px;
+		min-height: 215px;
 	}
 
 	.mett__bg-1{
@@ -499,22 +510,79 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 		background-repeat: no-repeat;
 	}
 
+	.mett__bg-02{
+		background-image: url('../img/bg-main_2.jpg');
+		background-position: 0em -1em;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+
+	.mett__bg-03{
+		background-image: url('../img/bg-main_3.jpg');
+		background-position: 0em -11em;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+
+
+	.mett__bg-04{
+		background-image: url('../img/bg-main_4.jpg');
+		background-position: 0em -11em;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+
+	.mett__bg-05{
+		background-image: url('../img/bg-main_5.jpg');
+		background-position: 0em -20em;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+
+	.mett__bg-06{
+		background-image: url('../img/bg-main_6.png');
+		background-position: 0em -9em;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+
+	.mett__bg-2{
+		background-image: url('../img/bg-main2.jpg');
+		background-position: 0em -6em;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 	@color-blue: #3e8ddd;
 
 	.mett__color-text-blue{
 		color: @color-blue;
 	}
 
+	.mett__color-text-orange{
+		color: @color-orange;
+	}
+
 	.mett__cont-dark-products{
 		min-height: 400px;
 		background-image: url('../img/bg-dark.jpg');
 		padding: 3em 0em;
+		padding-bottom: 4em;
 		border-top: 2px solid @color-blue;
+	}
+
+	.mett__cont-white-products{
+		min-height: 400px;
+		background: #eee;
+		padding: 3em 0em;
+		padding-bottom: 4em;
+		border-top: 2px solid @color-orange;
 	}
 
 
 
-	.mett__cont-label-lenovo{
+
+	.mett__cont-label-lenovo-blue{
 		position: absolute;
 		top: 10px;
 		left: 60px;
@@ -526,7 +594,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 			font-size: 17px;
 		}
 	}
-	#mett__triangule{
+
+	.mett__cont-label-lenovo-orange{
+		position: absolute;
+		top: 10px;
+		left: 60px;
+		.mett__label-blue{
+			padding: 0.5em;
+			background-color: @color-orange;
+			color: white;
+			width: 210px;
+			font-size: 17px;
+		}
+	}
+
+	#mett__triangule-blue{
 		width: 0;
 		height: 0;
 		border-top: 37px solid transparent;
@@ -534,46 +616,70 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 		border-bottom: 0px solid transparent;
 	}
 
-	#mett__triangule-left{
+	#mett__triangule-left-blue{
 		width: 0;
 		height: 0;
 		border-top: 35px solid @color-blue - 60;
 		border-left: 35px solid transparent;
 	}
 
-	/* CARDS DE PRODUCTOS */
+
+	#mett__triangule-orange{
+		width: 0;
+		height: 0;
+		border-top: 37px solid transparent;
+		border-left: 35px solid @color-orange;
+		border-bottom: 0px solid transparent;
+	}
+
+	#mett__triangule-left-orange{
+		width: 0;
+		height: 0;
+		border-top: 35px solid @color-orange - 60;
+		border-left: 35px solid transparent;
+	}
+
+	/* CARDS DE PRODUCTOS CORPORATIVO */
 
 	.mett__module-product{
 		background: white;
-		height: 305px;
+		margin: 0em 0.1em;
 		margin-top:3px;
-		width: 253px;
+		/*width: 251px;*/
 
 	}
 	.mett__module-product{
 		position: relative;
-		.mett__img-product{
-			height: 150px;
+		.mett__img-product-dark{
 			background: #eee;
 			img{
-				width: 90%;
-				margin-top: -1.8em;
+				width: 100%;
+				
+			}
+		}
+		.mett__img-product-clare{
+			background: #d4d4d4;
+			img{
+				width: 100%;
+				
 			}
 		}
 		.mett__detail-product{
-			position: absolute;
-			padding: 0.8em 1.3em;
+			
+			padding: 0em 1.5em;
+			padding-top: 0.5em;
+			padding-bottom: 2em;
 			bottom: 0;
 			font-size: 14px;
 			background: #fff;
-			height: 126px;
+			
 			h3{margin-bottom:0px;}
 			p{
 				margin-top:0.4em;
 				margin-bottom: 1.5em;
 				color: rgba(0,0,0,0.8);
 			}
-			.mett__btn-comprar{
+			.mett__btn-comprar-corp{
 				text-decoration: none;
 				background: @color-blue;
 				padding: 0.4em 0.8em;
@@ -581,8 +687,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 				margin-top: 1em;
 				margin-bottom: 1em;
 			}
+
+			.mett__btn-comprar-cons{
+				text-decoration: none;
+				background: @color-orange;
+				padding: 0.4em 0.8em;
+				color: white;
+				margin-top: 1em;
+				margin-bottom: 1em;
+			}
 		}
 	}
+
+.mett__btn-comprar-corp{
+				text-decoration: none;
+				background: @color-blue;
+				padding: 0.4em 0.8em;
+				color: white;
+			
+			}
 
 	/*ESTILOS DE FICHA*/
 
@@ -602,9 +725,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 
 	a.mett__btn-line-2{
 		border: 1px solid @color-orange;
-		padding:0.7em 1em;
+		padding:0.5em 1em;
 		color: @color-orange;
-		font-size: 16px;
+		font-size: 15px;
 		text-decoration: none;
 	}
 
@@ -616,7 +739,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 
 
 	.mett__cont-img-products_2{
-    padding-top: 4em;
+    padding-top: 2em;
     padding-bottom: 2em;
     background: -moz-linear-gradient(top,rgba(255, 255, 255, 0.94) 0,#e5e5e5 100%);
     background: -webkit-linear-gradient(top,rgba(255, 255, 255, 0.94) 0,#e5e5e5 100%);
@@ -635,3 +758,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f00c0c17', e
 			min-width: 170px;
 			min-width: 95px;
 		}
+
+
+.mett__inner-nav{
+	height: 50px; 
+	width:100%;
+	position: relative;
+	background: #f7f7f7;
+	box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 0px 2px 2px rgba(0, 0, 0, 0.098), 0px 0px 5px 1px rgba(0, 0, 0, 0.084);
+	z-index: 1;
+}
+
+
+.mett__inner-nav-dark{
+	height: 50px; 
+	width:100%;
+	position: relative;
+	background: #141421;
+	color: white !important;
+	border-bottom: 1px solid #522727;
+	box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 0px 2px 2px rgba(0, 0, 0, 0.098), 0px 0px 5px 1px rgba(0, 0, 0, 0.084);
+	z-index: 1;
+}
