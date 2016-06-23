@@ -2776,7 +2776,7 @@
 				"img_apoyo": "../img/TABLETS/MIIX_310/IMG_07.png"
 			}],
 			["P-I-num_izq", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"img_apoyo": "../img/TABLETS/MIIX_310/IMG_06.png",
 				"t_caracteristica": "Plano y ligero",
 				"p_caracteristica": "Con un peso de tan solo 580 g y con un grosor de 9,2 mm, el Miix 310 puede llevarse a cualquier lugar.",
 				"numero_caracteristica": "6"
@@ -2785,7 +2785,7 @@
 				"numero_caracteristica": "7",
 				"t_caracteristica": "Cámaras web integradas",
 				"p_caracteristica": "La cámara frontal de 2 MP y la cámara trasera de 5 MP permiten disfrutar de conferencias web o chats de vídeo en línea como si fuesen reuniones presenciales.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+				"img_apoyo": "../img/TABLETS/MIIX_310/IMG_08.png"
 			}],
 			["fin", {}]
 		]
