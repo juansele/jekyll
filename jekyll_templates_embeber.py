@@ -55,7 +55,7 @@ templates['cabecera'] = '''
 							</div>
 							<!-- Logo Lenovo -->
 							<div class="mett__flex-lg-10 mett__flex-md-15 mett__flex-sm-15 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__layout-wrap mett__justify-end" style="position: absolute;right:0px;">
-								<div><img class="mett__image-ficha mett__logo" src="${logo_lenovo}"></div>
+								<div><img class="mett__logo" style="width:65,909px !important;height:196,472px !important;" src="${logo_lenovo}"></div>
 							</div>
 						</div>
 					</section>
