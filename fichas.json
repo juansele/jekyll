@@ -2235,28 +2235,28 @@
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Dos cámaras Geniales",
 				"p_caracteristica": "Podrás usar la Cámara Frontal Visio para 'Selfies' perfectas y la cámara trasera de 2MP para capturar imágenes y videos vibrantes.",
-				"img_apoyo": "../img/TABLETS/TAB3_ESSENTIAL/IMG_04.png"
+				"img_apoyo": "../img/TABLETS/TAB3_ESSENTIAL/IMG_05.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Llega a todas partes con GPS",
 				"p_caracteristica": "Usa su GPS integrado para ayudarte a llegar a donde quiera que te dirijas.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
 			}],
 			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Siempre a tu lado",
 				"p_caracteristica": "Disfruta de más de 10 horas de uso de batería y cuenta con la ayuda de tu Lenovo™ TAB3 7 Essential de manera incondicional.",
-				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_07.png"
+				"img_apoyo": "../img/TABLETS/TAB3_ESSENTIAL/IMG_06.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "5",
 				"t_caracteristica": "Dolby® Audio.",
 				"p_caracteristica": "La tecnología de mejora del audio de Dolby® ofrece sonido más alto y natural sin distorsión, tanto si se escucha a través de los auriculares como de los altavoces estéreo integrados.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+				"img_apoyo": "../img/TABLETS/TAB3_ESSENTIAL/IMG_09.png"
 			}],
 			["P-I-num_izq", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"img_apoyo": "../img/TABLETS/TAB3_ESSENTIAL/IMG_02.png",
 				"t_caracteristica": "Rapido y confiable procesador de cuatro núcleos",
 				"p_caracteristica": "Equipado con un procesador de cuatro núcleos MediaTek® de 1,3 Ghz, el Tab3 7 Essential es ideal para las funciones multitarea, ofreciendo una experiencia Android más rápida y evita las interrupciones al jugar a juegos o visualizar vídeos de alta definición.",
 				"numero_caracteristica": "6"
@@ -2265,10 +2265,10 @@
 				"numero_caracteristica": "7",
 				"t_caracteristica": "Android™ 5.1 Lollipop",
 				"p_caracteristica": "Con la última versión de Android, prepárese para un rendimiento más rápido, fluida y potente. Encontrará que es más fácil mantenerse informado de todo, interactuar con los demás e incluso administrar la energía de la batería. Además, puede proteger mejor su Tab3 7 Essential y acceder a sus aplicaciones y juegos favoritos a través del Google Play Store, lo que le hará la vida más fácil.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+				"img_apoyo": "../img/TABLETS/TAB3_ESSENTIAL/IMG_01.png"
 			}],
 			["P-I-num_izq", {
-				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
+				"img_apoyo": "../img/TABLETS/TAB3_ESSENTIAL/IMG_05.png",
 				"t_caracteristica": "Kids Mode: control de acceso para niños",
 				"p_caracteristica": "Podras crear perfiles especificos y controlar el manejo de aplicaciones según tus necesidades.",
 				"numero_caracteristica": "8"
@@ -2277,7 +2277,7 @@
 				"numero_caracteristica": "9",
 				"t_caracteristica": "Control de gestos",
 				"p_caracteristica": "Aun con la pantalla bloqueada podras acceder a tus apps y funciones favoritas con un simple y sencillo movimiento.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_06.png"
 			}],
 			["P-P", {
 				"icono_caracteristica_1": "../img/OTROS/IMG_2.png",
@@ -2806,16 +2806,16 @@
 				"logo_lenovo": "../img/OTROS/logo_c22821.png"
 			}],
 			["I-I", {
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_3_14PUL/IMG_01.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_3_14PUL/IMG_02.png"
+				"img_apoyo_1": "../img/NB/IDEAPAD_G40/IMG_01.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_G40/IMG_02.png"
 			}],
 			["P", {
 				"t_descripcion_principal": "PANTALLA ANCHA HD",
 				"p_descripcion_principal": "Esta pantalla ancha ofrece una imagen nítida y brillante en un formato de imagen 16:9 y una resolución de 1366 x 768."
 			}],
 			["P-I-I", {
-				"img_apoyo_1": "../img/OTROS/IMG_5.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_04.png",
+				"img_apoyo_1": "../img/OTROS/GENERICAS/NB/IMG_02.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_G40/IMG_02.png",
 				"t_caracteristica": "Unidad de DVD o Blu-ray Disc™",
 				"p_caracteristica": "Encontrar una portátil con unidad de DVD o Blu-ray Disc™ incorporada es más difícil de lo que solía ser, pero la G40 ofrece esta opción, integrándola cómodamente en su estructura de menos de 1\" de espesor.",
 				"numero_caracteristica": "1"
@@ -2824,32 +2824,31 @@
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Sonido y visión épicos",
 				"p_caracteristica": "Gracias a sus parlantes estéreo con Dolby® Advanced Audio™ y gráficos hasta AMD Radeon™ R5 M230 2GB 3D, la G40 ofrece imágenes asombrosas, sin parpadeos, y un sonido envolvente que te garantiza una experiencia más completa y satisfactoria de entretenimiento en el hogar.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+				"img_apoyo": "../img/NB/IDEAPAD_G40/IMG_09.png"
 			}],
-			["I-P-I", {
+			["P-I-num_izq", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Teclado AccuType",
 				"p_caracteristica": "Con una imagen moderna, el teclado AccuType tan reconocido tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa que con los teclados de diseño estándar.",
-				"img_apoyo_1": "../img/NB_YOGA/YOGA_500/IMG_08.png",
-				"img_apoyo_2": "../img/NB_YOGA/YOGA_500/IMG_09.png"
-			}],
-			["P-I-num_izq", {
-				"numero_caracteristica": "4",
-				"t_caracteristica": "Rápidez en transferencia de datos",
-				"p_caracteristica": "Transfiere la información rápidamente entre la G40 y otros dispositivos con el USB 3.0 SuperSpeed: Es hasta 10 veces más veloz que las tecnologías USB anteriores y también es compatible con éstas.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+				"img_apoyo": "../img/NB/IDEAPAD_G40/IMG_12.png"
 			}],
 			["I-P", {
-				"numero_caracteristica": "5",
+				"numero_caracteristica": "4",
 				"t_caracteristica": "Tecnología para ahorro de batería",
 				"p_caracteristica": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía para que las cargas no deban realizarse con tanta frecuencia.",
-				"img_apoyo": "../img/NB_YOGA/YOGA_500/IMG_05.png"
+				"img_apoyo": "../img/NB/IDEAPAD_G40/IMG_10.png"
 			}],
 			["P-I-num_izq", {
+				"numero_caracteristica": "5",
+				"t_caracteristica": "Rápidez en transferencia de datos",
+				"p_caracteristica": "Transfiere la información rápidamente entre la G40 y otros dispositivos con el USB 3.0 SuperSpeed: Es hasta 10 veces más veloz que las tecnologías USB anteriores y también es compatible con éstas.",
+				"img_apoyo": "../img/NB/IDEAPAD_G40/IMG_13.png"
+			}],
+			["I-P", {
 				"numero_caracteristica": "6",
 				"t_caracteristica": "Cámara web integrada",
 				"p_caracteristica": "La cámara web de 720p HD de la G40 te permitirá disfrutar de conferencias Web o chats de video en línea como si realmente estuvieras allí.",
-				"img_apoyo": "../img/AIO/AIO_300/IMG_10.png"
+				"img_apoyo": "../img/NB/IDEAPAD_G40/IMG_02.png"
 			}],
 			["fin", {}]
 		]
