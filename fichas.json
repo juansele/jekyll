@@ -2744,36 +2744,36 @@
 				"p_descripcion_principal": "Un tablet y un PC en uno, el asequible MIIX 310 de 10” es sumamente móvil, por lo que no se sentirá limitado a una señal inalámbrica, a un teclado físico o a un presupuesto. El LTE opcional permite que pueda conectarse en cualquier lugar donde los datos móviles estén disponibles. El teclado desmontable facilita la conversión de PC a tablet, y la batería puede durar hasta 10 horas de reproducción de vídeo local en la magnífica pantalla. Llévelo a todos lados."
 			}],
 			["I-IP-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_03.png",
-				"img_apoyo_2": "../img/TABLETS/PHABLET/IMG_04.png",
+				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png",
+				"img_apoyo_2": "../img/TABLETS/MIIX_310/IMG_03.png",
 				"t_caracteristica": "Hasta la 6ª generación del procesador Intel® ",
 				"p_caracteristica": "El nuevo estándar para el rendimiento del PC ha llegado con los procesadores Intel® Core™ de 6ª generación. Esta familia de procesadores asombrosamente rápidos, con seguridad integrada y repleta de funciones, está preparada para llevar la productividad, la creatividad y los videojuegos en 3D al siguiente nivel. Además, al habilitar las interesantes funciones de Windows 10, los procesadores Intel® Core™ de 6ª generación le permitirán desatar su imaginación y explorar nuevas posibilidades.",
 				"numero_caracteristica": "1",
-				"img_apoyo_3": "../img/TABLETS/PHABLET/IMG_05.png"
+				"img_apoyo_3": "../img/TABLETS/MIIX_310/IMG_04.png"
 			}],
 			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "LTE opcional",
 				"p_caracteristica": "¿Por qué limitarse a una señal inalámbrica? Con la cobertura LTE, puede conectarse a Internet con datos móviles, aunque no haya ninguna conexión inalámbrica disponible. Porque un tablet debe ser móvil de verdad.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_06.png"
+				"img_apoyo": "../img/TABLETS/MIIX_310/IMG_05.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "3",
 				"t_caracteristica": "Teclado extraíble",
 				"p_caracteristica": "¿Portátil o tablet? Con el Miix 310 se incluye de serie un teclado extraíble, así que usted elige. Acople el tablet para aumentar la productividad, ajuste la bisagra para lograr una visualización de imágenes perfecta igual que con un PC portátil tradicional. Trabaje cuando lo necesite y juegue cuando lo desee.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+				"img_apoyo": "../img/TABLETS/MIIX_310/IMG_06.png"
 			}],
 			["P-I-num_centro", {
 				"numero_caracteristica": "4",
 				"t_caracteristica": "Autonomía prolongada de la batería",
 				"p_caracteristica": "Obtenga hasta 10 horas de reproducción de vídeo en modo local con una carga. Seguramente su vista se agotará antes que la batería.",
-				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_07.png"
+				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "5",
 				"t_caracteristica": "Excelente pantalla con tecnología IPS con tecnología de laminado de borde: tecnología de pantalla",
 				"p_caracteristica": "El tablet Ideapad Miix 310 está equipado con una increíble pantalla panorámica de 1280 x 800 o 1920 x 1200 de 10\" y, además, incorpora la tecnología de intercambio de plano (IPS) para que disfrute de colores intensos y ángulos de visión de casi 180 grados. Asimismo, la tecnología MultiTouch se integra fácilmente con Windows 10 y le ofrece un control más preciso.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_08.png"
+				"img_apoyo": "../img/TABLETS/MIIX_310/IMG_07.png"
 			}],
 			["P-I-num_izq", {
 				"img_apoyo": "../img/NB_YOGA/YOGA_3_14PUL/IMG_04.png",
