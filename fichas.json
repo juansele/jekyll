@@ -2732,14 +2732,15 @@
 			}],
 			["cabecera", {
 				"nombre_producto": "LENOVO CONVERTIBLE MIIX 310",
-				"subtitulo_cabecera": "...",
+				"subtitulo_cabecera": "LLEVA LA TABLET EXTRAÍBLE DONDE QUIERAS",
 				"logo_lenovo": "../img/OTROS/logo_8abf54.png"
 			}],
-			["I", {
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_01.png"
+			["I-I", {
+				"img_apoyo_1": "../img/TABLETS/MIIX_310/IMG_01.png",
+				"img_apoyo_2": "../img/TABLETS/MIIX_310/IMG_02.png"
 			}],
 			["P", {
-				"t_descripcion_principal": "...",
+				"t_descripcion_principal": "LLEVA LA TABLET EXTRAÍBLE DONDE QUIERAS",
 				"p_descripcion_principal": "Un tablet y un PC en uno, el asequible MIIX 310 de 10” es sumamente móvil, por lo que no se sentirá limitado a una señal inalámbrica, a un teclado físico o a un presupuesto. El LTE opcional permite que pueda conectarse en cualquier lugar donde los datos móviles estén disponibles. El teclado desmontable facilita la conversión de PC a tablet, y la batería puede durar hasta 10 horas de reproducción de vídeo local en la magnífica pantalla. Llévelo a todos lados."
 			}],
 			["I-IP-I", {
