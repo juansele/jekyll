@@ -30,11 +30,11 @@ templates['cabecera'] = '''
 		<!-- CONTENEDOR DE LA FICHA -->
 		<div class="mett__contenedor-ficha">
 			<div class="mett__mod-nota-legal">
-				<b>Nota:</b> Las especificacione de cada producto pueden variar según el lugar de adquisición del mismo, por lo que la siguiente descripción no debe ser interpretada como un compromiso contractual. Invitamos a verificar las características disponibles del producto que aparecen en esta página.
+				<b>Nota:</b> Las especificaciones de cada producto pueden variar según el lugar de adquisición del mismo, por lo que la siguiente descripción no debe ser interpretada como un compromiso contractual. Invitamos a verificar las características disponibles del producto que aparecen en esta página.
 			</div>
 			<br>
 			<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
-				<div class="mett__container-main mett__flex-lg-90 mett__flex-md-85 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-95">
+				<div class="mett__container-main mett__flex-lg-90 mett__flex-md-85 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-95 mett__layout-wrap">
 					
 
 					<!-- CABECERA -->
@@ -55,7 +55,7 @@ templates['cabecera'] = '''
 							</div>
 							<!-- Logo Lenovo -->
 							<div class="mett__flex-lg-10 mett__flex-md-15 mett__flex-sm-15 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__layout-wrap mett__justify-end" style="position: absolute;right:0px;">
-								<div><img class="mett__image-ficha mett__logo" src="${logo_lenovo}"></div>
+								<div><img class="mett__logo" style="width:65,909px !important;height:196,472px !important;" src="${logo_lenovo}"></div>
 							</div>
 						</div>
 					</section>
