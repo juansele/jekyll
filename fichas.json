@@ -2212,29 +2212,30 @@
 			}],
 			["cabecera", {
 				"nombre_producto": "Lenovo Tab3 Essential",
-				"subtitulo_cabecera": "...",
+				"subtitulo_cabecera": "EXTRAORDINARIO TABLET. PRECIO INCREIBLE",
 				"logo_lenovo": "../img/OTROS/logo_8abf54.png"
 			}],
-			["I", {
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_01.png"
+			["I-I", {
+				"img_apoyo_1": "../img/TABLETS/TAB3_ESSENTIAL/IMG_01.png",
+				"img_apoyo_2": "../img/TABLETS/TAB3_ESSENTIAL/IMG_02.png"
 			}],
 			["P", {
-				"t_descripcion_principal": "...",
+				"t_descripcion_principal": "SIEMPRE A SU LADO",
 				"p_descripcion_principal": "Disfrute lo divertido y conveniente de una tableta para ir a todos lados por un precio accesible. Detrás del genial diseño de la serie TAB 3 y vibrante display IPS de 7\" tenemos un procesador de cuatro núcleos rápido y potente que corre hasta 1.3 GHz, memoria interna expandible, GPS y WiFi incorporados y cámaras frontal y trasera para compartir fotos y fantásticas 'selfies' al instante. Socializa, captura contenido, navega, corre tus 'apps' todo el día sin necesidad de recargar."
 			}],
 			["I-IP-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_03.png",
-				"img_apoyo_2": "../img/TABLETS/PHABLET/IMG_04.png",
+				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_04.png",
+				"img_apoyo_2": "../img/TABLETS/TAB3_ESSENTIAL/IMG_03.png",
 				"t_caracteristica": "Video e Imágenes Vibrantes",
 				"p_caracteristica": "El Display de 7\" 1024 x 600 IPS trae a la realidad con color y claridad excepcional todas las fotos, videos, websites y programas en 'Streaming'.",
 				"numero_caracteristica": "1",
-				"img_apoyo_3": "../img/TABLETS/PHABLET/IMG_05.png"
+				"img_apoyo_3": "../img/TABLETS/TAB3_ESSENTIAL/IMG_04.png"
 			}],
 			["P-I-num_centro", {
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Dos cámaras Geniales",
 				"p_caracteristica": "Podrás usar la Cámara Frontal Visio para 'Selfies' perfectas y la cámara trasera de 2MP para capturar imágenes y videos vibrantes.",
-				"img_apoyo": "../img/TABLETS/PHABLET/IMG_06.png"
+				"img_apoyo": "../img/TABLETS/TAB3_ESSENTIAL/IMG_04.png"
 			}],
 			["I-P", {
 				"numero_caracteristica": "3",
