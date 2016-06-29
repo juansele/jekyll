@@ -1,0 +1,15 @@
+
+
+
+	INSTRUCTIVO DE IMPLEMENTACIÓN
+
+	Una vez copiados todos los archivos entragados en la carpeta MUNDO MPS, la integración del código 
+	consta de los siguientes pasos:
+
+	1. Crear 10 archivos html base de MPS con los mismos nombres y extensiones de los archivos entregados.
+
+	2. Copiar el elemento section con la clase "mett__container-mps" junto a todo su contenido, por cada uno de los archivos entregados (tener en cuenta el nombre del archivo).
+
+	Después de esto debe funcionar perfectamente, tal y como los screensoots adjuntos.
+
+	
