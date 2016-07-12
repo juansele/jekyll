@@ -576,6 +576,12 @@
 				"icono_caracteristica_2": "../img/OTROS/IMG_4.png",
 				"detalle_caracteristica_2": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía."
 			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
+				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
+				"icono_caracteristica_2": "",
+				"detalle_caracteristica_2": ""
+			}],
 			["fin", {}]
 		]
 	}, {
@@ -632,6 +638,12 @@
 				"detalle_caracteristica_1": "Con Lenovo OneKey Recovery puedes crear una copia de seguridad de tus archivos, restaurar tu máquina en 40-60 minutos o reiniciar el equipo al estado original de fábrica en tan solo 15 minutos. El botón que activa la aplicación está en los bordes laterales del equipo o como un agujero que se activa con la punta de un esfero o un clip.",
 				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
+				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
+				"icono_caracteristica_2": "",
+				"detalle_caracteristica_2": ""
 			}],
 			["fin", {}]
 		]
@@ -934,6 +946,12 @@
 				"icono_caracteristica_2": "../img/OTROS/IMG_4.png",
 				"detalle_caracteristica_2": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía."
 			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
+				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
+				"icono_caracteristica_2": "",
+				"detalle_caracteristica_2": ""
+			}],
 			["fin", {}]
 		]
 	}, {
@@ -997,9 +1015,15 @@
 				"icono_caracteristica_2": "../img/OTROS/IMG_4.png",
 				"detalle_caracteristica_2": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía."
 			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
+				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
+				"icono_caracteristica_2": "",
+				"detalle_caracteristica_2": ""
+			}],
 			["fin", {}]
 		]
-	},{
+	}, {
 		"nombre": "YOGA_2",
 		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
@@ -1517,9 +1541,15 @@
 			}],
 			["P-P",{
 				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_1": "Experimenta sonido prondo con los parlantes incorporados y salidas para audifonos, con certificación Dolby® Advanced AudioTM",
+				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápidoque por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."			
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
+				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
+				"icono_caracteristica_2": "",
+				"detalle_caracteristica_2": ""
 			}],
 			["fin", {}]
 		]
@@ -1582,8 +1612,7 @@
 			}],
 			["fin", {}]
 		]
-	},
-	{
+	}, {
 		"nombre": "TAB2_A7_30_AZUL",
 		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
@@ -1631,9 +1660,15 @@
 			}],
 			["P-P",{
 				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_1": "Experimenta sonido prondo con los parlantes incorporados y salidas para audifonos, con certificación Dolby® Advanced AudioTM",
+				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápidoque por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."			
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
+				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
+				"icono_caracteristica_2": "",
+				"detalle_caracteristica_2": ""
 			}],
 			["fin", {}]
 		]
@@ -1685,14 +1720,19 @@
 			}],
 			["P-P",{
 				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_1": "Experimenta sonido prondo con los parlantes incorporados y salidas para audifonos, con certificación Dolby® Advanced AudioTM",
+				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápidoque por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."			
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
+				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
+				"icono_caracteristica_2": "",
+				"detalle_caracteristica_2": ""
 			}],
 			["fin", {}]
 		]
-	},
-	{
+	}, {
 		"nombre": "YOGA_TABLET_3_8",
 		"categoria": "Clasicas/fase_1/Notebook Yoga",
 		"mapa": [
@@ -1744,9 +1784,15 @@
 			}],
 			["P-P", {
 				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_1": "Experimenta sonido de 360 grados con los parlantes incorporados Dolby® Atmos",
+				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."		
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
+				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
+				"icono_caracteristica_2": "",
+				"detalle_caracteristica_2": ""
 			}],
 			["fin", {}]
 		]
@@ -2468,9 +2514,9 @@
 			}],
 			["P-P", {
 				"icono_caracteristica_1": "../img/OTROS/IMG_7.png",
-				"icono_caracteristica_2": "",
+				"icono_caracteristica_2": "../img/OTROS/IMG_8.png",
 				"detalle_caracteristica_1": "máxima protección para sus datos, la identidad y la privacidad en todos los dispositivos.",
-				"detalle_caracteristica_2": ""
+				"detalle_caracteristica_2": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos."
 			}],
 			["fin", {}]
 		]
