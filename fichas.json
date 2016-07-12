@@ -56,11 +56,11 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "B50_30",
+		"nombre": "B50",
 		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
-				"titulo": "B50 30",
+				"titulo": "B50",
 				"color_primario": "#231f20",
 				"color_secundario": "#c22821",
 				"color_caracteristica": "#ed6b00"
@@ -114,11 +114,11 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "C40_05",
+		"nombre": "C40",
 		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
-				"titulo": "C40 05",
+				"titulo": "C40",
 				"color_primario": "#231f20",
 				"color_secundario": "#c22821",
 				"color_caracteristica": "#ed6b00"
@@ -168,119 +168,11 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "C40_30_Alkosto",
+		"nombre": "C50",
 		"categoria": "Clasicas/fase_1/All In One",
 		"mapa": [
 			["inicio", {
-				"titulo": "C40 30",
-				"color_primario": "#231f20",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#ed6b00"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO C40",
-				"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/AIO/C40_30_ALKOSTO/IMG_01.png",
-				"img_apoyo_2": "../img/AIO/C40_30_ALKOSTO/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "LA ÚLTIMA TECNOLOGÍA EN PROCESADORES",
-				"p_descripcion_principal": "El computador perfecto para el hogar: de diseño compacto, combina ahorro inteligente de los espacios y dos colores diferentes con una pantalla multitouch opcional de 10 puntos."
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_08.png"
-			}],
-			["P-I-I", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Redecora tu hogar",
-				"p_caracteristica": "con el PC de diseño delgado y fino de precio inimitable.",
-				"img_apoyo_1": "../img/AIO/C40_30_ALKOSTO/IMG_04.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
-			}],
-			["P-I-num_centro", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Pantalla de 21,5\"",
-				"p_caracteristica": "Con multitouch opcional y un soporte metálico en v que le agrega un toque de elegancia a tu espacio.",
-				"img_apoyo": "../img/AIO/C40_30_ALKOSTO/IMG_06.png"
-			}],
-			["P-I-I", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Expandible sin Herramientas",
-				"p_caracteristica": "Cubiertas móviles que facilitan la actualización de almacenamiento y memoria.",
-				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
-				"img_apoyo_2": "../img/AIO/C40_30_ALKOSTO/IMG_08.png"
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
-				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "C40_30_Exito",
-		"categoria": "Clasicas/fase_1/All In One",
-		"mapa": [
-			["inicio", {
-				"titulo": "C40 30",
-				"color_primario": "#231f20",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#ed6b00"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO C40 30",
-				"subtitulo_cabecera": "DECORA Y ECONOMIZA TUS ESPACIOS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/AIO/C40_30_EXITO/IMG_01.png",
-				"img_apoyo_2": "../img/AIO/C40_30_EXITO/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "LA ÚLTIMA TECNOLOGÍA EN PROCESADORES",
-				"p_descripcion_principal": "El computador perfecto para el hogar: de diseño compacto, combina ahorro inteligente de los espacios y dos colores diferentes con una pantalla multitouch opcional de 10 puntos."
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/AIO/IMG_08.png"
-			}],
-			["P-I-I", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Redecora tu hogar",
-				"p_caracteristica": "con el PC de diseño delgado y fino de precio inimitable.",
-				"img_apoyo_1": "../img/AIO/C40_30_EXITO/IMG_04.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/AIO/IMG_04.png"
-			}],
-			["P-I-num_centro", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Pantalla de 21,5\"",
-				"p_caracteristica": "Con multitouch opcional y un soporte metálico en v que le agrega un toque de elegancia a tu espacio.",
-				"img_apoyo": "../img/AIO/C40_30_EXITO/IMG_06.png"
-			}],
-			["P-I-I", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Expandible sin Herramientas",
-				"p_caracteristica": "Cubiertas móviles que facilitan la actualización de almacenamiento y memoria.",
-				"img_apoyo_1": "../img/OTROS/GENERICAS/AIO/IMG_03.png",
-				"img_apoyo_2": "../img/AIO/C40_30_EXITO/IMG_08.png"
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
-				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "C50_30",
-		"categoria": "Clasicas/fase_1/All In One",
-		"mapa": [
-			["inicio", {
-				"titulo": "C50 30",
+				"titulo": "C50",
 				"color_primario": "#231f20",
 				"color_secundario": "#c22821",
 				"color_caracteristica": "#ed6b00"
@@ -386,201 +278,6 @@
 				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
 				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "G40_30",
-		"categoria": "Clasicas/fase_1/Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "G40 30",
-				"color_primario": "#717170",
-				"color_secundario": "#ed6b00",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO G40",
-				"subtitulo_cabecera": "HECHO PARA TODOS LOS DÍAS",
-				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB/G40_30/IMG_01.png",
-				"img_apoyo_2": "../img/NB/G40_30/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "SORPRENDENTEMENTE DELGADO PERO GRANDE EN RENDIMIENTO",
-				"p_descripcion_principal": "El portátil G40 30 tiene menos de una pulgada de espesor, pero viene con grandes características como una unidad DVD integrada, la última tecnología en procesadores y gráficos."
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_03.png"
-			}],
-			["P-I-num_izq", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Tiene todo lo mejor en su interior",
-				"p_caracteristica": "Lo último en procesadores Intel y sus gráficos hacen que tus juegos, fotos y multimedia cobren vida.",
-				"img_apoyo": "../img/NB/G40_30/IMG_04.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Perfecto para los amantes del cine",
-				"p_caracteristica": "Su unidad integrada de DVD y sus parlantes DOLBY estéreo hacen del portátil G40 el computador perfecto para disfrutar de tus peliculas favoritas.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_01.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB/G40_30/IMG_06.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_07.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Ergonomía y precisión",
-				"p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.",
-				"img_apoyo": "../img/NB/G40_30/IMG_08.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/NB/IMG_09.png",
-				"img_apoyo_2": "../img/NB/G40_30/IMG_10.png"
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
-				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "G40_45",
-		"categoria": "Clasicas/fase_1/Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "G40 45",
-				"color_primario": "#717170",
-				"color_secundario": "#ed6b00",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO G40",
-				"subtitulo_cabecera": "HECHO PARA TODOS LOS DÍAS",
-				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB/G40_45/IMG_01.png",
-				"img_apoyo_2": "../img/NB/G40_45/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "SORPRENDENTEMENTE DELGADO PERO GRANDE EN RENDIMIENTO",
-				"p_descripcion_principal": "El portátil G40-45 tiene menos de una pulgada de espesor, pero viene con grandes características como una unidad DVD integrada, la última tecnología en procesadores y gráficos."
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_01.png"
-			}],
-			["P-I-num_izq", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Tiene todo lo mejor en su interior",
-				"p_caracteristica": "Lo último en procesadores AMD y sus gráficos hacen que tus juegos, fotos y multimedia cobren vida.",
-				"img_apoyo": "../img/NB/G40_45/IMG_04.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Perfecto para los amantes del cine",
-				"p_caracteristica": "Su unidad integrada de DVD y sus parlantes DOLBY estéreo hacen del portátil G40 el computador perfecto para disfrutar de tus peliculas favoritas.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB/G40_45/IMG_06.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_07.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Ergonomía y precisión",
-				"p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.",
-				"img_apoyo": "../img/NB/G40_45/IMG_08.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/NB/IMG_03.png",
-				"img_apoyo_2": "../img/NB/G40_45/IMG_09.png"
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
-				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "G40_80",
-		"categoria": "Clasicas/fase_1/Notebook",
-		"mapa": [
-			["inicio", {
-				"titulo": "G40 80",
-				"color_primario": "#717170",
-				"color_secundario": "#ed6b00",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO G40",
-				"subtitulo_cabecera": "PORTÁTIL DE 14\" CON UNIDAD DE DVD",
-				"logo_lenovo": "../img/OTROS/logo_ed6b00.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB/G40_80/IMG_01.png",
-				"img_apoyo_2": "../img/NB/G40_80/IMG_02.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "ACCESIBLE Y VERSATIL PORTATIL",
-				"p_descripcion_principal": "Lenovo G40-80 combina un diseño de líneas delgadas con una variedad completa de funciones, incluyendo unidad de DVD y un rendimiento que enfrenta cualquier desafío con el procesador Intel ® Core (TM)."
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
-			}],
-			["P-I-num_izq", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Pantalla HD de 14\"",
-				"p_caracteristica": "Esta pantalla ofrece una imagen nítida y brillante en un formato de imagen 16.9 y una resolución de 1366 x 768.",
-				"img_apoyo": "../img/NB/G40_80/IMG_04.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Perfecto para los amantes del cine",
-				"p_caracteristica": "Su unidad integrada de DVD y sus parlantes DOLBY estéreo hacen del portátil G40 el computador perfecto para disfrutar de tus peliculas favoritas.",
-				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
-			}],
-			["I-I", {
-				"img_apoyo_1": "../img/NB/G40_80/IMG_06.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_12.png"
-			}],
-			["P-I-num_izq", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Teclado AccuType",
-				"p_caracteristica": "El teclado tiene un estilo tipo isla, con teclas ergonómicas que permiten disfrutar de una experiencia de tipeo más espaciosa, fluida y precisa.",
-				"img_apoyo": "../img/NB/G40_80/IMG_08.png"
-			}],
-			["I-P-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/NB/IMG_02.png",
-				"img_apoyo_2": "../img/NB/G40_80/IMG_10.png",
-				"t_caracteristica": "Tecnología para ahorro de batería",
-				"p_caracteristica": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía.",
-				"numero_caracteristica": "4"
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
-				"detalle_caracteristica_1": "Experimenta sonido profundo con los parlantes incorporados y salidas para audifonos, con certificación Dolby® Advanced AudioTM.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_3.png",
-				"detalle_caracteristica_1": "Con Lenovo OneKey Recovery puedes crear una copia de seguridad de tus archivos, restaurar tu máquina en 40-60 minutos o reiniciar el equipo al estado original de fábrica en tan solo 15 minutos. El botón que activa la aplicación está en los bordes laterales del equipo o como un agujero que se activa con la punta de un esfero o un clip.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_4.png",
-				"detalle_caracteristica_2": "Energy Management de Lenovo protege la durabilidad de la batería y utiliza tecnología de avanzada para el ahorro de energía."
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
-				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
-				"icono_caracteristica_2": "",
-				"detalle_caracteristica_2": ""
 			}],
 			["fin", {}]
 		]
@@ -829,11 +526,11 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "Y50_70",
+		"nombre": "Y50",
 		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
-				"titulo": "Y50 70",
+				"titulo": "Y50",
 				"color_primario": "#717170",
 				"color_secundario": "#c22821",
 				"color_caracteristica": "#4a80af"
@@ -886,11 +583,11 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "Z40_70",
+		"nombre": "Z40",
 		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
-				"titulo": "Z40 70",
+				"titulo": "Z40",
 				"color_primario": "#717170",
 				"color_secundario": "#d06bac",
 				"color_caracteristica": "#4a80af"
@@ -955,11 +652,11 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "Z50_70",
+		"nombre": "Z50",
 		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
 			["inicio", {
-				"titulo": "Z50 70",
+				"titulo": "Z50",
 				"color_primario": "#717170",
 				"color_secundario": "#d06bac",
 				"color_caracteristica": "#4a80af"
@@ -1430,11 +1127,11 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "TAB2_A7_10",
+		"nombre": "TAB2_A7",
 		"categoria": "Clasicas/fase_1/Tablet",
 		"mapa": [
 			["inicio", {
-				"titulo": "TAB2 A7 10",
+				"titulo": "TAB2 A7",
 				"color_primario": "#ed6b00",
 				"color_secundario": "#c22821",
 				"color_caracteristica": "#4a80af"
@@ -1485,250 +1182,6 @@
 				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
 				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
 				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "TAB2_A7_20",
-		"categoria": "Clasicas/fase_1/Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TAB2 A7 20",
-				"color_primario": "#ed6b00",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO® TAB 2 A7",
-				"subtitulo_cabecera": "MULTIMEDIA QUE VA A TODAS PARTES",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["I", {
-				"img_apoyo": "../img/TABLETS/TAB_2_A7_20/IMG_01.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "UNA TABLET ULTRADELGADA EQUIPADA CON SONIDO DOLBY",
-				"p_descripcion_principal": "Versátil, cómoda, para llevar tu música y videos a todas partes. Percibe una experiencia de sonido diferente a través de su sonido envolvente DOLBY. Observa cómo los videos e imágenes cobran vida con su pantalla brillante de 7 pulgadas de visibilidad perfecta y tecnología IPS. Esta tableta, delgada y ligera, viene con un poderoso procesador quad-core, perfecto para todo lo que hagas a donde quiera que vayas. Es tu tiquete al entretenimiento, cuando quieras y a donde vayas."
-			}],
-			["I-IP-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_04.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/TABLETS/IMG_06.png",
-				"t_caracteristica": "Increiblemente delgada y liviana. La mejor experiencia de Sonido. Poderosa, con respuesta rapida. Totalmente versatil.",
-				"p_caracteristica": "Si te gusta la música es ideal para ti, ya que te permite escuchar tus canciones favoritas y disfrutar las demás utilidades de tu tablet.",
-				"numero_caracteristica": "1",
-				"img_apoyo_3": "../img/TABLETS/TAB_2_A7_20/IMG_03.png"
-			}],
-			["P-I-num_centro", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "SONIDO DOLBY",
-				"p_caracteristica": "Te ofrece la mejor calidad de sonido envolvente e imágenes sorprendentes. Gracias a su pantalla con tecnología IPS, podrás ver tus videos e imágenes desde cualquier ángulo.",
-				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Diseño Unico",
-				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Se adapta de tal manera a tu mano que vas a querer llevarla a todas partes",
-				"img_apoyo": "../img/TABLETS/TAB_2_A7_20/IMG_06.png"
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
-			}],
-			["P-I-num_centro", {
-				"numero_caracteristica": "4",
-				"t_caracteristica": "Perfecto para Multimedia",
-				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
-				"img_apoyo": "../img/TABLETS/TAB_2_A7_20/IMG_08.png"
-			}],
-			["P-P",{
-				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
-				"detalle_caracteristica_1": "Experimenta sonido prondo con los parlantes incorporados y salidas para audifonos, con certificación Dolby® Advanced AudioTM",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápidoque por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."			
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
-				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
-				"icono_caracteristica_2": "",
-				"detalle_caracteristica_2": ""
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "TAB2_A7_30",
-		"categoria": "Clasicas/fase_1/Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TAB2 A7 30",
-				"color_primario": "#ed6b00",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO TAB2 A7",
-				"subtitulo_cabecera": "ENTRETENIMIENTO A DONDE VAYAS",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["I", {
-				"img_apoyo": "../img/TABLETS/TAB2_A7_30/IMG_01.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "UNA TABLET ULTRADELGADA EQUIPADA CON SONIDO INCREIBLE DOLBY",
-				"p_descripcion_principal": "Agrégale una SIM Card y conviértela en un \"Phablet\" una grandiosa combinación entre tableta y smartphone. Disfruta de tu música o multimedia favoritos con sonido envolvente DOLBY y llévalos a donde tú quieras ya que tu Tab2 A7 30 es ligera y ultradelgada, no querrás desprenderte de ella. Su pantalla de 7 pulgadas, su poderoso procesador quad-core y su capacidad de convertirse en un PHABLET, la hacen el equipo portable más versátil."
-			}],
-			["I-IP-I", {
-				"img_apoyo_1": "../img/OTROS/GENERICAS/TABLETS/IMG_04.png",
-				"img_apoyo_2": "../img/OTROS/GENERICAS/TABLETS/IMG_06.png",
-				"t_caracteristica": "Más que una tablet...",
-				"p_caracteristica": "¡Es un Phablet! Disfruta del contenido multimedia, chats, llamadas y redes sociales en una fabulosa pantalla de 7 pulgadas.",
-				"numero_caracteristica": "1",
-				"img_apoyo_3": "../img/TABLETS/TAB2_A7_30/IMG_03.png"
-			}],
-			["P-I-num_centro", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "Perfecto para ti",
-				"p_caracteristica": "Si te gusta la música es ideal para ti, ya que podrás escuchar tus canciones favoritas y disfrutar las demás utilidades de tu tablet.",
-				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "Sonido DOLBY",
-				"p_caracteristica": "Te ofrece la mejor calidad de sonido envolvente e imágenes sorprendentes. Gracias a su pantalla con tecnología IPS, podrás ver tus videos e imágenes desde cualquier ángulo.",
-				"img_apoyo": "../img/TABLETS/TAB2_A7_30/IMG_06.png"
-			}],
-			["I", {
-				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_01.png"
-			}],
-			["P-I-num_centro", {
-				"numero_caracteristica": "4",
-				"t_caracteristica": "Diseño Unico",
-				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Puedes elegirla en  uno de sus cuatro colores que van con tu estilo.",
-				"img_apoyo": "../img/TABLETS/TAB2_A7_30/IMG_08.png"
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
-				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "TAB2_A7_30_AZUL",
-		"categoria": "Clasicas/fase_1/Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TAB2 A7 30",
-				"color_primario": "#ed6b00",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO TAB2 A7",
-				"subtitulo_cabecera": "AÑADE UNA SIM CARD Y TENDRAS LO MEJOR DE UN PHABLET A TU ALCANCE",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["I", {
-				"img_apoyo": "../img/TABLETS/TAB_2_A7_30_AZUL/IMG_01.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "Una Tablet versatil equipada con sonido Dolby",
-				"p_descripcion_principal": "Versátil, cómoda, para llevar tu música y videos a todas partes. Percibe una experiencia de sonido diferente a través de su sonido envolvente DOLBY. Observa cómo los videos e imágenes cobran vida con su pantalla brillante de 7 pulgadas de visibilidad perfecta y tecnología IPS. Esta tableta, delgada y ligera, viene con un poderoso procesador quad-core, perfecto para todo lo que hagas a donde quiera que vayas. Es tu tiquete al entretenimiento, cuando quieras y a donde vayas."
-			}],
-			["I-P", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Increiblemente delgada y liviana.La mejor experiencia de Sonido. Poderosa, con respuesta rapida.Totalmente versatil. ",
-				"p_caracteristica": "Si te gusta la música es ideal para ti, ya que te permite escuchar tus canciones favoritas y disfrutar las demás utilidades de tu tablet.",
-				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
-			}],
-			["P-I-num_centro", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "MAS QUE UN TABLET, ES UN PHABLET!!!",
-				"p_caracteristica": "Añade una sim card en tu dispositivo y ademas de realizar y recibir llamadas podras mantenerte conectado a donde quiera que vayas, reproducir tu contenido multimedia, streaming, fotos, videos y compartirlos en tus redes sociales.",
-				"img_apoyo": "../img/TABLETS/TAB_2_A7_30_AZUL/IMG_03.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "DISEÑO ÚNICO",
-				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Se adapta de tal manera a tu mano que vas a querer llevarla a todas partes",
-				"img_apoyo": "../img/TABLETS/TAB_2_A7_30_AZUL/IMG_05.png"
-			}],
-			["P-I-num_centro", {
-				"numero_caracteristica": "4",
-				"t_caracteristica": "PERFECTO PARA MULTIMEDIA",
-				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
-				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_07.png"
-			}],
-			["P-P",{
-				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
-				"detalle_caracteristica_1": "Experimenta sonido prondo con los parlantes incorporados y salidas para audifonos, con certificación Dolby® Advanced AudioTM",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápidoque por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."			
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
-				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
-				"icono_caracteristica_2": "",
-				"detalle_caracteristica_2": ""
-			}],
-			["fin", {}]
-		]
-	}, {
-		"nombre": "TAB2_A7_30_BLANCA",
-		"categoria": "Clasicas/fase_1/Tablet",
-		"mapa": [
-			["inicio", {
-				"titulo": "TAB2 A7 30",
-				"color_primario": "#ed6b00",
-				"color_secundario": "#c22821",
-				"color_caracteristica": "#4a80af"
-			}],
-			["cabecera", {
-				"nombre_producto": "LENOVO TAB2 A7",
-				"subtitulo_cabecera": "AÑADE UNA SIM CARD Y TENDRAS LO MEJOR DE UN PHABLET A TU ALCANCE",
-				"logo_lenovo": "../img/OTROS/logo_c22821.png"
-			}],
-			["I", {
-				"img_apoyo": "../img/TABLETS/TAB_2_A7_30_BLANCA/IMG_01.png"
-			}],
-			["P", {
-				"t_descripcion_principal": "Una Tablet versatil equipada con sonido Dolby",
-				"p_descripcion_principal": "Versátil, cómoda, para llevar tu música y videos a todas partes. Percibe una experiencia de sonido diferente a través de su sonido envolvente DOLBY. Observa cómo los videos e imágenes cobran vida con su pantalla brillante de 7 pulgadas de visibilidad perfecta y tecnología IPS. Esta tableta, delgada y ligera, viene con un poderoso procesador quad-core, perfecto para todo lo que hagas a donde quiera que vayas. Es tu tiquete al entretenimiento, cuando quieras y a donde vayas."
-			}],
-			["I-P", {
-				"numero_caracteristica": "1",
-				"t_caracteristica": "Increiblemente delgada y liviana.La mejor experiencia de Sonido. Poderosa, con respuesta rapida.Totalmente versatil. ",
-				"p_caracteristica": "Si te gusta la música es ideal para ti, ya que te permite escuchar tus canciones favoritas y disfrutar las demás utilidades de tu tablet.",
-				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_05.png"
-			}],
-			["P-I-num_centro", {
-				"numero_caracteristica": "2",
-				"t_caracteristica": "MAS QUE UN TABLET, ES UN PHABLET!!!",
-				"p_caracteristica": "Añade una sim card en tu dispositivo y ademas de realizar y recibir llamadas podras mantenerte conectado a donde quiera que vayas, reproducir tu contenido multimedia, streaming, fotos, videos y compartirlos en tus redes sociales.",
-				"img_apoyo": "../img/TABLETS/TAB_2_A7_30_BLANCA/IMG_03.png"
-			}],
-			["I-P", {
-				"numero_caracteristica": "3",
-				"t_caracteristica": "DISEÑO ÚNICO",
-				"p_caracteristica": "Es ultra delgada y pesa sólo 269g tiene una forma elegante y a la vez ergonómica. Se adapta de tal manera a tu mano que vas a querer llevarla a todas partes",
-				"img_apoyo": "../img/TABLETS/TAB_2_A7_30_BLANCA/IMG_05.png"
-			}],
-			["P-I-num_centro", {
-				"numero_caracteristica": "4",
-				"t_caracteristica": "PERFECTO PARA MULTIMEDIA",
-				"p_caracteristica": "Disfruta del contenido multimedia,en su fabulosa pantalla de 7 pulgadas.",
-				"img_apoyo": "../img/OTROS/GENERICAS/TABLETS/IMG_07.png"
-			}],
-			["P-P",{
-				"icono_caracteristica_1": "../img/OTROS/IMG_1.png",
-				"detalle_caracteristica_1": "Experimenta sonido prondo con los parlantes incorporados y salidas para audifonos, con certificación Dolby® Advanced AudioTM",
-				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
-				"detalle_caracteristica_2": "Share it es la aplicación para compartir todo tipo de archivos de forma segura y casi 40 veces más rápidoque por Bluetooth. Viene preinstalado en tablets y equipos Lenovo."			
-			}],
-			["P-P", {
-				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
-				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
-				"icono_caracteristica_2": "",
-				"detalle_caracteristica_2": ""
 			}],
 			["fin", {}]
 		]
@@ -2919,11 +2372,11 @@
 			["fin", {}]
 		]
 	}, {
-		"nombre": "C40_30",
+		"nombre": "C40",
 		"categoria": "Clasicas/fase_2/All In One",
 		"mapa": [
 			["inicio", {
-				"titulo": "C40_30",
+				"titulo": "C40",
 				"color_primario": "#231f20",
 				"color_secundario": "#c22821",
 				"color_caracteristica": "#ed6b00"
