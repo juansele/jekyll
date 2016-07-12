@@ -345,6 +345,69 @@
 			["fin", {}]
 		]
 	}, {
+		"nombre": "Ideapad_110",
+		"categoria": "Clasicas/fase_1/Notebook",
+		"mapa": [
+			["inicio", {
+				"titulo": "IDEAPAD 110",
+				"color_primario": "#717170",
+				"color_secundario": "#5e8cda",
+				"color_caracteristica": "#4a80af"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO IDEAPAD 110",
+				"subtitulo_cabecera": "GRAN DISEÑO, PRECIO INMEJORABLE",
+				"logo_lenovo": "../img/OTROS/logo_5e8cda.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_100/IMG_01.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_100/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "IDEAPAD 100 TE DA TODO",
+				"p_descripcion_principal": "En tu portátil Lenovo Ideapad 110 tienes todo lo que has estado buscando y nada de lo que no necesitas."
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "La inversión más inteligente",
+				"p_caracteristica": "Lenovo Ideapad 110 tiene todo lo que has estado buscando al precio que no pensaste encontrar.",
+				"img_apoyo": "../img/NB/IDEAPAD_100/IMG_04.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Increíble pantalla 14\"",
+				"p_caracteristica": "Ideapad 110 cuenta con una asombrosa pantalla de 14\" en la cual podras disfrutar de todos tus contenidos favoritos.",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_12.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_100/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_09.png"
+			}],
+			["I-P-I", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Rendimiento asegurado",
+				"p_caracteristica": "Lenovo Ideapad 110 viene equipado con lo último en procesadores Intel que aseguran su desempeño.",
+				"img_apoyo_1": "../img/OTROS/GENERICAS/NB/IMG_02.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_100/IMG_09.png"
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_3.png",
+				"detalle_caracteristica_1": "Con Lenovo OneKey Recovery puedes crear una copia de seguridad de tus archivos, restaurar tu máquina en 40-60 minutos o reiniciar el equipo al estado original de fábrica en tan solo 15 minutos. El botón que activa la aplicación está en los bordes laterales del equipo o como un agujero que se activa con la punta de un esfero o un clip.",
+				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
+				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
+				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
+				"icono_caracteristica_2": "",
+				"detalle_caracteristica_2": ""
+			}],
+			["fin", {}]
+		]
+	}, {
 		"nombre": "Ideapad_100s_Azul",
 		"categoria": "Clasicas/fase_1/Notebook",
 		"mapa": [
@@ -504,6 +567,63 @@
 				"numero_caracteristica": "2",
 				"t_caracteristica": "Sonido DOLBY",
 				"p_caracteristica": "El sonido integrado de tecnología DOLBY convierte tu Ideapad 300 en un teatro en casa personal",
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_300/IMG_06.png",
+				"img_apoyo_2": "../img/OTROS/GENERICAS/NB/IMG_12.png"
+			}],
+			["I-P-I", {
+				"numero_caracteristica": "3",
+				"t_caracteristica": "Rendimiento superior",
+				"p_caracteristica": "Lenovo Ideapad 300 viene con los mejores procesadores Intel y pantalla de 14\" te da máxima portabilidad y el máximo rendimiento.",
+				"img_apoyo_1": "../img/NB/IDEAPAD_300/IMG_08.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_300/IMG_09.png"
+			}],
+			["P-P", {
+				"icono_caracteristica_1": "../img/OTROS/IMG_8.png",
+				"detalle_caracteristica_1": "REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.",
+				"icono_caracteristica_2": "../img/OTROS/IMG_2.png",
+				"detalle_caracteristica_2": "SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos."
+			}],
+			["fin", {}]
+		]
+	}, {
+		"nombre": "Ideapad_310",
+		"categoria": "Clasicas/fase_1/Notebook",
+		"mapa": [
+			["inicio", {
+				"titulo": "IDEAPAD  310",
+				"color_primario": "#231f20",
+				"color_secundario": "#d06bac",
+				"color_caracteristica": "#4a80af"
+			}],
+			["cabecera", {
+				"nombre_producto": "LENOVO IDEAPAD 310",
+				"subtitulo_cabecera": "MÁXIMA PORTABILIDAD Y MÁXIMO RENDIMIENTO",
+				"logo_lenovo": "../img/OTROS/logo_d06bac.png"
+			}],
+			["I-I", {
+				"img_apoyo_1": "../img/NB/IDEAPAD_300/IMG_01.png",
+				"img_apoyo_2": "../img/NB/IDEAPAD_300/IMG_02.png"
+			}],
+			["P", {
+				"t_descripcion_principal": "LA COMPUTADORA PORTÁTIL DISEÑADA PARA DISFRUTAR CONTENIDOS EN LINEA",
+				"p_descripcion_principal": "Lenovo Ideapad 310 te da todo lo que necesitas, disfruta de tus contenidos favoritos en su pantalla de 14\". Ideapad 300 esta potenciada con los mejores procesadores Intel"
+			}],
+			["I", {
+				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_09.png"
+			}],
+			["P-I-num_izq", {
+				"numero_caracteristica": "1",
+				"t_caracteristica": "Velocidad sorprendente",
+				"p_caracteristica": "Visita páginas web, disfruta películas o escucha música en línea con su WiFi hasta tres veces más veloz que el tradicional.",
+				"img_apoyo": "../img/NB/IDEAPAD_300/IMG_04.png"
+			}],
+			["I-P", {
+				"numero_caracteristica": "2",
+				"t_caracteristica": "Sonido DOLBY",
+				"p_caracteristica": "El sonido integrado de tecnología DOLBY convierte tu Ideapad 310 en un teatro en casa personal",
 				"img_apoyo": "../img/OTROS/GENERICAS/NB/IMG_11.png"
 			}],
 			["I-I", {
