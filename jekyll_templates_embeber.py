@@ -87,7 +87,7 @@ templates['cabecera'] = '''
 			</div>
 
 			<div class="mett__mod-nota-legal">
-				<b>Nota:</b> Las especificaciones de cada producto pueden variar según el lugar de adquisición del mismo, por lo que la siguiente descripción no debe ser interpretada como un compromiso contractual. Invitamos a verificar las características disponibles del producto que aparecen en esta página.
+				<b>Nota:</b> Para mayor información del producto, invitamos a revisar las especificaciones que aparecen en esta página. 
 			</div>
 			<br>
 			<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
