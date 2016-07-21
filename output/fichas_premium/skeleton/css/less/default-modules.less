@@ -32,7 +32,7 @@
 		font-style: normal;
 	}
 
-	.mixin-transition-all(@t: 500s){
+	.mixin-transition-all(@t: 0.28s){
 		-webkit-transition: all @t ease-out;
 		-moz-transition: all @t ease-out;
 		-o-transition: all @t ease-out;
@@ -123,7 +123,7 @@
 
 		padding-bottom: 4em;
 
-		
+		border-bottom: 2px solid @color-primario;
 
 		.mixin-transition-all();
 
@@ -217,13 +217,13 @@
 
 	.mett__module-info-center{
 		
-		min-height:340px; 
+		min-height:290px; 
 
 		background:#f7f7f7;
 
 		.mixin-transition-all();
 
-		border-bottom: 2px solid @color-primario;
+		
 	}
 
 	.mett__fringe-title{
@@ -333,7 +333,7 @@
 
 	p.mett__text-subtext{font-size: 16px;font-family: 'Gotham light', helvetica, arial, sans-serif}
 
-	p.mett__p{font-family: 'Gotham light', helvetica, arial, sans-serif}
+	p.mett__p{font-family: 'Gotham light', helvetica, arial, sans-serif; line-height: 20px;}
 
 	.mett__color-bold{ font-family: 'Gotham bold', helvetica, arial, sans-serif;letter-spacing: 2px; color: @color-primario;}
 
