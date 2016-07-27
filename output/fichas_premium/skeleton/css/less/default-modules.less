@@ -46,9 +46,9 @@
 
 	.mett__module-legal-note{
 
-		min-height:50px; 
+		min-height:40px; 
 
-		padding: 1em 0em;
+		padding: 0.7em 0em;
 
 		.mixin-transition-all();
 
@@ -208,11 +208,46 @@
 		}
 
 		.mett__mod-skew1{
-			background: #fff; transform: skew(0deg); min-height:360px;position: absolute;right:0;width: 60%; z-index: 1;
+			background: #fff; 
+
+			transform: skew(0deg); 
+
+			min-height:360px;
+
+			position: absolute;
+
+			top:0;
+
+			right:0;
+
+			width: 60%; 
+
+			z-index: 1;
+
+			.mixin-transition-all();
+
 		}
 
 		.mett__mod-skew2{
-			background: #fff; transform: skew(0deg); min-height:360px;position: absolute;left:0;width: 50%; z-index: 1; 
+
+			background: #fff; 
+
+			transform: skew(0deg); 
+
+			min-height:360px;
+
+			position: absolute;
+
+			top: 0;
+
+			left:0;
+
+			width: 50%; 
+
+			z-index: 1; 
+
+			.mixin-transition-all();
+
 		}
 
 		.mett__cont-information{
@@ -348,7 +383,7 @@
 		}
 	}
 
-	.mett__small-text{font-size: 11px;}
+	.mett__small-text{font-size: 12px; font-family: 'Gotham light', helvetica, arial, sans-serif;}
 
 	h1.mett__h1{font-size:20px; color: @color-primario; font-family: 'Gotham bold', helvetica, arial, sans-serif; letter-spacing: 2px;}
 
@@ -376,7 +411,7 @@
 
 		letter-spacing: 0.2em;
 
-		font-size: 13px;
+		font-size: 11px;
 	}
 
 	img.mett__img{
@@ -407,6 +442,8 @@
 		border-radius:2px;
 		
 		overflow: hidden;
+
+		display: none;
 
 		.mett__msj-mod{
 
