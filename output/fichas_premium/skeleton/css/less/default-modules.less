@@ -39,8 +39,30 @@
 		transition: all @t ease-out;
 	}
 	
+	/* Variables */
 
 	@color-primario: #E96BAF;
+
+	@gotham-bold:'Gotham bold', helvetica, arial, sans-serif;
+
+	@gotham-light: 'Gotham light', helvetica, arial, sans-serif;
+
+	@min-header-main: 480px;
+
+	@min-fringe-dark: 110px;
+
+	@min-height-pi-mask: 380px;
+
+	@min-height-pi-nomask: 380px;
+
+	@min-miniatures: 400px;
+
+	@min-bg-info: 400px;
+
+	@min-info-center: 380px;
+
+	@min-mod-apps: 380px;
+
 
 	/* Estilos módulos de información  principales de la ficha */
 
@@ -70,7 +92,7 @@
 
 	.mett__module-header-main{
 
-		min-height:480px; 
+		min-height: @min-header-main; 
 
 		background:#eee;
 
@@ -93,12 +115,11 @@
 			}
 
 		}
-
 	}
 
 	.mett__module-fringe-color{
 
-		min-height:130px;
+		min-height: @min-fringe-dark;
 
 		background:#f8f8f8;
 
@@ -107,17 +128,27 @@
 
 	.mett__module-fringe-dark{
 
-		min-height:130px;
+		min-height: @min-fringe-dark;
 
 		background: #1C1C1C;
 
 		.mixin-transition-all();
 	}
 
+	.mett__module-fringe-dark-small{
+
+		min-height: @min-fringe-dark;
+
+		background: #1C1C1C;
+
+		.mixin-transition-all();
+
+		padding: 2em 0em;
+	}
 
 	.mett__module_miniatures-close-up{
 
-		min-height:357px; 
+		min-height: @min-miniatures;
 
 		padding-top: 3em;
 
@@ -161,7 +192,6 @@
 				}
 			}
 		}
-
 	}
 
 	.mett__module-bg-info{
@@ -173,12 +203,11 @@
 		color: white;
 
 		.mixin-transition-all();
-
 	}
 
 	.mett__module-PI-no-mask{
 		
-		min-height:360px; 
+		min-height: @min-height-pi-nomask; 
 
 		padding: 3em 0em; 
 
@@ -189,7 +218,7 @@
 
 	.mett__module-PI-mask{
 
-		min-height:360px;
+		min-height: @min-height-pi-mask;
 
 		.mixin-transition-all();
 
@@ -212,7 +241,7 @@
 
 			transform: skew(0deg); 
 
-			min-height:360px;
+			min-height: @min-height-pi-mask;
 
 			position: absolute;
 
@@ -234,7 +263,7 @@
 
 			transform: skew(0deg); 
 
-			min-height:360px;
+			min-height: @min-height-pi-mask;
 
 			position: absolute;
 
@@ -277,13 +306,11 @@
 
 	.mett__module-info-center{
 		
-		min-height:290px; 
+		min-height: @min-info-center; 
 
 		background:#f7f7f7;
 
-		.mixin-transition-all();
-
-		
+		.mixin-transition-all();	
 	}
 
 	.mett__fringe-title{
@@ -310,7 +337,7 @@
 
 	.mett__module-apps{
 		
-		min-height:340px; 
+		min-height: @min-mod-apps; 
 
 		.mixin-transition-all();
 
@@ -383,19 +410,19 @@
 		}
 	}
 
-	.mett__small-text{font-size: 12px; font-family: 'Gotham light', helvetica, arial, sans-serif;}
+	.mett__small-text{font-size: 12px; font-family: @gotham-light;}
 
-	h1.mett__h1{font-size:20px; color: @color-primario; font-family: 'Gotham bold', helvetica, arial, sans-serif; letter-spacing: 2px;}
+	h1.mett__h1{font-size:20px; color: @color-primario; font-family: @gotham-bold; letter-spacing: 2px;}
 
-	h1.mett__h1-white{font-size:19px; color: rgba(255,255,255,0.8); font-family: 'Gotham bold', helvetica, arial, sans-serif; letter-spacing: 2px;}
+	h1.mett__h1-white{font-size:19px; color: rgba(255,255,255,0.8); font-family: @gotham-bold; letter-spacing: 2px;}
 
-	h2.mett__h2{font-size: 17px; color: @color-primario; font-family: 'Gotham bold', helvetica, arial, sans-serif; letter-spacing: 2px;}
+	h2.mett__h2{font-size: 18px; color: @color-primario; font-family: @gotham-bold; letter-spacing: 2px;}
 
-	p.mett__text-subtext{font-size: 16px;font-family: 'Gotham light', helvetica, arial, sans-serif}
+	p.mett__text-subtext{font-size: 16px;font-family: @gotham-light;}
 
-	p.mett__p{font-family: 'Gotham light', helvetica, arial, sans-serif; line-height: 20px; font-size: 15px;}
+	p.mett__p{font-family: @gotham-light; line-height: 20px; font-size: 15px;}
 
-	.mett__color-bold{ font-family: 'Gotham bold', helvetica, arial, sans-serif;letter-spacing: 2px; color: @color-primario;}
+	.mett__color-bold{ font-family: @gotham-bold; letter-spacing: 2px; color: @color-primario;}
 
 	a.mett__btn-line-white{
 
@@ -407,7 +434,7 @@
 
 		padding: 1em;
 
-		font-family: 'Gotham light', helvetica, arial, sans-serif;
+		font-family: @gotham-light;
 
 		letter-spacing: 0.2em;
 
@@ -423,9 +450,9 @@
 		
 		font-size: 14px;
 		
-		color: rgba(255,255,255,0.4);
+		color: rgba(255,255,255,0.6);
 		
-		font-family: 'Gotham bold', helvetica, arial, sans-serif;
+		font-family: @gotham-bold;
 	}
 
 	.mett__arrow-scrolldown{
@@ -436,43 +463,92 @@
 	}
 
 	.mett__mod-lenovo-at-home{
-		
-		background: #EB6209;
-		
-		border-radius:2px;
-		
-		overflow: hidden;
 
-		display: none;
+		.mett__mod-circle{
+			overflow:hidden; 
 
+			width: 45px; 
+
+			height:45px; 
+
+			border-radius: 10em; 
+
+			background: #7CC0E0;
+
+			border: 2px solid #fff;
+
+			img{
+
+				width: 80%;
+			}
+		}
+		
 		.mett__msj-mod{
 
-			min-height: 55px;
+			margin-left: 1em;
 
 			.mett__label-1{
 
-				color: rgba(255,255,255,0.8);
+				font-size:12px;
 
-				font-family: 'Gotham bold', helvetica, arial, sans-serif;
+				color: #EB6209;
+
+				font-family: @gotham-bold;
 			}
 
 			.mett__label-2{
 
-				color: rgba(255,255,255,0.8); font-size: 18px;
+				font-size: 17px;
 
-				font-family: 'Gotham bold', helvetica, arial, sans-serif;
+				font-family: @gotham-bold;
 			}
 		}
 
-		.mett__logo-LAH{
+	}
 
-			min-height:50px; 
+	.mett__mod-lenovo-at-home-small{
 
-			background: #7CC0E0;
+		.mett__mod-circle{
+			overflow:hidden; width: 55px; height:55px; border-radius: 10em; background: #7CC0E0;border: 2px solid #fff; margin: 1em 0em;
 
 			img{
 
-				width:95%;
+				width: 80%;
 			}
 		}
+		
+		.mett__msj-mod{
+
+			margin-left: 1em;
+
+			.mett__label-1{
+
+				font-size:12px;
+
+				color: #EB6209;
+
+				font-family: @gotham-bold;
+			}
+
+			.mett__label-2{
+
+				font-size: 17px;
+
+				font-family: @gotham-bold;
+			}
+		}
+
+	}
+
+	.mett__title-app-module{
+
+		text-transform: uppercase;
+
+		font-family: @gotham-bold;
+
+		margin-top: 1.4em;
+
+		font-size: 16px;
+
+		color: rgba(0,0,0,0.8);
 	}
