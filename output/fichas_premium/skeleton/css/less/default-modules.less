@@ -143,7 +143,7 @@
 
 				min-height:150px;
 
-				margin-top: 2em; 
+				margin-top: 2em;
 
 				overflow: hidden;
 
@@ -154,6 +154,58 @@
 				border-radius:3px;
 
 				background: #f7f7f7;
+
+				img{
+
+					position: absolute; 
+
+					width: 140%;
+
+					top:-4em;
+
+					left:0; 
+
+					right:0;
+				}
+			}
+		}
+	}
+
+	.mett__module_miniatures-close-up-dark{
+
+		min-height: @min-miniatures;
+
+		padding-top: 3em;
+
+		padding-bottom: 4em;
+
+		border-bottom: 2px solid @color-primario;
+
+		.mixin-transition-all();
+
+		color: rgba(255,255,255,0.8);
+
+		background: #212121;
+
+		.mett__miniatures{
+
+			margin-top:1em;
+
+			.mett__mod-item{
+
+				min-height:150px;
+
+				margin-top: 2em; 
+
+				overflow: hidden;
+
+				position: relative; 
+
+				border:1px solid #eee;
+
+				border-radius:3px;
+
+				background: #ccc;
 
 				img{
 
@@ -403,6 +455,24 @@
 
 		font-size: 11px;
 	}
+
+	a.mett__btn-line-gray{
+
+		text-decoration: none;
+
+		color: rgba(93,93,93,1);
+
+		border: 1px solid rgba(93,93,93,1);
+
+		padding: 1em;
+
+		font-family: @gotham-bold;
+
+		letter-spacing: 0.2em;
+
+		font-size: 11px;
+	}
+
 
 	img.mett__img{
 
