@@ -12,13 +12,17 @@
 
 	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+	<link rel="stylesheet" type="text/css/" href="instruciones.css">
+
 </head>
 
 <body>
 
-	<style type="text/css">
 
- 
+	<style type="text/css">
+	
+
+
 		.mett__layout,.mett__layout-column,.mett__layout-row {box-sizing: border-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-display:flex; } 
 
 		.mett__layout-wrap{-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap; } 
@@ -62,7 +66,7 @@
 		.mett__align-all-space-around{align-content:space-around; -webkit-align-content:space-around; } 
 
 		/* INSTRUCCIONES PARA RESOLUCIONES DEMASIADO PEQUEÑAS */ @media screen and (max-width: 319px){
-
+			
 		.mett__container-main{border:1px solid orange; display: none; }
 
 		.mett__msj-not-resolution{display: block; font-family: HelveticaNeueLT-Light; color: #28cad6; text-align: center; font-size: 20px; margin: 6em 0em; } 
@@ -417,8 +421,7 @@
 
 		}
 
-
-		/* ESTILOS DEL TEMPLATE */
+		/* COLOR MAIN #FF6C04 */
 
 		html{
 			background: url(img/lenovo_pattern-02.png);
@@ -486,6 +489,26 @@
 			unicode-range: U+0-10FFFF; 
 		}
 
+		@font-face {
+			font-family: 'Gotham bold';
+			src: url('css/fonts/Gotham-Bold.eot');
+			src: url('css/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+				url('css/fonts/Gotham-Bold.woff') format('woff'),
+				url('css/fonts/Gotham-Bold.ttf') format('truetype');
+			font-weight: bold;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Gotham light';
+			src: url('css/fonts/Gotham-Light.eot');
+			src: url('css/fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+				url('css/fonts/Gotham-Light.woff') format('woff'),
+				url('css/fonts/Gotham-Light.ttf') format('truetype');
+			font-weight: 600;
+			font-style: normal;
+		}
+
 		/* IMPORT ICON-FONTS */
 
 		@font-face {
@@ -495,6 +518,19 @@
 			url('css/fonts/icomoon.ttf?9cuerd') format('truetype'),
 			url('css/fonts/icomoon.woff?9cuerd') format('woff'), 
 			url('css/fonts/icomoon.svg?9cuerd#icomoon') format('svg'); 
+			font-weight: normal; 
+			font-style: normal; 
+		}
+
+		/* IMPORT ICON-FONTS */
+
+		@font-face {
+			font-family: 'icomoon';
+			src:    url('fonts/icomoon.eot?9cuerd'); 
+			src:    url('fonts/icomoon.eot?9cuerd#iefix') format('embedded-opentype'),
+			url('fonts/icomoon.ttf?9cuerd') format('truetype'),
+			url('fonts/icomoon.woff?9cuerd') format('woff'), 
+			url('fonts/icomoon.svg?9cuerd#icomoon') format('svg'); 
 			font-weight: normal; 
 			font-style: normal; 
 		}
@@ -539,11 +575,17 @@
 			z-index: 1020;
 		}
 
-		h2.mett__h2{color: #b5352e; font-size: 25px;}
+		h2.mett__h2{color: #c22821; font-size: 25px;}
 
 		a.mett__a{text-decoration: none; color: rgba(0,0,0,0.7); } 
 
-		a.mett__a:hover{color: #b5352e }; 
+		a.mett__a:hover{color: #c22821 }; 
+
+		.mett__p{
+			margin: 0;
+		    font-size: 19px;
+		    width: 100%;
+		}
 
 		.mett__mod-inline{
 			display: inline-block; 
@@ -645,13 +687,12 @@
 
 		.mett__main-container-section1{
 			height: 579px; 
-			background: url('img/bg_gif/bg_AIO.png') no-repeat center #444; 
+			background: url('img/bg_gif/bg_PHAB.png') no-repeat center #444; 
 			-webkit-background-size: cover; 
 			-moz-background-size: cover; 
 			-o-background-size: cover;
 			background-size: cover; 
-			background-origin: border-box; 
-			padding: 2em 0em; 
+			background-origin: border-box;
 			
 		} 
 
@@ -667,13 +708,13 @@
 		} 
 
 		.mett__btn-primary{
-			background: #b5352e; 
+			background: #c22821; 
 			color: white; 
 			font-size: 16px;
 		} 
 
 		.mett__btn-primary:active{
-			background: #cc4e1c; 
+			background: #8ABF54; 
 		} 
 
 		.mett__price{
@@ -688,9 +729,9 @@
 		}
 		
 		.mett__franja-color{
-			background: #ff6c04; 
+			background: #c22821; 
 			color: white; 
-			min-height: 70px;
+			min-height: 70px; 
 			margin-top: 0em;
 		} 
 
@@ -737,11 +778,11 @@
 
 
 		.mett__item-selected-long{
-			color: #b5352e !important; 
+			color: #c22821 !important; 
 		} 
 
 		.mett__selected{
-			color: #b5352e !important; 
+			color: #c22821 !important; 
 		}
 
 		.mett__titulo-main{
@@ -764,9 +805,9 @@
 			text-transform: uppercase;
 		}
 
-		.mett__mod-separador-grande{
-			height: 280px;
-		}
+		/*.mett__mod-separador-grande{
+			max-height: 225px;
+		}*/
 
 		.mett__bg-mod-1{
 			background: url('img/mods_home/bg1.png');
@@ -847,12 +888,12 @@
 			padding: 1em 0em;
 		}
 
-		.mett__cont-white-products{min-height:400px;background:#eee;padding:3em 0 4em;border-top:2px solid #ee6a00}.mett__text-light{font-family:'Helvetica Neue',helvetica,sans-serif}.mett__module-product{background:#fff;margin:3px .1em 0;position:relative}.mett__module-product .mett__img-product-dark{background:#eee;min-height:189px}.mett__module-product .mett__img-product-dark img{width:100%;min-height:189px}.mett__module-product .mett__img-product-dark .mett__img-product-clare{background:#d4d4d4 !important;min-height:189px}.mett__module-product .mett__img-product-dark .mett__img-product-clare img{width:100%;min-height:189px}.mett__detail-product{ padding: .5em 1.5em 2em;bottom: 0;font-size: 14px;background: #fff;border: 1px solid #d8d8d8;min-height: 120px;}.mett__detail-product h3{margin-bottom:0}.mett__detail-product p{margin-top:.4em;margin-bottom:1.5em;color:rgba(0,0,0,.8)}.mett__color-text-orange{color:#ee6a00}.mett__btn-comprar-cons{text-decoration:none;background:#ee6a00;padding:.4em .8em;color:#fff;margin-top:1em;margin-bottom:1em}
 
+		.mett__cont-white-products{min-height:400px;background:#eee;padding:3em 0 4em;border-top:2px solid #e31f1a}.mett__text-light{font-family:'Helvetica Neue',helvetica,sans-serif}.mett__module-product{background:#fff;margin:3px .1em 0;position:relative}.mett__module-product .mett__img-product-dark{background:#eee;min-height:189px}.mett__module-product .mett__img-product-dark img{width:100%;min-height:189px}.mett__img-product-clare{background:#d4d4d4;min-height:189px}.mett__img-product-clare img{width:100%;min-height:189px}.mett__detail-product{ padding: .5em 1.5em 2em;bottom: 0;font-size: 14px;background: #fff;border: 1px solid #d8d8d8;min-height: 120px;}.mett__detail-product h3{margin-bottom:0}.mett__detail-product p{margin-top:.4em;margin-bottom:1.5em;color:rgba(0,0,0,.8)}.mett__color-text-orange{color:#e31f1a}.mett__btn-comprar-cons{text-decoration:none;background:#e31f1a;padding:.4em .8em;color:#fff;margin-top:1em;margin-bottom:1em}
 
 		a.mett__a-btn {
 		    text-decoration: none;
-		    color: white !important;
+		    color: #fff !important;
 		}
 
 		a.mett__a-btn:visited {
@@ -867,110 +908,143 @@
 		    text-decoration: underline;
 		}
 
+
 	</style>
 
 
-	<section class="mett__height-full mett__layout-row mett__layout-wrap mett__layout-fill">
-
+	<section class="height-full layout-row layout-wrap layout-fill">
 		
 
-
 		<!-- Navigator -->
+
 		<nav class="mett__nav mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 
 			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+
+
 
 			<!-- NAV FOR LONG RESOLUTIONS -->
 
 			<div class="mett__navigator-access-long mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-center">
 
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
 
-				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="home.html" class="mett__item-selected-long"><b>HOME</b></a></div>
+					<a class="mett__a" href="home.html"><b>HOME</b></a>
 
-				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="all_in_one.html"><b>ALL IN ONE</b></a></div>
+				</div>
 
-				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="multi.html"><b>CONVERTIBLES </b></a></div>
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
 
-				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="notebooks.html"><b>PORTATILES</b></a></div>
+					<a class="mett__a" href="all_in_one.html" class="item-selected-long"><b>ALL IN ONE</b></a>
 
-				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="tablets.html"><b>TABLETAS</b></a></div>
+				</div>
 
-				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="phablets.html"><b>PHABLET</b></a></div>
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
 
-				<div class="mett__item mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20"><a class="mett__a" href="ficha_ideapad_Y700.html"><img src="img/logo_lenovers_small.png">
+					<a class="mett__a" href="multi.html"><b>CONVERTIBLES </b></a>
 
-				</a></div>
+				</div>
 
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="notebooks.html"><b>PORTATILES</b></a>
+
+				</div>
+
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="tablets.html"><b>TABLETAS</b></a>
+
+				</div>
+
+				<div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="phablets.html"><b>PHABLET</b></a>
+
+				</div>
+
+				<!-- <div class="mett__item mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20">
+
+					<a class="mett__a" href="ficha_ideapad_Y700.html"><img src="img/logo_lenovers_small.png"></a>
+
+				</div> -->
 
 			</div>
-			
 
 
-			<!-- NAV FOR SMALL RESOLUTIONS -->
-			<div class="mett__navigator-access-small mett__flex-gt-100 mett__flex-xs-100 mett__layout-row mett__justify-space-between mett__align-center">
-				
-				<div class="mett__layout-row mett__justify-start mett__align-center mett__flex-xs-15 mett__flex-gt-15" style="margin-top: 2px;">
-					
-					<div>	
-						
-						<a href="home.html">
-							
-							<img style="min-width:60px;margin-top: 2px;" src="img/logos/logo_s-02.png">
 
-						</a>
+
+				<!-- NAV FOR SMALL RESOLUTIONS -->
+				<div class="mett__navigator-access-small mett__flex-gt-100 mett__flex-xs-100 mett__layout-row mett__justify-space-between mett__align-center">
+
+					<div class="mett__layout-row mett__justify-start mett__align-center mett__flex-xs-15 mett__flex-gt-15" style="margin-top: 2px;">
+
+						<div>
+
+							<a href="home.html">
+
+								<img style="min-width:60px;margin-top: 2px;" src="img/logos/logo_s-06.png">
+
+							</a>
+
+						</div>
 
 					</div>
 
+					<div class="mett__selected">ALL IN ONE</div>
+
+					<div class="mett__item mett__flex-gt-15 mett__flex-xs-15" onclick="toggle_menu()">
+
+						<i class="icon-Menu" style="font-size:30px;"></i>
+					</div>
 				</div>
 
-				<div class="mett__selected">HOME</div>
 
-				<div class="mett__item mett__flex-gt-15 mett__flex-xs-15" onclick="toggle_menu()">
+				<!-- Lista de accesos -->
+				<div id="small_res_menu" class="mett__navigator-access-small mett__layout-row mett__flex-gt-100 mett__lista-accesos mett__layout-row mett__layout-wrap">
 
-					<i class="mett__icon-Menu" style="font-size:30px;"></i>
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="home.html">
 
-				</div>
+						<div class="mett__flex-gt-100 mett__flex-xs-100">HOME</div>
 
-			</div>
+					</a>
 
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="multi.html">
 
-			<!-- Lista de accesos -->
-			<div id="small_res_menu" class="mett__navigator-access-small mett__layout-row mett__flex-gt-100 mett__lista-accesos mett__layout-row mett__layout-wrap">
+						<div class="mett__flex-gt-100 mett__flex-xs-100">CONVERTIBLES</div>
 
-				<div class="mett__item-list mett__flex-gt-100 mett__flex-xs-100">HOME</div>
+					</a>
 
-				<a class="mett__a mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="all_in_one.html">
-					
-					<div class="flex-gt-100 flex-xs-100">ALL IN ONE</div>
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="notebooks.html">
 
-				</a>
+						<div class="mett__flex-gt-100 mett__flex-xs-100">PORTATILES</div>
 
-				<a class="mett__a mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="multi.html">
-					
-					<div class="mett__flex-gt-100 mett__flex-xs-100">CONVERTIBLES</div>
+					</a>
 
-				</a>
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="tablets.html">
 
-				<a class="mett__a mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="notebooks.html">
-				
-					<div class="mett__flex-gt-100 mett__flex-xs-100">PORTATILES</div>
+						<div class="mett__flex-gt-100 mett__flex-xs-100">TABLETAS</div>
 
-				</a>
+					</a>
 
-				<a class="mett__a mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="tablets.html">
-					
-					<div class="mett__flex-gt-100 mett__flex-xs-100">TABLETAS</div>
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="phablets.html">
 
-				</a>
+						<div class="mett__flex-gt-100 mett__flex-xs-100">PHABLET</div>
 
-				<a class="mett__a mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="ficha_ideapad_Y700.html">
-					
-					<div class="mett__flex-gt-100 mett__flex-xs-100">PHABLET</div>
+					</a>
 
-				</a>
+					<a class="mett__item-list mett__flex-gt-100 mett__flex-xs-100" href="ficha_ideapad_Y700.html">
+
+						<div class="mett__flex-gt-100 mett__flex-xs-100">GAMERS</div>
+
+					</a>
+
 			</div>
 
 			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+
 			
 
 		</nav>
@@ -978,12 +1052,11 @@
 
 
 		<!-- Contenedor GIF -->
-
 		<section class="mett__main-container-section1 mett__layout-row mett__justify-start mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="padding-top:56px;">
-			
+
 			<div class="mett__logo-bg-long mett__log-bg-small mett__flex-lg-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5">
 
-				<img class="mett__img" style="max-width: 90px;min-width: 70px;" src="img/logos/logo_AIO.png" />
+				<img class="mett__img" style="max-width: 90px;min-width: 70px;" src="img/logos/logo_PHAB.png">
 
 			</div>
 
@@ -991,47 +1064,6 @@
 
 
 
-		<!-- BANNER DEDICADO AL FABRICANTE DE PROCESADORES 
-
-		<section class="mett__layout-row mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="height:100px; width: 100%;background:#eee;">
-
-			<div class="mett__flex-lg-10 mett__flex-sm-5 mett__flex-md-5"></div>
-
-			<div class="mett__flex-lg-80 mett__flex-sm-90 mett__flex-md-90 mett__layout-row mett__justify-start mett__align-center">
-
-				<div class="mett__flex-sm-15 mett__flex-xs-15 mett__flex-gt-15">
-
-					<img class="mett__img" src="img/procesadores.png">
-
-				</div>
-
-
-				<div class="mett__flex-sm-60 mett__flex-xs-60 mett__flex-gt-60">
-
-					<div style="margin-left:0.7em;">
-
-						<p style="font-size: 13px;">Procesador Intel® Core™ i5 e i7  <br> Si tiene Intel®, tiene un extraordinario desempeño</p>
-
-					</div>
-
-				</div>
-
-
-				<div class="mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20" style="margin-left:0.7em;">
-
-						<a href="#" class="mett__btn_1">
-
-							DESCUBRE MÁS
-
-						</a>
-
-				</div>
-
-			</div>
-
-			<div class="mett__flex-lg-10 mett__flex-sm-5 mett__flex-md-5"></div>
-
-		</section> -->
 
 
 
@@ -1044,83 +1076,7 @@
 
 				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-2">
 
-					<img class="mett__img" src="img/producto/ALL_IN_ONE/img_1.png">
-
-				</div>
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gtmett__ order-lg-2mett__ order-md-2 mett__order-sm-2 mett__order-xs-1">
-
-					<div>
-
-						<h2 class="mett__titulo-main mett__c1">LENOVO AIO 300</h2>
-
-						<p class="mett__p">
-
-							Atractivo, accesible y asequible: equipo todo en uno
-
-						</p>
-
-					</div>
-
-					<!-- <div class="price">
-						$4,299,900
-					</div> -->
-					<div style="margin:1.5em 0em;">
-
-						<a class="mett__btn_1" target="_blank" href="http://www.exito.com/products/0002436907653803/All+In+One+Lenovo+21.5+Pulgadas+Amd?nocity">ver más</a>
-
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-		</section>
-
-
-
-
-		<!--  Módulo Info. P-I-->
-		<section id="ini-f" class="mett__section-info mett__section-feature mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100"  style="padding-top: 3em;">
-
-			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
-
-					<h1 class="mett__titulo-main mett__c1">ENTRETENIMIENTO INMERSIVO</h1>
-
-					<p class="mett__p">Gracias a las representaciones visuales Full HD, el Ideacentre AIO 300 lleva el entretenimiento domestico al siguiente nivel. puede elegir una pantalla multitáctil opcional y una tarjeta gráfica independiente NVIDIA GeForce GF de hasta 2 GB.</p>
-
-				</div>
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100" style="overflow: hidden;border-radius: 1.5em;">
-
-					<img class="mett__img" src="img/producto/ALL_IN_ONE/img_2.png">
-
-				</div>
-
-			</div>
-
-			<div class="mett__lex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-		</section>
-
-
-
-		<!--  Módulo Info. I-P -->
-		<section class="mett__section-info mett__section-feature mett__layout-row mett__layout-wrap  mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-xs-100 mett__flex-gt-100">
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-			<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-2" style="overflow: hidden;border-radius: 1.5em;">
-
-					<img class="mett__img" src="img/producto/ALL_IN_ONE/img_3.png">
+					<img class="mett__img" src="img/producto/PHAB_01.png">
 
 				</div>
 
@@ -1128,9 +1084,19 @@
 
 					<div>
 
-						<h1 class="mett__c1 mett__titulo-main">GRAN CAPACIDAD DE ALMACENAMIENTO</h1>
+						<h1 class="mett__c5 mett__titulo-main">Lenovo PHAB</h1>
 
-						<p class="mett__p">El Ideacentre AIO 300 se suministra con un espacio de disco duro de hasta 2 TB, con una memoria de hasta 8 GB, tiene todo lo necesario para afrontar cualquier tarea.</p>
+						<p class="mett__p">Pantalla HD</p>
+
+						<p class="mett__p">Tablet y celular en un solo equipo</p>
+
+						<p class="mett__p">La batería de Lenovo PHAB, durará todo el día.</p>
+
+					</div>
+
+					<div style="margin:1.5em 0em;">
+
+						<a class="mett__btn_5" href="http://www.exito.com/browse?Ntt=phab" target="_blank">ver más</a>
 
 					</div>
 
@@ -1138,31 +1104,42 @@
 
 			</div>
 
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
 
 		</section>
 
 
 
 
-		<!--  Módulo Info. P-I -->
-		<section class="mett__section-info mett__section-feature mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+
+ 		<!--  Módulo Info. P-I-->
+		<section id="ini-f" class="mett__section-info mett__section-feature mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="padding-top: 3em;">
 
 			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
 
 			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
 
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs 
+				mett__text-align-gt">
 
-					<h1 class="mett__c1 mett__titulo-main">PANTALLA AJUSTABLE</h1>
+					<h1 class="mett__c5 mett__titulo-main">
 
-					<p class="mett__p"> la pantalla se puede ajustar de -5 a 25 grados. Así podrá encontrar el ángulo de visión óptimo para sus aplicaciones o vídeos favoritos.</p>
+						Un dispositivo a tu alcance que podrás llevar contigo siempre.
+
+					</h1>
+
+					<p class="mett__p">
+
+						Portabilidad y desempeño; con su amplia y cómoda pantalla, navegar la web, conectarte a tus redes sociales, jugar y disfrutar de tus contenidos digitales favoritos nunca fue tan divertido!
+
+					</p>
 
 				</div>
 
 				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100">
 
-					<img class="mett__img" src="img/producto/ALL_IN_ONE/img_4.png">
+					<img class="mett__img" src="img/producto/PHAB_02.png">
 
 				</div>
 
@@ -1175,41 +1152,130 @@
 
 
 
-		<!-- Contenedor GIF -->
+
+
+		<!--  Módulo Info. P-I-->
+		<section class="mett__section-info mett__section-feature mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100">
+
+					<img class="mett__img" src="img/producto/PHAB_04.png">
+
+				</div>
+
+				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
+
+					<h1 class="mett__c5 mett__titulo-main">Gran pantalla, contigo a donde vayas.</h1>
+
+					<p class="mett__p">Vívelo todo en su pantalla de alta deﬁnición de 6.98” y conectividad LTE ultrarrápida.</p>
+
+					<P class="mett__p">La música y las películas cobran vida con el impresionante sonido envolvente Dolby® Atmos™.</P>
+
+				</div>
+
+
+			</div>
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+		</section>
+
+
+
+
+
+		<!--  Módulo Info. P-I-->
+		<section class="mett__section-info mett__section-feature mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
+
+				<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt" style="text-align: center;">
+
+					<h1 class="mett__c5 mett__titulo-main">
+
+						Gran pantalla, contigo a donde vayas.
+
+					</h1>
+
+					<p class="mett__p">
+						Vívelo todo en su pantalla de alta deﬁnición de 6.98” y conectividad LTE ultrarrápida. La música y las películas cobran vida con el impresionante sonido envolvente Dolby® Atmos™.
+					</p>
+
+				</div>
+
+				<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100">
+
+					<img class="mett__img" src="img/producto/PHAB_05.png">
+
+				</div>
+
+			</div>
+
+			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+		</section>
+
+
+		<!-- Contenedor GIF 
 		
 
-			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-end mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background-image: url('img/lenoversforever.gif'); min-height: 400px; background-repeat: no-repeat; background-size: cover; border:blue; ">
-				
-				<!--boton-->
-				<div class="mett__layout-row mett__justify-end mett__align-end mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="  margin:1% 1%;">
+		<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background-image: url('img/baner_4.png'); min-height: 400px; background-repeat: no-repeat; background-size: cover; ">
+			
+			
 
-					<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20" style=" height:50px; color:white; background-color:black; border-radius: 5px; font-family: 'Gotham light';   ">
+			<div class="mett__layout-row mett__layout-wrap mett__align-center mett_justify-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90" style="margin:6% 0%;" >
+
+
+
+				<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+
+					<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90" style="color:white;font-size: 40px; text-align:center; font-family:'Gotham bold', Helvetica, sans-serif;">SE PARTE DE NUESTRA COMUNIDAD</div>
+
+				</div>
+
+
+				
+				<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" ><img src="img/Logo Lenovers-02.png"> </div>
+
+
+				<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+
+					<div class="mett__layout-row mett__justify-center mett__align-start mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90" style="color:white;font-size: 15px; text-align:center; font-family:'Gotham light', Helvetica, sans-serif;">Conoce las experiencias, te estan esperando</div>
+
+				</div>
+
+				<!--boton
+				<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+					<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20" style=" height:50px; color:#fff; background-color:#ED6B00; border-radius: 5px; font-family: 'Gotham light'; margin: 2% 10%; ">
 						<a class="mett__a-btn" href="http://lenovers.com/" target="_blank" style="font-family: 'Gotham light';">ingresa aqui</a>
 					</div>
 
 				</div>
 
-
 			</div>
 
+
+
 			
+
+		</div>-->
 		
-
-		
-
-
-
-
-
 
 		<!-- Franja de color -->
-		<section class="mett__section-info mett__franja-color mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__ flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-xs-100">
+		<section class="mett__section-info mett__franja-color mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-xs-100">
 
 			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
 
 			<div class="mett__flex-lg-70 mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-gt-80 mett__flex-xs-80 mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
 
-				<div style="font-size:25px;text-align:center;">MÁS ALL IN ONE LENOVO EN EXITO</div>
+				<div style="font-size:25px;text-align:center;">MÁS TABLETAS LENOVO EN EXITO</div>
 
 			</div>
 
@@ -1219,12 +1285,12 @@
 
 
 
-<!-- MÓDULO CONTENEDOR DE PRODUCTOS cuadros -->
+		<!-- MÓDULO CONTENEDOR DE PRODUCTOS cuadros -->
 
 <!-- TARJETAS DE PRODUCTOS -->
 
 
-		<section class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+		<section class="mett__section-info mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 
 			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
 
@@ -1233,218 +1299,18 @@
 				
 				
 					
-					<!-- FILA DE TRES CASILLAS 
-
-					<div class="mett__layout-row mett__flex-lg-100 mett__justify-start">
-						
-						<!-- TARJETA PRODUCTO 
-						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-							
-							<div class="mett__img-product-clare mett__layout-row mett__justify-center" style="background:#d4d4d4;">
-
-								<div class="mett__flex-lg-90">
-									
-									<img src="img/seispag/all_in_one_910.png" alt="producto"/>
-
-								</div>
-
-							</div>
-
-							<div class="mett__detail-product">
-								
-								<h3 class="mett__color-text-orange">LENOVO 910 27" CORE™ i7</h3>
-
-								<p>
-
-									 Todo en uno con diseño moderno y exclusivo acabado metálico.
-
-								</p>
-
-								<a href="http://www.alkosto.com/pc-all-in-one-lenovo-910-27-coretm-i7" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
-
-
-							</div>
-
-						</div>-->
-
-
-						<!-- TARJETA PRODUCTO 
-						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-							
-							<div class="mett__img-product-clare  mett__layout-row mett__justify-center" style="background:#d4d4d4;">
-								<div class="mett__flex-lg-90">
-									
-									<img src="img/seispag/all_in_one_700.png" alt="producto"/>
-
-								</div>
-
-							</div>
-
-							<div class="mett__detail-product">
-
-								
-								<h3 class="mett__color-text-orange">LENOVO 700 23" CORE™ i7</h3>
-
-								<p>
-
-									 Todo lo que necesita sistema todo en uno
-								</p>
-
-								<a href="http://www.alkosto.com/pc-all-in-one-lenovo-23-700-coretm-i7-blanco" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
-
-							</div>
-
-						</div>-->
-
-
-						<!-- TARJETA PRODUCTO 
-						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-							
-							<div class="mett__img-product-clare mett__layout-row mett__justify-center" style="background:#d4d4d4;">
-
-								<div class="mett__flex-lg-90">
-									
-									<img src="img/seispag/all_in_one_700.png" alt="producto"/>
-
-								</div>
-
-							</div>
-
-							<div class="mett__detail-product">
-								
-								<h3 class="mett__color-text-orange">LENOVO 700 23" CORE™ i5</h3>
-
-								<p>
-
-									 Todo en uno
-
-								</p>
-
-								<a href="http://www.alkosto.com/pc-all-in-one-lenovo-700-23-coretm-i5-blanco" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
-
-							</div>
-
-						</div>
-
-
-					</div>-->
-
-
-					<!-- FILA DE TRES CASILLAS 
-
-					<div class="mett__layout-row mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__justify-start">
-						
-						<!-- TARJETA PRODUCTO 
-						<!-- 227x185 
-						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-							
-							<div class="mett__img-product-clare mett__layout-row mett__justify-center" style="background:#d4d4d4;">
-
-								<div class="mett__flex-lg-90">
-									
-									<img src="img/seispag/all_in_one_300.png" alt="producto"/>
-
-								</div>
-
-							</div>
-
-							<div class="mett__detail-product">
-								
-								<h3 class="mett__color-text-orange">LENOVO 300 21" CORE™ i5</h3>
-
-								<p>
-
-									Atractivo, accesible y asequible
-
-								</p>
-
-								<a href="http://www.alkosto.com/pc-all-in-one-lenovo-300-coretm-i5-21-5-blanco" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
-
-
-							</div>
-
-						</div>
-
-
-						<!-- TARJETA PRODUCTO 
-						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-							
-							<div class="mett__img-product-clare  mett__layout-row mett__justify-center" style="background:#d4d4d4;">
-								<div class="mett__flex-lg-90">
-									
-									<img src="img/seispag/all_in_one_300.png" alt="producto"/>
-
-								</div>
-
-							</div>
-
-							<div class="mett__detail-product">
-
-								
-								<h3 class="mett__color-text-orange">LENOVO 300 21.5" A8 Plata</h3>
-
-								<p>
-
-									Equipo todo en uno
-
-								</p>
-
-								<a href="http://www.alkosto.com/pc-all-in-one-lenovo-300-21-5-a8-plata" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
-
-							</div>
-
-						</div>
-
-
-
-						<!-- TARJETA PRODUCTO 
-						<!-- 227x185 
-						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-							
-							<div class="mett__img-product-clare mett__layout-row mett__justify-center" style="background:#d4d4d4;">
-
-								<div class="mett__flex-lg-90">
-									
-									<img src="img/seispag/all_in_one_300A6.png" alt="producto"/>
-
-								</div>
-
-							</div>
-
-							<div class="mett__detail-product">
-								
-								<h3 class="mett__color-text-orange">LENOVO 300 A6 21.5" Blan</h3>
-
-								<p>
-
-									Experiencia inmersiva
-
-								</p>
-
-								<a href="http://www.alkosto.com/pc-all-in-one-lenovo-300-a6-21-5-blanco" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
-
-
-							</div>
-
-						</div>
-
-
-					</div>-->
-
-
 					<!-- FILA DE TRES CASILLAS -->
 
 					<div class="mett__layout-row mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__justify-start">
 						
 						<!-- TARJETA PRODUCTO -->
-						<!-- 227x185 -->
 						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
 							
-							<div class="mett__img-product-clare mett__layout-row mett__justify-center" style="background:#d4d4d4;">
+							<div class="mett__img-product-clare mett__layout-row mett__justify-center">
 
 								<div class="mett__flex-lg-90">
 									
-									<img src="img/seispag/all_in_one_C40-30-C.png" alt="producto"/>
+									<img src="img/seispag/phab_blanco.png" alt="producto"/>
 
 								</div>
 
@@ -1452,46 +1318,15 @@
 
 							<div class="mett__detail-product">
 								
-								<h3 class="mett__color-text-orange">LENOVO All In One C40-30 C</h3>
+								<h3 class="mett__color-text-orange">PHABLET LENOVO PHAB 6.9" BLANCO</h3>
 
 								<p>
 
-									Pc de escritorio todo en uno para todos los días
+									 Gran pantalla, contigo a donde vayas
 
 								</p>
 
-								<a href="http://www.exito.com/products/0002430620652277/Computador+All+In+One+C40-30+C?nocity" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
-
-
-							</div>
-
-						</div>
-
-						<!-- TARJETA PRODUCTO -->
-						<!-- 227x185 -->
-						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-						 
-							<div class="mett__img-product-clare mett__layout-row mett__justify-center" style="background:#d4d4d4;">
-
-								<div class="mett__flex-lg-90">
-									
-									<img src="img/seispag/all_in_one_300.png" alt="producto"/>
-
-								</div>
-
-							</div>
-
-							<div class="mett__detail-product">
-								
-								<h3 class="mett__color-text-orange">All In One Lenovo 21.5 </h3>
-
-								<p>
-
-									Experiencia multimedia completa
-
-								</p>
-
-								<a href="http://www.exito.com/products/0002436907653803/All+In+One+Lenovo+21.5+Pulgadas+Amd?nocity" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
+								<a href="http://www.exito.com/products/0002364651632685/Phab+Phone%2Btablet+Lenovo?nocity" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
 
 
 							</div>
@@ -1500,69 +1335,69 @@
 
 
 						<!-- TARJETA PRODUCTO -->
-						<!-- 227x185 -->
 						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-						 
-							<div class="mett__img-product-clare mett__layout-row mett__justify-center" style="background:#d4d4d4;">
-
+							
+							<div class="mett__img-product-clare  mett__layout-row mett__justify-center">
 								<div class="mett__flex-lg-90">
 									
-									<img src="img/seispag/all_in_one_C20-00.png" alt="producto"/>
+									<img src="img/seispag/phab_azul.png" alt="producto"/>
 
 								</div>
 
 							</div>
 
 							<div class="mett__detail-product">
+
 								
-								<h3 class="mett__color-text-orange">LENOVO C20-00 Celeron® 19.5</h3>
+								<h3 class="mett__color-text-orange">PHABLET LENOVO PHAB 6.9"" AZUL</h3>
 
 								<p>
 
-									Experiencia multimedia completa
-
+									 Un dispositivo que podrás llevar contigo siempre		
 								</p>
 
-								<a href="http://www.exito.com/products/0002396038640361/All+In+One+Lenovo+19.5+Pulgadas+Intel+Celeron?nocity" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
-
+								<a href="http://www.exito.com/browse?Ntt=phab" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
 
 							</div>
 
 						</div>
+
+
+						<!-- TARJETA PRODUCTO -->
+					<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
+						
+
+						<div class="mett__img-product-clare  mett__layout-row mett__justify-center">
+								<div class="mett__flex-lg-90">
+									
+									<img src="img/seispag/phab_negro.png" alt="producto"/>
+
+								</div>
+
+							</div>
+
+							<div class="mett__detail-product">
+
+								
+								<h3 class="mett__color-text-orange">PHABLET LENOVO PHAB 6.9"" NEGRO</h3>
+
+								<p>
+
+									 Enorme pantalla hd	
+								</p>
+
+								<a href="http://www.exito.com/browse?Ntt=phab" target="_blank" class="mett__btn-comprar-cons">Comprar</a>
+
+							</div>
+
+							
+						</div>
+
 
 					</div>
-
-
-					<!-- FILA DE TRES CASILLAS -->
-
-					<div class="mett__layout-row mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__justify-start">
-						
-						<!-- TARJETA PRODUCTO -->
-						<!-- 227x185 -->
-						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-							
-							
-
-						</div>
-
-
-						<!-- TARJETA PRODUCTO -->
-						<!-- 227x185 -->
-						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-						 
-						</div>
-
-
-						<!-- TARJETA PRODUCTO -->
-						<!-- 227x185 -->
-						<div class="mett__module-product mett__flex-lg-35 mett__flex-md-35 mett__flex-sm-35">
-						
-						</div>
-
-					</div>
-					
 
 				
+			
 
 			</div>
 
@@ -1573,8 +1408,11 @@
 <!---->
 
 
+		
 
 
+
+	</section>
 
 	<script>
 		function toggle_menu() {
