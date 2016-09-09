@@ -14,16 +14,45 @@
 	}
 	@media (min-width:768px){
 		.mett__bg-header-sm-phab2{
-		background: url(../img/PHAB2_PRO/modulo1_background.png); background-size:cover;
+		background: url(../img/PHAB2_PRO/modulo1_1_background.png); background-size:cover;
 		}
 	}
 	@media (min-width:992px){
 		.mett__bg-header-md-phab2{
-		background: url(../img/PHAB2_PRO/modulo1_background.png); background-size:cover;
+		background: url(../img/PHAB2_PRO/modulo1_1_background.png); background-size:cover;
 		}
 	}
 	@media (min-width:1200px){
 		.mett__bg-header-lg-phab2{
-		background: url(../img/PHAB2_PRO/modulo1_background.png); background-size:cover;
+		background: url(../img/PHAB2_PRO/modulo1_1_background.png); background-size:cover;
+		}
+	}
+
+
+
+
+	@media (min-width:320px){
+		.mett__bg-lenovers-gt-phab2{
+		background: url(../img/PHAB2_PRO/lenovers_small.png); background-size:cover;
+		}
+	}
+	@media (min-width:600px){
+		.mett__bg-lenovers-xs-phab2{
+		background: url(../img/PHAB2_PRO/lenovers_small.png); background-size:cover;
+		}
+	}
+	@media (min-width:768px){
+		.mett__bg-lenovers-sm-phab2{
+		background: url(../img/PHAB2_PRO/lenovers_background.png); background-size:cover;
+		}
+	}
+	@media (min-width:992px){
+		.mett__bg-lenovers-md-phab2{
+		background: url(../img/PHAB2_PRO/lenovers_background.png); background-size:cover;
+		}
+	}
+	@media (min-width:1200px){
+		.mett__bg-lenovers-lg-phab2{
+		background: url(../img/PHAB2_PRO/lenovers_background.png); background-size:cover;
 		}
 	}
