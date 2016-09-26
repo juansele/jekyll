@@ -45,14 +45,14 @@
 		<path class="st3" d="M459.8,387.2h-53.4v-53.4h53.4V387.2z M424.1,369.4h17.8v-17.8h-17.8V369.4z"/>
 		<rect x="280.7" y="93.1" class="st3" width="17.8" height="75.8"/>
 		
-			<rect x="341.1" y="134.4" transform="matrix(0.4746 -0.8802 0.8802 0.4746 68.6818 401.728)" class="st3" width="59.4" height="17.8"/>
+			<rect x="341.1" y="134.5" transform="matrix(0.4746 -0.8802 0.8802 0.4746 68.6356 401.7371)" class="st3" width="59.4" height="17.8"/>
 		
-			<rect x="199.3" y="113.6" transform="matrix(0.8802 -0.4746 0.4746 0.8802 -42.9186 115.9364)" class="st3" width="17.8" height="58.8"/>
+			<rect x="199.3" y="113.6" transform="matrix(0.8802 -0.4746 0.4746 0.8802 -42.9265 115.9451)" class="st3" width="17.8" height="58.8"/>
 		<rect x="280.7" y="410.3" class="st3" width="17.8" height="75.8"/>
 		
-			<rect x="361.9" y="406.2" transform="matrix(0.8802 -0.4745 0.4745 0.8802 -162.4474 228.1512)" class="st3" width="17.8" height="59.4"/>
+			<rect x="361.9" y="406.2" transform="matrix(0.8802 -0.4745 0.4745 0.8802 -162.4281 228.1407)" class="st3" width="17.8" height="59.4"/>
 		
-			<rect x="178.8" y="427.2" transform="matrix(0.4746 -0.8802 0.8802 0.4746 -274.5029 412.3608)" class="st3" width="58.8" height="17.8"/>
+			<rect x="178.8" y="427.2" transform="matrix(0.4746 -0.8802 0.8802 0.4746 -274.428 412.3625)" class="st3" width="58.8" height="17.8"/>
 	</g>
 </g>
 </svg>
