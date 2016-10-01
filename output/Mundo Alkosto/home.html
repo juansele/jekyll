@@ -548,13 +548,19 @@
 		nav.mett__nav{
 			height: 10vh;
 			max-height:10vh; 
-		 	position: relative; 
+			position: relative; 
 			min-height: 56px; 
 			max-height: 56px !important;
 			position: fixed;
 			box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 0px 2px 2px rgba(0, 0, 0, 0.098), 0px 0px 5px 1px rgba(0, 0, 0, 0.084);
 			background: white;
 			width:100%;
+			z-index: 1020;
+		}
+
+		#main-container{
+			position: absolute;
+			top: 56px;
 		}
 
 		h2.mett__h2{color: #b5352e; font-size: 25px;}
@@ -832,7 +838,7 @@
 
 		.mett__c5{color:#c22821}
 
-a.mett__btn_1{background:#FF6C04 !important;border: none; cursor: pointer; outline: none; padding: 0.7em 1.3em; text-transform: uppercase;text-decoration: none;color: white;font-size: 14px;}
+		a.mett__btn_1{background:#FF6C04 !important;border: none; cursor: pointer; outline: none; padding: 0.7em 1.3em; text-transform: uppercase;text-decoration: none;color: white;font-size: 14px;}
 
 		a.mett__btn_2{background:#358dde !important;border: none; cursor: pointer; outline: none; padding: 0.7em 1.3em; text-transform: uppercase;text-decoration: none;color: white;font-size: 14px;}
 
@@ -866,9 +872,9 @@ a.mett__btn_1{background:#FF6C04 !important;border: none; cursor: pointer; outli
 		  font-family: 'icomoon';
 		  src:  url('css/fonts/icomoon.eot?r4goau');
 		  src:  url('css/fonts/icomoon.eot?r4goau#iefix') format('embedded-opentype'),
-		    url('css/fonts/icomoon.ttf?r4goau') format('truetype'),
-		    url('css/fonts/icomoon.woff?r4goau') format('woff'),
-		    url('css/fonts/icomoon.svg?r4goau#icomoon') format('svg');
+			url('css/fonts/icomoon.ttf?r4goau') format('truetype'),
+			url('css/fonts/icomoon.woff?r4goau') format('woff'),
+			url('css/fonts/icomoon.svg?r4goau#icomoon') format('svg');
 		  font-weight: normal;
 		  font-style: normal;
 		}
@@ -911,22 +917,22 @@ a.mett__btn_1{background:#FF6C04 !important;border: none; cursor: pointer; outli
 		.play:hover {background-color: #ab1b7b}
 
 		.play:active {
- 			 background-color: #9b186f;
-  			box-shadow: 0 2px #70345c;
-  			transform: translateY(4px);
-  		}
+			 background-color: #9b186f;
+			box-shadow: 0 2px #70345c;
+			transform: translateY(4px);
+		}
 
-  		/*estilos de los divs yoga_banner*/
+		/*estilos de los divs yoga_banner*/
 
-  		.div2{
-  			margin-top: 56px;
-  		}
+		.div2{
+			margin-top: 56px;
+		}
 
-  		.div3{
-  			height:356px; 
-  			background-image: url(img/lenovo_pattern-02.png);
-  			background-repeat: no-repeat;
-  		}
+		.div3{
+			height:356px; 
+			background-image: url(img/lenovo_pattern-02.png);
+			background-repeat: no-repeat;
+		}
 		
 		.m1{
 			height:89px;
@@ -1017,11 +1023,14 @@ a.mett__btn_1{background:#FF6C04 !important;border: none; cursor: pointer; outli
 			background-image: url(img/phabs/phones_phab_plus.png);	
 		}
 
+		.mett__text-center{text-align: center;}
+
+		.borde{border: 1px solid red;}
 
 	</style>
 
 
-	<section class="height-full layout-row layout-wrap layout-fill">
+	<section class=" layout-row layout-wrap height-full layout-fill">
 		<!-- Navigator -->
 		<nav class="mett__nav mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 
@@ -1120,487 +1129,550 @@ a.mett__btn_1{background:#FF6C04 !important;border: none; cursor: pointer; outli
 
 		</nav>
 
+	
 
+		<!-- MAIN CONTAINER -->
 
-
-	|<!-- MODULO SEPARADOR GRANDE -->
-		
-		<!-- <section class="mett__main-container-gif mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+		<section id="main-container" class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 			
-			<div class="mett__layout-row mett__justify-center mett__align-center ">
-				
-				<div class="mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-85 mett__flex-gt-85" style="overflow: hidden;border-radius: 3px; border: 1px solid transparent; position: relative;">
-					 <img style="width: 100%;" src="img/bg_gif/gif_lenovo.gif" alt="Gif Lenovo">
-				</div>
-				
-			</div>
+			<section class="main-header mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" min-height: 550px; position: relative;">
 
-		</section> -->
+				<div style="position: absolute; left: 0; top: 0; width: 70px; height: 210px;z-index: 100;">
 
-
-
-	<!--phabs-->
-
-
-       
-
-	        <div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border: 1px solid red; height: 700px;">
-
-	        	<!--phab2-->
-
-	        	<div class="mett__main-container-gif mett__layout-row mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 bgphab2" style="border: 1px solid blue;">
-
-	        		<div class="mett__main-container-gif mett__layout-row mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 phone2" style="border: 1px solid blue;">
-	        			
-	        		</div>
-
-	        		<div class="mett__main-container-gif mett__layout-row mett__justify-center mett__align-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20 phone2" style="border: 1px solid blue;">
-	        			<img src="img/phabs/svg_phabs_2.svg" style="width: 100%;">
-	        		</div>
-	        		
-	        		
-	        	</div>
-
-	        	<!--phab2plus-->
-
-
-
-	        	<div class="mett__main-container-gif mett__layout-row mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 bgphab2pl" style="border: 1px solid grey;">
-
-	        		<div class="mett__main-container-gif mett__layout-row mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 phone2pl" style="border: 1px solid blue; color:black;">
-	        			n el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
-	        		</div>
-	        		
-	        	</div>
-	        	
-	        </div>
-
-        
-
-      
-
-
-
-
-
-
-	<!--banner only one-->
-
-
-		<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background: #b4461c;padding-top:56px;">
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
-
-			<div class="mett__bg-mod-1 mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-start">
-
-				<!-- patron -->
-
-				<div class="mett__mett__flex-lg-45">
-
-					<img class="mett__img" style="max-width:437px;" src="img/mods_home/base_banner1.png">
+					<img class="mett__img" style="max-width: 90px;min-width: 70px;" src="img/logos/logo_MULTI.png" />
 
 				</div>
 
-				<!-- logo -->
+				<!-- MODULO IZQUIERDO -->
 
-				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-end">
-
-					<div>
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-sm-50 layout-fill" style="min-height: 550px;position: relative;background-image: url(img/bg-phab2.png); background-size: cover;background-position: -22em 0em; overflow: hidden;">
+					
+					<div class="mett__layout-row mett__layout-wrap mett__flex-lg-55 mett__flex-md-55 mett__flex-sm-60" style="margin-top: 3em;">
 						
-						<img style="max-width: 60px;min-width: 60px;" class="mett__img" src="img/logos/logo_AIO.png"/>
+						<!-- title signature -->
+						<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__layout-row mett__justify-center">
+							<div class="mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-55">
+								<img class="mett__img" src="img/phab2.svg">
+							</div>
+						</div>
+
+						<!-- copy -->
+						<div class="mett__text-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100">
+							<p style="color:white;">Un smartphone de entrenamiento optimizado, con una claridad de sonido sorprendente gracias a la voz de 360°.</p>
+						</div>
+
+						<!-- cont icons -->
+						<div class="mett__layout-row mett__flex-lg-100mett__flex-md-100 mett__flex-sm-100 mett__justify-center" style="margin-top:0.7em;margin-bottom: 1.8em;">
+							
+							<div class="" style="width: 45px; height: 45px; margin: 0em 0.3em;">
+								<img class="mett__img" src="img/phab2-icon/icon-01.svg">
+							</div>
+							<div class="" style="width: 45px; height: 45px; margin: 0em 0.3em;">
+								<img class="mett__img" src="img/phab2-icon/icon-02.svg">
+							</div>
+							<div class="" style="width: 45px; height: 45px; margin: 0em 0.3em;">
+								<img class="mett__img" src="img/phab2-icon/icon-03.svg">
+							</div>
+							<div class="" style="width: 45px; height: 45px; margin: 0em 0.3em;">
+								<img class="mett__img" src="img/phab2-icon/icon-04.svg">
+							</div>
+
+						</div>
+
+						<!-- cont button access -->
+						<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__text-center">
+						
+							<a style="background: rgb(53, 141, 222);padding: 0.5em 0.7em; color: white; border-radius: 10em; border:none; cursor: pointer; font-size: 18px; font-weight: bold;">Conoce más</a>
+
+						</div>
+
+
+					</div>
+					
+					<div style="position: absolute;bottom: 0;left: 0; right: 0; width: 80%; margin: 0 auto;" class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100">
+						<img class="mett__img" src="img/08_Phab2_Exploded_Camera_Closeup.png">
+					</div>
+
+				</div>
+
+				<!-- MODULO DERECHO -->
+				
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-sm-50 layout-fill" style="min-height: 550px; position: relative; background-image: url(img/bg-phab2-plus.png); background-size: cover; background-position: -12em 0em; overflow: hidden;">
+					
+					<div class="mett__layout-row mett__layout-wrap mett__flex-lg-55 mett__flex-md-55 mett__flex-sm-60" style="margin-top: 3em;">
+						
+						<!-- title signature -->
+						<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__layout-row mett__justify-center">
+							<div class="mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-90">
+								<img class="mett__img" src="img/phab2_plus.svg">
+							</div>
+						</div>
+
+						<!-- copy -->
+						<div class="mett__text-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100">
+							<p style="color:white;">Un smartphone con un extraordinario sonido Dolby ® y cámara posterior Dual de 13 MP con funciones profesionales.</p>
+						</div>
+
+						<!-- cont icons -->
+						<div class="mett__layout-row mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__justify-center" style="margin-top:0.7em;margin-bottom: 1.8em;">
+							
+							<div class="" style="width: 45px; height: 45px; margin: 0em 0.3em;">
+								<img class="mett__img" src="img/phab-plus-icon/icon-01.svg">
+							</div>
+							<div class="" style="width: 45px; height: 45px; margin: 0em 0.3em;">
+								<img class="mett__img" src="img/phab2-icon/icon-02.svg">
+							</div>
+							<div class="" style="width: 45px; height: 45px; margin: 0em 0.3em;">
+								<img class="mett__img" src="img/phab-plus-icon/icon-02.svg">
+							</div>
+							<div class="" style="width: 45px; height: 45px; margin: 0em 0.3em;">
+								<img class="mett__img" src="img/phab-plus-icon/icon-03.svg">
+							</div>
+							<div class="" style="width: 45px; height: 45px; margin: 0em 0.3em;">
+								<img class="mett__img" src="img/phab2-icon/icon-04.svg">
+							</div>
+							<div class="" style="width: 45px; height: 45px; margin: 0em 0.3em;">
+								<img class="mett__img" src="img/phab-plus-icon/icon-04.svg">
+							</div>
+
+						</div>
+
+						<!-- cont button access -->
+						<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__text-center">
+						
+							<a style="background: rgb(53, 141, 222);padding: 0.5em 0.7em; color: white; border-radius: 10em; border:none; cursor: pointer; font-size: 18px; font-weight: bold;">Conoce más</a>
+
+						</div>
+
+					</div>
+
+					<div style="position: absolute;bottom:-2em;left: 0; right: 0; width: 100%; margin: 0 auto;" class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100">
+						<img class="mett__img" src="img/14_Phab2_Plus_Hands.png">
+					</div>
+
+				</div>	        	
+
+			</section>
+
+		   
+			<!--banner only one-->
+
+
+			<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background: #b4461c;padding-top:56px;">
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+				<div class="mett__bg-mod-1 mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-start">
+
+					<!-- patron -->
+
+					<div class="mett__mett__flex-lg-45">
+
+						<img class="mett__img" style="max-width:437px;" src="img/mods_home/base_banner1.png">
+
+					</div>
+
+					<!-- logo -->
+
+					<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-end">
+
+						<div>
+							
+							<img style="max-width: 60px;min-width: 60px;" class="mett__img" src="img/logos/logo_AIO.png"/>
+
+						</div>
 
 					</div>
 
 				</div>
 
-			</div>
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
 
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
-
-		</section>
+			</section>
 
 
 
 
 
-		<!--  Módulo Info. I-P -->
-		<section class="mett__section-info mett__layout-row mett__layout-wrap  mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 3em 0em;">
+			<!--  Módulo Info. I-P -->
+			<section class="mett__section-info mett__layout-row mett__layout-wrap  mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 3em 0em;">
 
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
 
-			<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+				<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
 
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-2">
+					<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-2">
 
-					<img class="mett__img" src="img/mods_home/product_home1.png">
+						<img class="mett__img" src="img/mods_home/product_home1.png">
+
+					</div>
+
+					<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1">
+
+						<div>
+
+							<p class="mett__c1 mett__titulo-main">
+
+								Todo lo que se necesita.
+
+							</p>
+
+							<p class="mett__mod-text-light">
+
+								Tu computador de escritorio con el mejor sistema todo en uno, el equilibrio perfecto entre trabajo y entretenimiento. 
+
+							</p>
+
+						</div>
+
+						<div style="margin:1.5em 0em;">
+
+							<a class="mett__btn-primary mett__btn_1" href="all_in_one.html">ver más</a>
+
+						</div>
+
+					</div>
 
 				</div>
 
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1">
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
 
-					<div>
+			</section>
 
-						<p class="mett__c1 mett__titulo-main">
 
-							Todo lo que se necesita.
+
+
+
+			<!-- MODULO SEPARADOR GRANDE -->
+			<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background:#031a45;">
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+				<div class="mett__bg-mod-2 mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-start">
+
+					<!-- logo -->
+
+					<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-start">
+
+						<div>
+							
+							<img class="mett__img"  style="max-width: 60px;min-width: 60px;" src="img/logos/logo_MULTI.png">
+
+						</div>
+
+					</div>
+
+					<!-- patron -->
+
+					<div class="mett__flex-lg-60 mett__layout-row mett__justify-end mett__align-center">
+
+						<img class="mett__img" style="max-width:557px;max-height: 225px;" src="img/mods_home/base_banner2.png">
+
+					</div>
+
+				</div>
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+			</section>
+
+
+
+
+
+			<!--  Módulo Info. P-I-->
+			<section class="mett__section-info mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 3em 0em;">
+
+				<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+				<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+					<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
+
+						<p class="mett__c2 mett__titulo-main">
+
+							Hasta 4 modos.<br> un solo equipo
+
+						</p>
+
+						<p class="mett__mod-text-light" style="text-transform: none;">
+
+							Con sus cuatro modos de uso, los convertibles Lenovo facilitan todas las actividades.
+
+						</p>
+
+						<div style="margin:1.5em 0em;">
+
+							<a class="mett__btn-primary mett__btn_2" href="multi.html">ver más</a>
+
+						</div>
+
+					</div>
+
+					<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100">
+
+						<img  class="mett__img" src="img/mods_home/product_home2.png">
+
+					</div>
+
+				</div>
+
+				<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			</section>
+
+
+
+
+
+			<!-- MODULO SEPARADOR GRANDE -->
+			<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background: #0e6a24;">
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+				<div class="mett__bg-mod-3 mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-start">
+
+					<!-- patron -->
+					<div class="mett__flex-lg-50">
+
+						<img class="mett__img" style="max-width:493px;" src="img/mods_home/base_banner3.png">
+
+					</div>
+
+					<!-- logo -->
+
+					<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-end">
+
+						<div>
+							
+							<img class="mett__img"  style="max-width: 60px;min-width: 60px;" src="img/logos/logo_NB.png">
+							
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+			</section>
+
+
+
+
+
+			<!--  Módulo Info. I-P -->
+			<section class="mett__section-info mett__layout-row mett__layout-wrap  mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 3em 0em;">
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+				<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+					<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-2">
+
+						<img class="mett__img" src="img/mods_home/product_home3.png">
+
+					</div>
+
+					<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1">
+
+						<div>
+
+							<p class="mett__c3 mett__titulo-main">Alta velocidad y gran rendimiento.</p>
+
+							<p class="mett__mod-text-light">Con los procesadores de la siguiente generación y gráficos de gran riqueza, los PORTATILES para su mundo siempre activo.	</p>
+
+						</div>
+
+						<div style="margin:1.5em 0em;">
+
+							<a class="mett__btn-primary mett__btn_3" href="notebooks.html">ver más</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			</section>
+
+
+
+
+
+			<!-- MODULO SEPARADOR GRANDE -->
+			<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background:#db6c77;">
+
+				<div class=" mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+				<div class="mett__bg-mod-4 mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-start">
+
+					<!-- logo -->
+
+					<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-start">
+
+						<div>
+							
+							<img class="mett__img" style="max-width: 60px;min-width: 60px;" src="img/logos/logo_TAB.png">
+
+						</div>
+
+					</div>
+
+					<!-- patron -->
+					<div class="mett__flex-lg-60 mett__layout-row mett__justify-end mett__align-center">
+
+						<img class="mett__img" style="max-width:445px;max-height: 225px;" src="img/mods_home/base_banner4.png">
+
+					</div>
+
+				</div>
+
+				<div class=" mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+			</section>
+
+
+
+
+
+
+
+			<!--  Módulo Info. I-P -->
+			<section class="mett__section-info mett__layout-row mett__layout-wrap  mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 3em 0em;">
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+				<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+					<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-2">
+
+						<img class="mett__img" src="img/mods_home/product_home4.png">
+
+					</div>
+
+					<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1">
+
+						<div>
+
+							<p class="mett__c4 mett__titulo-main">
+
+								Diversión sin límites donde vayas
+
+							</p>
+
+							<p class="mett__mod-text-light">
+
+								Diseño novedoso, más posiciones, más entretenimiento y movilidad en una sola tableta.
+
+							</p>
+
+						</div>
+
+						<div style="margin:1.5em 0em;">
+
+							<a class="mett__btn-primary mett__btn_4" href="tablets.html">ver más</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+			</section>
+
+
+
+
+
+
+			<!-- MODULO SEPARADOR GRANDE -->
+			<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background: #dc3d30;">
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+				<div class="mett__bg-mod-5 mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-start">
+
+					<!-- patron -->
+
+					<div class="mett__flex-lg-60 mett__layout-row mett__justify-end mett__align-center">
+
+						<img  class="mett__img" style="max-width:409px;" src="img/mods_home/base_banner5.png">
+
+					</div>
+
+					<!-- logo -->
+
+					<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-end">
+
+						<div>
+							
+							<img  class="mett__img" style="max-width: 60px;min-width: 60px;" src="img/logos/logo_PHAB.png">
+							
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
+
+			</section>
+
+
+
+
+
+			<!--  Módulo Info. P-I-->
+			<section class="mett__section-info mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 fmett__lex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 3em 0em;">
+
+				<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+				<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
+
+					<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
+
+						<p class="mett__c5 mett__titulo-main">
+							
+							Rendimiento y elengancia
 
 						</p>
 
 						<p class="mett__mod-text-light">
 
-							Tu computador de escritorio con el mejor sistema todo en uno, el equilibrio perfecto entre trabajo y entretenimiento. 
+							disfrutar de todas las aplicaciones, fotos, videos y juegos al máximo.
 
 						</p>
 
+						<div style="margin:1.5em 0em;">
+
+							<a class="mett__btn_5" href="phablets.html">ver más</a>
+
+						</div>
+
 					</div>
 
-					<div style="margin:1.5em 0em;">
+					<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100">
 
-						<a class="mett__btn-primary mett__btn_1" href="all_in_one.html">ver más</a>
-
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-		</section>
-
-
-
-
-
-		<!-- MODULO SEPARADOR GRANDE -->
-		<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background:#031a45;">
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
-
-			<div class="mett__bg-mod-2 mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-start">
-
-				<!-- logo -->
-
-				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-start">
-
-					<div>
-						
-						<img class="mett__img"  style="max-width: 60px;min-width: 60px;" src="img/logos/logo_MULTI.png">
+						<img class="mett__img"  src="img/mods_home/product_home5.jpg">
 
 					</div>
 
 				</div>
 
-				<!-- patron -->
+				<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
 
-				<div class="mett__flex-lg-60 mett__layout-row mett__justify-end mett__align-center">
-
-					<img class="mett__img" style="max-width:557px;max-height: 225px;" src="img/mods_home/base_banner2.png">
-
-				</div>
-
-			</div>
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
-
-		</section>
-
-
-
-
-
-		<!--  Módulo Info. P-I-->
-		<section class="mett__section-info mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 3em 0em;">
-
-			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
-
-					<p class="mett__c2 mett__titulo-main">
-
-						Hasta 4 modos.<br> un solo equipo
-
-					</p>
-
-					<p class="mett__mod-text-light" style="text-transform: none;">
-
-						Con sus cuatro modos de uso, los convertibles Lenovo facilitan todas las actividades.
-
-					</p>
-
-					<div style="margin:1.5em 0em;">
-
-						<a class="mett__btn-primary mett__btn_2" href="multi.html">ver más</a>
-
-					</div>
-
-				</div>
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100">
-
-					<img  class="mett__img" src="img/mods_home/product_home2.png">
-
-				</div>
-
-			</div>
-
-			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-		</section>
-
-
-
-
-
-		<!-- MODULO SEPARADOR GRANDE -->
-		<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background: #0e6a24;">
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
-
-			<div class="mett__bg-mod-3 mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-start">
-
-				<!-- patron -->
-				<div class="mett__flex-lg-50">
-
-					<img class="mett__img" style="max-width:493px;" src="img/mods_home/base_banner3.png">
-
-				</div>
-
-				<!-- logo -->
-
-				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-end">
-
-					<div>
-						
-						<img class="mett__img"  style="max-width: 60px;min-width: 60px;" src="img/logos/logo_NB.png">
-						
-					</div>
-
-
-				</div>
-
-			</div>
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
-
-		</section>
-
-
-
-
-
-		<!--  Módulo Info. I-P -->
-		<section class="mett__section-info mett__layout-row mett__layout-wrap  mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 3em 0em;">
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-			<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-2">
-
-					<img class="mett__img" src="img/mods_home/product_home3.png">
-
-				</div>
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1">
-
-					<div>
-
-						<p class="mett__c3 mett__titulo-main">Alta velocidad y gran rendimiento.</p>
-
-						<p class="mett__mod-text-light">Con los procesadores de la siguiente generación y gráficos de gran riqueza, los PORTATILES para su mundo siempre activo.	</p>
-
-					</div>
-
-					<div style="margin:1.5em 0em;">
-
-						<a class="mett__btn-primary mett__btn_3" href="notebooks.html">ver más</a>
-
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-		</section>
-
-
-
-
-
-		<!-- MODULO SEPARADOR GRANDE -->
-		<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background:#db6c77;">
-
-			<div class=" mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
-
-			<div class="mett__bg-mod-4 mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-start">
-
-				<!-- logo -->
-
-				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-start">
-
-					<div>
-						
-						<img class="mett__img" style="max-width: 60px;min-width: 60px;" src="img/logos/logo_TAB.png">
-
-					</div>
-
-				</div>
-
-				<!-- patron -->
-				<div class="mett__flex-lg-60 mett__layout-row mett__justify-end mett__align-center">
-
-					<img class="mett__img" style="max-width:445px;max-height: 225px;" src="img/mods_home/base_banner4.png">
-
-				</div>
-
-			</div>
-
-			<div class=" mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
-
-		</section>
-
-
-
-
-
-
-
-		<!--  Módulo Info. I-P -->
-		<section class="mett__section-info mett__layout-row mett__layout-wrap  mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 3em 0em;">
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-			<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-2">
-
-					<img class="mett__img" src="img/mods_home/product_home4.png">
-
-				</div>
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1">
-
-					<div>
-
-						<p class="mett__c4 mett__titulo-main">
-
-							Diversión sin límites donde vayas
-
-						</p>
-
-						<p class="mett__mod-text-light">
-
-							Diseño novedoso, más posiciones, más entretenimiento y movilidad en una sola tableta.
-
-						</p>
-
-					</div>
-
-					<div style="margin:1.5em 0em;">
-
-						<a class="mett__btn-primary mett__btn_4" href="tablets.html">ver más</a>
-
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-		</section>
-
-
-
-
-
-
-		<!-- MODULO SEPARADOR GRANDE -->
-		<section class="mett__mod-separador-grande mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background: #dc3d30;">
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
-
-			<div class="mett__bg-mod-5 mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-space-between mett__align-start">
-
-				<!-- patron -->
-
-				<div class="mett__flex-lg-60 mett__layout-row mett__justify-end mett__align-center">
-
-					<img  class="mett__img" style="max-width:409px;" src="img/mods_home/base_banner5.png">
-
-				</div>
-
-				<!-- logo -->
-
-				<div class="mett__flex-lg-5 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__justify-end">
-
-					<div>
-						
-						<img  class="mett__img" style="max-width: 60px;min-width: 60px;" src="img/logos/logo_PHAB.png">
-						
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-0 mett__flex-xs-100 mett__flex-gt-100"></div>
-
-		</section>
-
-
-
-
-
-		<!--  Módulo Info. P-I-->
-		<section class="mett__section-info mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 fmett__lex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 3em 0em;">
-
-			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
-
-			<div class="mett__flex-lg-70 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center">
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100 mett__text-align-lg mett__text-align-md mett__text-align-sm mett__text-align-xs mett__text-align-gt">
-
-					<p class="mett__c5 mett__titulo-main">
-						
-						Rendimiento y elengancia
-
-					</p>
-
-					<p class="mett__mod-text-light">
-
-						disfrutar de todas las aplicaciones, fotos, videos y juegos al máximo.
-
-					</p>
-
-					<div style="margin:1.5em 0em;">
-
-						<a class="mett__btn_5" href="phablets.html">ver más</a>
-
-					</div>
-
-				</div>
-
-				<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100">
-
-					<img class="mett__img"  src="img/mods_home/product_home5.jpg">
-
-				</div>
-
-			</div>
-
-			<div class="mett__flex-lg-15 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+			</section>
+			
 
 		</section>
 
 	</section>
-
-
 
 	<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="lib/fancybox/jquery.fancybox-1.3.4.js"></script>
