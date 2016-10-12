@@ -14,16 +14,16 @@
 	}
 	@media (min-width:768px){
 		.mett__bg-header-sm-yoga-A{
-		background: url(../img/YOGABOOK/banner/background_yoga-android.png); background-size:cover;margin-left: 0.5em;
+		background: url(../img/YOGABOOK/banner/background_yoga-android.png); background-size:cover;
 		}
 	}
 	@media (min-width:992px){
 		.mett__bg-header-md-yoga-A{
-		background: url(../img/YOGABOOK/banner/background_yoga-android.png); background-size:cover;margin-left: 0.5em;
+		background: url(../img/YOGABOOK/banner/background_yoga-android.png); background-size:cover;
 		}
 	}
 	@media (min-width:1200px){
 		.mett__bg-header-lg-yoga-A{
-		background: url(../img/YOGABOOK/banner/background_yoga-android.png); background-size:cover;margin-left: 0.5em;
+		background: url(../img/YOGABOOK/banner/background_yoga-android.png); background-size:cover;
 		}
 	}
