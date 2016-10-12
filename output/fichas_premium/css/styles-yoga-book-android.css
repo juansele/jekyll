@@ -4,12 +4,12 @@
 
 	@media (min-width:320px){
 		.mett__bg-header-gt-yoga-A{
-		background: url(../img/YOGABOOK/banner/header_small.png); background-size:cover;
+		background: url(../img/YOGABOOK/banner/background_phone-a.png); background-size:cover;
 		}
 	}
 	@media (min-width:600px){
 		.mett__bg-header-xs-yoga-A{
-		background: url(../img/YOGABOOK/banner/header_small.png); background-size:cover;
+		background: url(../img/YOGABOOK/banner/background_phone-a.png); background-size:cover;
 		}
 	}
 	@media (min-width:768px){
