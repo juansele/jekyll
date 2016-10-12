@@ -1,0 +1,29 @@
+
+
+	/* Specific styles idea yoga-w */
+
+	@media (min-width:320px){
+		.mett__bg-header-gt-yoga-w{
+		background: url(../img/YOGABOOK/banner/background_phone-w.png); background-size:cover;
+		}
+	}
+	@media (min-width:600px){
+		.mett__bg-header-xs-yoga-w{
+		background: url(../img/YOGABOOK/banner/background_phone-w.png); background-size:cover;
+		}
+	}
+	@media (min-width:768px){
+		.mett__bg-header-sm-yoga-w{
+		background: url(../img/YOGABOOK/banner/background_yoga-windows.png); background-size:cover; 
+		}
+	}
+	@media (min-width:992px){
+		.mett__bg-header-md-yoga-w{
+		background: url(../img/YOGABOOK/banner/background_yoga-windows.png); background-size:cover; 
+		}
+	}
+	@media (min-width:1200px){
+		.mett__bg-header-lg-yoga-w{
+		background: url(../img/YOGABOOK/banner/background_yoga-windows.png); background-size:cover; 
+		}
+	}
