@@ -1,0 +1,29 @@
+
+
+	/* Specific styles yoga A */
+
+	@media (min-width:320px){
+		.mett__bg-header-gt-yoga-A{
+		background: url(../img/YOGABOOK/banner/background_phone-a.png); background-size:cover;
+		}
+	}
+	@media (min-width:600px){
+		.mett__bg-header-xs-yoga-A{
+		background: url(../img/YOGABOOK/banner/background_phone-a.png); background-size:cover;
+		}
+	}
+	@media (min-width:768px){
+		.mett__bg-header-sm-yoga-A{
+		background: url(../img/YOGABOOK/banner/background_yoga-android.png); background-size:cover;
+		}
+	}
+	@media (min-width:992px){
+		.mett__bg-header-md-yoga-A{
+		background: url(../img/YOGABOOK/banner/background_yoga-android.png); background-size:cover;
+		}
+	}
+	@media (min-width:1200px){
+		.mett__bg-header-lg-yoga-A{
+		background: url(../img/YOGABOOK/banner/background_yoga-android.png); background-size:cover;
+		}
+	}
