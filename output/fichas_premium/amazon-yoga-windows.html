@@ -1,0 +1,2263 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+
+		<title>Demo base ficha</title>
+
+		<link rel="stylesheet" type="text/css" href="css/layout.css">
+
+		<link rel="stylesheet" type="text/css" href="css/visual-skin/theme-yoga-pink.css">
+
+		<link rel="stylesheet" type="text/css" href="css/styles-yoga-book-windows.css">
+
+		<style type="text/css">
+
+			a.mett__a-btn {
+		    text-decoration: none;
+		    color: #fff !important;
+			}
+
+			a.mett__a-btn:visited {
+			    text-decoration: none;
+			}
+
+			a.mett__a-btn:hover {
+			    text-decoration: underline;
+			}
+
+			a.mett__a-btn:active {
+			    text-decoration: underline;
+			}
+
+			/*iconos*/
+
+			.inconbg{
+				background-color: #212121;
+			}
+
+			.lettericons{
+				color:#f36c21;
+			}
+
+			.marginall{
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+
+			.tamañoicons{
+				height: 50px;
+			}
+
+			.line{
+				background-color: #ef4689;
+				height: 2px;
+			}
+
+			/*incons2*/
+
+			.inconbg2{
+				background-color: #212121;
+			}
+			.margintxt{
+				margin-top: 10px;
+			}
+
+			.lettericons02{
+				color:rgb(255, 255, 255);
+			}
+
+			/*icon3*/
+			.colortx{
+				color: #666665;
+			}
+			.marginall{
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+
+			/*tabla*/
+			.colorfondo{
+				background-color: #ef894a;
+				
+			}
+			.colorbordetab{
+				border-bottom: 1px solid  #bdbdbd;
+				
+			}
+			.colorbordetab2{
+				border: 1px solid  #bdbdbd;
+				
+			}
+			.colorletrab{
+				color:#ef894a;
+				font-size: 15px;
+				text-align: center;
+			}
+			.colorletrabk{
+				color:#212121;
+				text-align: center;
+				font-size: 15px;
+			}
+			.margininf{
+				 margin-top:15px; margin-bottom: 50px;
+			}
+			.titletabl{
+				color:#3a3a3a;
+				font-size: 30px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				font-weight: bold;
+
+			}
+			.altura{
+				height: 50%
+			}
+
+			.mett__layout-fil{
+					height:100%;
+					max-height: 100%; 
+			} 
+			.bordesaloslados{
+				border-right: 2px solid #bdbdbd;
+			}
+			.titles2{
+				color:#e33d8a;
+				font-size: 11pt;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<!-- MAIN MODULE -->
+		<section class="mett__layout-row mett__layout-wrap">
+
+
+			<!--& MODULE NOTA LEGAL &-->
+
+			<div class="mett__module-legal-note mett__legal-dark mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-85 mett__flex-md-85 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+					<div class="mett__small-text" style="font-size: 15px;">
+
+						<b>Nota:</b> Producto disponible en las tiendas alkosto y en alkosto.com. 
+
+					</div>
+
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+
+			<!--& MODULE HEADER &
+
+			<div class="mett__module-header-main mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__bg-header-gt-710s mett__bg-header-xs-710s mett__bg-header-sm-710s mett__bg-header-md-710s mett__bg-header-lg-710s">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5">
+					
+					<div class="mett__cont-logo-main">
+						
+						<img class="mett__img" src="img/SOURCES/LOGOS_LENOVO/logo_lenovo_lightblue.png" alt="logo lenovo"/>
+
+					</div>
+
+				</div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+					<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" style="min-height: 150px;">
+							
+							<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+							<div class="mett__text-align-lg  mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80" style="width: 100%; padding-top: 1.5em; padding-bottom: 1.5em;">
+								
+								<div >
+								
+									<img class="mett__img" src="img/SOURCES/LOGOS_SVG/yoga-book-windows.svg" alt="ideapad" style="width:70%;" />							
+								</div>
+								
+								<div class="mett__color-bold mett__text-uppercase" style="color: #ef4689;">
+									
+									UNA TABLET 2 EN 1<br>CON UNAS PRESTACIONES NUNCA ANTES VISTAS
+
+								</div>
+								<div class="mett__layout-row">
+
+									<div style="margin-top:3em; ">
+										
+										<a href="#inicio" class="mett__btn-line-white mett__text-uppercase mett__text-bold" style="color: #ef4689; border:1px solid #ef4689;"> DESCUBRIR </a>
+
+									</div>
+									<div style="margin-top:3em;">
+										
+										<a href="#inicio" class="mett__btn-line-white mett__text-uppercase mett__text-bold" style="margin-left: 5px; background-color: #ef4689;"> comprar </a>
+
+									</div>
+								</div>
+
+							</div>
+
+							<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10"></div>
+
+						</div>
+
+						<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-end mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-80 mett__flex-gt-85">
+							
+							<!-Product Image 
+
+							<div class="mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show">
+								<div>
+									
+								
+									<img class="mett__img mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show" src="img/YOGABOOK/header_small_img.png" alt="producto header" style="width: 100%;">
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<div class=" mett__layout-row  mett__justify-end mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+				
+
+			</div>-->
+
+
+
+			<!--& MODULE banner &-->
+
+			<div class="mett__module-header-main mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__bg-header-gt-yoga-w  mett__bg-header-xs-yoga-w mett__bg-header-sm-yoga-w mett__bg-header-md-yoga-w mett__bg-header-lg-yoga-w" >
+
+					<!--cuadro rosado-->
+				
+					<div class="mett__layout-row mett__justify-start mett__flex-lg-30 mett__flex-md-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-hide mett__flex-gt-hide" style=" position: relative;" >
+				
+
+						<div class="mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background-color: #d04c81; height: 100%; transform: skew(16deg); position: relative; z-index: 1;">
+							
+						</div>
+
+						<div class="mett__layout-row mett__justify-start" style="background-color: #d04c81; position: absolute; bottom: 0; left: 0; top:0; width: 70px; "></div>
+
+						<!--1 texto-imagen- huella-->
+			
+						<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="position: absolute; color:white; z-index: 2;  height: 100%; ">
+
+							<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-85 mett__flex-md-85 mett__flex-md-85 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90" style=" margin-top: 50%; height: 70%; margin-right: 18px;">
+
+
+								<img class="mett__img" src="img/YOGABOOK/banner/icon-2.PNG" alt="pen" style="width:60px; height: 60px; margin-bottom:10px;" />
+
+								<div  style="font-size:'Gotham light'; font-size: 11px; text-align: center; margin-top: 15px; ">
+									LÁPIZ REAL PEN Y GUARDADO DE NOTAS.<br><br>REAL PEN PARA DIBUJAR COMO UN PROFESIONAL.
+								</div>
+
+								<div class="mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 ">
+									<img src="img/YOGABOOK/banner/header_small-w.png" style="width: 100%; margin-bottom: -10px;">
+								</div>
+						
+
+
+
+								<div class="mett__layout-row mett__justify-space-between mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-hide mett__flex-sm-show mett__flex-md-hide " style="margin-top: -55px; height:;">
+
+									<!--iconos-->
+
+								
+										<!--2-->
+
+										<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" style="margin-left: 10px;">
+
+											<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+												<img src="img/YOGABOOK/icon-7.PNG" style="width:37px; height: 37px;">
+											</div>
+
+											
+											<div class="mett__text-subtext mett__layout-row mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 lettericons02 " >
+											Mira
+											</div>
+											
+										</div>
+
+										<!--3-->
+
+										<div class=" mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall"  >
+
+											<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+												<img src="img/YOGABOOK/icon-8.PNG" style="width:37px; height: 37px;">
+											</div>
+
+											
+											<div class="mett__text-subtext mett__layout-row mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50 lettericons02 ">
+												
+												Escribe
+
+											</div>
+										
+										</div>
+
+										<!--4-->
+
+										<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall"  >
+
+											<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+												<img src="img/YOGABOOK/icon-9.PNG" style="width:37px; height: 37px;">
+											</div>
+
+											
+											<div class="mett__text-subtext mett__layout-row mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50 lettericons02  " >
+											Navega
+											</div>
+										
+										</div>
+
+										<!--5-->
+
+										<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+											<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+												<img src="img/YOGABOOK/icon-6.PNG" style="width:37px; height: 37px;">
+											</div>
+
+											
+											<div class="mett__text-subtext mett__layout-row mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50 lettericons02  " >
+											Crea
+											</div>
+										
+										</div>
+
+
+
+								</div>
+
+							</div>
+
+						</div>
+								
+					</div>
+					
+					<!--titulo-->
+
+					<!--show lg-sm-md-->
+
+					<!--titulo-->
+
+					<div  class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-hide mett__flex-gt-hide">
+
+						<div  class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 " style="height: 20%; ">
+
+
+								<div class="mett__layout-row mett__justify-start mett__align-end mett__flex-lg-80 mett__flex-md-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100" style="font-family: 'Gotham bold';font-size: 40px; letter-spacing: -2px; color: #474748; margin-top: 20px; margin-left: 118px; ">
+									TE DESAFÍO
+								</div>
+
+								<div class="mett__layout-row mett__justify-start mett__align-start mett__flex-lg-80 mett__flex-md-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80" style="font-family: 'Gotham light'; font-size: 18px; margin-top: -9px; letter-spacing: -1px; color: #474748; margin-left: 173px; ">
+									 A escribir diferente.
+								</div>
+
+							
+
+								<div>
+
+									<img src="img/SOURCES/LOGOS_LENOVO/logos_lenovo-lightblue.PNG" style=" z-index: 3; position:absolute;right: 0; width: 42px; top: 10%;">
+
+								</div>
+							
+
+						</div>
+
+						
+
+						<!--parrafo inferior-->
+
+						<div class="mett__layout-row mett__justify-end mett__align-start mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" height: 10%; font-family:'Gotham light';font-size: 15px; color:red; margin-top:20%;">
+
+							<div class=" mett__layout-row mett__justify-end mett__layout-wrap mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+								<div class=" mett__layout-row mett__justify-center mett__flex-lg-25 mett__flex-md-25 mett__flex-md-25 mett__flex-sm-25 mett__flex-xs-25 mett__flex-gt-25" style="margin-right: 20px;">
+
+									<img src="img/SOURCES/LOGOS_SVG/yoga-book-windows-grey.PNG" style="width: 80%;">
+
+									
+								</div >
+
+							</div>
+
+							<div class=" mett__layout-row mett__justify-end mett__layout-wrap mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+								<div  class=" mett__layout-row mett__justify-center mett__flex-lg-30 mett__flex-md-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30" style="font-size: 20px; font-family: 'Gotham bold'; text-transform: uppercase; color:#474748;">
+										Menos es más.
+								</div>
+							</div>
+
+							<div class="mett__layout-row mett__justify-center mett__flex-lg-85 mett__flex-md-85 mett__flex-md-85 mett__flex-sm-85 mett__flex-xs-85 mett__flex-gt-85 mett__text-subtext" style="text-align: right; color: #474748; margin-top: 30px; font-family: 'Gotham bold'; margin-right: 20px; ">
+
+								Intel, el logotipo de Intel, Intel Inside, el logotipo Intel Inside, Intel Atom y Intel Atom Inside son marcas comerciales de Intel Corporation en los EE. UU. y/o en otros países. 
+
+							</div>
+							
+						</div>
+
+						
+					</div>
+
+					<!--show gt xs-->
+
+					<!--titulo-->
+
+					<div  class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show">
+
+						
+
+						<div  class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 " style="height: 20%; ">
+
+							
+							<div class="mett__flex-gt-50 mett__flex-xs-50 mett__align-center mett__justify-center" style="margin-top: 20px;margin-bottom: 5px; text-align: center;">
+								
+
+									<img class="mett__img" src="img/SOURCES/LOGOS_SVG/yoga-book-windows-grey.PNG" alt="yoga" style="width:100%;"/>
+								
+							</div>
+
+
+								<div class="mett__layout-row mett__justify-center mett__align-end mett__flex-lg-80 mett__flex-md-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-70" style="font-family: 'Gotham bold';font-size: 50px; letter-spacing: -3px; color: #474748; margin-left: ; text-align: center;">
+									TE DESAFÍO
+								</div>
+
+								<div class="mett__layout-row mett__justify-center mett__align-start mett__flex-lg-80 mett__flex-md-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-90" style="font-family: 'Gotham light'; font-size: 17px; margin-top: -5px; letter-spacing: -1px; color: #474748; margin-left: ; text-align: center;">
+									 A escribir diferente.
+								</div>
+
+							
+								<div>
+								
+
+									<img src="img/SOURCES/LOGOS_LENOVO/logos_lenovo-lightblue.PNG" style=" z-index: 3; position:absolute ;right: 0; width: 35px; top: 10%;">
+								</div>
+								
+							
+
+						</div>
+
+						<!-- Product Image -->
+
+						<div class="mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show mett__flex-gt-70 mett__flex-xs-90" style="margin-top: 20px;">
+							<div>
+								
+								<img class="mett__img" src="img/YOGABOOK/banner/header_small-w.png" alt="producto" style="width: 100%;">
+								
+							</div>
+							
+
+						</div>
+
+						
+
+						<!--parrafo inferior-->
+
+						<div class="mett__layout-row mett__justify-space-between mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-90" style="  font-family:'Gotham light';font-size: 15px; color:white; margin-top:0;height: 10%;">
+
+							<div class=" mett__layout-row mett__justify-center mett__flex-xs-30 mett__flex-gt-20">
+
+								<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50" >
+
+									<img src="img/YOGABOOK/banner/icon-2.PNG" style="width: 30PX; height: 30px;">
+								</div>
+
+								<div class="mett__layout-row mett__justify-start mett__flex-lg-70 mett__flex-md-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-10 mett__flex-gt-10" style="font-family: 'Gotham light'; font-size: 11px; margin-left: 5px;">
+
+									<div>LÁPIZ REAL PEN Y GUARDADO DE NOTAS.</div>
+
+								</div>
+							</div>
+
+							<div class="mett__layout-row mett__justify-end mett__align-center mett__flex-lg-40 mett__flex-md-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-55 mett__flex-gt-55">
+
+								MENOS ES MÁS.
+
+							</div>
+
+							
+							
+							
+						</div>
+
+					</div>
+							
+					
+
+			</div>
+
+
+		
+
+
+			<!--& MODULE BANDA COLOR (SHOW SM, MD, LG) &-->
+
+			<div class="mett__module-fringe-dark mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-hide mett__flex-gt-hide">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+					<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<div class="mett__layout-row mett__justify-start mett__align-center mett__flex-lg-33 mett__flex-md-33 mett__flex-sm-33 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-hide mett__flex-xs-hide mett__flex-sm-show mett__flex-md-show mett__flex-lg-show">
+							
+							<!-- Lenovo at home -->
+
+							<div class="mett__mod-lenovo-at-home mett__layout-row mett__align-center">
+								
+								<div>
+
+									<div class="mett__mod-circle mett__layout-row mett__justify-center mett__align-center">
+										
+										<img src="img/SOURCES/LOGOS_SVG/lenovo-at-home-logo.PNG" alt="Lenovo at home">
+
+									</div>
+
+								</div>
+
+								<div class="mett__msj-mod mett__text-uppercase">
+									
+									<div class="mett__label-1 mett__text-white" style="color:#ef4689;">Lenovo en casa</div>
+
+									<div class="mett__label-2 mett__text-white">01 8000 5182433</div>
+
+								</div>
+
+							</div>
+
+
+						</div>
+
+						<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-33 mett__flex-md-33 mett__flex-sm-33 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<div class="mod-num mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+								
+								<div>
+									
+									<img class="mett__img mett__arrow-scrolldown" src="img/SOURCES/ARROWS/arrow-down-pink.PNG" alt="icon-scrolldown">
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="mett__layout-row mett__justify-end mett__align-center mett__flex-lg-33 mett__flex-md-33 mett__flex-sm-33 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-hide mett__flex-xs-hide mett__flex-sm-show mett__flex-md-show mett__flex-lg-show">
+
+							<div  style="color:#ffffff; font-size: 15px;" >Intel® Atom™ processor <br> Si tiene intel, tienes experíencias increibles</div>
+							
+							<!-- Msj Visitanos en página -->
+
+							<div class="mett__text-uppercase">
+
+							
+								<img src="img/YOGABOOK/intel-atom.png" >
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+				
+								
+						
+					
+
+
+
+			<!--& MODULE BANDA COLOR (SHOW XS, GT) &-->
+
+			<div class="mett__module-fringe-dark-small mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+					<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-xs-100 mett__flex-gt-100">
+
+							<!-- Msj Visitanos en página -->
+
+							<div class="mett__mod-lenovo-at-home-small mett__layout-row mett__align-center mett__layout-wrap">
+								
+								<div class="mett__layout-row mett__justify-center mett__flex-xs-100 mett__flex-gt-100">
+
+									<div class="mett__mod-circle mett__layout-row mett__justify-center mett__align-center">
+											
+										<img src="img/SOURCES/LOGOS_SVG/lenovo-at-home-logo.PNG" alt="Lenovo at home">
+
+									</div>
+
+								</div>
+
+								<div class="mett__msj-mod mett__text-uppercase mett__layout-row mett__justify-center mett__flex-xs-100 mett__flex-gt-100 mett__layout-wrap">
+									
+									<div class="mett__label-1 mett__text-white mett__flex-xs-100 mett__flex-gt-100 mett__text-center"  style="color:#ef4689;">Lenovo en casa</div>
+
+									<div class="mett__label-2 mett__text-white mett__flex-xs-100 mett__flex-gt-100 mett__text-center">01 8000 5182433</div>
+
+								</div>
+							</div>
+
+
+						</div>
+
+
+						<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-xs-100 mett__flex-gt-100" style="margin-top: 2em;">
+							
+							<div class="mod-num mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+								
+								<div>
+									
+									<img class="mett__img mett__arrow-scrolldown" src="img/SOURCES/ARROWS/arrow-down-pink.PNG" alt="icon-scrolldown">
+
+								</div>
+
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+
+			<!--& MODULE MINIATURAS &-->
+
+			<div id="inicio" class="mett__module_miniatures-close-up-dark mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+
+					<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<div class="mett__text-center mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<div class="mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-75 mett__flex-gt-100">
+								
+								<h1 class="mett__h1 mett__text-uppercase">
+
+									ELIJE UN MODO QUE SE ADAPTE A TUS NECESIDADES
+
+								</h1>
+
+							</div>
+
+
+							<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-60 mett__flex-gt-100">
+								
+								<p class="mett__p" style="margin-top: 0em;">
+
+									Tiene una bisagra que permite una rotación de 360º <br> el YOGA Book se sitúa como el mejor dispositivo que es capaz de responder a las demandas de nuestro ritmo de vida ajetreado
+								</p>
+
+							</div>
+
+
+						</div>
+
+					</div>
+
+					<!--iconos-->
+
+					<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 inconbg" >
+
+							<!--1-->
+
+							<div class=" mett__layout-row mett__justify-center mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 marginall" >
+							
+							</div>
+
+							<!--2-->
+
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+								<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+									<img src="img/YOGABOOK/icon-7.PNG" style="width: 50px; height: 50px;">
+								</div>
+
+								
+								<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 lettericons02 margintxt" >
+								Mira
+								</div>
+								
+							</div>
+
+							<!--3-->
+
+							<div class=" mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+								<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+									<img src="img/YOGABOOK/icon-8.PNG" style="width: 50px; height: 50px;">
+								</div>
+
+								
+								<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 lettericons02  margintxt" >
+								Escribe
+								</div>
+							
+							</div>
+
+							<!--4-->
+
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+								<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+									<img src="img/YOGABOOK/icon-9.PNG" style="width: 50px; height: 50px;">
+								</div>
+
+								
+								<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 lettericons02  margintxt" >
+								Navega
+								</div>
+							
+							</div>
+
+							<!--5-->
+
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+								<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+									<img src="img/YOGABOOK/icon-1.PNG" style="width: 50px; height: 50px;">
+								</div>
+
+								
+								<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 lettericons02 margintxt" >
+								Crea
+								</div>
+							
+							</div>
+
+
+							
+
+							<!--6-->
+
+							<div class=" mett__layout-row mett__justify-center mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 marginall" >
+
+								
+							</div>
+
+
+					</div>
+
+					<!-- Main container Image Close Up -->
+					
+					<div class="mett__miniatures mett__layout-row mett__layout-wrap mett__justify-space-around mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-show mett__flex-sm-show mett__flex-md-show mett__flex-xs-hide mett__flex-gt-hide">
+
+						<img src="img/YOGABOOK/modos.png" style="height: 100%;">
+
+					</div>
+
+					<div class="mett__miniatures mett__layout-row mett__layout-wrap mett__justify-space-around mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-90 mett__flex-lg-hide mett__flex-sm-hide mett__flex-md-hide mett__flex-xs-show mett__flex-gt-show">
+
+						<img src="img/YOGABOOK/modos-small.png" style="height: 100%;">
+
+					</div>
+
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+			
+
+				
+
+
+			<!--& MODULE BACKGROUND IMAGE INFORMACIÓN &-->
+
+			<div class="mett__module-bg-info mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background:url('img/YOGABOOK/windows/background_2.png');background-position:0em 0em; background-size:cover; background-repeat:no-repeat;">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+					<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<div class="mett__text-center mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<div class="mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-75 mett__flex-gt-100">
+								
+								<h1 class="mett__h1 mett__text-uppercase" style="text-shadow: 1px 1px #404040;">
+
+									UTILIZA EL LÁPIZ DIGITAL REAL PEN PARA EDITAR TUS DIBUJOS COMO UN AUTÉNTICO PROFESIONAL
+
+								</h1>
+
+							</div>
+
+
+							<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-60 mett__flex-gt-100">
+								
+								<p class="mett__p" style="margin-top: 0em; text-shadow: 1px 1px #404040;">
+
+									El Create Pad de la Yoga Book está diseñado de forma única para ofrecer la mejor experiencia de dibujo. Es el sueño de todo ilustrador: dibujas en el Create Pad con una mano, mientras seleccionas las herramientas con la otra. De este modo, puedes ver a tus creaciones cobrar vida de forma instantánea en la pantalla: la mano con la que dibujas nunca te estorba.
+									
+								</p>
+
+							</div>
+
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+			
+
+			<!--& MODULE TEXTO IMAGEN IMAGEN NO MASK &-->
+
+			<div class="mett__module-PI-no-mask mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+						
+						<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+							<div class="mett__layout-row mett__layout-wrap mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-100 mett__flex-gt-100">
+								
+								<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+								
+									<h2 class="mett__h2 mett__text-uppercase">
+
+										NOTE SAVER & LÁPIZ DIGITAL REAL PEN CON TINTA REAL
+
+									</h2>
+
+									<p class="mett__p">
+										
+										Puedes utilizar la punta óptica del lápiz digital para escribir y dibujar en el Create Pad o pasarte a los cartuchos de tinta y al Book Pad, de forma que tendrás tus notas y bocetos tanto en papel como en versión digital y deja que YOGA Book se ocupe de digitalizar tus notas de forma automática. 
+
+									</p>
+
+								</div>
+
+							</div>
+
+							
+							<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-100 mett__flex-gt-100" style="min-height:150px;">
+								
+								<img class="mett__img" src="img/YOGABOOK/windows/modulo_4.png" style="width: 100%; margin-right: -2em" alt="image closeup">
+
+							</div>
+							
+
+						</div>
+					
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+			
+
+			<!--& MODULE texto imagen&texto-->
+
+			<div class=".mett__module-PI-mask .mett__mod-skew1 mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+						
+						<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<div class="mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" style="min-height:160px; max-width: 100%; ">
+								
+								<img class="mett__img" src="img/YOGABOOK/modulo_4.1.png" style="width: 100%;" alt="image closeup">
+
+							</div>
+
+							<div class="mett__layout-row mett__layout-wrap mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-100 mett__flex-gt-100">
+								
+								<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+								
+									<h2 class="mett__h2 mett__text-uppercase">
+
+										PRECISIÓN DE LA PUNTA DE UN LÁPIZ
+
+									</h2>
+
+									<p class="mett__p">
+										
+										Desde escribir hasta dibujar: el lápiz digital Real Pen de doble uso puede hacerlo todo. Dotado de 2048 niveles de sensibilidad a la presión, el lápiz digital está diseñado para capturar los sutiles matices de cada trazo.  Mediante la tecnología de EMR (resonancia electromagnética) de Wacom, puedes hacerlo todo sin ni siquiera tener que cargar el lápiz.
+										
+									</p>
+
+								</div>
+
+							</div>
+
+							
+
+						</div>
+					
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+			<!--iconos2-->
+
+				<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 line"></div>
+
+				<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 inconbg2" >
+
+					<!--1-->
+
+					<div class=" mett__layout-row mett__justify-center mett__flex-lg-10 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20 marginall" >
+					
+					</div>
+
+					<!--2-->
+
+					<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+						<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+							<img src="img/YOGABOOK/icon-10.PNG" style="width: 50px; height: 50px;">
+						</div>
+
+						
+						<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 lettericons02 margintxt" >
+						Stylus + Tinta
+						</div>
+						
+					</div>
+
+					<!--3-->
+
+					<div class=" mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+						<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+							<img src="img/YOGABOOK/icon-2.PNG" style="width: 50px; height: 50px;">
+						</div>
+
+						
+						<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 lettericons02  margintxt" >
+						Lápiz óptico real pen
+						</div>
+					
+					</div>
+
+					<!--4-->
+
+					<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+						<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+							<img src="img/YOGABOOK/icon-6.PNG" style="width: 50px; height: 50px;">
+						</div>
+
+						
+						<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 lettericons02  margintxt" >
+						Crear
+						</div>
+					
+					</div>
+
+					
+
+					<!--6-->
+
+					<div class=" mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20 marginall" >
+
+						
+					</div>
+
+
+				</div>
+
+				<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 line"></div>
+
+
+			<!--& MODULE TEXTO & IMAGEN-->
+
+			<div class="mett__module-PI-no-mask mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+						
+						<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+							<div class="mett__layout-row mett__layout-wrap mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-100 mett__flex-gt-100">
+								
+								<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+								
+									<h2 class="mett__h2 mett__text-uppercase">
+
+										DISEÑADA PARA QUE TÚ TE DESTAQUES
+
+									</h2>
+
+									<p class="mett__p">
+										
+										Ya sea en el trabajo, en el colegio o simplemente haciendo la compra, la toma de notas forma parte de nuestro día a día. Ahora puedes registrar de inmediato las palabras y los trazos que realizas en un papel o en tu cuaderno favorito, de forma que nunca tendrás que preocuparte de saber dónde has dejado tus notas o la lista de cosas que hacer.
+
+									</p>
+
+								</div>
+
+							</div>
+
+							
+							<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-100 mett__flex-gt-100" style="min-height:150px;">
+								
+								<img class="mett__img" src="img/YOGABOOK/modulo_5.1.png" style="width: 100%;" alt="image closeup">
+
+							</div>
+
+							<div class="mett__layout-row mett__justify-end mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+								<p class="mett__p">imagen de referencia. Disponible en color negro</p>
+							</div>
+							
+
+						</div>
+					
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+
+
+			<!--& MODULE TEXTO IMAGEN MASK (SHOW SM, MD, LG) &-->
+
+			<div class="mett__module-PI-mask mett__layout-row mett__layout-wrap mett__justify-end mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-hide mett__flex-xs-hide mett__flex-sm-show mett__flex-md-show mett__flex-lg-show" style="background: url('img/YOGABOOK/modulo_5.png');background-size: cover;background-position: -20em 0em">
+
+				<!-- ELEMENT ABSOLUTE -->
+				<div class="mett__fix-element1"></div>
+
+				<!-- ELEMENT ABSOLUTE -->
+				<div class="mett__mod-skew1 mett__layout-row mett__flex-lg-55 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1 mett__order-gt-1"></div>
+
+				<div class="mett__layout-row mett__flex-lg-55 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1 mett__order-gt-1 mett__cont-information">
+					
+					<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+					<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-90 mett__flex-gt-90">
+					
+						<h2 class="mett__h2 mett__text-uppercase">
+
+							TECLADO HALO CON RETROALIMENTACIÓN HÁPTICA
+
+						</h2>
+
+						<p class="mett__p">
+
+							  Podrá elegir en qué momento usar o no el teclado Halo, es decir, solo cuando lo necesite de verdad.<br>El teclado optimizado mediante software completa y corrige los textos de forma automática mientras escribe, lo que le permite trabajar de una forma más rápida y precisa.
+
+						</p>
+
+					</div>
+
+					<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+				</div>
+				
+			</div>
+
+
+			
+
+
+			<!--& MODULE TEXTO IMAGEN MASK (SHOW XS, GT) &-->
+
+			<div class="mett__module-PI-mask mett__layout-row mett__layout-wrap mett__justify-end mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-show mett__flex-xs-show mett__flex-sm-hide mett__flex-md-hide mett__flex-lg-hide">	
+
+				<div class="mett__layout-row mett__flex-xs-100 mett__flex-gt-100 mett__cont-information">
+					
+					<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+					<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-90 mett__flex-gt-90">
+					
+						<h2 class="mett__h2 mett__text-uppercase">
+
+							TECLADO HALO CON RETROALIMENTACIÓN HÁPTICA
+							
+						</h2>
+
+						<p class="mett__p">
+
+							Podrá elegir en qué momento usar o no el teclado Halo, es decir, solo cuando lo necesite de verdad.<br>El teclado optimizado mediante software completa y corrige los textos de forma automática mientras escribe, lo que le permite trabajar de una forma más rápida y precisa.
+
+						</p>
+
+					</div>
+
+					<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+				</div>
+				
+
+				<div class="mett__layout-row mett__flex-xs-100 mett__flex-gt-100" style="min-height: 300px; background: url('img/YOGABOOK/modulo_5.png');background-size: cover;background-position: 0em 0em"></div>
+
+			</div>
+
+
+			
+			<!--& MODULE INFO CENTER &-->
+
+			<div class="mett__module-info-center mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+
+				<section class="mett__layout-row mett__layout-wrap mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90" style="margin-top: 15px;">
+					
+
+					<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__text-center">
+						
+						<div class="mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-75 mett__flex-gt-100">
+							
+							<h2 class="mett__h2 mett__text-uppercase" style="margin-bottom: 0.5em;">
+								
+								COMPACTA, LIGERA Y CON AUTONOMÍA PARA TODO EL DÍA 
+
+							</h2>
+
+						</div>
+
+
+						<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-60 mett__flex-gt-100">
+							
+							<p class="mett__p" style="margin-top: 0em;">	
+
+								Tiene un grosor que no supera los 4,55 mm al abrirla, un peso de solo 690 g (1,5 libras) y cuenta con una capacidad de uso de hasta 12 horas tras una sola carga
+							</p>
+							
+						</div>
+
+
+					</div>
+
+					<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__text-center">
+						
+						<div class="mett__layout-row mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__text-center" style=" height:100px;">
+							
+							<div>
+								
+								<img src="img/YOGABOOK/modulo_6.png" style="width:100%;">
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<!--iconos3-->
+
+
+					<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 marginall" >
+
+						<!--1-->
+
+						<div class=" mett__layout-row mett__justify-center mett__flex-lg-10 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20 marginall" >
+						
+						</div>
+
+						<!--2-->
+
+						<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+							<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+								<img src="img/YOGABOOK/icon-3.PNG" style="width: 50px; height: 50px;">
+							</div>
+
+							
+							<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 lettericons margintxt colortx" >
+							Lista para trabajar
+							</div>
+							
+						</div>
+
+						<!--3-->
+
+						<div class=" mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+							<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+								<img src="img/YOGABOOK/icon-4.PNG" style="width: 50px; height: 50px;">
+							</div>
+
+							
+							<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 lettericons  margintxt colortx" >
+							690 gramos
+							</div>
+						
+						</div>
+
+						<!--4-->
+
+						<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100 marginall" >
+
+							<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 tamañoicons" >
+								<img src="img/YOGABOOK/icon-5.PNG" style="width: 50px; height: 50px;">
+							</div>
+
+							
+							<div class=" mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 lettericons  margintxt colortx" >
+							10.1 pulgadas
+							</div>
+						
+						</div>
+
+						
+
+						<!--6-->
+
+						<div class=" mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20 marginall" >
+
+							
+						</div>
+
+
+					</div>
+
+				
+
+
+				</section>
+
+			
+			</div>
+
+
+
+				<!--video-->
+
+			<div class="mett__module-bg-info mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				
+						<div class="mett__text-center mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<iframe width="100%" height="395" src="https://www.youtube.com/embed/fgkszsGGbY4?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+
+						</div>
+
+			</div>
+
+			
+				<!--& MODULE TEXTO IMAGEN MASK (SHOW SM, MD, LG) &-->
+
+				<div class="mett__module-PI-mask mett__layout-row mett__layout-wrap mett__justify-start mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-hide mett__flex-xs-hide mett__flex-sm-show mett__flex-md-show mett__flex-lg-show" style="background: url('img/YOGABOOK/background_3.png');background-size: 95%;background-position: 4em 0em">
+
+					<div class="mett__layout-row mett__flex-lg-55 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-1 mett__order-gt-2 mett__cont-information">
+						
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+						<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-90 mett__flex-gt-90">
+						
+							<h2 class="mett__h2 mett__text-uppercase">
+
+								GESTIONA VARIAS TAREAS SIN DIFICULTAD
+
+							</h2>
+
+							<p class="mett__p">
+							Gracias a la interfaz de usuario personalizada de la Yoga Book, podrás ser más productivo que nunca. Deja abiertas varias aplicaciones en una pantalla o minimízalas en una barra de tareas para luego acceder más rápido. 
+							</p>
+
+						</div>
+
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+					</div>
+
+					<div class="mett__fix-element2"></div>
+
+					<div class="mett__layout-row mett__flex-lg-55 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1 mett__order-gt-1 mett__mod-skew2"></div>
+
+
+				</div>
+
+
+				<!--& MODULE TEXTO IMAGEN MASK (SHOW XS, GT) &-->
+
+				<div class="mett__module-PI-mask mett__layout-row mett__layout-wrap mett__justify-end mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-show mett__flex-xs-show mett__flex-sm-hide mett__flex-md-hide mett__flex-lg-hide">	
+
+					<div class="mett__layout-row mett__flex-xs-100 mett__flex-gt-100" style="min-height: 300px; background: url('img/YOGABOOK/background_3.png');background-size: cover;background-position: 0em 0em; background-repeat:no-repeat;"></div>
+
+					<div class="mett__layout-row mett__flex-xs-100 mett__flex-gt-100 mett__cont-information">
+						
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+						<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-90 mett__flex-gt-90">
+						
+							<h2 class="mett__h2 mett__text-uppercase">
+
+								GESTIONA VARIAS TAREAS SIN DIFICULTAD 
+
+
+							</h2>
+
+							<p class="mett__p">
+
+								Gracias a la interfaz de usuario personalizada de la Yoga Book, podrás ser más productivo que nunca. Deja abiertas varias aplicaciones en una pantalla o minimízalas en una barra de tareas para luego acceder más rápido. 
+
+							</p>
+
+						</div>
+
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+					</div>
+					
+
+				</div>
+
+
+				
+
+
+			<!--& MODULE TEXTO IMAGEN IMAGEN NO MASK &-->
+
+			<div class="mett__module-PI-no-mask mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+						
+						<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<div class="mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" style="min-height:150px;">
+								
+								<img class="mett__img" src="img/YOGABOOK/windows/modulo_7.png" style="width: 100%;" alt="image closeup">
+
+							</div>
+
+							<div class="mett__layout-row mett__layout-wrap mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-100 mett__flex-gt-100">
+								
+								<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+								
+									<h2 class="mett__h2 mett__text-uppercase">
+
+										AGILIZA TUS TAREAS DIARIAS
+
+									</h2>
+
+									<p class="mett__p">
+										
+										Intel® Atom™ le ofrece tanto tecnología como funcionalidades de procesamiento avanzadas, ambas integradas en un chip ultracompacto y ligero que aprovecha la energía de forma más eficiente y permite que los dispositivos móviles sigan funcionando durante todo el tiempo que duren sus desplazamientos.
+									</p>
+
+								</div>
+
+							</div>
+
+							
+
+						</div>
+					
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+
+
+
+
+			
+
+			<!--& MODULE ultimo (SHOW SM, MD, LG) -->
+
+				<div class="mett__module-PI-mask mett__layout-row mett__layout-wrap mett__justify-start mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-hide mett__flex-xs-hide mett__flex-sm-show mett__flex-md-show mett__flex-lg-show" style="background: url('img/YOGABOOK/modulo_7.1.png');background-size: 95%;background-position: 4em 0em">
+
+					<div class="mett__layout-row mett__flex-lg-55 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-1 mett__order-xs-1 mett__order-gt-2 mett__cont-information" style="padding: 0em;">
+						
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+						<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-90 mett__flex-gt-90">
+						
+							<h2 class="mett__h2 mett__text-uppercase">
+
+								BATERÍA DISEÑADA PARA PERDURAR
+
+							</h2>
+
+							<p class="mett__p">
+
+								Gracias a las 15 horas que dura la batería, es suficiente con cargar el producto una vez al día. La duradera batería, de 8500 mAh, ofrece potencia durante todo el día, mientras el procesador Intel® Atom™ x5 maximiza la eficacia para que el uso sea prolongado. Todo ello en un dispositivo compacto y ligero que se adapta a tu estilo de vida allí donde estés. 
+							</p>
+
+						</div>
+
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+					</div>
+
+					<div class="mett__fix-element2"></div>
+
+					<div class="mett__layout-row mett__flex-lg-55 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-2 mett__order-md-2 mett__order-sm-2 mett__order-xs-1 mett__order-gt-1 mett__mod-skew2"></div>
+
+
+				</div>
+
+
+				<!--& MODULE TEXTO IMAGEN MASK (SHOW XS, GT) &-->
+
+				<div class="mett__module-PI-mask mett__layout-row mett__layout-wrap mett__justify-end mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-show mett__flex-xs-show mett__flex-sm-hide mett__flex-md-hide mett__flex-lg-hide">	
+
+					<div class="mett__layout-row mett__flex-xs-100 mett__flex-gt-100" style="min-height: 300px; background: url('img/YOGABOOK/modulo_7.1.png');background-size: cover;background-position: 0em 0em; background-repeat:no-repeat;"></div>
+
+					<div class="mett__layout-row mett__flex-xs-100 mett__flex-gt-100 mett__cont-information">
+						
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+						<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-90 mett__flex-gt-90">
+						
+							<h2 class="mett__h2 mett__text-uppercase">
+
+								DISEÑADA PARA DESTACARSE 
+
+
+							</h2>
+
+							<p class="mett__p">
+
+								Ahora las palabras sobre un papel o sobre tu portátil favorita pueden registrarse para que nunca tengas que preocuparte por si las perdés o por hacer nuevamente una lista.
+
+							</p>
+
+						</div>
+
+						<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+					</div>
+					
+
+				</div>
+
+
+					<!--& MODULE texto imagen&texto-->
+
+			<div class=".mett__module-PI-mask .mett__mod-skew1 mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-90 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+					
+						
+						<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-45 mett__flex-xs-100 mett__flex-gt-100" style="min-height:160px; max-width: 100%;">
+								
+								<img class="mett__img" src="img/YOGABOOK/windows/modulo_13.1.png" style="width: 100%;" alt="image closeup">
+
+							</div>
+
+							<div class="mett__layout-row mett__layout-wrap mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" style="margin-right: 5px;">
+								
+								<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" margin-left: 10px;">
+
+									<div class="mett__layout-row  mett__align-center">
+
+										<div class="mett__flex-gt-20 mett__flex-xs-20" style="width: 8%; margin-right: 10px;">
+											 <img src="img/YOGABOOK/icon-dolby-pink.PNG" style="width: 50px; height: 50px;">
+										 </div>
+
+										<h2 class="mett__h2 mett__text-uppercase">
+
+
+
+											Disfruta con una experiencia de cine con dolby atmos®
+
+										</h2>
+									</div>
+
+								
+									<!--<h2 class="mett__h2 mett__text-uppercase">
+
+										Disfrute con una experiencia de cine con dolby atmos®
+
+									</h2>-->
+
+									<p class="mett__p">
+										
+										Para poder aprovechas una pantalla brillante Full-HD de 10,1". Los altavoces mejorados con dolby Atmos®, le permiten disfrutar de un sonido cinematografico envolvente, colocandole en el centro de la acción. 
+										
+									</p>
+
+								</div>
+
+							</div>
+
+							
+
+						</div>
+					
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+
+
+				<!--& MODULE TEXTO IMAGEN IMAGEN NO MASK &-->
+
+			<div class="mett__module-PI-no-mask mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+						
+						<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+
+
+							<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-100 mett__flex-gt-100" >
+								
+								<div class=" mett__justify-center mett__layout-row mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+								
+									<h2 class="mett__h2 mett__text-uppercase" style="font-size: 27px;">
+
+										La Yoga Book incluye:
+
+									</h2>
+
+								</div>
+
+							</div>
+
+							
+							<div class=" mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-space-around mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-100 mett__flex-gt-100" style="margin-top: 30px;">
+
+									<!--1-->
+
+									<!-- <div class=" mett__layout-row mett__layout-wrap mett__justify-center  mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100" >
+
+										<div class=" mett__layout-row mett__justify-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" > <img src="img/YOGABOOK/modulo_9-1.png" > </div>
+
+										<div  class=" mett__layout-row mett__layout-wrap mett__justify-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin-top: 10px; font-size: 15px; text-transform:uppercase; color:#212121;">Protector de tablet</div>
+
+									</div> -->
+
+									<!--2-->
+
+									<div class=" mett__layout-row mett__justify-center mett__layout-wrap  mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100">
+										<div class=" mett__layout-row mett__justify-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" > <img src="img/YOGABOOK/modulo_9-2.png" > </div>
+
+										<div  class=" mett__layout-row mett__layout-wrap mett__justify-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin-top: 10px; font-size: 15px; text-transform:uppercase; color:#212121;">Pad para book</div>
+									</div>
+
+									<!--3-->
+
+									<div class=" mett__layout-row mett__justify-center mett__layout-wrap  mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100">
+										<div class=" mett__layout-row mett__justify-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" > <img src="img/YOGABOOK/modulo_9-4.png" > </div>
+
+										<div  class=" mett__layout-row mett__layout-wrap mett__justify-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin-top: 10px; font-size: 15px; text-transform:uppercase; color:#212121;">Lápiz óptico real pen y punta de tinta recargable</div>
+
+									</div>
+								</div>
+								
+								
+							</div>
+
+							
+
+							
+
+						</div>
+					
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+
+			
+			
+
+
+
+
+
+			<!--& MODULE WINDOWS 10 &
+
+			<div class="mett__module-win10 mett__module-PI-no-mask mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+						
+						<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-center  mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+
+							<div class="mett__layout-row mett__layout-wrap mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-100 mett__flex-gt-100">
+								
+								<div class="mett__text-align-lg mett__text-align-md mett__text-align-sm  mett__text-align-xs mett__text-align-gt mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+								
+									<h2 class="mett__h2 mett__text-uppercase mett__text-white-important">
+
+										WINDOWS 10
+
+									</h2>
+
+									<p class="mett__p mett__text-white-important">
+										
+										Es la sensación familiar del Windows de siempre, aunque mejorada. El menú Inicio ha vuelto mejor que nunca. Amplíelo, personalícelo, hágalo suyo. Trabaje con los demás dispositivos que posea, como por ejemplo, impresoras, cámaras y unidades de memoria USB. Arranque y reanude el sistema rápidamente gracias a tecnologías como InstantGo.
+
+									</p>
+
+								</div>
+
+							</div>
+
+							<div class="mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" style="min-height:150px;">
+								
+								<img class="mett__img" src="img/SOURCES/LOGOS_SVG/win10_blue.svg" style="width: 100%;" alt="image closeup">
+
+							</div>
+
+						</div>
+					
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>-->
+
+
+			<!--& FRINGE blue-->
+
+			<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__text-center" style="background-color: #ef4689;">
+							
+					
+				<h1 class="mett__h1-white">CONOCE EL POTENCIAL DE TU YOGA BOOK</h1>
+
+			</div>
+
+			<!--video2-->
+
+			<div class="mett__module-bg-info mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				
+						<div class="mett__text-center mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/videoseries?list=PLs18hw3X0NC5yGR1mLZX-19t3ZgTN4tqC&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+
+						</div>
+
+			</div>
+
+
+			<!--backgroundfinal-->
+
+			<div class="mett__module-bg-info mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background-image: url('img/YOGABOOK/baner_4.png'); min-height: 500px; background-repeat: no-repeat; background-size: cover; ">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+					<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<div class="mett__text-center mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<div class="mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-75 mett__flex-gt-100">
+								
+								<h1 class="mett__h1 mett__text-uppercase" style="text-shadow: 1px 1px #404040;font-size: 40px; text-align:center; font-family:'Gotham bold', Helvetica, sans-serif; color: #ffffff;">
+
+									SE PARTE DE NUESTRA COMUNIDAD
+
+								</h1>
+
+							</div>
+
+							<div class=" mett__layout-row mett__justify-center mett__flex-lg-45 mett__flex-md-50 mett__flex-sm-60 mett__flex-xs-100 mett__flex-gt-100" >
+
+								<img src="img/YOGABOOK/Logo-Lenovers-02.png" style="width:100%;"> 
+
+							</div>
+
+
+							<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-60 mett__flex-gt-100">
+								
+								<p class="mett__p" style="margin-top: 1em; text-shadow: 1px 1px #404040; font-size: 19px; text-align:center;">
+
+									Conoce todos los beneficios de tener un equipo Lenovo.<br>wwww.lenovoexperience.co
+
+								</p>
+
+							</div>
+
+							<!--boton
+
+							<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+								<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20" style=" height:50px; color:#fff; background-color:#ED6B00; border-radius: 5px; font-family: 'Gotham light'; margin: 2% 10%; ">
+
+									<a class="mett__a-btn" href="http://lenovers.com/" target="_blank" style="font-family: 'Gotham light';">ingresa aqui</a>
+								</div>
+
+							</div>-->
+
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+
+			<!--& MODULE NOTA LEGAL &-->
+
+			<div class="mett__module-legal-note mett__legal-dark mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-85 mett__flex-md-85 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+					
+					<div class="mett__layout-row mett__small-text mett__justify-center" style="text-align: center;">
+
+						Intel, el logotipo de Intel, Intel Inside, el logotipo Intel Inside, Intel Atom y Intel Atom Inside son marcas comerciales de Intel Corporation en los EE. UU. y/o en otros países.
+
+					</div>
+
+				</div>
+
+
+				<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+			</div>
+
+
+
+
+			<!--& FRINGE TITLE &-->
+
+			<div class="mett__fringe-title mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__text-center">
+							
+					
+				<h1 class="mett__h1-white">DISFRUTA DE SUS APLICACIONES</h1>
+
+			</div>
+
+
+			<!-- MODULE APPS -->
+
+			<div class="mett__module-apps mett__layout-row mett__layout-wrap mett__justify-start mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+				
+
+					<div class="mett__container-info-app mett__layout-row mett__layout-wrap mett__justify-center mett__text-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100">
+
+
+						<div class="mett__div-fringe-gray"></div>
+
+						<div class="mett__cont-info mett__flex-lg-85 mett__flex-md-85 mett__flex-sm-85 mett__flex-xs-85 mett__flex-gt-85">
+							
+
+							<div class="mett__layout-row mett__justify-center">
+								
+								<div class="mett__cont-img-logo">
+									
+									 <img class="mett__img" src="img/SOURCES/APPS_LENOVO/reach-logo.png" alt=""/> 
+
+								</div>
+
+							</div>
+
+							<div>
+
+								<h4 class="mett__title-app-module">Lenovo REACHit</h4>
+								
+								<p class="mett__p">
+
+									REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.
+
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="mett__container-info-app mett__layout-row mett__layout-wrap mett__justify-center mett__text-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100">
+
+
+						<div class="mett__div-fringe-gray"></div>
+
+						<div class="mett__cont-info mett__flex-lg-85 mett__flex-md-85 mett__flex-sm-85 mett__flex-xs-85 mett__flex-gt-85">
+							
+
+							<div class="mett__layout-row mett__justify-center">
+								
+								<div class="mett__cont-img-logo">
+									
+									<img class="mett__img" src="img/SOURCES/APPS_LENOVO/shareit-logo.png" alt=""/> 
+
+								</div>
+
+							</div>
+
+							<div>
+
+								<h4 class="mett__title-app-module">lenovo SHAREit</h4>
+								
+								<p class="mett__p">
+
+									SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos.
+
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+					<!--tabla-->
+
+				<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 margininf " >
+
+					<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90 colorbordetab2">
+					
+						<!--1-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab" >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados titles2">
+						
+											<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-100 mett__flex-gt-100">
+							
+												<div><b>caracteristicas</b></div>
+							
+											</div>
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100  titles2">
+						
+											<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+							
+												<p>descripción</p>
+											</div>
+						
+						
+										</div>
+
+								</div>
+							
+
+							</div>
+
+						
+						<!--2-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab" >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados colorletrabk">
+						
+											
+							
+												<p ><b>Sistema(s) operativo(s)</b></p>
+							
+											
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100  colorletrabk">
+						
+											<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90" >
+							
+												<p>Windows 10 Home o Windows 10 Pro </p>
+											</div>
+						
+						
+										</div>
+								</div>
+							
+
+							</div>
+						<!--3-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab" >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorletrabk" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados">
+						
+											
+							
+												<p ><b>Resolución de pantalla</b></p>
+							
+											
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100 ">
+						
+						
+											<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+												<p>1920x1200</p>
+											</div>
+						
+						
+										</div>
+
+
+								</div>
+							
+
+							</div>
+						<!--4-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab colorletrabk" >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados">
+						
+											
+							
+												<p ><b>CPU</b></p>
+							
+											
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100 ">
+						
+											<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+							
+												<p>Procesador Intel® Atom™ x5-Z8550 (cache de 2M, cuatro nucleos, hasta 2,4 GHz) </p>
+							
+											</div>
+						
+										</div>
+
+								</div>
+							
+
+							</div>
+						<!--5-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab" >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorletrabk" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados">
+						
+											
+							
+												<p ><b>Almacenamiento</b></p>
+							
+											
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100 ">
+						
+											<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+							
+												<p>64 GB internos MicroSD™, ampliable hasta 128 GB </p>
+							
+											</div>
+						
+										</div>
+
+										
+								</div>
+							
+
+							</div>
+
+						<!--6-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab colorletrabk" >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados ">
+						
+											
+							
+												<p ><b>Audio</b></p>
+							
+											
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100  ">
+						
+											<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+							
+												<p>Dobly Audio™ Premium</p>
+											</div>
+						
+						
+										</div>
+
+
+								</div>
+							
+
+							</div>
+
+						<!--7-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab " >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorletrabk" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados">
+						
+											
+							
+												<p ><b>Cámara</b></p>
+							
+											
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100 ">
+						
+											<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+							
+												<p>8mpx + 2mpx</p>
+											</div>
+						
+						
+										</div>
+
+								</div>
+							
+
+							</div>
+
+						<!--8-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab colorletrabk" >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados ">
+						
+											
+							
+												<p ><b>Batería</b></p>
+							
+											
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100 ">
+						
+											<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+							
+												<p>8500 mAh, de hasta 13 horas de uso</p>
+											</div>
+						
+						
+										</div>
+
+
+								</div>
+							
+
+							</div>
+						<!--9-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab" >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorletrabk" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados">
+						
+											
+							
+												<p ><b>Conectividad</b></p>
+							
+											
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100 ">
+						
+											<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+							
+												<p>LTE disponible</p>
+											</div>
+						
+						
+										</div>
+
+								</div>
+							
+
+							</div>
+
+						<!--10-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab colorletrabk" >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados">
+						
+											
+							
+												<p ><b>Dimensiones y peso</b></p>
+							
+											
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100 ">
+						
+											<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+							
+												<p>256,6 mm x 170,8 mm x 9,6 mm<br>690 g</p>
+											</div>
+						
+						
+										</div>
+
+										
+								</div>
+							
+
+							</div>
+						<!--11-->
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorbordetab" >
+
+								<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__align-stretch mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 colorletrabk" style=" min-height: 100px;">
+					
+										<div class=" mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 bordesaloslados">
+						
+											
+							
+												<p ><b>Memoria</b></p>
+							
+											
+						
+										</div>
+
+										<div class=" mett__layout-row mett__align-center mett__justify-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-100 mett__flex-gt-100 ">
+						
+											<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+							
+												<p>RAM de 4 GB</p>
+											</div>
+						
+						
+										</div>
+
+										
+								</div>
+							
+
+							</div>
+					</div>
+					</div>
+				</div>
+
+
+					
+
+
+			</div>
+			
+		</section>
+
+
+	</body>
+
+</html>
