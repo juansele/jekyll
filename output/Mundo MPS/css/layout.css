@@ -196,11 +196,12 @@
 		}
 
 		.mett__paralelogram_container_gt_2{
-				background: url('../img/lenovo_pattern.png');
+				background: url('../img/lenovo_pattern.png') #FFF ;
 				border-right: 3px solid #ee6a00;
 				-webkit-transform: skew(0deg);
 				-moz-transform: skew(0deg);
 				-o-transform: skew(0deg);
+		o-transform: skew(0deg);
 				transition: all ease 0.28s;
 				-webkit-transition: all ease 0.28s;
 				-moz-transition: all ease 0.28s;
@@ -245,18 +246,19 @@
 			border-top: none;
 			-moz-transform: skew(-15deg);
 			-o-transform: skew(-15deg);
+			transform: skew(-15deg);
 			transition: all ease 0.28s;
 			-webkit-transition: all ease 0.28s;
 			-moz-transition: all ease 0.28s;
 		}
 
 		.mett__paralelogram_container_xs_2{
-				background: url('../img/lenovo_pattern.png');
+				background: url('../img/lenovo_pattern.png') #FFF ;
 				border-right: 3px solid #ee6a00;
-		
 				-webkit-transform: skew(0deg);
 				-moz-transform: skew(0deg);
 				-o-transform: skew(0deg);
+				transform: skew(0deg);
 				transition: all ease 0.28s;
 				-webkit-transition: all ease 0.28s;
 				-moz-transition: all ease 0.28s;
@@ -293,13 +295,14 @@
 		.mett__flex-sm-hide{display:none}
 
 		.mett__paralelogram_container_sm{
-					background: url('../img/bg-dark.jpg');
+			background: url('../img/bg-dark.jpg');
 			border-right: 2px solid #B52E25;
 			-webkit-transform: skew(-15deg);
 			transform: skew(-15deg);
 			border-top: none;
 			-moz-transform: skew(-15deg);
 			-o-transform: skew(-15deg);
+			transform: skew(-15deg);
 			transition: all ease 0.28s;
 			-webkit-transition: all ease 0.28s;
 			-moz-transition: all ease 0.28s;
@@ -307,12 +310,12 @@
 		}
 
 		.mett__paralelogram_container_sm_2{
-				background: url('../img/lenovo_pattern.png');
+				background: url('../img/lenovo_pattern.png') #FFF;
 				border-right: 3px solid #ee6a00;
-				
-				-webkit-transform: skew(0deg);
-				-moz-transform: skew(0deg);
-				-o-transform: skew(0deg);
+				-webkit-transform: skew(-15deg);
+				-moz-transform: skew(-15deg);
+				-o-transform: skew(-15deg);
+				transform: skew(-15deg);
 				transition: all ease 0.28s;
 				-webkit-transition: all ease 0.28s;
 				-moz-transition: all ease 0.28s;
@@ -363,12 +366,13 @@
 		}
 
 		.mett__paralelogram_container_md_2{
-				background: url('../img/lenovo_pattern.png');
+				background: url('../img/lenovo_pattern.png') #FFF ;
 				border-right: 3px solid #ee6a00;
 				border-right: none;
 				-webkit-transform: skew(-15deg);
 				-moz-transform: skew(-15deg);
 				-o-transform: skew(-15deg);
+				transform: skew(-15deg);
 				transition: all ease 0.28s;
 				-webkit-transition: all ease 0.28s;
 				-moz-transition: all ease 0.28s;
@@ -412,18 +416,20 @@
 			border-top: none;
 			-moz-transform: skew(-15deg);
 			-o-transform: skew(-15deg);
+			transform: skew(-15deg);
 			transition: all ease 0.28s;
 			-webkit-transition: all ease 0.28s;
 			-moz-transition: all ease 0.28s;
 		}
 
 		.mett__paralelogram_container_lg_2{
-				background: url('../img/lenovo_pattern.png');
+				background: url('../img/lenovo_pattern.png') #FFF ;
 				background-color: #fff;
 				border-right: 3px solid #ee6a00;
 				-webkit-transform: skew(-15deg);
 				-moz-transform: skew(-15deg);
 				-o-transform: skew(-15deg);
+				transform: skew(-15deg);
 				transition: all ease 0.28s;
 				-webkit-transition: all ease 0.28s;
 				-moz-transition: all ease 0.28s;
