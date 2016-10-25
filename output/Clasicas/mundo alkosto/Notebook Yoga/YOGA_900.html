@@ -1,3 +1,5 @@
+	
+	<meta charset="utf-8">
 
 		<!-- ESTILOS DE LA FICHA -->
 		<style type="text/css">
@@ -17,6 +19,61 @@
 			.mett__mod-nota-legal{background:#EEE; padding: 1em 2em;font-size:13px;}
 			.mett__banner-at-home{background:#EB6209; height: 80px; color: rgba(255,255,255,0.8);}
 			.mett__text-center{text-align: center;}
+
+
+
+			/*styles-cabecera*/
+
+				.mett__mask-big{
+					 margin-top: 0; position: relative;min-height: 530px;
+				}
+				.mett__letretro{
+					z-index: 1; position:absolute; top: 0; left: 0;
+					
+					width: 225px;
+				}
+				.mett__mask-aviso{
+					font-size: 15px; 
+					color:white; 
+					z-index: 2; 
+					display:block;
+					position: absolute;
+    				top: 45px;
+					left:0;
+					
+
+					transform: rotate(-32deg);
+					-webkit-transform: rotate(-30deg);
+					-moz-transform: rotate(-30deg);
+					-ms-transform: rotate(-30deg);
+					-o-transform: rotate(-30deg);
+					
+				}
+				.mett__mask-logo{
+					 z-index: 3; left: 0; top: 0; right: 22px; margin-left: 344px;
+				}
+				.mett__mask-title{
+					text-align:center; padding: 0px; max-height: 60px;
+				}
+				.mett__mask-sub-title{
+					text-align:center; max-height: 100px; padding: 0px; margin-bottom: 1em; font-size: 19px; text-transform: lowercase;line-height: 1em;
+				}
+				.mett__mask-boton{
+					max-height: 40px; text-align: center;  text-transform: lowercase;
+				}
+				.mett__mask-boton a{
+					background-color:#b62e24; text-transform: uppercase;  color: white; border-radius: 60px; text-align: center; text-decoration: none; padding-top: 10px; padding-bottom: 10px;
+				}
+				.mett__text-intel{
+					font-size: 15px; text-align: end;
+				}
+				.mett__logo-lenovo{
+					position: absolute; top: 0; right: 0;
+				}
+				.mett__maquina{
+					margin-bottom: 4.5em;
+				}
+
 		</style>
 
 		<!-- CONTENEDOR DE LA FICHA -->
@@ -87,27 +144,27 @@
 					
 
 					<!-- CABECERA
-					<section class="mett__layout-row mett__layout-wrap mett__align-start">
-						
-						<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-space-between">
-							<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-85 mett__flex-xs-85 mett__flex-gt-90 mett__layout-row mett__layout-wrap mett__justify-start mett__align-start">
-								<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__cont-t-cabecera">
-									<!-- Contenedor titulo principal
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3" style="text-align:center;">		
-										LENOVO YOGA 900
-									</div>
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__separador-info-t-cabecera"></div>
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__second-text1 mett__second-text2 mett__second-text3" style="text-align:center;">
-										PORTÁTIL 2 EN 1, MARCADAMENTE DIFERENCIADO Y RECONOCIBLE
+						<section class="mett__layout-row mett__layout-wrap mett__align-start">
+							
+							<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-space-between">
+								<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-85 mett__flex-xs-85 mett__flex-gt-90 mett__layout-row mett__layout-wrap mett__justify-start mett__align-start">
+									<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__cont-t-cabecera">
+										<!-- Contenedor titulo principal
+										<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3" style="text-align:center;">		
+											LENOVO YOGA 900
+										</div>
+										<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__separador-info-t-cabecera"></div>
+										<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__second-text1 mett__second-text2 mett__second-text3" style="text-align:center;">
+											PORTÁTIL 2 EN 1, MARCADAMENTE DIFERENCIADO Y RECONOCIBLE
+										</div>
 									</div>
 								</div>
+								<!-- Logo Lenovo 
+								<div class="mett__flex-lg-10 mett__flex-md-15 mett__flex-sm-15 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__layout-wrap mett__justify-end" style="position: absolute;right:0px;">
+									<div><img class="mett__logo" style="width:65.9px !important;height:196.4px !important;" src="../img/OTROS/logo_c22821.png"></div>
+								</div>
 							</div>
-							<!-- Logo Lenovo 
-							<div class="mett__flex-lg-10 mett__flex-md-15 mett__flex-sm-15 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__layout-wrap mett__justify-end" style="position: absolute;right:0px;">
-								<div><img class="mett__logo" style="width:65.9px !important;height:196.4px !important;" src="../img/OTROS/logo_c22821.png"></div>
-							</div>
-						</div>
-					</section>-->
+						</section>-->
 					
 					<!-- ESTRUCTURA DE INFORMACIÓN I | I  
 
@@ -124,102 +181,107 @@
 
 
 					<!--module no mask1-->
-					<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border: 1px solid red; margin-top: 0;">
+					<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__mask-big" style="background: #c9c9c9;">
 						
-							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-100 mett__flex-gt-100" style="border: 1px solid red;">
+						<div class="mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-90">
 
-								<div class=" mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
-									<div style="z-index: 1; ">
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" >
+
+								<!--diagonal roja-->
+
+								<div class=" mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__letretro">
+
+
+									<div >
+
 										<img src="../img/NB_YOGA/YOGA_900/img-diagonal.png" width="100%" >
 
 										
 									</div >
-									<div class=" mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100  mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-gt-hide mett__flex-xs-hide" style="
-									font-size: 18px; 
-									color:white; 
-									z-index: 2; 
-									display:block;
-									position:absolute;  
-									left: 0;
-									top:110px; 
-									transform: rotate(-32deg);
-									-webkit-transform: rotate(-30deg);
-									-moz-transform: rotate(-30deg);
-									-ms-transform: rotate(-30deg);
-									-o-transform: rotate(-30deg);
-									border: 1px solid red; ">
+
+									<!--texto de aviso-->
+
+									<div class=" mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100  mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-gt-hide mett__flex-xs-hide mett__mask-aviso">
 										DISPONIBLE EN ALKOSTO
 									</div>
 
 									
-
-									<div class="mett__layout-row mett__justify-end mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 mett__flex-lg-hide  mett__flex-md-hide  mett__flex-sm-hide" style="border: 1px solid red; z-index: 3; left: 0; top: 0; right: 22px; margin-left: 344px;">
-										<div>
-											<img src="../img/OTROS/logo_c22821.png" width="50px">
-										</div>
-									</div>
-
 								</div>
 
-								<div class=" mett__layout-row" >
+								<!--img de maquina-->
+
+								<div class=" mett__layout-row mett__justify-start mett__align-end mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90 mett__maquina" >
 									<div>
 										<img src="../img/NB_YOGA/YOGA_900/IMG_01.png" width ="100%" >
 									</div>
 								</div>
 
 							</div>
-							<div class="mett__layout-row mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" style="border: 1px solid red;">
-								<div class="mett__layout-row mett__layout-wrap mett__align-center mett__justify-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80" style="border: 1px solid red;">
 
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3" style="text-align:center; padding: 0px; max-height: 60px;margin-bottom: 1em;">
-										LENOVO YOGA 900
+							<!--texto info-maquina-->
+
+							<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-end mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" >
+
+								<div class="mett__layout-row mett__layout-wrap mett__align-end mett__justify-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100" style="min-height: 240px;">
+
+									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3 mett__mask-title" >
+										<div style="font-size: 35px; font-weight: bold;">LENOVO</div><br><div style="font-size: 37px; font-weight: 800; margin-top: -70px; letter-spacing: -2px; color:#b62e24;"> YOGA 900</div>
 									</div>
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__second-text1 mett__second-text2 mett__second-text3" style="text-align:center; max-height: 100px; padding: 0px; margin-bottom: 1em;">
-											PORTÁTIL 2 EN 1, MARCADAMENTE DIFERENCIADO Y RECONOCIBLE
+									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__second-text1 mett__second-text2 mett__second-text3 mett__mask-sub-title">
+											<b>PORTÁTIL 2 EN 1, MARCADAMENTE DIFERENCIADO Y RECONOCIBLE</b>
 										
 									</div>
-									<div class="mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95" style="max-height: 40px; text-align: center;  margin-bottom: 1em;">
-										<a class="mett__layout-row mett__justify-center mett__flex-lg-60 mett__flex-md-60 mett__flex-xs-60 mett__flex-xs-60 mett__flex-gt-60" style="background-color:#b62e24; text-transform: uppercase; font-size: 30px; color: white; border-radius: 60px; text-align: center; " href="http://www.alkosto.com/portatil-lenovo-yoga-900-13-coretm-i7-plata"> 
+
+									<!--botón-->
+
+									<div class="mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__mask-boton">
+
+										<a class="mett__layout-row mett__justify-center mett__flex-lg-60 mett__flex-md-60 mett__flex-xs-60 mett__flex-xs-60 mett__flex-gt-60"  href="http://www.alkosto.com/portatil-lenovo-yoga-900-13-coretm-i7-plata" target="_blank"> 
 											comprar
 										</a>
 										 
 									</div>
 								</div>
 
+								<!--keysentence-->
+
+								<div class="mett__layout-row mett__justify-end mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" margin-top: 0; padding-bottom: 2em;">
+
+									<div class="mett__layout-row mett__justify-end mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-80" >
+
+										<div class="mett__layout-row mett__justify-end mett__align-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__text-intel" >
+											Si tiene Intel,<br> tiene un extraordinario desempeño.
+										</div>
+
+										<!--logo de intel-->
+
+										<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20 " >
+											<img src="../img/NB_YOGA/YOGA_900/intel-atom-i7.png" width= "60px" height=" 65px">
+										</div>
+									</div>
+
+								</div>
+
 							</div>
-							<div class="mett__layout-row mett__justify-end mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10 " style="border: 1px solid red;">
-								<div class="mett__layout-row mett__justify-center" style="right: 0;">
+
+							<!--logo lenovo-->
+
+							<div class="mett__layout-row mett__justify-end mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5 mett__logo-lenovo" >
+								<div class="mett__layout-row mett__justify-center" >
 									<div class="mett__layout-row mett__justify-end">
-										<img src="../img/OTROS/logo_c22821.png" height="200px">
+										<img src="../img/OTROS/logo_c22821.png" height="128,181 px" width="43px">
 									</div>
 									
 								</div>
 							</div>
-							
+						</div>	
+
+
+						
 						
 					</div>
 
-					<!--franja-->
-					<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border: 1px solid red; margin-top: 0;">
-						<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-40 mett__flex-gt-40" style="border: 1px solid red;">
-							sda
-						</div>
-
-						<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-60 mett__flex-gt-60" style="border: 1px solid red; margin-top: 0;">
-
-							<div class="mett__layout-row mett__justify-end mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80" style="border: 1px solid red;">
-							<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80" style="border: 1px solid red; ">
-								Si tiene Intel, tiene un extraordinario desempeño.
-							</div>
-								
-							</div>
-
-							<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20" style="border: 1px solid red;">
-								<img src="../img/NB_YOGA/YOGA_900/intel-atom-i7.png">
-							</div>
-						</div>
-						
-					</div>
+					
 					
 					
 
