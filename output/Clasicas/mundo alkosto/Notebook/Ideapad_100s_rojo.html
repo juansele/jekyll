@@ -17,6 +17,76 @@
 			.mett__mod-nota-legal{background:#EEE; padding: 1em 2em;font-size:13px;}
 			.mett__banner-at-home{background:#EB6209; height: 80px; color: rgba(255,255,255,0.8);}
 			.mett__text-center{text-align: center;}
+
+
+
+			/*styles-cabecera*/
+
+				.mett__mask-big{
+					 margin-top: 0; position: relative;min-height: 530px; background: #f2f2f2;
+				}
+				.mett__letretro{
+					z-index: 1; position:absolute; top: 0; left: 0;
+					
+					width: 225px;
+				}
+				.mett__mask-aviso{
+					font-size: 15px; 
+					color:white; 
+					z-index: 2; 
+					display:block;
+					position: absolute;
+    				top: 45px;
+					left:0;
+					
+
+					transform: rotate(-32deg);
+					-webkit-transform: rotate(-30deg);
+					-moz-transform: rotate(-30deg);
+					-ms-transform: rotate(-30deg);
+					-o-transform: rotate(-30deg);
+					
+				}
+				.mett__mask-logo{
+					 z-index: 3; left: 0; top: 0; right: 22px; margin-left: 344px;
+				}
+				.mett__mask-title2{
+					min-height: 240px;
+				}
+				.mett__mask-title3{
+					text-align:center; padding: 0px; max-height: 60px;
+				}
+				.mett__mask-title-lenovo{
+					font-size: 35px; font-weight: bold;
+				}
+				.mett__mask-title-maquina{
+					font-size: 33px; font-weight: 800; margin-top: -70px; letter-spacing: -2px; color:#b62e24;
+				}
+				.mett__mask-sub-title{
+					text-align:center; max-height: 100px; padding: 0px; margin-bottom: 1em; font-size: 19px; text-transform: lowercase;line-height: 1em;
+				}
+				.mett__mask-boton{
+					max-height: 40px; text-align: center;  text-transform: lowercase;
+				}
+				.mett__mask-boton a{
+					background-color:#b62e24; text-transform: uppercase;  color: white; border-radius: 60px; text-align: center; text-decoration: none; padding-top: 10px; padding-bottom: 10px;
+				}
+				.mett__text-intel{
+					font-size: 15px; text-align: end;
+				}
+				.mett__logo-lenovo{
+					position: absolute; top: 0; right: 0;
+				}
+				.mett__maquina{
+					margin-bottom: 4.5em;
+				}
+				.mett__key{
+					margin-top: 0; padding-bottom: 2em;
+				}
+
+
+
+
 		</style>
 
 		<!-- CONTENEDOR DE LA FICHA -->
@@ -29,85 +99,93 @@
 			</div>
 			<br>
 			<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
+
+				<!--module no mask1-->
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__mask-big" >
+					
+					<div class="mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-90">
+
+						<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" >
+
+							<!--diagonal roja-->
+
+							<div class=" mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__letretro">
+
+
+								<div >
+
+									<img src="../img/NB/IDEAPAD_100S_ROJO/img-diagonal.png" width="100%" >
+
+									
+								</div >
+
+								<!--texto de aviso-->
+
+								<div class=" mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100  mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-gt-hide mett__flex-xs-hide mett__mask-aviso">
+									DISPONIBLE EN ALKOSTO
+								</div>
+
+								
+							</div>
+
+							<!--img de maquina-->
+
+							<div class=" mett__layout-row mett__justify-start mett__align-end mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90 mett__maquina" >
+								<div>
+									<img src="../img/NB/IDEAPAD_100S_ROJO/img_01.png" width ="100%" >
+								</div>
+							</div>
+
+						</div>
+
+						<!--texto info-maquina-->
+
+						<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" >
+
+							<div class="mett__layout-row mett__layout-wrap mett__align-end mett__justify-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 mett__mask-title2" >
+
+								<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3 mett__mask-title3" >
+									<div class="mett__mask-title-lenovo">LENOVO</div><br><div class="mett__mask-title-maquina">IDEAPAD 100S</div>
+								</div>
+								<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__second-text1 mett__second-text2 mett__second-text3 mett__mask-sub-title">
+										<b>EL PORTÁTIL DELGADO Y LIGERO, CÓMODO Y FÁCIL DE USAR</b>
+									
+								</div>
+
+								<!--botón-->
+
+								<div class="mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__mask-boton">
+
+									<a class="mett__layout-row mett__justify-center mett__flex-lg-60 mett__flex-md-60 mett__flex-xs-60 mett__flex-xs-60 mett__flex-gt-60"  href="http://www.alkosto.com/portatil-lenovo-idea-100s-14-celeronr-rojo" target="_blank"> 
+										comprar
+									</a>
+									 
+								</div>
+							</div>
+
+							
+
+						</div>
+
+						<!--logo lenovo-->
+
+						<div class="mett__layout-row mett__justify-end mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5 mett__logo-lenovo" >
+							<div class="mett__layout-row mett__justify-center" >
+								<div class="mett__layout-row mett__justify-end">
+									<img src="../img/OTROS/logo_c22821.png" height="128,181 px" width="43px">
+								</div>
+								
+							</div>
+						</div>
+					</div>	
+
+
+					
+					
+				</div>
+
 				<div class="mett__container-main mett__flex-lg-90 mett__flex-md-85 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-95 mett__layout-wrap">
 					
-
-					<!-- CABECERA -->
-					<section class="mett__layout-row mett__layout-wrap mett__align-start">
-						
-						<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-space-between">
-							<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-85 mett__flex-xs-85 mett__flex-gt-90 mett__layout-row mett__layout-wrap mett__justify-start mett__align-start">
-								<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__cont-t-cabecera">
-									<!-- Contenedor titulo principal -->
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3" style="text-align:center;">		
-										LENOVO IDEAPAD 100s
-									</div>
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__separador-info-t-cabecera"></div>
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__second-text1 mett__second-text2 mett__second-text3" style="text-align:center;">
-										EL PORTÁTIL DELGADO Y LIGERO, CÓMODO Y FÁCIL DE USAR
-									</div>
-								</div>
-							</div>
-							<!-- Logo Lenovo -->
-							<div class="mett__flex-lg-10 mett__flex-md-15 mett__flex-sm-15 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__layout-wrap mett__justify-end" style="position: absolute;right:0px;">
-								<div><img class="mett__logo" style="width:65.9px !important;height:196.4px !important;" src="../img/OTROS/logo_ed6b00.png"></div>
-							</div>
-						</div>
-					</section>
-
-
-					<!-- ESTRUCTURA DE INFORMACIÓN I | I  -->
-
-					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section" style="margin-top:2em;">
-						<div class=" mett__inner-section mett__flex-lg-40 mett__flex-md-45 mett__flex-sm-60 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small" style="text-align:center;">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_AZUL/IMG_01.png">
-						</div>
-
-						<div class=" mett__inner-section mett__flex-lg-40 mett__flex-md-45 mett__flex-sm-60 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small" style="text-align:center;">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_AZUL/IMG_02.png">
-						</div>
-					</section>
-					
-					<!--franja1-->
-					
-					<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 " style="background-color: rgb(198,198,198); border-radius: 10px; padding-bottom: 15px; padding-top: 15px;">
-						<div class="mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-95 mett__justify-space-around" >
-							<div class="mett__layout-row mett__justify-start mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-70 mett__flex-gt-70 mett__justify-space-around">
-
-								<div class="mett__layout-row mett__justify-start mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10 mett__flex-gt-10" >
-									<img src="../img/NB/IDEAPAD_100S_AZUL/intel-atom.png">
-								</div>
-
-								<div class="mett__layout-row mett__justify-start mett__align-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80" style="color:black; margin-left: 10px; margin-left: 10px;">
-									Intel® Atom™ processor.<br> Si tiene intel, tienes experiencias increibles
-								</div>
-							</div>
-
-							<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30" >
-								<div class="mett__layout-row mett__justify-center  mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50" style="background-color:#ee6a00; border-radius: 10px; font-size: 20px; color:white;">
-									<a style="margin-top: 5px; margin-bottom: 5px;">comprar</a>
-								</div>
-							</div>
-							
-						</div>
-						
-					</div>
-
-
-					<!-- ESTRUCTURA DE INFORMACIÓN P -->
-
-					<section class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-center mett__mod-section mett__layout-wrap" style="margin:3em 0em;">
-						<div class="mett__inner-section mett__flex-lg-70 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90">
-							<div class="mett__layout-row mett__justify-center mett__align-center">
-								<span class="mett__titulo-descripcion-main">GRAN RENDIMIENTO, GRAN PRECIO</span>
-							</div>
-							<p class="mett__parrafo" style="margin-top:1em;">
-								Lenovo Ideapad 100s te da todo lo que necesitas y nada de lo que no necesitas de un portátil. es fácil de llevar gracias a su tamaño y peso.
-							</p>
-						</div>
-					</section>
-
-
 
 					<!-- ESTRUCTURA DE INFORMACIÓN I -->
 
@@ -139,7 +217,7 @@
 							</div>
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_AZUL/IMG_04.png">
+							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_ROJO/img_02.png">
 						</div>
 					</section>
 
@@ -173,9 +251,9 @@
 
 					<!-- ESTRUCTURA DE INFORMACIÓN I | I  -->
 
-					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section" style="margin-top:2em;">
-						<div class=" mett__inner-section mett__flex-lg-40 mett__flex-md-45 mett__flex-sm-60 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small" style="text-align:center;">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_AZUL/IMG_06.png">
+					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section" style="margin-top:2em; ">
+						<div class=" mett__inner-section mett__flex-lg-40 mett__flex-md-45 mett__flex-sm-60 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small" style="text-align:center; margin-bottom: 2em;">
+							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_ROJO/img_03.png">
 						</div>
 
 						<div class=" mett__inner-section mett__flex-lg-40 mett__flex-md-45 mett__flex-sm-60 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small" style="text-align:center;">
@@ -206,7 +284,7 @@
 							</div>
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_AZUL/IMG_08.png">
+							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_ROJO/img_04.png">
 						</div>
 					</section>
 
@@ -214,7 +292,7 @@
 
 					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70  mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_AZUL/IMG_09.png">
+							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_ROJO/img_05.png">
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__mod-texto mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 							<!-- MOD. P -->
@@ -258,7 +336,7 @@
 							</div>
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_AZUL/IMG_06.png">
+							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_100S_ROJO/img_06.png">
 						</div>
 					</section>
 
