@@ -1,0 +1,29 @@
+
+
+	/* Specific styles YOGA 900 */
+
+	@media (min-width:320px){
+		.mett__bg-header-gt{
+			background:url(../img/YOGA_900/background_header.png); background-size:cover
+		}
+	}
+	@media (min-width:600px){
+		.mett__bg-header-xs{
+			background:url(../img/YOGA_900/background_header.png); background-size:cover
+		}
+	}
+	@media (min-width:768px){
+		.mett__bg-header-sm{
+			background:url(../img/YOGA_900/header_background_1.png); background-size:cover
+		}
+	}
+	@media (min-width:992px){
+		.mett__bg-header-md{
+			background:url(../img/YOGA_900/header_background_1.png); background-size:cover
+		}
+	}
+	@media (min-width:1200px){
+		.mett__bg-header-lg{
+			background:url(../img/YOGA_900/header_background_1.png); background-size:cover
+		}
+	}
