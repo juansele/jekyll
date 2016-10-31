@@ -203,7 +203,7 @@
 				}
 
 				.lettericons02{
-					color:#4da7bc;
+					color:#4da7bc; font-family:'Gotham light'; font-size: 13px;
 				}
 
 				/*icon3*/
@@ -223,10 +223,7 @@
 					padding-top: 10px;
 					padding-bottom: 10px;
 				}
-				.bakg p{
-					color:white;
-					font-size: 14px;
-				}
+				
 
 				.fonttitle{
 					font-style:'Gotham bold',helvetica,arial,sans-serif; 
@@ -242,13 +239,15 @@
 				.c1{
 					font-size: 13px;
 					color:white;
+					font-family: 'Gotham light';
 
 				}
+
 				.c2{
-					font-size: 18px;
+					font-size: 16px;
 					color:#b64175;
 					margin-top: 0px;
-
+					font-family: 'Gotham bold';
 				}
 
 				/*tabla*/
@@ -304,6 +303,140 @@
 					font-weight: bold;
 					font-family: 'Gotham bold';
 				}
+
+
+
+				/*ficha phab plus*/
+
+					.mett__module-dad-1{
+						overflow: hidden;
+					}
+					.mett__module-son-1{
+						position: relative; 
+					}
+					.mett__module-son-2{
+						background-color: #ca4583; height: 100%; transform: skew(16deg); position: relative; z-index: 1;
+					}
+					.mett__module-son-3{
+						background-color: #ca4583; position: absolute; bottom: 0; left: 0; top:0; width: 70px;
+					}
+					.mett__module-son-4{
+						position: absolute; color:white; z-index: 2;  bottom:0; left:0; right: 0; padding-bottom: 2em;
+					}
+					.mett__module-son-5{
+						margin-top: 3em; 
+					}
+					.mett__module-son-5-1{
+						width: 100%; margin-bottom: 10px;
+					}
+					.mett__module-son-5-2{
+						width: 100%; margin-bottom: -10px;
+					}
+					.mett__module-son-5-3{
+						margin-top: 10px; height: 50px;
+					}
+					.mett__module-son-5-4{
+						font-family: 'Gotham light';
+					}
+					.mett__module-dad-2{
+						height: 20%; 
+					}
+					.mett__module-son-2-1{
+						font-family: 'Gotham light';font-size: 60px; letter-spacing: -2px; color: #585757; margin-top: 20px; margin-left: 73px;
+					}
+					.mett__module-son-2-2{
+						font-family: 'Gotham bold'; font-size: 35px; margin-top: -17px; letter-spacing: -2px; color: #585757; margin-left: 160px;
+					}
+					.mett__module-son-2-3{
+						 z-index: 3; position: absolute;right: 39px; width: 42px; top: 3%;
+					}
+					.mett__module-son-3-1{
+						margin-top: 20px;margin-bottom: 5px; text-align: center;
+					}
+					.mett__module-son-3-2{
+						font-family: 'Gotham light';font-size: 50px; letter-spacing: -3px; color: #ffffff; margin-left: ; text-align: center;
+					}
+					.mett__module-son-3-2{
+						font-family: 'Gotham bold'; font-size: 31px; margin-top: -14px; letter-spacing: -2px; color: #e0e0e0; margin-left: ;
+					}
+					.mett__module-son-3-3{
+						z-index: 3; position: absolute;right: 39px; width: 35px; top: 2%;
+					}
+					.mett__module-son-4-10{
+						min-width: 163px;
+					}
+					.mett__module-son-4-13{
+						margin-top: 2em;
+					}
+					.mett__battery-1{
+						transform: rotate(90deg); margin-right:16px;
+					}
+					.mett__battery-1-1{
+						font-size: 20px; font-family: 'Gotham bold'; color: rgb(255, 255, 255);
+					}
+					.mett__battery-1-2{
+						font-size: 18px; font-family: 'Gotham light';
+					}
+					.mett__backg-dual{
+						background:url('http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_modulo3_background_phab2plus.png');background-position:0em 0em; background-size:cover; background-repeat:no-repeat;
+					}
+					.mett__back-dual-title{
+						text-shadow: 1px 1px #404040;
+					}
+					.mett__back-dual-subtitle{
+						margin-top: 0em; text-shadow: 1px 1px #404040;
+					}
+					.mett__module-son-8-9{
+						min-height:150px;
+					}
+					.mett__module-mask-9{
+						background: url('http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_modulo5-phab2plus.png');background-size: 620px;background-position: -9em 0em; background-repeat: no-repeat;
+					}
+					.mett__module-10-8{
+						min-height: 300px; background: url('http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_modulo5-phab2plus.png');background-size: cover;background-position:0em -5em;
+					}
+					.mett__dad_title-11{
+						margin-bottom: 0.5em;
+					}
+					.mett__son-11{
+						height:100px;
+					}
+					.mett__dad_module-9{
+						background: url('http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_modulo7-phab2plus.png');background-size: 100%;background-position: 18.5em 0em;
+					}
+					.mett__dad_module-10{
+						min-height: 300px; background: url('http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_modulo7_phone-phab2plus.png');background-size: cover;background-position: 0em -21em; background-repeat:no-repeat;
+					}
+					.mett__dad_module-11-5{
+						min-height:150px; 
+					}
+					.mett__module_lenovers{
+						 min-height: 400px; background-repeat: no-repeat; background-size: cover;
+					}
+					.mett__module_lenovers-2{
+						margin:6% 0%;
+					}
+					.mett__module_lenovers-4{
+						color:white;font-size: 40px; text-align:center; font-family:'Gotham bold', Helvetica, sans-serif;
+					}
+					.mett__module_lenovers-6{
+						margin: 2em 0em; width:100%; 
+					}
+					.mett__module_lenovers-8{
+						color:white;font-size: 15px; text-align:center; font-family:'Gotham light', Helvetica, sans-serif;
+					}
+					.mett__module-table-min{
+						min-height: 100px;
+					}
+
+
+
+
+
+
+
+
+
 
 	
 	/*theme yoga pink*/
