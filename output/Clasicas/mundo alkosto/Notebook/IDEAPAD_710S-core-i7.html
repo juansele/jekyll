@@ -1,4 +1,4 @@
-
+<meta name="viewport" content="width=device-width, user-scalable=no">
 		<!-- ESTILOS DE LA FICHA -->
 		<style type="text/css">
 
@@ -15,22 +15,23 @@
 			.mett__titulo-caracteristica{color: #4a80af; font-size: 30px !important; }
 			.mett__cont-icon-footer{padding:0em 0.5em; font-size:1.8em; text-decoration: none; -webkit-transition: all 0.28s ease-in-out; -moz-transition: all 0.28s ease-in-out; -o-transition: all 0.28s ease-in-out; transition: all 0.28s ease-in-out; }
 			.mett__mod-nota-legal{background:#EEE; padding: 1em 2em;font-size:13px;}
-			.mett__banner-at-home{background:#EB6209; height: 80px; color: rgba(255,255,255,0.8);}
-			.mett__text-center{text-align: center;}
+			.mett__banner-at-home{background:#EB6209; min-height: 100px; color: rgba(255,255,255,0.8); padding: 0.3em 0em 0.5em ;}
+			.mett__text-center{text-align: center;     margin-top: 0.3em; margin-bottom: 0.3em;}
 
 
+			/*styles modulo nuevo*/
 
-			/*styles-cabecera*/
-
-				.mett__mask-big{
+			.mett__mask-big{
 					 margin-top: 0; position: relative;min-height: 530px; background: #f2f2f2; background: url(../img/OTROS/lenovo_pattern-02.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; border-bottom: 2px solid rgba(211,211,211, 0.5);
 				}
-				.mett__letretro{
+
+			.mett__letretro{
 					z-index: 1; position:absolute; top: 0; left: 0;
 					
 					width: 225px;
 				}
-				.mett__mask-aviso{
+
+			.mett__mask-aviso{
 					font-size: 15px; 
 					color:white; 
 					z-index: 2; 
@@ -47,45 +48,68 @@
 					-o-transform: rotate(-30deg);
 					
 				}
+			.mett__mask-title3{
+					text-align:center; padding: 0px; max-height: 150px; 
+				}
+
+
+			.mett__maquina{
+					margin-top: 117px;
+				}
+
+			.mett__mask-title2{
+					min-height: 240px;
+				}
+				
+			.mett__mask-sub-title{
+					text-align:center; max-height: 100px; padding: 0px; margin-bottom: 1em; font-size: 19px; text-transform: initial;line-height: 1em;
+				}
+
+			.mett__mask-boton{
+					max-height: 40px; text-align: center;  text-transform: lowercase;
+				}
+			.mett__mask-boton a{
+					background-color:#c22821; text-transform: uppercase;  color: white; border-radius: 60px; text-align: center; text-decoration: none; padding-top: 10px; padding-bottom: 10px; padding: 0.6em 1em; font-weight: bold;
+				}
+			.mett__text-intel{
+					font-size: 15px; text-align: center; font-weight: bold;
+				}
+
+			.mett__key{
+					margin-top: 1em; padding-bottom: 1em;
+				}
+
+			.mett_logo-intel{
+					width: 60px; height: 65px;
+				}
+
+			.mett__logo-lenovo{
+					position: absolute; top: 0; right: 0;
+				}
+			.mett__mask-title-maquina{
+					font-size: 33px; font-weight: 800; margin-top: -50px; letter-spacing: -2px; color:#c22821;
+				}
+				
+			/*-----------------------------------------------------------------*/
+
+			/*styles-cabecera*/
+
+				
+				
+				
 				.mett__mask-logo{
 					 z-index: 3; left: 0; top: 0; right: 22px; margin-left: 344px;
 				}
-				.mett__mask-title2{
-					min-height: 240px;
-				}
-				.mett__mask-title3{
-					text-align:center; padding: 0px; max-height: 60px;
-				}
+				
 				.mett__mask-title-lenovo{
 					font-size: 35px; font-weight: bold;
 				}
-				.mett__mask-title-maquina{
-					font-size: 33px; font-weight: 800; margin-top: -70px; letter-spacing: -2px; color:#c22821;
-				}
-				.mett__mask-sub-title{
-					text-align:center; max-height: 100px; padding: 0px; margin-bottom: 1em; font-size: 19px; text-transform: initial;line-height: 1em;
-				}
-				.mett__mask-boton{
-					max-height: 40px; text-align: center;  text-transform: lowercase;
-				}
-				.mett__mask-boton a{
-					background-color:#c22821; text-transform: uppercase;  color: white; border-radius: 60px; text-align: center; text-decoration: none; padding-top: 10px; padding-bottom: 10px; padding: 0.6em 1em; font-weight: bold;
-				}
-				.mett__text-intel{
-					font-size: 15px; text-align: end; font-weight: bold;
-				}
-				.mett__logo-lenovo{
-					position: absolute; top: 0; right: 0;
-				}
-				.mett__maquina{
-					margin-bottom: 4.5em;
-				}
-				.mett__key{
-					margin-top: 0; padding-bottom: 2em;
-				}
-				.mett_logo-intel{
-					width: 60px; height: 65px;
-				}
+				
+				
+				
+				
+				
+				
 				.mett_logo-lenovo{
 					height: 128.181px; width: 43px;
 					
@@ -143,44 +167,38 @@
 					color:#EB6209;font-size:19px;
 				}
 				
-
-
-
-
-
 		</style>
 
 		<!-- CONTENEDOR DE LA FICHA -->
 		<div class="mett__contenedor-ficha">
 
 			<!-- BANNER LENOVO AT HOME -->
-			
-			<div class="mett__layout-row mett__justify-space-between mett__layout-wrap mett__banner-at-home">
 
-				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10">
+			<!--show gt-sm-md-->
 
+			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__banner-at-home " >
 
+				<div  class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-30 mett__flex-gt-30" >
 					<img class="mett_at-home" src="../img/OTROS/logo_lenovo_at_home.svg" >
-
 				</div>
 
-				<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-50 mett__layout-row mett__align-center mett__justify-center mett__layout-wrap">
+				<div  class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-65 mett__flex-md-65 mett__flex-sm-60 mett__flex-xs-90 mett__flex-gt-90" >
 
-					<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__text-center">
+					<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__text-center" >
 
 						<b>RECOGEMOS TU EQUIPO, LO REPARAMOS Y TE LO DEVOLVEMOS</b>
 
 						<p class="mett_servicio-tecnico" >SERVICIO TÉCNICO GRATÍS POR UN AÑO</p>
 
 					</div>
-
 				</div>
 
-				<div class="mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-35 mett__layout-row mett__justify-end mett__align-center">
-				
+				<div  class="mett__layout-row mett__justify-end mett__align-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-30 mett__flex-xs-90 mett__flex-gt-90" >
+					
+
 					<div class="mett__layout-row mett__padre-phone" >
 					
-						<div class="mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__layout-row mett__justify-center mett__align-center">
+						<div class="mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__layout-row mett__justify-center mett__align-center" >
 						
 							<div>
 							
@@ -203,29 +221,31 @@
 						</div>
 						
 					</div>
-					
+
+
+
 				</div>
-				
 
 			</div>
 			
 
 			<div class="mett__mod-nota-legal">
 				<b>Nota:</b> Intel, el logotipo Intel, Intel Inside, Intel Core y Core Inside son marcas comerciales de Intel Corporation en Estados Unidos de Norteamérica y otros países
+				
 			</div>
 			
 			<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
 
 				<!--module no mask1-->
-				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__mask-big" >
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__mask-big" >
 					
-					<div class="mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-90">
+					<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-90">
 
-						<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" >
+						<div class=" mett__layout-row mett__layout-wrap mett__justify-center  mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" >
 
 							<!--diagonal roja-->
 
-							<div class=" mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__letretro">
+							<div class=" mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__letretro" >
 
 
 								<div >
@@ -246,8 +266,8 @@
 
 							<!--img de maquina-->
 
-							<div class=" mett__layout-row mett__justify-start mett__align-end mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90 mett__maquina" >
-								<div>
+							<div class=" mett__layout-row mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-100 mett__flex-gt-100 " >
+								<div class="mett__maquina ">
 									<img src="../img/NB/IDEAPAD_710S/IMG_02.png" width ="100%" >
 								</div>
 							</div>
@@ -260,10 +280,10 @@
 
 							<div class="mett__layout-row mett__layout-wrap mett__align-end mett__justify-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 mett__mask-title2" >
 
-								<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3 mett__mask-title3" >
+								<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-100 mett__flex-gt-100 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3 mett__mask-title3" >
 									<div class="mett__mask-title-lenovo">LENOVO</div><br><div class="mett__mask-title-maquina"> IDEAPAD 710S</div>
 								</div>
-								<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__second-text1 mett__second-text2 mett__second-text3 mett__mask-sub-title">
+								<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__second-text1 mett__second-text2 mett__second-text3 mett__mask-sub-title" >
 										<b>Alta velocidad y gran rendimiento</b>
 									
 								</div>
@@ -281,17 +301,17 @@
 
 							<!--keysentence-->
 
-							<div class="mett__layout-row mett__justify-end mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__key">
+							<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__key">
 
-								<div class="mett__layout-row mett__justify-end mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-80" >
+								<div class="mett__layout-row  mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-80" >
 
-									<div class="mett__layout-row mett__justify-end mett__align-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__text-intel" >
+									<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 mett__text-intel" >
 										Si tiene Intel®,<br>tiene un extraordinario desempeño.
 									</div>
 
 									<!--logo de intel-->
 
-									<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-20 " >
+									<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-100 mett__flex-gt-100 " >
 										<img class="mett_logo-intel" src="../img/NB/IDEAPAD_710S/intel-atom-core7.png">
 									</div>
 								</div>
@@ -302,7 +322,7 @@
 
 						<!--logo lenovo-->
 
-						<div class="mett__layout-row mett__justify-end mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5 mett__logo-lenovo" >
+						<div class="mett__layout-row mett__justify-end mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30 mett__logo-lenovo" >
 							<div class="mett__layout-row mett__justify-center" >
 								<div class="mett__layout-row mett__justify-end">
 									<img class="mett_logo-lenovo" src="../img/OTROS/logo_c22821.png">
@@ -310,6 +330,7 @@
 								
 							</div>
 						</div>
+
 					</div>	
 					
 				</div>
