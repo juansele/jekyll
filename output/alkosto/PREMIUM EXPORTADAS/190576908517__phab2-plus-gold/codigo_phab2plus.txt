@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="css/styles_phab2plus.css">	
+<link rel="stylesheet" type="text/css" href="http://d2o0t6t9bprj3s.cloudfront.net/css/styles_phab2plus.css">	
 
 <!-- MAIN MODULE -->
 
