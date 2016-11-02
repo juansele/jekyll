@@ -258,7 +258,7 @@
 
 					.mett__module-PI-mask .mett__cont-img{min-height:360px;overflow:hidden;position:relative}
 
-					.mett__module-PI-mask .mett__cont-img img{position:absolute;top:0;left:0;width:210%}
+					.mett__module-PI-mask .mett__cont-img img{position:absolute;top:0;left:0;/*width:210%*/}
 
 					.mett__module-info-center{min-height:380px;background:#f7f7f7;-webkit-transition:all .28s ease-out;-moz-transition:all .28s ease-out;-o-transition:all .28s ease-out;transition:all .28s ease-out}
 
