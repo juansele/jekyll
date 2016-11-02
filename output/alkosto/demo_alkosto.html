@@ -76,43 +76,97 @@
 			.mett__text-center{text-align: center;     margin-top: 0.3em; margin-bottom: 0.3em;}
 
 
+					
+			.mett_estructura-info1{
+				margin:3em 0em;
+			}
+			.mett_estructura-info2{
+				margin-top:1em;
+			}
+			.mett_estructura-info3{
+				margin-top:2em;
+			}
+			.mett_estructura-info4{
+				text-align:center;
+			}
+			.mett_estructura-info5{
+				margin-top:2em;
+			}
+			.mett_estructura-info6{
+				text-align:center;
+			}
+			.mett_estructura-info7{
+				text-align:center;
+			}
+			.mett_estructura-info8{
+				margin: 2em 0em;
+			}
+			.mett_estructura-info9{
+				max-width:110px;max-height:102px;
+			}
+			
+			.mett_estructura-info14{
+				display:none;
+			}
+			.mett_at-home{
+				width:70px; height: 80px;
+			}
+			.mett_servicio-tecnico{
+				margin:0; font-size:13px;margin-top:0.3em;
+			}
+			.mett__padre-phone{
+				width:95%; background:rgba(255,255,255,0.9);padding:0.5em;border-radius:3px;-webkit-border-radius:3px;margin-right:5px;
+			}
+			.mett__phone{
+				width:25px;height:28px;
+			}
+			.mett_padre-info{
+				padding:0em 0.5em;
+			}
+			.mett__llama-ya{
+				color:#EB6209;font-size:13px;
+			}
+			.mett_telefono-cel{
+				color:#EB6209;font-size:19px;
+			}
+			
+
 			/*styles modulo cabecera*/
 
 			.mett__mask-big{
-				position: relative;
-				min-height: 530px; 
-				background: #f2f2f2; 
-				background: url(../img/OTROS/lenovo_pattern-02.png) no-repeat center center fixed; 
-				-webkit-background-size: cover; 
 				-moz-background-size: cover; 
 				-o-background-size: cover; 
+				-webkit-background-size: cover; 
 				background-size: cover; 
+				background-image: url(../img/OTROS/lenovo_pattern-02.png); 
 				border: 1px solid rgba(211,211,211, 0.5);
 				display: flex;
+				min-height: 530px; 
+				position: relative;
 			}
 
 			/* Contenedor Logo Lenovo */
-			.mett__cont-logo-lenovo{
+			.mett__mask-big .mett__cont-logo-lenovo{
 				position: absolute; 
-				top: 0; 
 				right: 0;
+				top: 0; 
 			}
 
-			.mett__cont-logo-lenovo .mett__logo-lenovo{
+			.mett__mask-big .mett__cont-logo-lenovo .mett__logo-lenovo{
 				height: 128.181px; 
 				width: 43px;
 			}
 
 			/* Label alkosto */
-			.mett__letretro{
-				z-index: 1; 
+			.mett__mask-big .mett__letretro{
+				left: 0;
 				position:absolute;
 				top: 0; 
-				left: 0;
 				width: 225px;
+				z-index: 1; 
 			}
 
-			.mett__letretro .mett__mask-aviso{
+			.mett__mask-big .mett__letretro .mett__aviso{
 				-moz-transform: rotate(-30deg);
 				-ms-transform: rotate(-30deg);
 				-o-transform: rotate(-30deg);
@@ -120,151 +174,106 @@
 				color: white;
 				display: block;
 				font-size: 14px;
+				font-weight: bold;
 				left: -1px;
 				position: absolute;
 				top: 46px;
 				transform: rotate(-31deg);
 				z-index: 2;
-				font-weight: bold;
 			}
 
 
 			/* Contenedor de imagen titulos y boton de cabecera */
-			.mett__cont-info-cabecera{
-				margin: 65px 0px;
+			.mett__mask-big .mett__cont-info-cabecera{
+				margin: 75px 0px;
 			}
 
-			.mett__mask-title3{
-				text-align:center; 
-				padding: 0px; 
-				max-height: 150px; 
-			}
-
-			
-			.mett__mask-title-lenovo{
-				font-size: 35px; font-weight: bold;
-			}
-				
-				
-
-			.mett__mask-title2{
+			.mett__mask-big .mett__cont-info-cabecera .mett__mod-info-cabecera{
 				height: 240px;
 			}
-				
-			.mett__mask-sub-title{
-				text-align:center; 
-				max-height: 100px; 
+
+			/* Contenedor de los titulos, botón y la frase de apoyo */
+			.mett__mask-big .mett__mod-info-cabecera .mett__cont-titles-main{
+				max-height: 150px; 
 				padding: 0px; 
-				margin: 1em 0em; 
-				font-size: 19px; 
-				text-transform: initial;
-				line-height: 1em;
+				text-align:center; 
 			}
 
-			.mett__mask-boton{
+			/*titulo Lenovo*/
+			.mett__mask-big .mett__mod-info-cabecera .mett__cont-titles-main .mett__title-lenovo{
+				font-size: 35px; 
+				font-weight: bold;
+			}
+
+			/*Titulo nombre de la maquina*/
+			.mett__mask-big .mett__mod-info-cabecera .mett__cont-titles-main .mett__mask-title-maquina{
+				color:#c22821;
+				font-size: 33px; 
+				font-weight: 800; 
+				letter-spacing: -2px; 
+				margin-top: -8px;
+			}
+
+			/*Frase de apoyo*/	
+			.mett__mask-big .mett__mod-info-cabecera .mett__title-info-support{
+				font-size: 15pt;
+				line-height: 1em;
+				margin: 1em 0em; 
+				max-height: 100px; 
+				padding: 0px; 
+				text-align:center; 
+				text-transform: initial;
+			}
+
+			/* contenedor del botón */
+			.mett__mask-big .mett__mod-info-cabecera .mett__cont-call-to-action{
 				max-height: 40px; 
 				text-align: center;
 				text-transform: lowercase;
 			}
 
-			.mett__mask-boton a{
+			/*botón call to action*/
+			.mett__mask-big .mett__mod-info-cabecera .mett__cont-call-to-action a{
 				background-color:#c22821; 
-				text-transform: uppercase;
-				color: white;
 				border-radius: 60px;
+				color: white;
+				font-size: 11.5pt;
+				font-weight: bold;
+				padding-bottom: 10px; 
+				padding-top: 10px; 
+				padding: 0.6em 1em; 
 				text-align: center;
 				text-decoration: none; 
-				padding-top: 10px; 
-				padding-bottom: 10px; 
-				padding: 0.6em 1em; 
-				font-weight: bold;
-				font-size: 12pt;
+				text-transform: uppercase;
 			}
 
 
-			.mett__text-intel{
+			/*Modulo Itel*/
+			.mett__mask-big .mett__mod-intel{
+				padding-top: 1em; 
+				padding-bottom: 1em;
+			} 
+
+			.mett__mask-big .mett__mod-intel .mett__text-intel{
 				font-size: 15px; 
 				text-align: right; 
 				font-weight: bold;
 			}
 
-			.mett__key{
-				margin-top: 1em; 
-				padding-bottom: 1em;
+			.mett__mask-big .mett__mod-intel .mett__text-intel-small{
+				font-weight: bold;
+				text-align: center;
+				font-size: 16pt;
 			}
 
-			.mett_logo-intel{
-				width: 70px; 
-				height: 75px;
+			.mett__mask-big .mett__mod-intel .mett_logo-intel{
+				width: 80px; 
+				height: 85px;
 			}
 
 			
-			.mett__mask-title-maquina{
-				font-size: 33px; 
-				font-weight: 800; 
-				margin-top: -8px;
-				letter-spacing: -2px; 
-				color:#c22821;
-			}
-				
-	
-				
-				
-				
-				
-				.mett_estructura-info1{
-					margin:3em 0em;
-				}
-				.mett_estructura-info2{
-					margin-top:1em;
-				}
-				.mett_estructura-info3{
-					margin-top:2em;
-				}
-				.mett_estructura-info4{
-					text-align:center;
-				}
-				.mett_estructura-info5{
-					margin-top:2em;
-				}
-				.mett_estructura-info6{
-					text-align:center;
-				}
-				.mett_estructura-info7{
-					text-align:center;
-				}
-				.mett_estructura-info8{
-					margin: 2em 0em;
-				}
-				.mett_estructura-info9{
-					max-width:110px;max-height:102px;
-				}
-				
-				.mett_estructura-info14{
-					display:none;
-				}
-				.mett_at-home{
-					width:70px; height: 80px;
-				}
-				.mett_servicio-tecnico{
-					margin:0; font-size:13px;margin-top:0.3em;
-				}
-				.mett__padre-phone{
-					width:95%; background:rgba(255,255,255,0.9);padding:0.5em;border-radius:3px;-webkit-border-radius:3px;margin-right:5px;
-				}
-				.mett__phone{
-					width:25px;height:28px;
-				}
-				.mett_padre-info{
-					padding:0em 0.5em;
-				}
-				.mett__llama-ya{
-					color:#EB6209;font-size:13px;
-				}
-				.mett_telefono-cel{
-					color:#EB6209;font-size:19px;
-				}
-				
+			
+
 		</style>
 
 		<!-- CONTENEDOR DE LA FICHA -->
@@ -350,7 +359,7 @@
 
 						<!--texto de aviso-->
 
-						<div class=" mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100  mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-gt-hide mett__flex-xs-hide mett__mask-aviso">
+						<div class=" mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100  mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-gt-hide mett__flex-xs-hide mett__aviso">
 							DISPONIBLE EN ALKOSTO
 						</div>
 						
@@ -386,21 +395,24 @@
 
 						<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 
-							<div class="mett__layout-row mett__layout-wrap mett__align-center mett__justify-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 mett__mask-title2" >
+							<div class="mett__mod-info-cabecera mett__layout-row mett__layout-wrap mett__align-center mett__justify-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 " >
 
-								<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-100 mett__flex-gt-100 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3 mett__mask-title3" >
-									<div class="mett__mask-title-lenovo">LENOVO</div>
+								<div class="mett__cont-titles-main mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-100 mett__flex-gt-100 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3">
 									
+									<div class="mett__title-lenovo">LENOVO</div>
 									<div class="mett__mask-title-maquina"> IDEAPAD 710S</div>
+
 								</div>
-								<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__second-text1 mett__second-text2 mett__second-text3 mett__mask-sub-title" >
+
+								<div class="mett__title-info-support mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95">
+
 										<b>Alta velocidad y gran rendimiento</b>
 									
 								</div>
 
 								<!--botón-->
 
-								<div class="mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__mask-boton">
+								<div class="mett__cont-call-to-action mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95">
 
 									<a href="http://www.alkosto.com/portatil-lenovo-idea-710s-13-coretm-i7-plata" target="_blank"> 
 										comprar aquí
@@ -411,7 +423,7 @@
 
 							<!--keysentence-->
 
-							<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__key mett__flex-lg-show mett__flex-md-show mett__flex-sm-hide mett__flex-xs-hide mett__flex-gt-show">
+							<div class="mett__mod-intel mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100  mett__flex-lg-show mett__flex-md-show mett__flex-sm-hide mett__flex-xs-hide mett__flex-gt-show">
 
 								<div class="mett__layout-row  mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-80" >
 
@@ -433,17 +445,17 @@
 
 						<!-- MODULO INTEL SE MUESTRA EN SM, XS Y GT -->
 
-						<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__key mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-show mett__flex-xs-show mett__flex-gt-show mett__order-lg-3 mett__order-md-3 mett__order-sm-3 mett__order-xs-3 mett__order-gt-3">
+						<div class="mett__mod-intel mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100  mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-show mett__flex-xs-show mett__flex-gt-show mett__order-lg-3 mett__order-md-3 mett__order-sm-3 mett__order-xs-3 mett__order-gt-3">
 
 							<div class="mett__layout-row  mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
 
 
 								<!--logo de intel-->
 
-								<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100" >
-									<img class="mett_logo-intel" src="img/mett_intel-atom-core7_generica-clasica.png" style="width: 80px; height: 85px;">
+								<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100">
+									<img class="mett_logo-intel" src="img/mett_intel-atom-core7_generica-clasica.png" alt="logo intel">
 								</div>
-								<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80" style="font-weight: bold;text-align: center;font-size: 14pt;">
+								<div class="mett__text-intel-small mett__layout-row mett__justify-center mett__align-center mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80">
 									Si tiene Intel®,tiene <br> un extraordinario desempeño.
 								</div>
 							</div>
