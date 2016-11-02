@@ -250,7 +250,7 @@
 				-o-background-size: cover; 
 				-webkit-background-size: cover; 
 				background-size: cover; 
-				background-image: url(../img/OTROS/lenovo_pattern-02.png); 
+				background-image: url(img/mett_lenovo_pattern_idea-generica-clasica.png); 
 				border: 1px solid rgba(211,211,211, 0.5);
 				display: flex;
 				min-height: 530px; 
