@@ -415,17 +415,19 @@
 
 				<!-- Close aup image -->
 
-				<div class="mett__mod-item mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-65">
+				<div class="mett__mod-item mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-65">
 					
-					<img class="mett__img" src="img/mett_closeup_2-phab2plus.png" alt="img-closeup_2">
+					<div><img class="mett__img" src="img/mett_closeup_2-phab2plus.png" alt="img-closeup_2"></div>
+					<div class="mett__texto1cuadro" style="margin-left:0px; color:black;">imagen de referencia dicponible en dorado</div>
 
 				</div>
 
 				<!-- Close aup image -->
 
-				<div class="mett__mod-item mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-65">
+				<div class="mett__mod-item mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-65">
 					
-					<img class="mett__img" src="img/mett_closeup_3-phab2plus.png" alt="img-closeup_3">
+					<div><img class="mett__img" src="img/mett_closeup_3-phab2plus.png" alt="img-closeup_3"></div>
+					<div class="mett__texto1cuadro" style="margin-left:0px; color:black;">imagen de referencia dicponible en dorado</div>
 
 				</div>
 
@@ -533,16 +535,16 @@
 
 
 				</div>
-
+				
 			</div>
-
+			
 		</div>
 
 
 		<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
-
+		
 	</div>
-
+	
 
 
 
@@ -580,12 +582,13 @@
 					
 					<div class="mett__layout-row mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100 mett__module-son-8-9">
 
-					<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-50 mett__flex-gt-50">
+						<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-50 mett__flex-gt-50">
+							
+							<img class="mett__img" src="img/mett_modulo4-phab2plus.png" width= 100% alt="image closeup">
+
+							<div class="mett__texto1cuadro" style="margin-left:0px; color:grey;">imagen de referencia dicponible en dorado</div>
+						</div>
 						
-						<img class="mett__img" src="img/mett_modulo4-phab2plus.png" width= 100% alt="image closeup">
-
-					</div>
-
 					</div>
 					
 
@@ -715,7 +718,7 @@
 					<div>
 						
 						<img src="img/mett_modulo6-phab2plus.png" width=100%>
-
+						<div class="mett__texto1cuadro" style="margin-left:0px; color:grey;">imagen de referencia dicponible en dorado</div>
 					</div>
 
 				</div>
