@@ -1,4 +1,4 @@
-											<!-- ESTILOS DE LA FICHA -->
+	<!-- ESTILOS DE LA FICHA -->
 		<style type="text/css">
 
 			iframe.mett__iframe{width:100%;max-width:755px;height:425px}a.mett__link{text-decoration:none;color:#444}@font-face{font-family:HelveticaNeueLT-Light;src:url(fonts/HelveticaNeueLT-Light_gdi.eot);src:url(fonts/HelveticaNeueLT-Light_gdi.eot?#iefix) format('embedded-opentype'),url(fonts/HelveticaNeueLT-Light_gdi.woff) format('woff'),url(fonts/HelveticaNeueLT-Light_gdi.ttf) format('truetype'),url(fonts/HelveticaNeueLT-Light_gdi.svg#HelveticaNeueLT-Light) format('svg');font-weight:3;font-style:normal;font-stretch:normal;unicode-range:U+0-10FFFF}@font-face{font-family:HelveticaNeue-Thin;src:url(fonts/HelveticaNeue-Thin_gdi.eot);src:url(fonts/HelveticaNeue-Thin_gdi.eot?#iefix) format('embedded-opentype'),url(fonts/HelveticaNeue-Thin_gdi.woff) format('woff'),url(fonts/HelveticaNeue-Thin_gdi.ttf) format('truetype'),url(fonts/HelveticaNeue-Thin_gdi.svg#HelveticaNeue-Thin) format('svg');font-weight:100;font-style:normal;font-stretch:normal;unicode-range:U+0020-2212}@font-face{font-family:icomoon;src:url(fonts/icomoon.eot?44l93u);src:url(fonts/icomoon.eot?44l93u#iefix) format('embedded-opentype'),url(fonts/icomoon.ttf?44l93u) format('truetype'),url(fonts/icomoon.woff?44l93u) format('woff'),url(fonts/icomoon.svg?44l93u#icomoon) format('svg');font-weight:400;font-style:normal}[class^=icon-],[class*=mett__icon-]{font-family:icomoon!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.mett__icon-facebook2:before{content:"\e900"}.mett__icon-instagram:before{content:"\e901"}.mett__icon-twitter:before{content:"\e902"}.mett__container-main{min-width:304px!important;}
@@ -395,8 +395,8 @@
 
 			<div class="mett__layout-row mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__banner-at-home " >
 
-				<div  class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-30 mett__flex-gt-30" >
-					<img class="mett_at-home" src="../img/OTROS/logo_lenovo_at_home.svg" >
+				<div  class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-100 mett__flex-gt-100" >
+					<img class="mett_at-home" src="img/mett_logo_lenovo_at_home_generica-clasica.png" >
 				</div>
 
 				<div  class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-65 mett__flex-md-65 mett__flex-sm-60 mett__flex-xs-90 mett__flex-gt-90" >
@@ -419,7 +419,7 @@
 						
 							<div>
 							
-								<img class="mett__phone" src="../img/OTROS/phone.svg" >
+								<img class="mett__phone" src="img/mett_phone_generica-clasica.png" >
 								
 							</div>
 							
@@ -481,7 +481,7 @@
 					<div class="mett__layout-row mett__justify-end mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30 mett__cont-logo-lenovo">
 						<div class="mett__layout-row mett__justify-center" >
 							<div class="mett__layout-row mett__justify-end">
-								<img class="mett__logo-lenovo" src="../img/OTROS/logo_c22821.png">
+								<img class="mett__logo-lenovo" src="img/mett_logo_rojo_generica-clasica.png">
 							</div>
 							
 						</div>
@@ -605,7 +605,7 @@
 
 					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section mett_estructura-info5" >
 						<div class=" mett__inner-section mett__flex-lg-40 mett__flex-md-45 mett__flex-sm-60 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small mett_estructura-info6" >
-							<img class="mett__image-ficha" src="../img/OTROS/GENERICAS/NB/IMG_12.png">
+							<img class="mett__image-ficha" src="img/mett_img_12_carros-generica.png">
 						</div>
 					</section>
 
@@ -631,7 +631,7 @@
 							</div>
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_710S/IMG_04.png">
+							<img class="mett__image-ficha" src="img/mett_img_04_idea710s-plata.png">
 						</div>
 					</section>
 
@@ -640,11 +640,11 @@
 
 					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section mett_estructura-info5" >
 						<div class=" mett__inner-section mett__flex-lg-40 mett__flex-md-45 mett__flex-sm-60 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small mett_estructura-info6" >
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_710S/IMG_03.png">
+							<img class="mett__image-ficha" src="img/mett_img_03_idea710s-plata.png">
 						</div>
 
 						<div class=" mett__inner-section mett__flex-lg-40 mett__flex-md-45 mett__flex-sm-60 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small mett_estructura-info6" >
-							<img class="mett__image-ficha" src="../img/OTROS/GENERICAS/NB/IMG_03.png">
+							<img class="mett__image-ficha" src="img/mett_img_personas_coloresbajos_generica-clasica.png">
 						</div>
 					</section>
 					
@@ -654,7 +654,7 @@
 
 					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
 						<div class="mett__inner-section mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-50 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_710S/IMG_05.png">
+							<img class="mett__image-ficha" src="img/mett_img_05_idea710s-plata.png">
 						</div>
 						<div class="mett__inner-section mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 							<!-- MOD. P -->
@@ -675,7 +675,7 @@
 							</div>
 						</div>
 						<div class="mett__inner-section mett__flex-lg-20 mett__flex-md-15 mett__flex-sm-55 mett__flex-xs-55 mett__flex-gt-70 mett__content-img-small mett__order-lg-3 mett__order-md-2 mett__order-sm-3 mett__order-xs-3 mett__order-gt-3">
-							 <img class="mett__image-ficha" src="../img/NB/IDEAPAD_710S/IMG_06.png">
+							 <img class="mett__image-ficha" src="img/mett_img_06_idea710s-plata.png">
 						</div>
 					</section>
 
@@ -701,7 +701,7 @@
 							</div>
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_710S/IMG_07.png">
+							<img class="mett__image-ficha" src="img/mett_img_07_idea710s-plata.png">
 						</div>
 					</section>
 
@@ -709,7 +709,7 @@
 
 					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70  mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
-							<img class="mett__image-ficha" src="../img/OTROS/GENERICAS/NB/IMG_08.png">
+							<img class="mett__image-ficha" src="img/mett_music_08_generica-clasica.png">
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__mod-texto mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 							<!-- MOD. P -->
@@ -754,7 +754,7 @@
 							</div>
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_710S/IMG_01.png">
+							<img class="mett__image-ficha" src="img/mett_img_01_idea710s-plata.png">
 						</div>
 					</section>
 
@@ -762,7 +762,7 @@
 
 					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70  mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
-							<img class="mett__image-ficha" src="../img/OTROS/GENERICAS/NB/IMG_04.png">
+							<img class="mett__image-ficha" src="img/mett_chica-capucha-generica-clasica.png">
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__mod-texto mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 							<!-- MOD. P -->
@@ -807,7 +807,7 @@
 							</div>
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_710S/IMG_08.png">
+							<img class="mett__image-ficha" src="img/mett_img_08_idea710s-plata.png">
 						</div>
 					</section>
 
@@ -816,7 +816,7 @@
 
 					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70  mett__content-img-small mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_710S/IMG_05.png">
+							<img class="mett__image-ficha" src="img/mett_img_05_idea710s-plata.png">
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__mod-texto mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 							<!-- MOD. P -->
@@ -860,7 +860,7 @@
 							</div>
 						</div>
 						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
-							<img class="mett__image-ficha" src="../img/OTROS/win10_blue.png">
+							<img class="mett__image-ficha" src="img/mett_windows-generica-clasica.png">
 						</div>
 					</section>
 
@@ -871,7 +871,7 @@
 							<div class="mett__mod-list mett__layout-row mett__layout-wrap mett__justify-center mett__align-start">
 								<!-- Logo-especificación -->
 								<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-100">
-									<img class="mett__image-ficha mett_estructura-info9"  src="../img/OTROS/IMG_8.png">
+									<img class="mett__image-ficha mett_estructura-info9"  src="img/mett_img_8_generica-clasica-mundo.png">
 								</div>
 								<!-- Parrafo-especificación -->
 								<div class="mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
@@ -883,7 +883,7 @@
 							<div class="mett__mod-list mett__layout-row mett__layout-wrap mett__justify-center mett__align-start">
 								<!-- Logo-especificación -->
 								<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-100">
-									<img class="mett__image-ficha mett_estructura-info9" src="../img/OTROS/IMG_2.png">
+									<img class="mett__image-ficha mett_estructura-info9" src="img/mett_img_2_generica-clasica-mundo.png">
 								</div>
 								<!-- Parrafo-especificación -->
 								<div class="mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
