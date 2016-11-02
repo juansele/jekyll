@@ -1,4 +1,4 @@
-<!-- ESTILOS DE LA FICHA -->
+			                    	<!-- ESTILOS DE LA FICHA -->
 		<style type="text/css">
 
 			iframe.mett__iframe{width:100%;max-width:755px;height:425px}a.mett__link{text-decoration:none;color:#444}@font-face{font-family:HelveticaNeueLT-Light;src:url(fonts/HelveticaNeueLT-Light_gdi.eot);src:url(fonts/HelveticaNeueLT-Light_gdi.eot?#iefix) format('embedded-opentype'),url(fonts/HelveticaNeueLT-Light_gdi.woff) format('woff'),url(fonts/HelveticaNeueLT-Light_gdi.ttf) format('truetype'),url(fonts/HelveticaNeueLT-Light_gdi.svg#HelveticaNeueLT-Light) format('svg');font-weight:3;font-style:normal;font-stretch:normal;unicode-range:U+0-10FFFF}@font-face{font-family:HelveticaNeue-Thin;src:url(fonts/HelveticaNeue-Thin_gdi.eot);src:url(fonts/HelveticaNeue-Thin_gdi.eot?#iefix) format('embedded-opentype'),url(fonts/HelveticaNeue-Thin_gdi.woff) format('woff'),url(fonts/HelveticaNeue-Thin_gdi.ttf) format('truetype'),url(fonts/HelveticaNeue-Thin_gdi.svg#HelveticaNeue-Thin) format('svg');font-weight:100;font-style:normal;font-stretch:normal;unicode-range:U+0020-2212}@font-face{font-family:icomoon;src:url(fonts/icomoon.eot?44l93u);src:url(fonts/icomoon.eot?44l93u#iefix) format('embedded-opentype'),url(fonts/icomoon.ttf?44l93u) format('truetype'),url(fonts/icomoon.woff?44l93u) format('woff'),url(fonts/icomoon.svg?44l93u#icomoon) format('svg');font-weight:400;font-style:normal}[class^=icon-],[class*=mett__icon-]{font-family:icomoon!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.mett__icon-facebook2:before{content:"\e900"}.mett__icon-instagram:before{content:"\e901"}.mett__icon-twitter:before{content:"\e902"}.mett__container-main{min-width:304px!important;}
@@ -479,14 +479,18 @@
 
 								<div class="mett__layout-row  mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-80" >
 
-									<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 mett__text-intel" >
-										Si tiene Intel®,<br>tiene un extraordinario desempeño.
+									<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 mett__text-intel" >
+										
+										<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin-right:1em;">Si tiene Intel®,</div>
+
+										<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin-right:1em;">tiene un extraordinario desempeño.</div>
+
 									</div>
 
 									<!--logo de intel-->
 
 									<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-100 mett__flex-gt-100 " >
-										<img class="mett_logo-intel" src="img/mett_core-M_generica-clasica.png">
+										<img  src="img/mett_core-M_generica-clasica.png" width="70%">
 									</div>
 								</div>
 
@@ -505,7 +509,7 @@
 								<!--logo de intel-->
 
 								<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-sm-20 mett__flex-xs-20 mett__flex-gt-100">
-									<img class="mett_logo-intel" src="img/mett_core-M_generica-clasica.png" alt="logo intel">
+									<img src="img/mett_core-M_generica-clasica.png" alt="logo intel" width="60%">
 								</div>
 								<div class="mett__text-intel-small mett__layout-row mett__justify-center mett__align-center mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80">
 									Si tiene Intel®,tiene <br> un extraordinario desempeño.
