@@ -36,13 +36,26 @@
 
 			/*video*/
 				.mett__video{ display:none; }
+
+			/*intel*/
+
+			.mett__key{
+					margin-top: 0; padding-bottom: 2em;
+				}
+
+			.mett__text-intel{
+					font-size: 15px; text-align: right; font-weight: bold;
+				}
+
+
+
 		</style>
 
 		<!-- CONTENEDOR DE LA FICHA -->
 		<div class="mett__contenedor-ficha">
 
 			<div class="mett__mod-nota-legal">
-				<b>Nota:</b> Para mayor información del producto, invitamos a revisar las especificaciones que aparecen en esta página. 
+				<b>Nota:</b> Intel, el logotipo Intel, Intel Inside, Intel Core y Core Inside son marcas comerciales de Intel Corporation en Estados Unidos de Norteamérica y otros países 
 			</div>
 			<br>
 			<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
@@ -85,7 +98,26 @@
 						</div>
 					</section>
 					
+					<!--keysentence-->
 
+						<div class="mett__layout-row  mett__justify-end mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__key">
+
+							<div class="mett__layout-row mett__justify-end mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+
+								<div class="mett__layout-row mett__justify-end mett__align-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-50 mett__flex-gt-50 mett__text-intel" >
+
+									Si tiene Intel®,<br>tiene un extraordinario desempeño.
+
+								</div>
+
+								<!--logo de intel-->
+
+								<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 " >
+									<img src="img/mett_intel-atom-core5_generica-clasica.png" width= "60px" height=" 65px">
+								</div>
+							</div>
+
+						</div>
 
 					<!-- ESTRUCTURA DE INFORMACIÓN P -->
 
