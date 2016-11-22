@@ -287,7 +287,33 @@
 			.mett__bgd_module1 .mett__padre_cuadro_ses_1 #mett__cuadro_amigo-ses{
 				background-color: #3c9841; position: absolute; bottom: 0; left: 0; top:0; width: 70px;
 			}
+			.mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina{
+				position: absolute; color:white; z-index: 2;  bottom:0; left:0; right: 0; padding-bottom: 2em;
+			}
+			.mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m{
+				margin-top: 1em;
+			}
+			.mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_titulo{
+				font-size: 35px; font-family: 'Gotham bold';
+			}
+			.mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_padre1_iconos{ margin-bottom: 3px;			}
 
+			.mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_padre1_iconos .mett__hijo_contenedor_padre1{ 		text-align: center;					}
+
+			.mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_padre1_iconos .mett__hijos_contenedor_padre1{ text-align: center; margin-left: 3px; }
+
+			.mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_nombres1_sm{
+				text-align: center;font-family: 'Gotham Book'; font-size: 9px; 
+			}
+			.mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_nombres2_sm{
+				text-align: center;font-family: 'Gotham Book'; font-size: 9px; margin-left: 3px;
+			}
+			.mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_nombres1_lg_md{
+				text-align: center;font-family: 'Gotham Book'; font-size: 13px;
+			}
+			.mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_nombres2_lg_md{
+				text-align: center;font-family: 'Gotham Book'; font-size: 13px; margin-left: 3px;
+			}
 			/*cuadro-texto-modulo1*/
 				/*lg-sm-md*/
 				.mett__padre_titulo_1{
@@ -306,151 +332,222 @@
 				/*logo lenovo*/
 
 				.mett__logo_lenovo{
-					z-index: 3; position: absolute;right: 0; width: 55px; top: 2%;
+					z-index: 3; position: absolute;right: 0; width: 50px; top: 2%;
 				}
 
 			/*styles modulo2*/
-
+				.mett__modulo2_cuadro_izq{
+					 background-color: #ff6c04; padding-bottom: 8px; 
+				}
+				.mett__modulo2_cuadro_izq .mett__hijo_cuadro_titulo{  color:#ffffff; font-size: 30px; font-family: 'Gotham bold';margin-bottom: 3px; margin-top: 5px; }
+				.mett__modulo2_cuadro_izq .mett__hijo_cuadro_subtitulo{ color:#ffffff; font-size: 16px; text-align: center; font-family:'Gotham Book'; } 
+				.mett__modulo2_cuadro_izq .mett__hijo_destacado{  margin-top: 7px;margin-bottom: 7px; }
+				.mett__modulo2_cuadro_izq .mett__hijo_boton{ background-color:#ffffff; font-family: 'Gotham light'; color:#ff6c04; font-size: 25px; text-align: center; padding-top: 5px; padding-bottom: 5px; box-shadow: 2px 4px 3px 5px;cursor: pointer;text-decoration: none;border: none; }
+				.mett__modulo2_cuadro_izq .mett__hijo_boton:hover{ background-color: #e3fce6; }
+				.mett__modulo2_cuadro_der{ background-image: url(img/mett_modulo2-mundo_home.png);min-height: 350px; background-size: cover; font-size: 72px; }
+				
 	</style>
 
 </head>
 <body>
+
 	<!--inicio ficha-->
 
-	<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border: 1px solid red;">
+	<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
 
-		
 			<!--modulo1-->
-		<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__bgd_module1" style="border: 1px solid orange;">
+			<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__bgd_module1" >
 
-			<!--contenedor cuadro sesgado-->
+				<!--contenedor cuadro sesgado-->
 
-			<div class="mett__layout-row mett__justify-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-show mett__flex-gt-hide mett__padre_cuadro_ses_1" style="border: 1px solid blue; ">
+				<div class="mett__layout-row mett__justify-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-show mett__flex-gt-hide mett__padre_cuadro_ses_1" >
 
-				<div class="mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 ">
+					<div class="mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 ">
+					
+					<!--cuadro sesgado-->
+							<div class="mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__cuadro_ses" ></div>
+					<!--cuadro pequeño der o izq-->
+
+							<div class="mett__layout-row mett__justify-start " id="mett__cuadro_amigo-ses"></div>
+
+						<!--imagenes y textos-->
 				
-				<!--cuadro sesgado-->
-						<div class="mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__cuadro_ses" >
+							<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__padre_contenedor_maquina" >
+								<!--cuadro contenedor producto-->
+
+								<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-75 mett__flex-md-75 mett__flex-md-75 mett__flex-sm-80 mett__flex-xs-75 mett__flex-gt-80 mett__hijo_contenedor_m" >
+
+									<!--nombre de la maquina-->
+									<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__hijo_contenedor_titulo" >
+										Y900
+									</div>
+									<!--img producto-->
+																	
+									<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50" >
+											<div>
+												<img src="img/mett_y900_modulo1_mundo_home.png" alt="imagen" width="100%">
+											</div>
+										</div>
+									</div>
+									<!--iconos-->
+									<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__hijo_contenedor_padre1_iconos" >
+
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijo_contenedor_padre1" >
+											<div>
+												<img src="img/mett_modulo1-icono1-mundo_home.png" width="70%">
+											</div>
+										</div>
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijos_contenedor_padre1" >
+											<div>
+												<img src="img/mett_modulo1-icono2-mundo_home.png" width="70%">
+											</div>
+										</div>
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20  mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijos_contenedor_padre1" >
+											<div>
+												<img src="img/mett_modulo1-icono3-mundo_home.png" width="70%">
+											</div>
+										</div>
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijos_contenedor_padre1" >
+											<div>
+												<img src="img/mett_modulo1-icono4-mundo_home.png" width="70%">
+											</div>
+										</div>
+									</div>
+									<!--nombres de iconos(sm)-->
+									<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-show" >
+
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijo_contenedor_nombres1_sm" >
+											Modo Atril
+										</div>
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20  mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijo_contenedor_nombres2_sm" >
+											Modo Carpa
+										</div>
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijo_contenedor_nombres2_sm" >
+											Modo Laptop
+										</div>
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijo_contenedor_nombres2_sm" >
+											Modo Tablet
+										</div>
+									</div>
+									<!--nombres de iconos(lg-md)-->
+									<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-show mett__flex-md-show mett__flex-sm-hide" >
+
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijo_contenedor_nombres1_lg_md" >
+											Modo Atril
+										</div>
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20  mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijo_contenedor_nombres2_lg_md " >
+											Modo Carpa
+										</div>
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijo_contenedor_nombres2_lg_md" >
+											Modo Laptop
+										</div>
+										<div class="mett__layout-row mett__justify-center mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-50 mett__flex-gt-50 mett__hijo_contenedor_nombres2_lg_md" >
+											Modo Tablet
+										</div>
+									</div>
+								</div>
+							</div>
+							
+					</div>
+				</div>
+
+				<!--cuadro-texto-modulo1-->
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-70 mett__flex-gt-70" >
+					<!--cuadro texto centro(lg-ms-sm)-->
+				
+					<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-hide mett__flex-gt-hide" >
+
+						<!--titulo-->
+
+						<div class="mett__layout-row mett__layout-wrap mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__padre_titulo_1" >
+
+							<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-end mett__flex-lg-60 mett__flex-md-70 mett__flex-sm-90 mett__flex-xs-85 mett__flex-gt-100" >
+								TE DESAFÍO
+							</div>
 							
 						</div>
-				<!--cuadro pequeño-->
+						<!--subtitulo-->
+						<div class="mett__layout-row mett__layout-wrap mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
 
-						<div class="mett__layout-row mett__justify-start " id="mett__cuadro_amigo-ses"></div>
-
-					<!--1 texto-imagen- huella-->
-			
-						<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="position: absolute; color:white; z-index: 2;  bottom:0; left:0; right: 0; padding-bottom: 2em; border: 1px solid pink; ">
-
-							<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-75 mett__flex-md-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-75 mett__flex-gt-75" style=" margin-top: 3em;border: 1px solid pink; ">
-
-								<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border: 1px solid red;">
-									<img class="mett__img" src="img/SOURCES/LOGOS_SVG/phab2.svg" alt="imagen" style="width:90%; margin-bottom: -10px;" />
-								</div>
-								
-								
-								<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border: 1px solid red;">
-									<img src="img/PHAB2/header_small-2.png" alt="imagen" style="width: 100%; margin-bottom: -10px;">
-									
-								</div>
-
+							<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-60 mett__flex-md-70 mett__flex-sm-80 mett__flex-xs-85 mett__flex-gt-100 mett__padre_subtitulo_1" >
+								A sentirte más ligero
 							</div>
+							
 						</div>
-						
-					</div>
-			</div>
 
-			<!--cuadro-texto-modulo1-->
-
-			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-70 mett__flex-gt-70" style="border: 1px solid lightblue;">
-				<!--cuadro texto centro(lg-ms-sm)-->
-			
-				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-hide mett__flex-gt-hide" style="border: 1px solid lightblue;">
-
-					<!--titulo-->
-
-					<div class="mett__layout-row mett__layout-wrap mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__padre_titulo_1" style="border: 1px solid red;">
-
-						<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-end mett__flex-lg-60 mett__flex-md-70 mett__flex-sm-90 mett__flex-xs-85 mett__flex-gt-100" >
-							TE DESAFÍO
-						</div>
-						
-					</div>
-					<!--subtitulo-->
-					<div class="mett__layout-row mett__layout-wrap mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border: 1px solid red;">
-
-						<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-60 mett__flex-md-70 mett__flex-sm-80 mett__flex-xs-85 mett__flex-gt-100 mett__padre_subtitulo_1" >
-							A sentirte más ligero
-						</div>
-						
 					</div>
 
-				</div>
-
-				<!--cuadro texto centro(xs-gt)-->
-			
-				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show" style="border: 1px solid lightblue;">
-
-					<!--titulo-->
-
-					<div class="mett__layout-row mett__layout-wrap mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__padre_titulo2" style="border: 1px solid red;">
-
-						<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-end mett__flex-lg-60 mett__flex-md-70 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 " >
-							TE DESAFÍO
-						</div>
-						
-					</div>
-					<!--subtitulo-->
-					<div class="mett__layout-row mett__layout-wrap mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__padre_subtitulo2" style="border: 1px solid red;">
-
-						<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-60 mett__flex-md-70 mett__flex-sm-80 mett__flex-xs-85 mett__flex-gt-100" >
-							A sentirte más ligero
-						</div>
-						
-					</div>
-
-				</div>
+					<!--cuadro texto centro(xs-gt)-->
 				
-			</div>
+					<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show" >
 
-			<!--logo lenovo-->
+						<!--titulo-->
 
-			<img src="img/logo_lenovo_verde_mundo_home.png" class="mett__logo_lenovo">
+						<div class="mett__layout-row mett__layout-wrap mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__padre_titulo2" >
 
+							<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-end mett__flex-lg-60 mett__flex-md-70 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 " >
+								TE DESAFÍO
+							</div>
+							
+						</div>
+						<!--subtitulo-->
+						<div class="mett__layout-row mett__layout-wrap mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__padre_subtitulo2" >
 
-		</div>
+							<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-60 mett__flex-md-70 mett__flex-sm-80 mett__flex-xs-85 mett__flex-gt-100" >
+								A sentirte más ligero
+							</div>
+							
+						</div>
 
-			<!--modulo2-->
-		<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border:1px solid blue;">
-
-			<!--cuadro izq-->
-			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30" style="border:1px solid pink; background-color: #ff6c04;">
-				<div class="mett__layout-row mett__justify-center mett__align-end mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border:1px solid blue; color:#ffffff; font-size: 30px;">
-					AIO 700
-				</div>
-				<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border:1px solid blue;color:#ffffff; font-size: 13px; text-align: center;">
-					increíble rendimiento con su destacado diseño.
-				</div>
-				<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border:1px solid blue;">
-					<div class="mett__layout-row mett__justify-center mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-60 mett__flex-gt-60" style="border:1px solid blue;">
-						<img src="img/mett_img_modulo2_mundo_home.png" width="70%" height="100%">
 					</div>
 					
 				</div>
-				<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border:1px solid blue;">
-					<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-40 mett__flex-gt-40" style="border:1px solid blue; background-color:#ffffff; font-family: 'Gotham light'; color:#ff6c04; font-size: 25px;">
-						Más equipos
+
+				<!--logo lenovo-->
+
+				<img src="img/logo_lenovo_verde_mundo_home.png" class="mett__logo_lenovo">
+
+			</div>
+
+			<!--modulo2-->
+			<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+
+				<!--cuadro izq-->
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-100 mett__flex-gt-100 mett__modulo2_cuadro_izq" >
+
+					<!--titulo principal-->
+					<div class="mett__layout-row mett__justify-center mett__align-end mett__flex-lg-100 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-100 mett__flex-gt-100 mett__hijo_cuadro_titulo" >
+						ALL IN ONE
+					</div>
+					<!--subtitulo-->
+					<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__hijo_cuadro_subtitulo" >
+						<div class="mett__layout-row mett__justify-center mett__flex-lg-90 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-90 mett__flex-gt-90">
+							Increíble rendimiento con sus destacados diseños.
+						</div>
+						
+					</div>
+					<!--imagen de producto destacado-->
+					<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+						<div class="mett__layout-row mett__justify-center mett__flex-lg-60 mett__flex-md-75 mett__flex-sm-70 mett__flex-xs-60 mett__flex-gt-70 mett__hijo_destacado" >
+							<div>
+								<img src="img/mett_img_modulo2_mundo_home.png" width="100%">
+							</div>
+							
+						</div>
+						
+					</div>
+					<!--boton-->
+					<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+						<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-40 mett__flex-md-70 mett__flex-sm-90 mett__flex-xs-70 mett__flex-gt-70 mett__hijo_boton" href="#" >
+							<a >Más equipos</a>
+						</div>
 					</div>
 				</div>
+				<!--cuadro der-->
+				<div class="mett__layout-row mett__justify-end mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-70 mett__flex-gt-70 mett__flex-lg-show mett__flex-ms-show mett__flex-sm-show mett__flex-xs-hide mett__flex-gt-hide mett__modulo2_cuadro_der" ></div>
 			</div>
-			<!--cuadro der-->
-			<div class="mett__layout-row mett__justify-end mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-70 mett__flex-gt-70" style="border:1px solid violet;background-image: url(img/mett_modulo2-mundo_home.png);min-height: 350px; background-size: cover; font-size: 72px;">
-				<div class="mett__layout-row mett__justify-end mett__align-end mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-70 mett__flex-gt-70" style="border: 1px solid blue;">
-
-					<div class="mett__layout-row mett__justify-start mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border: 1px solid blue; color:#ff6c04; font-family: 'Gotham bold';">ALL IN ONE</div>
-				
-				</div>
-			</div>
-		</div>
 
 
 	</div>
