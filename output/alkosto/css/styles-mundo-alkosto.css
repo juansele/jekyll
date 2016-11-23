@@ -765,16 +765,15 @@ html, body{
 	}
 
 	@font-face {
-		font-family:'Gotham Book';
+		font-family: 'Gotham Book';
 		src: url('http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Book.eot');
 		src: url('http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
 		url('http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Book.woff2') format('woff2'),
 		url('http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Book.woff') format('woff'),
-		url('http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Book.svg#Gotham Book') format('svg');
+		url('http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Book.ttf') format('truetype');
 		font-weight: 400;
 		font-style: normal;
 		font-stretch: normal;
-		unicode-range: U+0020-FB02;
 	}
 
 /*styles ficha*/
@@ -843,19 +842,19 @@ html, body{
 
 
 .mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_nombres1_sm{
-	text-align: center;font-family: 'Gotham Book'; font-size: 8px; 
+	text-align: center;font-family: 'Gotham Book', sans-serif !important; font-size: 8px; 
 }
 
 .mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_nombres2_sm{
-	text-align: center;font-family: 'Gotham Book'; font-size: 8px; margin-left: 3px;
+	text-align: center;font-family: 'Gotham Book', sans-serif !important; font-size: 8px; margin-left: 3px;
 }
 
 .mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_nombres1_lg_md{
-	text-align: center;font-family: 'Gotham Book'; font-size: 10px;
+	text-align: center;font-family: 'Gotham Book', sans-serif !important; font-size: 10px;
 }
 
 .mett__bgd_module1 .mett__padre_cuadro_ses_1 .mett__padre_contenedor_maquina .mett__hijo_contenedor_m .mett__hijo_contenedor_nombres2_lg_md{
-	text-align: center;font-family: 'Gotham Book'; font-size: 10px; margin-left: 3px;
+	text-align: center;font-family: 'Gotham Book', sans-serif !important; font-size: 10px; margin-left: 3px;
 }
 
 /*cuadro-texto-modulo1*/
@@ -865,7 +864,7 @@ html, body{
 	}
 
 	.mett__padre_subtitulo_1{
-		font-size: 30px; color:rgba(255,255,255,0.7); font-family: 'Gotham Book';
+		font-size: 30px; color:rgba(255,255,255,0.7); font-family: 'Gotham Book', sans-serif !important;
 	}
 
 	/*xs-gt*/
@@ -874,7 +873,7 @@ html, body{
 	}
 
 	.mett__padre_subtitulo2{
-		font-size: 20px; color:#ffffff;font-family: 'Gotham Book';margin-left: 50px;
+		font-size: 20px; color:#ffffff;font-family: 'Gotham Book', sans-serif !important;margin-left: 50px;
 	}
 
 	/*logo lenovo*/
@@ -916,7 +915,7 @@ html, body{
 	.mett__modulo2_cuadro_izq .mett__hijo_cuadro_subtitulo{ color:rgba(255,255,255,0.8);
 		font-size: 16px;
 		text-align: center;
-		font-family:'Gotham Book';
+		font-family: 'Gotham Book', sans-serif !important;
 		}
 
 	.mett__modulo2_cuadro_izq .mett__hijo_destacado{  margin-top: 7px;
@@ -973,7 +972,7 @@ html, body{
 	.mett__modulo3_cuadro_der .mett__hijo3_cuadro_subtitulo{ color:rgba(255,255,255,0.8);
 	 font-size: 16px;
 	 text-align: center;
-	 font-family:'Gotham Book';
+	 font-family: 'Gotham Book', sans-serif !important;
 	 }
 
 	.mett__modulo3_cuadro_der .mett__hijo3_destacado{  margin-top: 7px;
@@ -1029,26 +1028,26 @@ html, body{
 
 	.mett__modulo3_cuadro_izq .mett__hijo3_contenedor .mett__hijo_modulo3_nombre_maqui_lg_md{ color:#ffffff;
 	 font-size: 13px;
-	 font-family: 'Gotham Book';
+	 font-family: 'Gotham Book', sans-serif !important;
 	 text-align: center;
 	  }
 
 	.mett__modulo3_cuadro_izq .mett__hijo3_contenedor .mett__hijos_modulo3_nombre_maqui_lg_md{ color:#ffffff;
 	 font-size: 13px;
-	 font-family: 'Gotham Book';
+	 font-family: 'Gotham Book', sans-serif !important;
 	 text-align: center;
 	 margin-left: 3px;
 	 }
 
 	.mett__modulo3_cuadro_izq .mett__hijo3_contenedor .mett__hijo_modulo3_nombre_maqui_sm{ color:#ffffff;
 	 font-size: 9px;
-	 font-family: 'Gotham Book';
+	 font-family: 'Gotham Book', sans-serif !important;
 	 text-align: center;
 	  }
 
 	.mett__modulo3_cuadro_izq .mett__hijo3_contenedor .mett__hijos_modulo3_nombre_maqui_sm{ color:#ffffff;
 	 font-size: 9px;
-	 font-family: 'Gotham Book';
+	 font-family: 'Gotham Book', sans-serif !important;
 	 text-align: center;
 	 margin-left: 3px;
 	 }
@@ -1070,7 +1069,7 @@ html, body{
 	.mett__modulo4_cuadro_izq .mett__hijo4_cuadro_subtitulo{ color:rgba(255,255,255,0.8);
 	 font-size: 16px;
 	 text-align: center;
-	 font-family:'Gotham Book';
+	 font-family: 'Gotham Book', sans-serif !important;
 	 }
 
 	.mett__modulo4_cuadro_izq .mett__hijo4_destacado{  margin-top: 7px;
@@ -1128,7 +1127,7 @@ html, body{
 	.mett__modulo5_cuadro_der .mett__hijo5_cuadro_subtitulo{ color:rgba(255,255,255,0.8);
 		font-size: 16px;
 	 text-align: center;
-	 font-family:'Gotham Book';
+	 font-family: 'Gotham Book', sans-serif !important;
 	 }
 
 	.mett__modulo5_cuadro_der .mett__hijo5_destacado{  margin-top: 7px;
@@ -1182,7 +1181,7 @@ html, body{
 	.mett__modulo6_cuadro_izq .mett__hijo6_cuadro_subtitulo{ color:rgba(255,255,255,0.8);
 	 font-size: 16px;
 	 text-align: center;
-	 font-family:'Gotham Book';
+	 font-family: 'Gotham Book', sans-serif !important;
 	 }
 
 	.mett__modulo6_cuadro_izq .mett__hijo6_destacado{  margin-top: 7px;
@@ -1235,7 +1234,7 @@ html, body{
 	.mett__modulo7_cuadro_der .mett__hijo7_cuadro_subtitulo{ color:rgba(255,255,255,0.8);
 	 font-size: 16px;
 	 text-align: center;
-	 font-family:'Gotham Book';
+	 font-family: 'Gotham Book', sans-serif !important;
 	 }
 
 	.mett__modulo7_cuadro_der .mett__hijo7_destacado{  margin-top: 7px;
@@ -1316,7 +1315,7 @@ html, body{
 			padding-bottom: 10px;
 			color: #ffffff;
 			font-size: 17px;
-			font-family: 'Gotham book';
+			font-family: 'Gotham Book', sans-serif !important;
 			cursor: pointer;
 			max-width: 147px;
 			text-decoration: none;
@@ -1337,7 +1336,7 @@ html, body{
 			margin-top: 15px;
 			color: #ffffff;
 			font-size: 17px;
-			font-family: 'Gotham book';
+			font-family: 'Gotham Book', sans-serif !important;
 			cursor: pointer;
 			max-width: 147px;
 			text-decoration: none;
@@ -1363,14 +1362,14 @@ html, body{
 
 		.mett__bgd_module8 .mett__hijo_contenedor8_nombres1_sm{
 			text-align: center;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			 font-size: 9px;
 			 margin-bottom: 10px;
 		}
 
 		.mett__bgd_module8 .mett__hijo_contenedor8_nombres2_sm{
 			text-align: center;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			 font-size: 9px;
 			 margin-left: 3px;
 			 margin-bottom: 10px;
@@ -1378,14 +1377,14 @@ html, body{
 
 		.mett__bgd_module8 .mett__hijo_contenedor8_nombres1_lg_md{
 			text-align: center;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			 font-size: 13px;
 			 margin-bottom: 10px;
 		}
 
 		.mett__bgd_module8 .mett__hijo_contenedor8_nombres2_lg_md{
 			text-align: center;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			 font-size: 13px;
 			 margin-left: 3px;
 			 margin-bottom: 10px;
@@ -1452,26 +1451,26 @@ html, body{
 		.mett__modulo9_cuadro_izq .mett__hijo9_contenedor .mett__hijo_modulo9_nombre_maqui_lg_md{ 
 			color:#ffffff;
 			font-size: 13px;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			text-align: center;
 		}
 		.mett__modulo9_cuadro_izq .mett__hijo9_contenedor .mett__hijos_modulo9_nombre_maqui_lg_md{ 
 			color:#ffffff;
 			font-size: 13px;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			text-align: center;
 			margin-left: 3px;
 		}
 		.mett__modulo9_cuadro_izq .mett__hijo9_contenedor .mett__hijo_modulo9_nombre_maqui_sm{ 
 			color:#ffffff;
 			font-size: 9px;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			text-align: center;
 		}
 		.mett__modulo9_cuadro_izq .mett__hijo9_contenedor .mett__hijos_modulo9_nombre_maqui_sm{ 
 			color:#ffffff;
 			font-size: 9px;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			text-align: center;
 			margin-left: 3px;
 		}
@@ -1518,23 +1517,23 @@ html, body{
 		 }
 		.mett__modulo10_cuadro_izq .mett__hijo10_contenedor .mett__hijo_modulo10_nombre_maqui_lg_md{ color:#ffffff;
 			font-size: 13px;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			text-align: center;
 		  }
 		.mett__modulo10_cuadro_izq .mett__hijo10_contenedor .mett__hijos_modulo10_nombre_maqui_lg_md{ color:#ffffff;
 			font-size: 13px;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			text-align: center;
 			margin-left: 3px;
 		 }
 		.mett__modulo10_cuadro_izq .mett__hijo10_contenedor .mett__hijo_modulo10_nombre_maqui_sm{ color:#ffffff;
 			font-size: 9px;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			text-align: center;
 		  }
 		.mett__modulo10_cuadro_izq .mett__hijo10_contenedor .mett__hijos_modulo10_nombre_maqui_sm{ color:#ffffff;
 			font-size: 9px;
-			font-family: 'Gotham Book';
+			font-family: 'Gotham Book', sans-serif !important;
 			text-align: center;
 			margin-left: 3px;
 		 }
