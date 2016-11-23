@@ -378,7 +378,7 @@
 						font-size: 18px; font-family: 'Gotham light';
 					}
 					.mett__backg-dual{
-						background:url('http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_modulo3_background_phab2plus.png');background-position:0em 0em; background-size:cover; background-repeat:no-repeat;
+						background:url('http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_modulo3_background_phab2plus.png');background-position:0em 0em; background-size:cover; background-repeat:no-repeat;
 					}
 					.mett__back-dual-title{
 						text-shadow: 1px 1px #404040;
@@ -390,10 +390,10 @@
 						min-height:150px;
 					}
 					.mett__module-mask-9{
-						background: url('http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_modulo5-phab2plus.png');background-size: 620px;background-position: -9em 0em; background-repeat: no-repeat;
+						background: url('http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_modulo5-phab2plus.png');background-size: 620px;background-position: -9em 0em; background-repeat: no-repeat;
 					}
 					.mett__module-10-8{
-						min-height: 300px; background: url('http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_modulo5-phab2plus.png');background-size: cover;background-position:0em -5em;
+						min-height: 300px; background: url('http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_modulo5-phab2plus.png');background-size: cover;background-position:0em -5em;
 					}
 					.mett__dad_title-11{
 						margin-bottom: 0.5em;
@@ -402,10 +402,10 @@
 						height:100px;
 					}
 					.mett__dad_module-9{
-						background: url('http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_modulo7-phab2plus.png');background-size: 100%;background-position: 18.5em 0em;
+						background: url('http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_modulo7-phab2plus.png');background-size: 100%;background-position: 18.5em 0em;
 					}
 					.mett__dad_module-10{
-						min-height: 300px; background: url('http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_modulo7_phone-phab2plus.png');background-size: cover;background-position: 0em -21em; background-repeat:no-repeat;
+						min-height: 300px; background: url('http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_modulo7_phone-phab2plus.png');background-size: cover;background-position: 0em -21em; background-repeat:no-repeat;
 					}
 					.mett__dad_module-11-5{
 						min-height:150px; 
@@ -500,7 +500,7 @@
 
 		.mett__module_miniatures-close-up-dark .mett__miniatures .mett__mod-item img{width:100%}
 
-		.mett__module-bg-info{min-height:400px;background:#eee;color:#fff;-webkit-transition:all .28s ease-out;-moz-transition:all .28s ease-out;-o-transition:all .28s ease-out;transition:all .28s ease-out}
+		.mett__module-bg-info{min-height:400px;color:#fff;-webkit-transition:all .28s ease-out;-moz-transition:all .28s ease-out;-o-transition:all .28s ease-out;transition:all .28s ease-out}
 
 		.mett__module-PI-no-mask{min-height:380px;padding:3em 0;background:#f4f4f4;-webkit-transition:all .28s ease-out;-moz-transition:all .28s ease-out;-o-transition:all .28s ease-out;transition:all .28s ease-out}
 
@@ -597,41 +597,41 @@
 
 		@media (min-width:320px){
 			.mett__bg-header-gt-phab2-plus{
-			background: url(http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_background_phone-phab2plus.png); background-size:cover; background-repeat: no-repeat;
+			background: url(http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_background_phone-phab2plus.png); background-size:cover; background-repeat: no-repeat;
 			}
 			.mett__bg-lenovers-gt-phab2-plus{
-			background: url(http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_lenovers_small-phabs.png); background-size:cover;
+			background: url(http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_lenovers_small-phabs.png); background-size:cover;
 			}
 		}
 		@media (min-width:600px){
 			.mett__bg-header-xs-phab2-plus{
-			background: url(http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_background_phone-phab2plus.png); background-size:cover; background-repeat: no-repeat;
+			background: url(http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_background_phone-phab2plus.png); background-size:cover; background-repeat: no-repeat;
 			}
 			.mett__bg-lenovers-xs-phab2-plus{
-			background: url(http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_lenovers_small-phabs.png); background-size:cover;
+			background: url(http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_lenovers_small-phabs.png); background-size:cover;
 			}
 		}
 		@media (min-width:768px){
 			.mett__bg-header-sm-phab2-plus{
-			background: url(http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_background_phab2plus.png); background-size:cover;background-position-x:2.5em;
+			background: url(http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_background_phab2plus.png); background-size:cover;background-position-x:2.5em;
 			}
 			.mett__bg-lenovers-sm-phab2-plus{
-			background: url(http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_lenovers_background-phabs.png); background-size:cover;
+			background: url(http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_lenovers_background-phabs.png); background-size:cover;
 			}
 		}
 		@media (min-width:992px){
 			.mett__bg-header-md-phab2-plus{
-			background: url(http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_background_phab2plus.png); background-size:cover;background-position-x:2.5em;
+			background: url(http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_background_phab2plus.png); background-size:cover;background-position-x:2.5em;
 			}
 			.mett__bg-lenovers-md-phab2-plus{
-			background: url(http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_lenovers_background-phabs.png); background-size:cover;
+			background: url(http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_lenovers_background-phabs.png); background-size:cover;
 			}
 		}
 		@media (min-width:1200px){
 			.mett__bg-header-lg-phab2-plus{
-			background: url(http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_background_phab2plus.png); background-size:cover;background-position-x:2.5em;
+			background: url(http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_background_phab2plus.png); background-size:cover;background-position-x:2.5em;
 			}
 			.mett__bg-lenovers-lg-phab2-plus{
-			background: url(http://production-alkosto-data.s3-website-us-east-1.amazonaws.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett_lenovers_background-phabs.png); background-size:cover;
+			background: url(http://media.aws.alkosto.com/media/KTRONIX/contenido/Informatica/LENOVO/Contenidos-2016/mett/V2/mett_lenovers_background-phabs.png); background-size:cover;
 			}
 		}
