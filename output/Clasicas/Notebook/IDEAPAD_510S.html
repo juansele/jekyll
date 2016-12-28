@@ -1,3 +1,6 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+	
 
 		<!-- ESTILOS DE LA FICHA -->
 		<style type="text/css">
@@ -17,143 +20,132 @@
 			.mett__mod-nota-legal{background:#EEE; padding: 1em 2em;font-size:13px;}
 			.mett__banner-at-home{background:#EB6209; height: 80px; color: rgba(255,255,255,0.8);}
 			.mett__text-center{text-align: center;}
+
+
+
+			/*styles-cabecera*/
+
+				.mett__mask-big{
+					 margin-top: 0; position: relative;min-height: 530px; background: url(../img/OTROS/lenovo_pattern-02.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; border-bottom: 2px solid rgba(211,211,211, 0.5);
+				}
+				.mett__letretro{
+					z-index: 1; position:absolute; top: 0; left: 0;
+					
+					width: 225px;
+				}
+				.mett__mask-aviso{
+					font-size: 15px; 
+					color:white; 
+					z-index: 2; 
+					display:block;
+					position: absolute;
+    				top: 45px;
+					left:0;
+					
+
+					transform: rotate(-32deg);
+					-webkit-transform: rotate(-30deg);
+					-moz-transform: rotate(-30deg);
+					-ms-transform: rotate(-30deg);
+					-o-transform: rotate(-30deg);
+					
+				}
+				.mett__mask-logo{
+					 z-index: 3; left: 0; top: 0; right: 22px; margin-left: 344px;
+				}
+				.mett__mask-title2{
+					min-height: 240px;
+				}
+				.mett__mask-title3{
+					text-align:center; padding: 0px; max-height: 60px;
+				}
+				.mett__mask-title-lenovo{
+					font-size: 35px; font-weight: bold;
+				}
+				.mett__mask-title-maquina{
+					font-size: 33px; font-weight: 800; margin-top: -70px; letter-spacing: -2px; color:#c22821;
+				}
+				.mett__mask-sub-title{
+					text-align:center; max-height: 100px; padding: 0px; margin-bottom:4em; font-size: 19px; text-transform: initial;line-height: 1em;
+				}
+				
+				.mett__text-intel{
+					font-size: 15px; text-align: end; font-weight: bold;
+				}
+				.mett__logo-lenovo{
+					position: absolute; top: 0; right: 0;
+				}
+				.mett__maquina{
+					margin-bottom: 4.5em;
+				}
+				.mett__key{
+					margin-top: 0; padding-bottom: 2em;
+				}
+
 		</style>
 
 		<!-- CONTENEDOR DE LA FICHA -->
-		<div class="mett__contenedor-ficha">
+		<div class="mett__contenedor-ficha mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 
-			<!-- BANNER LENOVO AT HOME -->
-			<!--
-			<div class="mett__layout-row mett__justify-space-between mett__layout-wrap mett__banner-at-home">
-
-				<div class="mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-10">
-
-
-					<img src="../img/OTROS/logo_lenovo_at_home.svg" style="width:70px; height: 80px;">
-
-				</div>
-
-				<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-50 mett__layout-row mett__align-center mett__justify-center mett__layout-wrap">
-
-					<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__text-center">
-
-						<b>RECOGEMOS TU EQUIPO, LO REPARAMOS Y TE LO DEVOLVEMOS</b>
-
-						<p style="margin:0; font-size:13px;margin-top:0.3em;">SERVICIO TÉCNICO GRATÍS POR UN AÑO</p>
-
-					</div>
-
-				</div>
-
-				<div class="mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-35 mett__layout-row mett__justify-end mett__align-center">
-				
-					<div class="mett__layout-row" style="width:95%; background:rgba(255,255,255,0.9);padding:0.5em;border-radius:3px;-webkit-border-radius:3px;margin-right:5px;">
-					
-						<div class="mett__flex-lg-20 mett__flex-md-20 mett__flex-sm-20 mett__flex-xs-20 mett__layout-row mett__justify-center mett__align-center">
-						
-							<div>
-							
-								<img src="../img/OTROS/phone.svg" style="width:25px;height:28px;">
-								
-							</div>
-							
-						</div>
-						
-						<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80" style="padding:0em 0.5em;">
-						
-							<div style="color:#EB6209;font-size:13px;"><b>Llama ya</b></div>
-							
-							<div style="color:#EB6209;font-size:19px;">
-							
-								<b>01 8000 5182433</b>
-								
-							</div>
-							
-						</div>
-						
-					</div>
-					
-				</div>
-				
-
-			</div>
-			-->
-
-			<div class="mett__mod-nota-legal">
+			<div class="mett__mod-nota-legal mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 				<b>Nota:</b> Para mayor información del producto, invitamos a revisar las especificaciones que aparecen en esta página. 
 			</div>
-			<br>
-			<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
+
+			
+
+			<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+				<!--cabezote-->
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__mask-big" >
+						
+						<div class="mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-90">
+
+							<div class=" mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" >
+
+								
+								<div class=" mett__layout-row mett__justify-start mett__align-end mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90 mett__maquina" >
+									<div>
+										<img src="../img/NB/IDEAPAD_500S/IMG_02.png" width ="100%" >
+									</div>
+								</div>
+
+							</div>
+							<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100" >
+
+								<div class="mett__layout-row mett__layout-wrap mett__align-end mett__justify-center mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 mett__mask-title2" >
+
+									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3 mett__mask-title3" >
+										<div class="mett__mask-title-lenovo">LENOVO</div><br><div class="mett__mask-title-maquina">
+											IDEAPAD 510S
+										</div>
+									</div>
+									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__second-text1 mett__second-text2 mett__second-text3 mett__mask-sub-title">
+											<b>POTENTE PORTÁTIL MULTIMEDIA</b>
+										
+									</div>
+								</div>
+							</div>
+
+							<div class="mett__layout-row mett__justify-end mett__flex-lg-10 mett__flex-md-10 mett__flex-sm-10 mett__flex-xs-5 mett__flex-gt-5 mett__logo-lenovo" >
+								<div class="mett__layout-row mett__justify-center" >
+									<div class="mett__layout-row mett__justify-end">
+										<img src="../img/OTROS/logo_c22821.png" height="128,181 px" width="43px">
+									</div>
+									
+								</div>
+							</div>
+						</div>	
+						
+				</div>
+				
 				<div class="mett__container-main mett__flex-lg-90 mett__flex-md-85 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-95 mett__layout-wrap">
-					
-
-					<!-- CABECERA -->
-					<section class="mett__layout-row mett__layout-wrap mett__align-start">
-						
-						<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-space-between">
-							<div class="mett__flex-lg-80 mett__flex-md-80 mett__flex-sm-85 mett__flex-xs-85 mett__flex-gt-90 mett__layout-row mett__layout-wrap mett__justify-start mett__align-start">
-								<div class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__cont-t-cabecera">
-									<!-- Contenedor titulo principal -->
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__main-text1 mett__main-text2 mett__main-text3" style="text-align:center;">		
-										LENOVO IDEAPAD 510S
-									</div>
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__separador-info-t-cabecera"></div>
-									<div class="mett__flex-lg-95 mett__flex-md-95 mett__flex-xs-95 mett__flex-xs-95 mett__flex-gt-95 mett__uppercase mett__second-text1 mett__second-text2 mett__second-text3" style="text-align:center;">
-										POTENTE PORTÁTIL MULTIMEDIA
-									</div>
-								</div>
-							</div>
-							<!-- Logo Lenovo -->
-							<div class="mett__flex-lg-10 mett__flex-md-15 mett__flex-sm-15 mett__flex-xs-10 mett__flex-gt-10 mett__layout-row mett__layout-wrap mett__justify-end" style="position: absolute;right:0px;">
-								<div><img class="mett__logo" style="width:65.9px !important;height:196.4px !important;" src="../img/OTROS/logo_c22821.png"></div>
-							</div>
-						</div>
-					</section>
-
-
-					<!-- ESTRUCTURA DE INFORMACIÓN I | I  -->
-
-					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section" style="margin-top:2em;">
-						<div class=" mett__inner-section mett__flex-lg-40 mett__flex-md-45 mett__flex-sm-60 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small" style="text-align:center;">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_500S/IMG_01.png">
-						</div>
-
-						<div class=" mett__inner-section mett__flex-lg-40 mett__flex-md-45 mett__flex-sm-60 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small" style="text-align:center;">
-							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_500S/IMG_02.png">
-						</div>
-					</section>
-					
-					<!--franja1-->
-					
-					<div class="mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 " style="background-color: rgb(198,198,198); border-radius: 10px; padding-bottom: 15px; padding-top: 15px;">
-						<div class="mett__layout-row mett__justify-center mett__flex-lg-95 mett__flex-md-95 mett__flex-sm-95 mett__flex-xs-95 mett__flex-gt-95 mett__justify-space-around" >
-							<div class="mett__layout-row mett__justify-start mett__flex-lg-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-70 mett__flex-gt-70 mett__justify-space-around">
-
-								<div class="mett__layout-row mett__justify-start mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-25 mett__flex-xs-25 mett__flex-gt-25" >
-									<img src="../img/NB/IDEAPAD_500S/intel-atom-5--7.png">
-								</div>
-
-								<div class="mett__layout-row mett__justify-start mett__align-center mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-75 mett__flex-gt-75" style="color:black; margin-left: 10px; margin-left: 10px;">
-									Si tienes Intel®.<br> Tienes un extraordinario desempeño.
-								</div>
-							</div>
-
-							<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30" >
-								<div class="mett__layout-row mett__justify-center  mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50" style="background-color:#c22821; border-radius: 10px; font-size: 20px; color:white;">
-									<a style="margin-top: 5px; margin-bottom: 5px;">comprar</a>
-								</div>
-							</div>
-							
-						</div>
-						
-					</div>
-
 
 					<!-- ESTRUCTURA DE INFORMACIÓN P -->
 
 					<section class="mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-center mett__mod-section mett__layout-wrap" style="margin:3em 0em;">
-						<div class="mett__inner-section mett__flex-lg-70 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90">
-							<div class="mett__layout-row mett__justify-center mett__align-center">
+						<div class="mett__inner-section mett__flex-lg-70 mett__flex-md-85 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90">
+							<div class="mett__layout-row mett__justify-center mett__align-center mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 								<span class="mett__titulo-descripcion-main">Computador ultradelgado y ultraliviano con el mejor diseño Equipo ideal para desarrollo de multitareas Pantalla FHD</span>
 							</div>
 							<p class="mett__parrafo" style="margin-top:1em;">
@@ -163,20 +155,19 @@
 					</section>
 
 
-
 					<!-- ESTRUCTURA DE INFORMACIÓN P | I NUMERO IZQ -->
 					
-					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section">
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90  mett__mod-texto">
+					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						<div class="mett__flex-lg-45 mett__flex-md-50  mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90  mett__mod-texto">
 							<!-- MOD. P -->
-							<div class="mett__mod-p">
+							<div class="mett__mod-p mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mett__mod-texto">
-									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100  mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
+									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100  mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
 										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>1</div>
 										</div>
 									</div>
-									<div class="mett__flex-lg-75 mett__flex-md-80">
+									<div class="mett__flex-lg-75 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80">
 										<div class="mett__titulo-caracteristica  mett__layout-row mett__justify-center mett__align-center">
 											<span>Trabajo, descanso y juegos</span>
 										</div>
@@ -185,28 +176,28 @@
 								</div>
 							</div>
 						</div>
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
+						<div class="mett__flex-lg-45 mett__flex-md-50  mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
 							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_500S/IMG_03.png">
 						</div>
 					</section>
 
 					<!-- ESTRUCTURA DE INFORMACIÓN I | P-->
 
-					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70  mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
+					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						<div class="mett__flex-lg-45 mett__flex-md-45  mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70  mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
 							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_500S/IMG_04.png">
 						</div>
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__mod-texto mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
+						<div class="mett__flex-lg-45 mett__flex-md-45  mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__mod-texto mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 							<!-- MOD. P -->
-							<div class="mett__mod-p">
+							<div class="mett__mod-p mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mod__mod-texto">
-									<div class="mett__flex-lg-75 mett__flex-md-80 mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
+									<div class="mett__flex-lg-75 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100 mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
 										<div class="mett__titulo-caracteristica  mett__layout-row mett__justify-center mett__align-center">
 											<span>Un portátil que no le pesará</span>
 										</div>
 										<p class="mett__parrafo">El Lenovo ideapad 510S es ultraportátil y muy potente, perfecto para las personas a las que les gusta trabajar, jugar o estar entretenido sobre la marcha. De hecho, el ideapad 510S es hasta un 20 % menos grueso y un 30 % más ligero que la mayoría de portátiles de su clase.</p>
 									</div>
-									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100  mett__layout-row mett__justify-center mett__align-center mett__order-lg-2 mett__order-md-2 mett__order-sm-1  mett__order-xs-1 mett__order-gt-1 ">
+									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100  mett__layout-row mett__justify-center mett__align-center mett__order-lg-2 mett__order-md-2 mett__order-sm-1  mett__order-xs-1 mett__order-gt-1 ">
 										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>2</div>
 										</div>
@@ -216,17 +207,15 @@
 						</div>
 					</section>
 
-
-
 					<!-- ESTRUCTURA DE INFORMACIÓN I | P | I -->
 
-					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
+					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 						<div class="mett__inner-section mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-50 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
 							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_500S/IMG_01.png">
 						</div>
 						<div class="mett__inner-section mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 							<!-- MOD. P -->
-							<div class="mett__mod-p">
+							<div class="mett__mod-p mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mett__mod-texto">
 									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
 										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
@@ -249,17 +238,17 @@
 
 					<!-- ESTRUCTURA DE INFORMACIÓN P | I NUMERO IZQ -->
 					
-					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section">
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90  mett__mod-texto">
+					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						<div class="mett__flex-lg-45 mett__flex-md-45  mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90  mett__mod-texto">
 							<!-- MOD. P -->
-							<div class="mett__mod-p">
+							<div class="mett__mod-p mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mett__mod-texto">
-									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100  mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
+									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
 										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>4</div>
 										</div>
 									</div>
-									<div class="mett__flex-lg-75 mett__flex-md-80">
+									<div class="mett__flex-lg-75 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80">
 										<div class="mett__titulo-caracteristica  mett__layout-row mett__justify-center mett__align-center">
 											<span>Sonría, intercambie y ordene en cuestión de segundos</span>
 										</div>
@@ -268,28 +257,28 @@
 								</div>
 							</div>
 						</div>
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
+						<div class="mett__flex-lg-45 mett__flex-md-45  mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
 							<img class="mett__image-ficha" src="../img/OTROS/GENERICAS/NB/IMG_10.png">
 						</div>
 					</section>
 
 					<!-- ESTRUCTURA DE INFORMACIÓN I | P-->
 
-					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70  mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
+					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						<div class="mett__flex-lg-45 mett__flex-md-45  mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70  mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
 							<img class="mett__image-ficha" src="../img/OTROS/GENERICAS/NB/IMG_02.png">
 						</div>
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__mod-texto mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
+						<div class="mett__flex-lg-45 mett__flex-md-45  mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__mod-texto mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 							<!-- MOD. P -->
-							<div class="mett__mod-p">
+							<div class="mett__mod-p mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mod__mod-texto">
-									<div class="mett__flex-lg-75 mett__flex-md-80 mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
+									<div class="mett__flex-lg-75 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
 										<div class="mett__titulo-caracteristica  mett__layout-row mett__justify-center mett__align-center">
 											<span>Mayor Tranquilidad</span>
 										</div>
 										<p class="mett__parrafo">Si se deja el portátil desatendido en una cafetería abarrotada, la llamada podría salirle muy cara. Afortunadamente, el ideapad 510S es compatible con los cables con candado Kensington MiniSaver. Estos resistentes candados, fáciles de utilizar, le permitirán proteger rápidamente su dispositivo y evitar que se lo roben.</p>
 									</div>
-									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100  mett__layout-row mett__justify-center mett__align-center mett__order-lg-2 mett__order-md-2 mett__order-sm-1  mett__order-xs-1 mett__order-gt-1 ">
+									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-center mett__align-center mett__order-lg-2 mett__order-md-2 mett__order-sm-1  mett__order-xs-1 mett__order-gt-1 ">
 										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>5</div>
 										</div>
@@ -301,17 +290,17 @@
 
 					<!-- ESTRUCTURA DE INFORMACIÓN P | I NUMERO IZQ -->
 					
-					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section">
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90  mett__mod-texto">
+					<section class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__mod-section mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						<div class="mett__flex-lg-45 mett__flex-md-45  mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90  mett__mod-texto">
 							<!-- MOD. P -->
 							<div class="mett__mod-p">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mett__mod-texto">
-									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100  mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
+									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100 mett__flex-gt-100 mett__flex-xs-100 mett__layout-row mett__layout-wrap mett__justify-center mett__align-center">
 										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>6</div>
 										</div>
 									</div>
-									<div class="mett__flex-lg-75 mett__flex-md-80">
+									<div class="mett__flex-lg-75 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80">
 										<div class="mett__titulo-caracteristica  mett__layout-row mett__justify-center mett__align-center">
 											<span>Suba el volumen</span>
 										</div>
@@ -320,7 +309,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
+						<div class="mett__flex-lg-45 mett__flex-md-45  mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70 mett__content-img-small">
 							<img class="mett__image-ficha" src="../img/NB/IDEAPAD_500S/IMG_05.png">
 						</div>
 					</section>
@@ -328,21 +317,21 @@
 
 					<!-- ESTRUCTURA DE INFORMACIÓN I | P-->
 
-					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center">
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70  mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
+					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						<div class="mett__flex-lg-45 mett__flex-md-45  mett__flex-sm-55 mett__flex-xs-70 mett__flex-gt-70  mett__content-img-small mett__shadow-box mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
 							<img class="mett__image-ficha" src="../img/OTROS/win10_blue.png">
 						</div>
-						<div class="mett__flex-lg-45 mett__flex-md-45 mett__flex-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__mod-texto mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
+						<div class="mett__flex-lg-45 mett__flex-md-45  mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90 mett__mod-texto mett__order-lg-2 mett__order-md-2 mett__order-sm-1 mett__order-xs-1 mett__order-gt-1">
 							<!-- MOD. P -->
-							<div class="mett__mod-p">
+							<div class="mett__mod-p mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
 								<div class="mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mod__mod-texto">
-									<div class="mett__flex-lg-75 mett__flex-md-80 mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
+									<div class="mett__flex-lg-75 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80 mett__order-lg-1 mett__order-md-1 mett__order-sm-2 mett__order-xs-2 mett__order-gt-2">
 										<div class="mett__titulo-caracteristica  mett__layout-row mett__justify-center mett__align-center">
 											<span>Lo mejor de Windows 10</span>
 										</div>
 										<p class="mett__parrafo">Windows 10 Home combina lo mejor del Windows que ya conoces y además añade numerosas mejoras que te encantarán. Desde tiempos de arranque rápidos y el menú Inicio ampliado, pasando por un nuevo navegador y hasta Cortana, tu propio asistente personal digital. Ahora, incluso con múltiples dispositivos, puedes hacer más cosas, más rápido y con más comodidad.</p>
 									</div>
-									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100  mett__layout-row mett__justify-center mett__align-center mett__order-lg-2 mett__order-md-2 mett__order-sm-1  mett__order-xs-1 mett__order-gt-1 ">
+									<div class="mett__flex-lg-15 mett__flex-md-20 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__layout-row mett__justify-center mett__align-center mett__order-lg-2 mett__order-md-2 mett__order-sm-1  mett__order-xs-1 mett__order-gt-1 ">
 										<div class="mett__cont-circle-number mett__layout-row mett__justify-center mett__align-center">
 											<div>7</div>
 										</div>
@@ -355,7 +344,7 @@
 
 					<!-- ESTRUCTURA DE INFORMACIÓN P | P -->
 
-					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start" style="margin: 2em 0em;">
+					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-space-around mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin: 2em 0em;">
 						<div class="mett__inner-section mett__flex-lg-45 mett__flex-md-45 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-90">
 							<div class="mett__mod-list mett__layout-row mett__layout-wrap mett__justify-center mett__align-start">
 								<!-- Logo-especificación -->
@@ -381,23 +370,6 @@
 							</div>
 						</div>
 					</section>
-
-
-
-					<!-- MÓDULO VIDEO PRODUCTO -->
-					<!---->
-					<!-- Nota: Si la ficha no requiere el módulo de video 
-							descomentariar la instrucción del atributo 
-							style borrando > '/*' y '*/'.
-					-->
-					<section class="mett__mod-section mett__layout-row mett__layout-wrap mett__justify-center mett__align-center" style="display:none;">
-						<!-- container video -->
-						<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__contenedor-video mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-100">
-							<!-- Video de ejemplo -->
-							<iframe class="mett__iframe" src="https://www.youtube.com/embed/n2AXcV4Yswk" frameborder="0" allowfullscreen></iframe>
-						</div>
-					</section>
-
 				</div>
 
 				<!-- Mensaje en caso de resoluciones demasiado bajas <=319px -->
