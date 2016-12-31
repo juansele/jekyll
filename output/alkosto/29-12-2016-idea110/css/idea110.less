@@ -68,6 +68,7 @@
 html, body{
 	margin:0px;
 	padding: 0px;
+	border:2px solid purple;
 }
 
 /*franja inicial*/
@@ -78,6 +79,7 @@ html, body{
 	color:#ffffff;
 	font-size: 12px;
 	font-family:'Gotham Light';
+	border:1px solid blue;
 }
 
 /*cabezote*/
@@ -85,7 +87,7 @@ html, body{
 	max-height: @alto_maximo;
 	border:1px solid red;
 	color:#ffffff;
-	background-image: url(../img/cabezote-bg.png);
+	background-image: url(../img/mett_cabezote-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	
@@ -94,18 +96,21 @@ html, body{
 		font-size: 30px;
 		font-family: 'Gotham Bold';
 		margin: 17px 0px 17px 0px;
+		border:1px solid green;
 	}
 	.mett_subtitulo_desafio{
 		font-size: 15px;
 		font-family:'Gotham Light';
 		margin: 0px 0px 17px 0px;
 		text-align: right;
+		border:1px solid green;
 	}
 
 	.mett_texto_logo{
 		text-align: right;
 		font-size: 20px;
 		font-family:'Gotham Light';
+		border:1px solid green;
 	}
 
 	.mett__fraja_inferior_naranja{
@@ -113,12 +118,14 @@ html, body{
 		position: relative;
 		border:1px solid red;
 		padding-top: 50px;
+		border:1px solid green;
 
 		.mett__cuadro_ses{
 				background-color: #cb5f2d;  
 				transform: skew(-88deg); 
 				position: relative; 
 				z-index: 1;
+				border:1px solid green;
 		}
 		#mett__cuadro_amigo-ses{
 				background-color: #cb5f2d; 
@@ -126,24 +133,91 @@ html, body{
 				bottom: 0;
 				width: 100%;
 				height: 50px;
+				border:1px solid green;
 		}
 		#mett__cuadro_amigo-ses2{
 				background-color: #cb5f2d; 
-				position: absolute; 
+				
 				bottom: 0;
-				width: 59%;
-				height: 74px;
+				width: 23%;
+				height: 40px;
+				border:1px solid grey;
 		}
 		#mett__cuadro_amigo-ses3{
 				background-color: #cb5f2d; 
-				position: absolute; 
+				
 				bottom: 0;
 				width: 10%;
 				height: 84px;
+				border:1px solid grey;
+		}
+		.mett__imagenes_sesgo{
+			
+			z-index: 2;
+			border:1px solid red;
+
 		}
 	}
 	.mett__naranja_inferior_naranja2{
 		color: #ffffff;
 		background-color: #cb5f2d;
+		font-family:'Gotham Light';
+		font-size: 15px;
+
+
+		.mett__boton_compra{
+			border: 2px solid #ffffff;
+			color:#ffffff;
+			border-radius: 5px;
+			font-family:'Gotham Bold';
+			font-size: 20px;
+			padding: 10px 0px 10px 0px;
+			margin-top: 10px;
+		}
 	}
 }
+
+/*haz mas-dispositivos*/
+.mett__aplicaciones{
+	padding: 60px 0px 60px 0px;
+
+	.mett__hazmas{
+		font-family:'Gotham Bold';
+		color:#cb5f2d;
+		font-size: 60px;
+	}
+	.mett__dispositivos{
+		font-family:'Gotham Light';
+		font-size: 20px;
+		color: #3E3C42;
+	}
+}
+ 
+ /*one drive*/
+ .mett__one_drive_info{
+
+ 	background-color: #3D4DA0;
+ 	padding: 60px 0px 60px 0px;
+ 	.mett_informcacion_drive{
+ 		color:#ffffff;
+ 		font-size: 15px;
+ 		font-family:'Gotham Light';
+ 		text-align: center;
+ 		margin-top: 20px;
+ 		margin-bottom: 50px;
+ 	}
+
+ 	.mett__informacion_drive{
+ 		.mett_cifra_numerica{
+ 			color: #ffffff;
+ 			 font-family:'Gotham Bold';
+ 			 font-size: 50px;
+ 			 margin:30px 0px 30px 0px;
+ 		}
+ 		.mett_informacion_drive{
+ 			color: #ffffff;
+ 			 font-family:'Gotham Light';
+ 			 font-size: 30px;
+ 		}
+ 	}
+ }
