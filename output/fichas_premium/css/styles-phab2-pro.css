@@ -14,17 +14,17 @@
 	}
 	@media (min-width:768px){
 		.mett__bg-header-sm-phab2{
-		background: url(../img/PHAB2_PRO/background_phab-pro.png); background-size:cover;background-position-x:7.5em;
+		background: url(../img/PHAB2_PRO/background_phab-pro-medidas.png); background-size:cover;background-position-x:7.5em;
 		}
 	}
 	@media (min-width:992px){
 		.mett__bg-header-md-phab2{
-		background: url(../img/PHAB2_PRO/background_phab-pro.png); background-size:cover;background-position-x:7.5em;
+		background: url(../img/PHAB2_PRO/background_phab-pro-medidas.png); background-size:cover;background-position-x:7.5em;
 		}
 	}
 	@media (min-width:1200px){
 		.mett__bg-header-lg-phab2{
-		background: url(../img/PHAB2_PRO/background_phab-pro.png); background-size:cover;background-position-x:7.5em;
+		background: url(../img/PHAB2_PRO/background_phab-pro-medidas.png); background-size:cover;background-position-x:7.5em;
 		}
 	}
 
