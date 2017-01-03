@@ -73,7 +73,7 @@ html, body{
 
 /*imagen de background*/
 
-@media (min-width:320px){
+	@media (min-width:320px){
 		.mett__bg-header-gt-idea110{
 		background-color:#f1603a;
 		}
@@ -96,6 +96,48 @@ html, body{
 	@media (min-width:1200px){
 		.mett__bg-header-lg-idea110{
 		background: url(../img/mett_cabezote-bg1-2.png); background-size:cover;
+		}
+	}
+
+/*texto-cambio-posicion*/
+	@media (min-width:320px){
+		.mett__position-text-gt-idea110{
+			text-align: center;
+		}
+	}
+	@media (min-width:600px){
+		.mett__position-text-xs-idea110{
+			text-align: center;
+		}
+	}
+	@media (min-width:768px){
+		.mett__position-d-text-sm-idea110{
+			text-align: right;
+		}
+	}
+	@media (min-width:992px){
+		.mett__position-d-text-md-idea110{
+			text-align: right;
+		}
+	}
+	@media (min-width:1200px){
+		.mett__position-d-text-lg-idea110{
+			text-align: right;
+		}
+	}
+	@media (min-width:768px){
+		.mett__position-i-text-sm-idea110{
+			text-align: left;
+		}
+	}
+	@media (min-width:992px){
+		.mett__position-i-text-md-idea110{
+			text-align: left;
+		}
+	}
+	@media (min-width:1200px){
+		.mett__position-i-text-lg-idea110{
+			text-align: left;
 		}
 	}
 
@@ -188,6 +230,14 @@ html, body{
 				margin-top: 10px;
 			}
 
+		.mett_logo_estilos{
+			 z-index: 3;
+			 position: absolute;
+			  right: 0; 
+			  width: 42px;
+			  top: 4%;
+		}
+
 	}
 	
 	.mett__fraja_inferior_naranja-cuadrosesgado{
@@ -203,7 +253,7 @@ html, body{
 				z-index: 2;
 
 				.mett_retenedor_maquina{
-					margin-top: -150px;
+					margin-top: -180px;
 				}
 			}
 			.mett__fill_space_extra{
@@ -229,7 +279,7 @@ html, body{
 		color: #ffffff;
 		background-color: #f1603a;
 		font-family:'Gotham Light';
-		font-size: 15px;
+		font-size: 12px;
 		text-align: center;
 		padding: 15px 0px;
 		z-index: 0;
@@ -264,6 +314,7 @@ html, body{
 		font-family:'Gotham Light';
 		font-size: 20px;
 		color: #3E3C42;
+		text-align: center;
 	}
 }
 
@@ -317,7 +368,6 @@ html, body{
 	.mett_skype_texto{
 		font-family:'Gotham Light';
 		font-size: 20px;
-		text-align: right;
 		color: #3E3C42;
 	}
 }
@@ -383,7 +433,7 @@ html, body{
 			font-family:'Gotham Light';
 			font-size: 12px;
 			text-align: center;
-			margin:5px;
+			margin:5px 0px 40px 0px;
 		}
 		.mett_margin_cuadro1_sm{
 			margin-bottom: 70px;
@@ -409,8 +459,8 @@ html, body{
 }
 
 /*computador navegacion y consumo*/
-.mett_navegacion_izquierdo{
-	text-align: left;
+.mett_navegacion{
+	
 	padding: 60px 0px 60px 0px;
 	.mett_titulo_navegacion{
 		font-size: 24px;
@@ -425,23 +475,6 @@ html, body{
 		margin:20px 0px;
 	}
 }
-
-.mett_navegacion_derecho{
-	text-align:right;
-	padding: 60px 0px 60px 0px;
-	.mett_titulo_navegacion{
-		font-size: 24px;
-		font-family:'Gotham Bold';
-		color:#F15B3A;
-	}
-	.mett_subtitulo_navegacion{
-		font-size: 20px;
-		font-family:'Gotham Light';
-		color: #3e3e3e;
-		margin:20px 0px;
-	}
-}
-
 /*franja informacion maquina*/
 
 .mett_franja_informacion_2{
