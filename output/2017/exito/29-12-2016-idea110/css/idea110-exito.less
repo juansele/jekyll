@@ -2,7 +2,7 @@
 
 /*fuentes tipograficas*/
 
-
+@color-blue: #00acc3;
 
 @font-face {
     font-family:'Gotham Black';
@@ -72,12 +72,12 @@ html, body{
 
 	@media (min-width:320px){
 		.mett__bg-header-gt-idea110{
-		background-color:#50a8c3;
+		background-color:@color-blue;
 		}
 	}
 	@media (min-width:600px){
 		.mett__bg-header-xs-idea110{
-		background-color:#50a8c3;
+		background-color:@color-blue;
 		}
 	}
 	@media (min-width:768px){
@@ -114,12 +114,12 @@ html, body{
 	}
 	@media (min-width:992px){
 		.mett__position-d-text-md-idea110{
-			text-align: right;
+			text-align: center;
 		}
 	}
 	@media (min-width:1200px){
 		.mett__position-d-text-lg-idea110{
-			text-align: right;
+			text-align: center;
 		}
 	}
 	@media (min-width:768px){
@@ -142,9 +142,8 @@ html, body{
 /*franja inicial*/
 
 .mett_franja1{
-
 	background-color: #20201a;
-	padding: 7px 0px 7px 0px;
+	padding: 1em 0em;
 	color:#ffffff;
 	font-size: 12px;
 	font-family:'Gotham Light';
@@ -270,7 +269,7 @@ html, body{
 			.mett__fill_space_extra{
 
 				position: absolute;
-				background-color: #50a8c3;
+				background-color: @color-blue;
 				width: 50%;
 				top: 0;
 				bottom: 0;
@@ -284,14 +283,14 @@ html, body{
 			position: absolute;
 			left: 0;
 			right: 0;
-			background-color: #50a8c3;
+			background-color: @color-blue;
 			height: 100%;
 			transform: skewY(-4deg);
 		}
 		.mett__naranja_inferior_naranja2{
 
 		color: #ffffff;
-		background-color: #50a8c3;
+		background-color: @color-blue;
 		font-family:'Gotham Light';
 		font-size: 15px;
 		text-align: left;
@@ -314,7 +313,7 @@ html, body{
 		.mett__naranja_inferior_naranja2-1{
 
 			color: #ffffff;
-			background-color: #50a8c3;
+			background-color: @color-blue;
 			font-family:'Gotham bold';
 			font-size: 15px;
 			text-align: left;
@@ -335,10 +334,10 @@ html, body{
 	color:#3E3C42;
 
 	.mett__hazmas{
-
+		letter-spacing: -3px;
 		font-family:'Gotham Bold';
 		color:#F15B3A;
-		font-size: 60px;
+		font-size: 55px;
 	}
 	.mett__dispositivos{
 
@@ -354,15 +353,15 @@ html, body{
 	.mett__one_drive_info{
 
 	 	background-color: #3D4DA0;
-	 	padding: 60px 0px 60px 0px;
+	 	padding: 100px 0px 60px 0px;
 
 		 	.mett_informacion_drive{
 
 		 		color:#ffffff;
-		 		font-size: 15px;
+		 		font-size: 18px;
 		 		font-family:'Gotham Light';
 		 		text-align: center;
-		 		margin-top: 20px;
+		 		margin-top: 30px;
 		 		margin-bottom: 50px;
 		 	}
 
@@ -372,14 +371,14 @@ html, body{
 
 		 			color: #ffffff;
 		 			 font-family:'Gotham Bold';
-		 			 font-size: 45px;
-		 			 margin:30px 0px 30px 0px;
+		 			 font-size: 40px;
+		 			 margin:30px 0px 20px 0px;
 		 		}
-		 		.mett_informacion_drive{
+		 		.mett_informacion_drive2{
 
 		 			color: #ffffff;
-		 			 font-family:'Gotham Light';
-		 			 font-size: 25px;
+		 			 font-family:'Gotham Bold';
+		 			 font-size: 18px;
 		 		}
 		 	}
 	 }
@@ -392,17 +391,16 @@ html, body{
 	padding: 60px 0px 60px 0px;
 
 	.mett_skype_titulo{
-
+		letter-spacing: -3px;
 		font-family:'Gotham Bold';
 		font-size: 47px;
 		color:#F15B3A;
-		margin-bottom: 20px;
 	}
 
 	.mett_skype_texto{
 
 		font-family:'Gotham Light';
-		font-size: 20px;
+		font-size: 18px;
 		color: #3E3C42;
 	}
 }
@@ -410,10 +408,10 @@ html, body{
 /*franja activalo hoy*/
 
 .mett_franja_activalo{
-
+	letter-spacing: -3px;
 	padding: 10px 0px 10px 0px;
 	 font-family:'Gotham Bold';
-	 font-size: 50px;
+	 font-size: 35px;
 	 color:#ffffff;
 	 background-color: #F15B3A;
 	 text-align: center;
@@ -490,3 +488,52 @@ html, body{
 	
 }
 
+
+.mett__cabecera-exito{
+	height: 600px;
+	position: relative;
+	background-color: @color-blue - 20;
+	.mett__div-sesgado{
+		color: #fff;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 20px;
+		background-color: @color-blue;
+		border-top: 2px solid rgba(255,255,255,0.2);
+		height: 180px;
+		transform: skewY(-4deg);
+	}
+	.mett__base-color-mod{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 80px;
+		background-color: @color-blue;
+		height: 85%;
+	}
+	.mett__mod-info-main{
+		z-index: 2;margin-top: 4em;
+		.mett__cont-signature{
+			img{
+				width: 80%;
+			}
+		}
+		.mett__cont-description{
+			p{
+				color: white;
+				font-family: 'Gotham Light';
+				font-size: 12.6pt;
+			}
+		}
+		.mett__cont-img-product{
+			text-align: right;
+			img{
+				width: 85%; margin-top: -5em;
+			}
+		}
+	}
+	.mett__label-office{
+		z-index:2;
+	}
+}
