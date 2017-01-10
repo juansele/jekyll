@@ -1,0 +1,922 @@
+<link rel="stylesheet" type="text/css" href="css/styles-phab2-pro.css">
+<section style="max-width:1024px;border:1px solid #000;position:relative;display: block; margin: 0 auto;">
+	<!-- MAIN MODULE -->
+	<section class="mett__layout-row mett__layout-wrap">
+
+
+		<!--& MODULE NOTA LEGAL &-->
+
+		<div class="mett__module-legal-note mett__legal-dark mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+			
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+			<div class="mett__layout-row mett__layout-wrap mett__justify-start mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+				
+				<div class="mett__small-text">
+
+					<b>Nota:</b> Para mayor información del producto, invitamos a revisar las especificaciones que aparecen en esta página.
+
+				</div>
+
+			</div>
+
+
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+		</div>
+
+		<!--& MODULE HEADER &-->
+
+		<div class="mett__module-header-main mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__bg-header-gt-phab2 mett__bg-header-xs-phab2 mett__bg-header-sm-phab2 mett__bg-header-md-phab2 mett__bg-header-lg-phab2" >
+
+			<!--cuadro rosado-->
+			
+			
+				<div class="mett__layout-row mett__justify-start mett__flex-lg-30 mett__flex-md-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-hide mett__flex-gt-hide" style=" position: relative;">
+			
+
+					<div class="mett__layout-row mett__justify-start mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background-color: #59c0e4; height: 100%; transform: skew(16deg); position: relative; z-index: 1;">
+						
+					</div>
+
+					<div class="mett__layout-row mett__justify-start" style="background-color: #59c0e4; position: absolute; bottom: 0; left: 0; top:0; width: 70px; "></div>
+
+					<!--1 texto-imagen- huella-->
+		
+					<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="position: absolute; color:white; z-index: 2;  height: 100%; ">
+
+						<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-75 mett__flex-md-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-75 mett__flex-gt-75" style=" margin-top: 35%; height: 70%; margin-right: 30px;">
+
+							<div>
+							
+								<img class="mett__img" src="img_phab2_pro/mett_phab2_pro-ph2-pro.png" alt="ideapad" style="width:90%; margin-bottom: -10px;" />
+							</div>
+
+							<div class="mett__flex-lg-80">
+								<img src="img_phab2_pro/mett_img_small-ph2-pro.png" style="width: 100%; margin-bottom: -10px;">
+							</div>
+
+
+
+							<div class="mett__layout-row mett__justify-start mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin-top: 10px; height: 50px;">
+
+								<div class="mett__layout-row mett__justify-center mett__flex-lg-30 mett__flex-md-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-30 mett__flex-lg-show" >
+									<div>
+										<img src="img_phab2_pro/mett_tango-ph2-pro.png" style="width: 90%;">
+									</div>
+								</div>
+
+								<div class="mett__layout-row mett__justify-start mett__flex-lg-70 mett__flex-md-70 mett__flex-md-70 mett__flex-sm-70 mett__flex-xs-70 mett__flex-gt-70 mett__flex-lg-show" style="margin-top: 10px; text-align: left; margin-left: 0.5em;">
+
+									<div class="mett__text-bold">REALIDAD<br>AUMENTADA</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!--titulo-->
+
+				<!--show lg-sm-md-->
+
+				<!--titulo-->
+
+				<div  class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-hide mett__flex-gt-hide">
+
+					<div  class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 " style="height: 20%; ">
+
+
+							<div class="mett__layout-row mett__justify-start mett__align-end mett__flex-lg-80 mett__flex-md-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-100" style="font-family: 'Gotham Bold';font-size: 60px; letter-spacing: -2px; color: #fff; margin-top: 20px; margin-left: 73px;">
+								TE DESAFÍO
+							</div>
+
+							<div class="mett__layout-row mett__justify-start mett__align-start mett__flex-lg-80 mett__flex-md-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-80 mett__flex-gt-80" style="    font-family: 'Gotham light'; font-size: 22px; margin-top: -14px; letter-spacing: -1px; color: #fff; margin-left: 7px;"> a ver el mundo que siempre has soñado.
+							</div>
+
+						
+
+							
+
+								<img src="img_phab2_pro/mett_logo_lenovo_darkpink-ph2-pro.png" style=" z-index: 3; position: absolute;right: 0; width: 45px; top: 11%;">
+
+					</div>
+					
+				</div>
+
+				<!--show gt xs-->
+
+				<!--titulo-->
+
+				<div  class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show">
+
+					
+
+					<div  class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 ">
+
+						<div class="mett__flex-gt-50 mett__flex-xs-50 mett__align-center mett__justify-center" style="margin-top: 20px;margin-bottom: 5px; text-align: center;">
+							<img class="mett__img" src="img_phab2_pro/mett_phab2_pro-ph2-pro.png" alt="ideapad" style="width:90%;"/>
+						</div>
+
+						<div class="mett__layout-row mett__title-main-c-lg mett__title-main-c-md mett__title-main-c-sm mett__title-main-c-xs mett__title-main-c-gt mett__justify-center mett__align-end mett__flex-lg-80 mett__flex-md-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-70">
+							TE DESAFÍO
+						</div>
+
+						<div class="mett__layout-row mett__justify-center mett__align-start mett__flex-lg-80 mett__flex-md-80 mett__flex-md-80 mett__flex-sm-80 mett__flex-xs-100 mett__flex-gt-60" style="font-family: 'Gotham light'; font-size: 17px; margin-top: -10px; letter-spacing: -1px; color: #fff; margin-left: ; text-align: center;">
+							a ver el mundo que siempre has soñado.
+						</div>
+
+						<img src="img_phab2_pro/mett_logo_lenovo_darkpink-ph2-pro.png" style=" z-index: 3; position: absolute;right: 0; width: 50px; top: 11%;">
+					</div>
+
+					<!-- Product Image -->
+
+					<div class="mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show mett__flex-gt-50 mett__flex-xs-50">
+						<div>
+							
+							<img class="mett__img" src="img_phab2_pro/mett_img_small-ph2-pro.png" alt="producto header" style="width: 100%;">
+							
+						</div>
+						
+
+					</div>
+
+					
+
+					<!--parrafo inferior-->
+
+					<div class="mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-80" style="  font-family:'Gotham light';font-size: 15px; color:white;padding: 2em 0em;">
+						
+
+							<div class="mett__layout-row mett__text-center mett__justify-end mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+
+								Lenovo Phab 2 Pro, el primer y único teléfono en el mundo con tecnología Tango™.
+
+							</div>
+						
+						
+					</div>
+
+				</div>
+						
+				
+
+		</div>
+
+
+
+
+
+		<!--& MODULE BANDA COLOR (SHOW SM, MD, LG) &-->
+
+		<div class="mett__module-fringe-dark mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-hide mett__flex-gt-hide" style=" min-height: 60px;">
+			
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+				
+				<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+					
+					<div class="mett__layout-row mett__justify-start mett__align-center mett__flex-lg-33 mett__flex-md-33 mett__flex-sm-33 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-hide mett__flex-xs-hide mett__flex-sm-show mett__flex-md-show mett__flex-lg-show">
+				
+
+
+					</div>
+
+					<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-33 mett__flex-md-33 mett__flex-sm-33 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<div class="mod-num mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<div>
+								
+								<img class="mett__img mett__arrow-scrolldown" src="img_phab2_pro/mett_arrow-down-blue-ph2-pro.png" alt="icon-scrolldown">
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="mett__layout-row mett__justify-end mett__align-center mett__flex-lg-33 mett__flex-md-33 mett__flex-sm-33 mett__flex-xs-100 mett__flex-gt-100 mett__flex-gt-hide mett__flex-xs-hide mett__flex-sm-show mett__flex-md-show mett__flex-lg-show">
+						
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+		</div>
+
+		<!--& MODULE BANDA COLOR (SHOW XS, GT) &-->
+
+		<div class="mett__module-fringe-dark-small mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show">
+			
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+				
+				<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+					
+					<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-xs-100 mett__flex-gt-100">
+
+
+
+
+					</div>
+
+
+					<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-xs-100 mett__flex-gt-100" style="margin-top: 2em;">
+						
+						<div class="mod-num mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+							
+							<div>
+								
+								<img class="mett__img mett__arrow-scrolldown" src="img_phab2_pro/mett_arrow-down-blue-ph2-pro.png" alt="icon-scrolldown">
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+		</div>
+
+
+
+		<!--& MODULE MINIATURAS &-->
+
+		<div id="inicio" class="mett__module_miniatures-close-up-dark mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+			
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+				
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+					
+					<div class="mett__text-center mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<div class="mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-75 mett__flex-gt-100">
+							
+							<h1 class="mett__h1 mett__text-uppercase">
+
+								PHAB 2 PRO CON TANGO
+
+							</h1>
+
+						</div>
+
+
+						<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-60 mett__flex-gt-100">
+
+							
+							
+							<p class="mett__p">
+
+								El Phab 2 Pro es el primer teléfono inteligente del mundo para incluir Tango-una nueva tecnología de Google que permite a los juegos de realidad aumentada y los servicios públicos (AR).
+							</p>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<!-- Main container Image Close Up -->
+				
+				<div class="mett__miniatures mett__layout-row mett__layout-wrap mett__justify-space-around mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+					<!-- Close aup image -->					
+
+					<div class="mett__mod-item mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-65">
+						
+						<img class="mett__img" src="img_phab2_pro/mett_closeup_1-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro">
+
+					</div>
+
+					<!-- Close aup image -->
+
+					<div class="mett__mod-item mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-65">
+						
+						<img class="mett__img" src="img_phab2_pro/mett_closeup_2-ph2-pro.png" alt="img-mett_closeup_2-ph2-pro">
+
+					</div>
+
+					<!-- Close aup image -->
+
+					<div class="mett__mod-item mett__layout-row mett__justify-center mett__align-center mett__flex-lg-30 mett__flex-md-30 mett__flex-sm-30 mett__flex-xs-30 mett__flex-gt-65">
+						
+						<img class="mett__img" src="img_phab2_pro/closeup_3.png" alt="img-closeup_3">
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+		</div>
+
+
+		<!--& MODULE BACKGROUND IMAGE INFORMACIÓN &-->
+
+		<div class="mett__module-bg-info mett__bg-info1-lg-phab2-pro mett__bg-info1-md-phab2-pro mett__bg-info1-sm-phab2-pro mett__bg-info1-xs-phab2-pro mett__bg-info1-gt-phab2-pro mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+			
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-90 mett__flex-md-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+				
+				<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+					
+					<div class="mett__text-center mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<div class="mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-75 mett__flex-gt-100">
+							
+							<h1 class="mett__h1 mett__text-uppercase" style="text-shadow: 1px 1px #404040;margin-top: 1.3em;">
+
+								TODO LO QUE TIENE QUE HACER ES MIRAR A TRAVÉS DE LA PHAB 2 PRO
+
+							</h1>
+
+						</div>
+
+
+						<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-60 mett__flex-gt-100">
+							
+							<p class="mett__p" style="text-shadow: 1px 1px #404040;">
+
+								verá objetos e información superpuesta sobre el mundo real.Puede medir objetos con sólo su teléfono O visualizar los muebles como una nueva tabla o un sofá para ver cómo se ve en su casa. O simplemente jugar con su mascota virtual. Donde quiera que vaya con la Phab 2 Pro, siempre hay más para explorar.
+
+							</p>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+		</div>
+
+
+
+
+		<!--MODULE FEATURES-->
+
+
+		<div id="inicio" class="mett__module_miniatures-close-up-dark mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background:#f4f4f4; border-bottom:0px; padding-bottom:1em;">
+			
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-100 mett__flex-gt-100">
+				
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+					
+					<div class="mett__text-center mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<div class="mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-80 mett__flex-gt-80">
+							
+							<h1 class="mett__h1 mett__text-uppercase">
+
+								LAS APLICACIONES DEL MUNDO REAL
+
+							</h1>
+							<p class="mett__p" style="color:black;"> Donde quiera que vaya con la Phab 2 Pro<br> siempre hay más para explorar.</p>
+
+						</div>
+
+						<div class="mett__miniatures mett__layout-row mett__layout-wrap mett__justify-space-around mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+
+							<div class=" mett__justify-center mett__align-center mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-90 mett__flex-gt-90">
+
+								<div class="mett__mod-item mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style=" border: 1px solid #f4f4f4;background:#f4f4f4;">
+						
+									<img class="mett__img" src="img_phab2_pro/mett_Measure01-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro " style="border-radius:6px;">
+		
+								</div>
+
+								<h2 class="mett__text-bold" style="color:#3e3e3e; font-size: 14pt; text-transform:uppercase;  margin-top:2em;">
+
+								MeasureIt
+
+								</h2>
+								
+								<p class="mett__p mett__text-center" style="margin-top: 1em; color: #000;">
+
+									Coge una medición rápida usando el teléfono habilitado para Tango con la aplicación de la medida.<br> Basta con apuntar el teléfono en lo que se desea medir, utilizar el cursor para colocar los puntos, y luego verá sus mediciones muestran en la realidad aumentada. 
+								</p>
+
+							</div>
+
+
+
+							<div class=" mett__justify-center mett__align-center mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-90 mett__flex-gt-90">
+
+								<div class="mett__mod-item mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" >
+						
+									<img class="mett__img" src="img_phab2_pro/mett_closeup_02-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro " style="border-radius:6px;">
+		
+								</div>
+
+								<h2 class="mett__text-bold" style="color:#3e3e3e; font-size: 14pt; margin-top:2em; text-transform:uppercase;">
+
+								Phantogeist
+
+								</h2>
+								
+								<p class="mett__p" style="margin-top: 1em; color: #000;">
+
+									Su mundo se habitado por criaturas fantasmales que tratan de conseguir que en este juego Trixi Studios. Protegerse a sí mismo por disparos de proyectiles o la búsqueda de portales ocultos.
+								</p>
+
+							</div>
+
+
+											
+
+
+
+
+						</div>
+
+					</div>
+
+				</div>
+
+		
+
+			</div>
+
+
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>.
+
+		</div>
+
+
+		<!--MODULE FEATURES2-->
+
+
+		<div id="inicio" class="mett__module_miniatures-close-up-dark mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background:#f4f4f4; border-bottom:0px;">
+			
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-100 mett__flex-gt-100">
+				
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+					
+					<div class="mett__text-center mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						
+						<div class="mett__miniatures mett__layout-row mett__layout-wrap mett__justify-space-around mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+
+							<div class=" mett__justify-center mett__align-center mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-90 mett__flex-gt-90">
+
+								<div class="mett__mod-item mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin-top:0px; ">
+						
+									<img class="mett__img" src="img_phab2_pro/mett_closeup_03-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro " style="border-radius:6px;">
+		
+								</div>
+
+								<h2 class="mett__text-bold" style="color:#3e3e3e; font-size: 14pt; text-transform:uppercase;  margin-top:2em;">
+
+								Raise
+
+								</h2>
+								
+								<p class="mett__p mett__text-center" style="margin-top: 1em; color: #000; margin-bottom:2em;">
+
+									Con este juego por Iguanabee, elige una mascota de la biblioteca 3D y llevarlo donde quiera que vaya. Entrenar a su cachorro para enseñarle donde su comida es, y compartir fotos en las redes sociales a medida que crece en un perro.
+								</p>
+
+							</div>
+
+
+
+							<div class=" mett__justify-center mett__align-center mett__flex-lg-40 mett__flex-md-40 mett__flex-sm-40 mett__flex-xs-90 mett__flex-gt-90">
+
+								<div class="mett__mod-item mett__layout-row mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="margin-top:0em;">
+						
+									<img class="mett__img" src="img_phab2_pro/mett_dominoW-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro " style="border-radius:6px;">
+		
+								</div>
+
+								<h2 class="mett__text-bold" style="color:#3e3e3e; font-size: 14pt; margin-top:2em; text-transform:uppercase;">
+
+									Domino’s
+
+								</h2>
+								
+								<p class="mett__p" style="margin-top: 1em; color: #000;">
+
+									 Es la evolución de un pasatiempo clásico de la infancia, mira las fichas de dominó volcarse y reiniciar un nuevo curso con un simple clic del botón.
+								</p>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+		
+
+			</div>
+
+
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>.
+
+		</div>
+
+
+
+		<!--video-->
+
+		<div class="mett__module-bg-info mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+			
+			
+					<div class="mett__text-center mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						<iframe width="100%" height="400" src="https://www.youtube.com/embed/BjlPbqgBSuc" frameborder="0" allowfullscreen></iframe>
+
+					</div>
+
+		</div>
+
+		<!--& MODULE INFO CENTER &-->
+
+		<div class="mett__module-info-center mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+			
+
+			<section class="mett__layout-row mett__layout-wrap mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-90 mett__flex-gt-90">
+				
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__text-center">
+					
+					<div class="mett__flex-lg-75 mett__flex-md-75 mett__flex-sm-75 mett__flex-xs-75 mett__flex-gt-100">
+						
+						<h2 class="mett__h2 mett__text-uppercase" style="margin-bottom: 0.5em;">
+							
+							TAMAÑO PERFECTO
+
+						</h2>
+
+					</div>
+
+
+					<div class="mett__flex-lg-60 mett__flex-md-60 mett__flex-sm-60 mett__flex-xs-60 mett__flex-gt-100" style="margin:1em;">
+						
+						<p class="mett__p">	
+
+							Tiene un grosor de 10.7mm, tiene un procesador Snapdragon 652 de ocho núcleos de 1.8GHz, tiene una batería de 4,050mAh, tiene 4GB de RAM y 64GB de almacenamiento internos y una ranura para tarjeta micro SD.
+
+						</p>
+						
+					</div>
+
+
+				</div>
+
+				<div class="mett__layout-row mett__justify-center mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__text-center">
+					
+					<div class="mett__layout-row mett__justify-center mett__align-start mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-show mett__flex-md-show mett__flex-sm-show mett__flex-xs-hide mett__flex-gt-hide" style=" height:100px;">
+						
+						<div>
+							
+							<img src="img_phab2_pro/mett_modulo6-big-ph2-pro.png" style="width:85%;">
+
+						</div>
+
+					</div>
+					<div class="mett__layout-row mett__justify-center mett__align-start mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__flex-lg-hide mett__flex-md-hide mett__flex-sm-hide mett__flex-xs-show mett__flex-gt-show" style=" height:100px;">
+						
+						<div>
+							
+							<img src="img_phab2_pro/mett_modulo6-small-ph2-pro.png" style="width:100%;">
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+			</section>
+
+		
+		</div>
+
+
+		<!--module icons-->
+
+		<div id="inicio" class="mett__module_miniatures-close-up-dark mett__layout-row mett__layout-wrap mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="background:#f4f4f4; border-bottom:0px;">
+			
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>
+
+
+			<div class="mett__layout-row mett__layout-wrap mett__justify-center mett__align-start mett__flex-lg-90 mett__flex-md-90 mett__flex-sm-90 mett__flex-xs-100 mett__flex-gt-100">
+				
+
+				<div class="mett__layout-row mett__layout-wrap mett__justify-space-between mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+					
+					<div class="mett__text-center mett__layout-row mett__justify-center mett__layout-wrap mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+						
+						
+						<div class="mett__miniatures mett__layout-row mett__layout-wrap mett__justify-space-around mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+							<!--mett_icon1-ph2-pro-->
+
+
+							<div class=" mett__justify-center mett__align-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-25 mett__flex-xs-90 mett__flex-gt-90" style="height:270px;">
+
+								<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50" style="margin-top:0px; border:0px; background:none; ">
+						
+									<img class="mett__img" src="img_phab2_pro/mett_icon1-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro " style="border-radius:6px; margin-left:100%;">
+		
+								</div>
+
+								<h2 class="mett__text-bold" style="color:#3e3e3e; font-size: 14pt; text-transform:uppercase;  margin-top:2em;">
+
+								cámara
+
+								</h2>
+								
+								<p class="mett__p mett__text-center" style="margin-top: 1em; color: #000;">
+
+									16 MP cámara trasera<br> 8 MP cámara frontal<br> 3 segundos para el enfoque súper rápido
+								</p>
+
+							</div>
+
+							<!--mett_icon2-ph2-pro-->
+
+
+							<div class=" mett__justify-center mett__align-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-25 mett__flex-xs-90 mett__flex-gt-90" style="height:270px;">
+
+								<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50" style="margin-top:0px; border:0px; background:none; ">
+						
+									<img class="mett__img" src="img_phab2_pro/mett_icon2-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro " style="border-radius:6px; margin-left:100%;">
+		
+								</div>
+
+								<h2 class="mett__text-bold" style="color:#3e3e3e; font-size: 14pt; text-transform:uppercase;  margin-top:2em;">
+
+								Tango
+
+								</h2>
+								
+								<p class="mett__p mett__text-center" style="margin-top: 1em; color: #000;">
+
+									La realidad aumentada de juego <br>aumentada utilidades de realidad
+								</p>
+
+							</div>
+
+
+							<!--mett_icon3-ph2-pro-->
+
+
+							<div class=" mett__justify-center mett__align-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-25 mett__flex-xs-90 mett__flex-gt-90" style="height:270px;">
+
+								<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50" style="margin-top:0px; border:0px; background:none; ">
+						
+									<img class="mett__img" src="img_phab2_pro/mett_icon3-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro " style="border-radius:6px; margin-left:100%;">
+		
+								</div>
+
+								<h2 class="mett__text-bold" style="color:#3e3e3e; font-size: 14pt; text-transform:uppercase;  margin-top:2em;">
+
+								Diseño
+
+								</h2>
+								
+								<p class="mett__p mett__text-center" style="margin-top: 1em; color: #000;">
+
+									8,9 mm de aluminio unibody<br>escáner de huellas dactilares (parte trasera)
+								</p>
+
+							</div>
+
+							
+
+						</div>
+
+
+						<!--icon secundarios-->
+
+						<div class="mett__miniatures mett__layout-row mett__layout-wrap mett__justify-space-around mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+
+							<!--mett_icon4-ph2-pro-->
+
+
+							<div class=" mett__justify-center mett__align-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-25 mett__flex-xs-90 mett__flex-gt-90" style="height:270px;">
+
+								<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50" style="margin-top:0px; border:0px; background:none; ">
+						
+									<img class="mett__img" src="img_phab2_pro/mett_icon4-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro " style="border-radius:6px; margin-left:100%;">
+		
+								</div>
+
+								<h2 class="mett__text-bold" style="color:#3e3e3e; font-size: 14pt; text-transform:uppercase;  margin-top:2em;">
+
+								Procesador
+
+								</h2>
+								
+								<p class="mett__p mett__text-center" style="margin-top: 1em; color: #000;">
+
+									Qualcomm Snapdragon ™ 652 procesador<br> optimizado para Tango
+								</p>
+
+							</div>
+
+							<!--mett_icon5-ph2-pro-->
+
+
+							<div class=" mett__justify-center mett__align-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-25 mett__flex-xs-90 mett__flex-gt-90" style="height:270px;">
+
+								<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50" style="margin-top:0px; border:0px; background:none; ">
+						
+									<img class="mett__img" src="img_phab2_pro/mett_icon5-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro " style="border-radius:6px; margin-left:100%;">
+		
+								</div>
+
+								<h2 class="mett__text-bold" style="color:#3e3e3e; font-size: 14pt; text-transform:uppercase;  margin-top:2em;">
+
+								Memoria
+
+								</h2>
+								
+								<p class="mett__p mett__text-center" style="margin-top: 1em; color: #000;">
+
+									64 GB ROM<br>4 GB de RAM
+								</p>
+
+							</div>
+
+
+							<!--mett_icon6-ph2-pro-->
+
+
+							<div class=" mett__justify-center mett__align-center mett__flex-lg-25 mett__flex-md-25 mett__flex-sm-25 mett__flex-xs-90 mett__flex-gt-90" style="height:270px;">
+
+								<div class="mett__layout-row mett__justify-center mett__align-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-50 mett__flex-gt-50" style="margin-top:0px; border:0px; background:none; ">
+						
+									<img class="mett__img" src="img_phab2_pro/mett_icon6-ph2-pro.png" alt="img-mett_closeup_1-ph2-pro " style="border-radius:6px; margin-left:100%;">
+		
+								</div>
+
+								<h2 class="mett__text-bold" style="color:#3e3e3e; font-size: 14pt; text-transform:uppercase;  margin-top:2em;">
+
+								Batería
+								</h2>
+								
+								<p class="mett__p mett__text-center" style="margin-top: 1em; color: #000;">
+
+									4050 mAh<br>2,4 x turbo de carga
+								</p>
+
+							</div>
+
+							
+
+						</div>
+
+					</div>
+
+				</div>
+
+		
+
+			</div>
+
+
+			<div class="mett__flex-lg-5 mett__flex-md-5 mett__flex-md-5 mett__flex-sm-5 mett__flex-xs-5 mett__flex-gt-5"></div>.
+
+		</div>
+
+
+
+
+		<!--& FRINGE TITLE &-->
+
+		<div class="mett__fringe-title mett__layout-row mett__layout-wrap mett__justify-center mett__align-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100 mett__text-center">
+						
+				
+			<h1 class="mett__h1-white">DISFRUTA DE SUS APLICACIONES</h1>
+
+		</div>
+
+
+		<!-- MODULE APPS -->
+
+		<div class="mett__module-apps mett__layout-row mett__layout-wrap mett__justify-start mett__align-start mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100">
+			
+
+				<div class="mett__container-info-app mett__layout-row mett__layout-wrap mett__justify-center mett__text-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100">
+
+
+					<div class="mett__div-fringe-gray"></div>
+
+					<div class="mett__cont-info mett__flex-lg-85 mett__flex-md-85 mett__flex-sm-85 mett__flex-xs-85 mett__flex-gt-85">
+						
+
+						<div class="mett__layout-row mett__justify-center">
+							
+							<div class="mett__cont-img-logo">
+								
+								 <img class="mett__img" src="img_phab2_pro/reach-logo.png" alt=""/> 
+
+							</div>
+
+						</div>
+
+						<div>
+
+							<h4 class="mett__title-app-module">Lenovo REACHit</h4>
+							
+							<p class="mett__p">
+
+								REACHit es una forma cómoda de acceder a todos tus archivos al mismo tiempo, desde cualquier parte. Accede a los archivos en forma remota, desde todos los dispositivos.
+
+							</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="mett__container-info-app mett__layout-row mett__layout-wrap mett__justify-center mett__text-center mett__flex-lg-50 mett__flex-md-50 mett__flex-sm-50 mett__flex-xs-100 mett__flex-gt-100">
+
+
+					<div class="mett__div-fringe-gray"></div>
+
+					<div class="mett__cont-info mett__flex-lg-85 mett__flex-md-85 mett__flex-sm-85 mett__flex-xs-85 mett__flex-gt-85">
+						
+
+						<div class="mett__layout-row mett__justify-center">
+							
+							<div class="mett__cont-img-logo">
+								
+								<img class="mett__img" src="img_phab2_pro/mett_shareit-logo-ph2-pro.png" alt=""/> 
+
+							</div>
+
+						</div>
+
+						<div>
+
+							<h4 class="mett__title-app-module">lenovo SHAREit</h4>
+							
+							<p class="mett__p">
+
+								SHAREit te permite enviar fotos, música, videos, carpetas y mucho más, a velocidades increíbles. No hay límite de tamaño de archivos cuando se comparten archivos.
+
+							</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+
+
+		</div>
+		
+	</section>
+</section>
