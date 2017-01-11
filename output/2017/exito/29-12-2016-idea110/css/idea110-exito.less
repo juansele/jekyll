@@ -3,6 +3,7 @@
 /*fuentes tipograficas*/
 
 @color-blue: #00acc3;
+@color-orange: #F15B3A;
 
 @font-face {
     font-family:'Gotham Black';
@@ -60,12 +61,104 @@
     unicode-range: U+0020-00FE;
 }
 
-/*estilos hoja*/
+.mixin-border-radius(@value: 10em){
+	border-radius: @value;
+	-webkit-border-radius: @value;
+	-moz-border-radius: @value;
+	-o-border-radius: @value;
+	-ms-border-radius: @value;
+}
 
-html, body{
-	margin:0px;
-	padding: 0px;
-	/*border:2px solid purple;*/
+/* Variables fonts */
+
+@font-bold: 'Gotham Bold', helvetica, arial, sans-serif;;
+@font-normal: 'Gotham Book', helvetica, arial, sans-serif;;
+@font-light: 'Gotham Light', helvetica, arial, sans-serif;;
+
+/* Alterations text */
+.mett__text-center{
+	text-align: center;
+}
+
+.mett__text-bold{
+	font-family: @font-bold;
+}
+
+.mett__text-normal{
+	font-family: @font-normal;
+}	
+
+.mett__text-light{
+	font-family: @font-light;
+}
+
+.mett__text-upper{
+	text-transform: uppercase;
+}
+.mett__orange-title-main{
+	color: @color-orange;
+	font-size: 23pt;
+	letter-spacing: -1pt;
+	text-transform: uppercase;
+	font-family: @font-bold;
+	margin-bottom: 0.3em;
+}
+
+.mett__blue-title-main{
+	color: #26ADE3;
+	font-size: 23pt;
+	letter-spacing: -1pt;
+	text-transform: uppercase;
+	font-family: @font-bold;
+	margin-bottom: 0.3em;
+}
+
+a.mett__link-office{
+	color: @color-orange;
+	font-family: @font-bold;
+}
+
+
+.mett__p{
+	color: rgba(0,0,0,0.6);
+	font-family: @font-normal;
+	font-size:13pt;
+	letter-spacing: -0.5pt;
+
+}
+
+@color-grey-clare: #eee;
+
+.mett__steps-content{
+	.mett__mod-step{
+		margin: 0.5em 0em;
+		.mett__circle-mod{
+			.mett__base-structure{
+				position: relative;
+				.mett__cont-circle-illustration{
+					width: 120px;
+					height: 120px;
+					background-color: @color-grey-clare;
+					.mixin-border-radius();
+					border: 2px solid @color-grey-clare - 10;
+				}
+			}
+		}
+		.mett__main-title{
+			color: @color-orange;
+			font-family: @font-bold;
+			font-size: 14pt;
+			letter-spacing: -0.5pt;
+			margin-top: 0.5em;
+			margin-bottom: 0.3em;
+		}
+		.mett__description{
+			font-size:12pt;
+			color: rgba(0,0,0,0.6);
+			font-family: @font-normal;
+			letter-spacing: -0.5pt;
+		}
+	}
 }
 
 /*imagen de background*/
@@ -336,7 +429,7 @@ html, body{
 	.mett__hazmas{
 		letter-spacing: -3px;
 		font-family:'Gotham Bold';
-		color:#F15B3A;
+		color:@color-orange;
 		font-size: 55px;
 	}
 	.mett__dispositivos{
@@ -351,34 +444,29 @@ html, body{
  
  /*one drive*/
 	.mett__one_drive_info{
-
 	 	background-color: #3D4DA0;
-	 	padding: 100px 0px 60px 0px;
-
+	 	padding: 60px 0px 60px 0px;
 		 	.mett_informacion_drive{
-
 		 		color:#ffffff;
-		 		font-size: 18px;
-		 		font-family:'Gotham Light';
+		 		font-size:13pt;
+				letter-spacing: -0.5pt;
+		 		font-family: @font-light;
 		 		text-align: center;
 		 		margin-top: 30px;
-		 		margin-bottom: 50px;
+		 		margin-bottom: 30px;
 		 	}
-
 		 	.mett__informacion_drive{
-
 		 		.mett_cifra_numerica{
-
 		 			color: #ffffff;
 		 			 font-family:'Gotham Bold';
-		 			 font-size: 40px;
-		 			 margin:30px 0px 20px 0px;
+		 			 font-size: 17pt;
+		 			 margin:30px 0px 10px 0px;
 		 		}
 		 		.mett_informacion_drive2{
 
 		 			color: #ffffff;
 		 			 font-family:'Gotham Bold';
-		 			 font-size: 18px;
+		 			 font-size: 11pt;
 		 		}
 		 	}
 	 }
@@ -394,7 +482,7 @@ html, body{
 		letter-spacing: -3px;
 		font-family:'Gotham Bold';
 		font-size: 47px;
-		color:#F15B3A;
+		color:@color-orange;
 	}
 
 	.mett_skype_texto{
@@ -413,7 +501,7 @@ html, body{
 	 font-family:'Gotham Bold';
 	 font-size: 35px;
 	 color:#ffffff;
-	 background-color: #F15B3A;
+	 background-color: @color-orange;
 	 text-align: center;
 
 }
@@ -426,7 +514,7 @@ html, body{
 
 	.mett_soporte_activacion_365{
 
-		color:#F15B3A;
+		color:@color-orange;
 		font-size: 17px;
 		font-family:'Gotham Light';
 		text-align: center;
@@ -435,12 +523,12 @@ html, body{
 
 		font-family:'Gotham Bold';
 		font-size: 45px;
-		color:#F15B3A; 
+		color:@color-orange; 
 		text-align: center;
 	}
 	.mett_siguelos_activacion_365{
 
-		color:#F15B3A; 
+		color:@color-orange; 
 		font-family:'Gotham Light';
 		font-size: 19px;
 
@@ -451,7 +539,7 @@ html, body{
 
 		.mett_numero_activacion_365{
 
-			background-color: #F15B3A;
+			background-color: @color-orange;
 			font-family:'Gotham Light';
 			color: #ffffff;
 			font-size: 17px;
@@ -490,7 +578,7 @@ html, body{
 
 
 .mett__cabecera-exito{
-	height: 600px;
+	height: 450px;
 	position: relative;
 	background-color: @color-blue - 20;
 	.mett__div-sesgado{
