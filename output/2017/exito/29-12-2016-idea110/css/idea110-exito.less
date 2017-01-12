@@ -102,6 +102,7 @@
 	text-transform: uppercase;
 	font-family: @font-bold;
 	margin-bottom: 0.3em;
+	line-height: 22pt;
 }
 
 .mett__blue-title-main{
@@ -111,6 +112,7 @@
 	text-transform: uppercase;
 	font-family: @font-bold;
 	margin-bottom: 0.3em;
+	line-height: 22pt;
 }
 
 a.mett__link-office{
@@ -130,34 +132,43 @@ a.mett__link-office{
 @color-grey-clare: #eee;
 
 .mett__steps-content{
+	padding: 50px 0 40px;
 	.mett__mod-step{
 		margin: 0.5em 0em;
 		.mett__circle-mod{
 			.mett__base-structure{
 				position: relative;
 				.mett__cont-circle-illustration{
-					width: 120px;
-					height: 120px;
+					width: 130px;
+					height: 130px;
 					overflow: hidden;
 					background-color: @color-grey-clare;
 					.mixin-border-radius();
-					border: 2px solid @color-grey-clare - 10;
+					border-bottom: 2px solid @color-grey-clare - 10;
+					img{
+						width: 70%;
+						margin: 0 auto;
+						vertical-align: middle;
+						margin-top: auto;
+						margin-bottom: auto;
+						opacity: 0.7;
+					}
 				}
 			}
-		}
-		.mett__main-title{
-			color: @color-orange;
-			font-family: @font-bold;
-			font-size: 14pt;
-			letter-spacing: -0.5pt;
-			margin-top: 0.5em;
-			margin-bottom: 0.3em;
-		}
-		.mett__description{
-			font-size:12pt;
-			color: rgba(0,0,0,0.6);
-			font-family: @font-normal;
-			letter-spacing: -0.5pt;
+			.mett__main-title{
+				color: @color-orange;
+				font-family: @font-bold;
+				font-size: 14pt;
+				letter-spacing: -0.5pt;
+				margin-top: 1em;
+				margin-bottom: 0.3em;
+			}
+			.mett__description{
+				font-size:12pt;
+				color: rgba(0,0,0,0.6);
+				font-family: @font-normal;
+				letter-spacing: -0.5pt;
+			}
 		}
 	}
 }
@@ -424,7 +435,7 @@ a.mett__link-office{
 /*haz mas-dispositivos*/
 .mett__aplicaciones{
 
-	padding: 60px 0px 60px 0px;
+	padding: 50px 0px 40px 0px;
 	color:#3E3C42;
 
 	.mett__hazmas{
@@ -446,7 +457,7 @@ a.mett__link-office{
  /*one drive*/
 	.mett__one_drive_info{
 	 	background-color: #3D4DA0;
-	 	padding: 60px 0px 60px 0px;
+	 	padding: 60px 0px 40px 0px;
 		 	.mett_informacion_drive{
 		 		color:#ffffff;
 		 		font-size:13pt;
@@ -454,7 +465,6 @@ a.mett__link-office{
 		 		font-family: @font-light;
 		 		text-align: center;
 		 		margin-top: 30px;
-		 		margin-bottom: 30px;
 		 	}
 		 	.mett__informacion_drive{
 		 		.mett_cifra_numerica{
@@ -477,7 +487,7 @@ a.mett__link-office{
 
 .mett_skype_cuadro{
 
-	padding: 60px 0px 60px 0px;
+	padding: 40px 0px 28px 0px;
 
 	.mett_skype_titulo{
 		letter-spacing: -3px;
@@ -497,12 +507,12 @@ a.mett__link-office{
 /*franja activalo hoy*/
 
 .mett_franja_activalo{
-	letter-spacing: -3px;
-	padding: 10px 0px 10px 0px;
-	 font-family:'Gotham Bold';
-	 font-size: 35px;
+	letter-spacing: -1px;
+	padding: 14px 0px 14px 0px;
+	 font-family:@font-bold;
+	 font-size: 16pt;
 	 color:#ffffff;
-	 background-color: @color-orange;
+	 background-color: @color-orange - 25;
 	 text-align: center;
 
 }
@@ -511,7 +521,7 @@ a.mett__link-office{
 
 .mett_pasos_activacion_365{
 
-	padding: 60px 0px 60px 0px;
+	padding: 60px 0px 40px 0px;
 
 	.mett_soporte_activacion_365{
 
@@ -579,7 +589,7 @@ a.mett__link-office{
 
 
 .mett__cabecera-exito{
-	height: 450px;
+	min-height: 400px;
 	position: relative;
 	background-color: @color-blue - 20;
 	.mett__div-sesgado{
@@ -597,9 +607,9 @@ a.mett__link-office{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 80px;
+		bottom: 4px;
+		top: 55px;
 		background-color: @color-blue;
-		height: 85%;
 	}
 	.mett__mod-info-main{
 		z-index: 2;margin-top: 4em;
@@ -615,14 +625,50 @@ a.mett__link-office{
 				font-size: 12.6pt;
 			}
 		}
-		.mett__cont-img-product{
+		
+	}
+	.mett__label-office{
+		z-index:2;
+	}
+}
+
+@media (min-width:320px){
+	.mett__cont-img-product-gt{
+			text-align: center;
+			img{
+				width: 85%; margin-top: 0em;
+			}
+		}
+}
+@media (min-width:600px){
+	.mett__cont-img-product-xs{
+			text-align: center;
+			img{
+				width: 85%; margin-top: 0em;
+			}
+		}
+}
+@media (min-width:768px){
+	.mett__cont-img-product-sm{
 			text-align: right;
 			img{
 				width: 85%; margin-top: -5em;
 			}
 		}
+}
+@media (min-width:992px){
+	.mett__cont-img-product-md{
+		text-align: right;
+		img{
+			width: 85%; margin-top: -5em;
+		}
 	}
-	.mett__label-office{
-		z-index:2;
+}
+@media (min-width:1200px){
+	.mett__cont-img-product-lg{
+		text-align: right;
+		img{
+			width: 85%; margin-top: -5em;
+		}
 	}
 }
