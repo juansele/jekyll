@@ -1,3 +1,20 @@
+@color-blue: #00acc3;
+@color-orange: #F15B3A;
+@color-grey-clare: #eee;
+
+/* Variables fonts */
+
+@font-bold: 'Gotham Bold', helvetica, arial, sans-serif;;
+@font-normal: 'Gotham Book', helvetica, arial, sans-serif;;
+@font-light: 'Gotham Light', helvetica, arial, sans-serif;;
+
+.mixin-border-radius(@value: 10em){
+	border-radius: @value;
+	-webkit-border-radius: @value;
+	-moz-border-radius: @value;
+	-o-border-radius: @value;
+	-ms-border-radius: @value;
+}
 
 
 /*fuentes tipograficas*/
@@ -149,6 +166,93 @@ html, body{
 	font-family:'Gotham Light';
 	
 }
+
+/*other*/
+/* Alterations text */
+.mett__text-center{
+	text-align: center;
+}
+
+.mett__text-bold{
+	font-family: @font-bold;
+}
+
+.mett__text-normal{
+	font-family: @font-normal;
+}	
+
+.mett__text-light{
+	font-family: @font-light;
+}
+
+.mett__text-upper{
+	text-transform: uppercase;
+}
+
+.mett__p{
+	color: rgba(0,0,0,0.6);
+	font-family: @font-normal;
+	font-size:13pt;
+	letter-spacing: -0.5pt;
+}
+
+a.mett__link-office{
+	color: @color-orange;
+	font-family: @font-bold;
+}
+
+.mett__blue-title-main{
+	color: #26ADE3;
+	font-size: 23pt;
+	letter-spacing: -1pt;
+	text-transform: uppercase;
+	font-family: @font-bold;
+	margin-bottom: 0.3em;
+	line-height: 22pt;
+}
+
+.mett__steps-content{
+	padding: 50px 0 40px;
+	.mett__mod-step{
+		margin: 0.5em 0em;
+		.mett__circle-mod{
+			.mett__base-structure{
+				position: relative;
+				.mett__cont-circle-illustration{
+					width: 130px;
+					height: 130px;
+					overflow: hidden;
+					background-color: @color-grey-clare;
+					.mixin-border-radius();
+					border-bottom: 2px solid @color-grey-clare - 10;
+					img{
+						width: 70%;
+						margin: 0 auto;
+						vertical-align: middle;
+						margin-top: auto;
+						margin-bottom: auto;
+						opacity: 0.7;
+					}
+				}
+			}
+			.mett__main-title{
+				color: @color-orange;
+				font-family: @font-bold;
+				font-size: 14pt;
+				letter-spacing: -0.5pt;
+				margin-top: 1em;
+				margin-bottom: 0.3em;
+			}
+			.mett__description{
+				font-size:12pt;
+				color: rgba(0,0,0,0.6);
+				font-family: @font-normal;
+				letter-spacing: -0.5pt;
+			}
+		}
+	}
+}
+
 
 /*cabezote*/
 .mett_cabezote_padre{
@@ -353,36 +457,46 @@ html, body{
 /*SKYPE*/
 
 .mett_skype_cuadro{
-	padding: 60px 0px 60px 0px;
+
+	padding: 40px 0px 28px 0px;
 
 	.mett_skype_titulo{
+		letter-spacing: -3px;
 		font-family:'Gotham Bold';
-		font-size: 45px;
-		color:#F15B3A;
-		margin-bottom: 20px;
+		font-size: 47px;
+		color:@color-orange;
 	}
 
 	.mett_skype_texto{
+
 		font-family:'Gotham Light';
-		font-size: 20px;
+		font-size: 18px;
 		color: #3E3C42;
 	}
 }
-
 /*franja activalo hoy*/
 
 .mett_franja_activalo{
-	padding: 10px 0px 10px 0px;
-	 font-family:'Gotham Bold';
-	 font-size: 50px;
+	letter-spacing: -1px;
+	padding: 14px 0px 14px 0px;
+	 font-family:@font-bold;
+	 font-size: 16pt;
 	 color:#ffffff;
-	 background-color: #F15B3A;
+	 background-color: @color-orange - 25;
 	 text-align: center;
 
 }
 
 /* pasos para la activacion o365*/
-
+.mett__orange-title-main{
+	color: @color-orange;
+	font-size: 23pt;
+	letter-spacing: -1pt;
+	text-transform: uppercase;
+	font-family: @font-bold;
+	margin-bottom: 0.3em;
+	line-height: 22pt;
+}
 .mett_pasos_activacion_365{
 	padding: 60px 0px 60px 0px;
 
