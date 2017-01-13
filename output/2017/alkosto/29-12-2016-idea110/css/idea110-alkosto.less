@@ -1,25 +1,9 @@
-@color-blue: #00acc3;
-@color-orange: #F15B3A;
-@color-grey-clare: #eee;
-
-/* Variables fonts */
-
-@font-bold: 'Gotham Bold', helvetica, arial, sans-serif;;
-@font-normal: 'Gotham Book', helvetica, arial, sans-serif;;
-@font-light: 'Gotham Light', helvetica, arial, sans-serif;;
-
-.mixin-border-radius(@value: 10em){
-	border-radius: @value;
-	-webkit-border-radius: @value;
-	-moz-border-radius: @value;
-	-o-border-radius: @value;
-	-ms-border-radius: @value;
-}
 
 
 /*fuentes tipograficas*/
 
-
+@color-blue: #00acc3;
+@color-orange: #F15B3A;
 
 @font-face {
     font-family:'Gotham Black';
@@ -35,139 +19,69 @@
 }
 
 
-
 @font-face {
-    font-family:'Gotham Bold';
-    src: url('fonts/Gotham-Bold.eot');
-	src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Gotham-Bold.woff2') format('woff2'),
-		url('fonts/Gotham-Bold.woff') format('woff'),
-		url('fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
-    font-weight: 400;
+    font-family: 'Gotham Bold';
+    src: url('fonts/gotham-bold-webfont.woff2') format('woff2'),
+         url('fonts/gotham-bold-webfont.woff') format('woff'),
+         url('fonts/gotham-bold-webfont.ttf') format('truetype'),
+         url('fonts/gotham-bold-webfont.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
     font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
+
 }
 
 @font-face {
-    font-family:'Gotham Book';
-    src: url('fonts/Gotham-Book.eot');
-	src: url('fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Gotham-Book.woff2') format('woff2'),
-		url('fonts/Gotham-Book.woff') format('woff'),
-		url('fonts/Gotham-Book.svg#Gotham-Book') format('svg');
-    font-weight: 325;
+    font-family: 'Gotham Light';
+    src: url('fonts/gotham-light-webfont.woff2') format('woff2'),
+         url('fonts/gotham-light-webfont.woff') format('woff'),
+         url('fonts/gotham-light-webfont.ttf') format('truetype'),
+         url('fonts/gotham-light-webfont.svg#gotham_lightregular') format('svg');
+    font-weight: normal;
     font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
+
 }
-
-
 
 @font-face {
-    font-family:'Gotham Light';
-    src: url('fonts/Gotham-Light.eot');
-	src: url('fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Gotham-Light.woff2') format('woff2'),
-		url('fonts/Gotham-Light.woff') format('woff'),
-		url('fonts/Gotham-Light.svg#Gotham-Light') format('svg');
-    font-weight: 300;
+    font-family: 'Gotham Medium';
+    src: url('fonts/gotham-medium-webfont.woff2') format('woff2'),
+         url('fonts/gotham-medium-webfont.woff') format('woff'),
+         url('fonts/gotham-medium-webfont.ttf') format('truetype'),
+         url('fonts/gotham-medium-webfont.svg#gotham_mediumregular') format('svg');
+    font-weight: normal;
     font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-00FE;
+
 }
 
-/*estilos hoja*/
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('fonts/gotham-book-webfont.woff2') format('woff2'),
+         url('fonts/gotham-book-webfont.woff') format('woff'),
+         url('fonts/gotham-book-webfont.ttf') format('truetype'),
+         url('fonts/gotham-book-webfont.svg#gotham_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-html, body{
-	margin:0px;
-	padding: 0px;
-	/*border:2px solid purple;*/
 }
 
-/*imagen de background*/
+/*@font-face{font-family:'Gotham bold';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.ttf) format('truetype');font-weight:700;font-style:normal}
+@font-face{font-family:'Gotham light';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.ttf) format('truetype');font-weight:600;font-style:normal}
+@font-face{font-family:'Gotham Ultra';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.ttf) format('truetype');font-weight:400;font-style:normal}*/
 
-	@media (min-width:320px){
-		.mett__bg-header-gt-idea110{
-		background-color:#f1603a;
-		}
-	}
-	@media (min-width:600px){
-		.mett__bg-header-xs-idea110{
-		background-color:#f1603a;
-		}
-	}
-	@media (min-width:768px){
-		.mett__bg-header-sm-idea110{
-		background: url(../img/mett_cabezote-bg1-2.png); background-size:cover;
-		}
-	}
-	@media (min-width:992px){
-		.mett__bg-header-md-idea110{
-		background: url(../img/mett_cabezote-bg1-2.png); background-size:cover;
-		}
-	}
-	@media (min-width:1200px){
-		.mett__bg-header-lg-idea110{
-		background: url(../img/mett_cabezote-bg1-2.png); background-size:cover;
-		}
-	}
-
-/*texto-cambio-posicion*/
-	@media (min-width:320px){
-		.mett__position-text-gt-idea110{
-			text-align: center;
-		}
-	}
-	@media (min-width:600px){
-		.mett__position-text-xs-idea110{
-			text-align: center;
-		}
-	}
-	@media (min-width:768px){
-		.mett__position-d-text-sm-idea110{
-			text-align: right;
-		}
-	}
-	@media (min-width:992px){
-		.mett__position-d-text-md-idea110{
-			text-align: right;
-		}
-	}
-	@media (min-width:1200px){
-		.mett__position-d-text-lg-idea110{
-			text-align: right;
-		}
-	}
-	@media (min-width:768px){
-		.mett__position-i-text-sm-idea110{
-			text-align: left;
-		}
-	}
-	@media (min-width:992px){
-		.mett__position-i-text-md-idea110{
-			text-align: left;
-		}
-	}
-	@media (min-width:1200px){
-		.mett__position-i-text-lg-idea110{
-			text-align: left;
-		}
-	}
-
-
-/*franja inicial*/
-
-.mett_franja1{
-	background-color: #20201a;
-	padding: 7px 0px 7px 0px;
-	color:#ffffff;
-	font-size: 12px;
-	font-family:'Gotham Light';
-	
+.mixin-border-radius(@value: 10em){
+	border-radius: @value;
+	-webkit-border-radius: @value;
+	-moz-border-radius: @value;
+	-o-border-radius: @value;
+	-ms-border-radius: @value;
 }
 
-/*other*/
+/* Variables fonts */
+
+@font-bold: Gotham Bold, helvetica, sans-serif;
+@font-normal: Gotham Book, helvetica, sans-serif;
+@font-light: Gotham Light, helvetica, sans-serif;
+@font-medium: Gotham Medium, helvetica, sans-serif;
+
 /* Alterations text */
 .mett__text-center{
 	text-align: center;
@@ -188,17 +102,14 @@ html, body{
 .mett__text-upper{
 	text-transform: uppercase;
 }
-
-.mett__p{
-	color: rgba(0,0,0,0.6);
-	font-family: @font-normal;
-	font-size:13pt;
-	letter-spacing: -0.5pt;
-}
-
-a.mett__link-office{
+.mett__orange-title-main{
 	color: @color-orange;
+	font-size: 23pt;
+	letter-spacing: -1pt;
+	text-transform: uppercase;
 	font-family: @font-bold;
+	margin-bottom: 0.3em;
+	line-height: 22pt;
 }
 
 .mett__blue-title-main{
@@ -210,6 +121,22 @@ a.mett__link-office{
 	margin-bottom: 0.3em;
 	line-height: 22pt;
 }
+
+a.mett__link-office{
+	color: @color-orange;
+	font-family: @font-bold;
+}
+
+
+.mett__p{
+	color: rgba(0,0,0,0.6);
+	font-family: @font-normal;
+	font-size:13pt;
+	letter-spacing: -0.5pt;
+
+}
+
+@color-grey-clare: #eee;
 
 .mett__steps-content{
 	padding: 50px 0 40px;
@@ -253,29 +180,360 @@ a.mett__link-office{
 	}
 }
 
+/*imagen de background*/
+
+	@media (min-width:320px){
+		.mett__bg-header-gt-idea110{
+		background-color:@color-orange;
+		}
+	}
+	@media (min-width:600px){
+		.mett__bg-header-xs-idea110{
+		background-color:@color-orange;
+		}
+	}
+	@media (min-width:768px){
+		.mett__bg-header-sm-idea110{
+		background: url(../img/mett_cabezote-bg1-3.png); background-size:cover;
+		}
+	}
+	@media (min-width:992px){
+		.mett__bg-header-md-idea110{
+		background: url(../img/mett_cabezote-bg1-3.png); background-size:cover;
+		}
+	}
+	@media (min-width:1200px){
+		.mett__bg-header-lg-idea110{
+		background: url(../img/mett_cabezote-bg1-3.png); background-size:cover;
+		}
+	}
+
+/*texto-cambio-posicion*/
+	@media (min-width:320px){
+		.mett__position-text-gt-idea110{
+			text-align: center;
+		}
+	}
+	@media (min-width:600px){
+		.mett__position-text-xs-idea110{
+			text-align: center;
+		}
+	}
+	@media (min-width:768px){
+		.mett__position-d-text-sm-idea110{
+			text-align: right;
+		}
+	}
+	@media (min-width:992px){
+		.mett__position-d-text-md-idea110{
+			text-align: center;
+		}
+	}
+	@media (min-width:1200px){
+		.mett__position-d-text-lg-idea110{
+			text-align: center;
+		}
+	}
+	@media (min-width:768px){
+		.mett__position-i-text-sm-idea110{
+			text-align: left;
+		}
+	}
+	@media (min-width:992px){
+		.mett__position-i-text-md-idea110{
+			text-align: left;
+		}
+	}
+	@media (min-width:1200px){
+		.mett__position-i-text-lg-idea110{
+			text-align: left;
+		}
+	}
+
+
+/*franja inicial*/
+
+.mett_franja1{
+	background-color: #20201a;
+	padding: 1em 0em;
+	color:#ffffff;
+	font-size: 12px;
+	font-family:'Gotham Light';
+	
+}
+
+
+
+/*haz mas-dispositivos*/
+.mett__aplicaciones{
+
+	padding: 50px 0px 40px 0px;
+	color:#3E3C42;
+
+	.mett__hazmas{
+		letter-spacing: -3px;
+		font-family: @font-bold;
+		color:@color-orange;
+		font-size: 55px;
+	}
+	.mett__dispositivos{
+
+		font-family:'Gotham Light';
+		font-size: 20px;
+		color: #3E3C42;
+		text-align: center;
+	}
+}
+
+ 
+ /*one drive*/
+	.mett__one_drive_info{
+	 	background-color: #3D4DA0;
+	 	padding: 60px 0px 40px 0px;
+		 	.mett_informacion_drive{
+		 		color:#ffffff;
+		 		font-size:13pt;
+				letter-spacing: -0.5pt;
+		 		font-family: @font-light;
+		 		text-align: center;
+		 		margin-top: 30px;
+		 	}
+		 	.mett__informacion_drive{
+		 		.mett_cifra_numerica{
+		 			color: #ffffff;
+		 			 font-family: @font-bold;
+		 			 font-size: 17pt;
+		 			 margin:30px 0px 10px 0px;
+		 		}
+		 		.mett_informacion_drive2{
+
+		 			color: #ffffff;
+		 			 font-family: @font-bold;
+		 			 font-size: 11pt;
+		 		}
+		 	}
+	 }
+
+
+/*SKYPE*/
+
+.mett_skype_cuadro{
+
+	padding: 40px 0px 28px 0px;
+
+	.mett_skype_titulo{
+		letter-spacing: -3px;
+		font-family: @font-bold;
+		font-size: 47px;
+		color:@color-orange;
+	}
+
+	.mett_skype_texto{
+
+		font-family:'Gotham Light';
+		font-size: 18px;
+		color: #3E3C42;
+	}
+}
+
+/*franja activalo hoy*/
+
+.mett_franja_activalo{
+	letter-spacing: -1px;
+	padding: 18px 0px 18px 0px;
+	 font-family:@font-bold;
+	 font-size: 16pt;
+	 color:#ffffff;
+	 background-color: @color-orange - 25;
+	 text-align: center;
+
+}
+
+/* pasos para la activacion o365*/
+
+.mett_pasos_activacion_365{
+
+	padding: 60px 0px 40px 0px;
+
+	.mett_soporte_activacion_365{
+
+		color:@color-orange;
+		font-size: 17px;
+		font-family:'Gotham Light';
+		text-align: center;
+	}
+	.mett_pasos_activacion_365{
+
+		font-family: @font-bold;
+		font-size: 45px;
+		color:@color-orange; 
+		text-align: center;
+	}
+	.mett_siguelos_activacion_365{
+
+		color:@color-orange; 
+		font-family:'Gotham Light';
+		font-size: 19px;
+
+	}
+	.mett_cuadro_activacion_365{
+
+		padding: 30px 0px 30px 0px;
+
+		.mett_numero_activacion_365{
+
+			background-color: @color-orange;
+			font-family:'Gotham Light';
+			color: #ffffff;
+			font-size: 17px;
+			border-radius: 50%;
+			padding: 14px 5px;
+			margin-bottom: 240px;
+		}
+		.mett_imagen_margen_365{
+
+			margin-top: -27px;
+		}
+		.mett_imagen_margen_365-0{
+
+			margin-top: -90px;
+		}
+		.mett_imagen_margen_365-1{
+
+			margin-top: -116px;
+		}
+		.mett_info_activacion_365{
+
+			color: #3E3C42;
+			font-family:'Gotham Light';
+			font-size: 12px;
+			text-align: center;
+			margin:5px 0px 40px 0px;
+		}
+		.mett_margin_cuadro1_sm{
+
+			margin-bottom: 70px;
+		}
+
+	}
+	
+}
+
+
+.mett__cabecera-exito{
+	min-height: 400px;
+	position: relative;
+	background-color: @color-blue - 20;
+	.mett__div-sesgado{
+		color: #fff;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 20px;
+		background-color: @color-blue;
+		border-top: 2px solid rgba(255,255,255,0.2);
+		height: 180px;
+		transform: skewY(-4deg);
+	}
+	.mett__base-color-mod{
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 4px;
+		top: 55px;
+		background-color: @color-blue;
+	}
+	.mett__mod-info-main{
+		z-index: 2;margin-top: 4em;
+		.mett__cont-signature{
+			img{
+				width: 80%;
+			}
+		}
+		.mett__cont-description{
+			p{
+				color: white;
+				font-family: 'Gotham Light';
+				font-size: 12.6pt;
+			}
+		}
+		
+	}
+	.mett__label-office{
+		z-index:2;
+	}
+}
+
+@media (min-width:320px){
+	.mett__cont-img-product-gt{
+			text-align: center;
+			img{
+				width: 85%; margin-top: 0em;
+			}
+		}
+}
+@media (min-width:600px){
+	.mett__cont-img-product-xs{
+			text-align: center;
+			img{
+				width: 85%; margin-top: 0em;
+			}
+		}
+}
+@media (min-width:768px){
+	.mett__cont-img-product-sm{
+			text-align: right;
+			img{
+				width: 85%; margin-top: -5em;
+			}
+		}
+}
+@media (min-width:992px){
+	.mett__cont-img-product-md{
+		text-align: right;
+		img{
+			width: 85%; margin-top: -5em;
+		}
+	}
+}
+@media (min-width:1200px){
+	.mett__cont-img-product-lg{
+		text-align: right;
+		img{
+			width: 85%; margin-top: -5em;
+		}
+	}
+}
+
+
+
+
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+
 
 /*cabezote*/
 .mett_cabezote_padre{
-	
-	
 	color:#ffffff;
 	background-repeat: no-repeat;
-	
-	
 	.mett_cabezote_hijo{
 		margin: 100px 0px 200px 0px;
 	}
 	.mett_titulo_desafio{
-		font-size: 30px;
-		font-family: 'Gotham Bold';
-		margin: 17px 0px 17px 0px;
-		
+		font-size: 33pt;
+		font-family: @font-bold;
+		color: rgba(255,255,255,0.9);
 	}
 	.mett_subtitulo_desafio{
-		font-size: 15px;
+		font-size: 14pt;
 		font-family:'Gotham Light';
 		margin: 0px 0px 17px 0px;
-		text-align: right;
+		text-align: center;
+		letter-spacing: -0.5pt;
+		color: rgba(255,255,255,0.8);
 		
 	}
 
@@ -288,18 +546,18 @@ a.mett__link-office{
 		
 	}
 	.mett_cabezote_hijo2{
-		margin: 100px 0px 100px 0px;
+		margin: 100px 0px 50px 0px;
 
 		.mett_titulo_desafio2{
 		font-size: 40px;
-		font-family: 'Gotham Bold';
-		margin: 17px 0px 17px 0px;
+		font-family: @font-bold;
+		margin: 17px 0px 5px 0px;
 		
 		}
 		.mett_subtitulo_desafio2{
 			font-size: 15px;
 			font-family:'Gotham Light';
-			margin: 20px 0px 20px 0px;
+			margin: 0px 0px 30px 0px;
 			text-align:center;
 			
 		}
@@ -321,22 +579,29 @@ a.mett__link-office{
 			text-align: center;
 
 		}
-		.mett__boton_compra2{
+		a.mett__boton_compra2{
 				border: 2px solid #ffffff;
 				color:#ffffff;
 				border-radius: 5px;
-				font-family:'Gotham Bold';
+				font-family: @font-bold;
 				font-size: 20px;
 				padding: 10px 0px 10px 0px;
 				margin-top: 10px;
-			}
+				text-decoration: none;
+				transition: all ease 0.26s;
+		}
+
+		a.mett__boton_compra2:hover{
+			background-color: #ff9f89;
+			transition: all ease 0.26s;
+		}
 
 		.mett_logo_estilos{
 			 z-index: 3;
 			 position: absolute;
 			  right: 0; 
 			  width: 42px;
-			  top: 4%;
+			  top: 4em;
 		}
 
 	}
@@ -346,7 +611,7 @@ a.mett__link-office{
 
 		.mett__structure_skew_mod{
 			position: relative;
-			height: 100px;
+			min-height: 100px;
 			z-index: 0;
 
 			.mett_retenedor_img{
@@ -361,10 +626,10 @@ a.mett__link-office{
 				position: absolute;
 				background-color: #f1603a;
 				width: 50%;
-				top: 0;
+				top: 60px;
 				bottom: 0;
 				right: 0;
-				height: 103px;
+				height: 100%;
 			}
 		}
 		.mett__fraja_inferior_naranja{
@@ -372,187 +637,42 @@ a.mett__link-office{
 			position: absolute;
 			left: 0;
 			right: 0;
+			top: 60px;
 			background-color: #f1603a;
 			height: 100%;
 			transform: skewY(-4deg);
 		}
 		.mett__naranja_inferior_naranja2{
-		color: #ffffff;
-		background-color: #f1603a;
-		font-family:'Gotham Light';
-		font-size: 12px;
-		text-align: center;
-		padding: 15px 0px;
-		z-index: 0;
-
-
-			.mett__boton_compra{
+			color: #ffffff;
+			background-color: #f1603a;
+			font-family:'Gotham Light';
+			font-size: 12px;
+			text-align: center;
+			padding: 20px 0px;
+			z-index: 0;
+			padding-top: 0px;
+			a.mett__boton_compra{
 				border: 2px solid #ffffff;
 				color:#ffffff;
 				border-radius: 5px;
-				font-family:'Gotham Bold';
-				font-size: 17px;
+				font-family: @font-bold;
+				font-size: 16px;
 				padding: 10px 0px 10px 0px;
 				margin-top: 10px;
-			}
+				text-decoration: none;
+				transition: all ease 0.26s;
+		}
+
+		a.mett__boton_compra:hover{
+			background-color: #ff9f89;
+			transition: all ease 0.26s;
+		}
 		}
 		
 	}
 	
 }
 
-/*haz mas-dispositivos*/
-.mett__aplicaciones{
-	padding: 60px 0px 60px 0px;
-	color:#3E3C42;
-
-	.mett__hazmas{
-		font-family:'Gotham Bold';
-		color:#F15B3A;
-		font-size: 60px;
-	}
-	.mett__dispositivos{
-		font-family:'Gotham Light';
-		font-size: 20px;
-		color: #3E3C42;
-		text-align: center;
-	}
-}
-
- 
- /*one drive*/
-	.mett__one_drive_info{
-
-	 	background-color: #3D4DA0;
-	 	padding: 60px 0px 60px 0px;
-
-		 	.mett_informacion_drive{
-
-		 		color:#ffffff;
-		 		font-size: 15px;
-		 		font-family:'Gotham Light';
-		 		text-align: center;
-		 		margin-top: 20px;
-		 		margin-bottom: 50px;
-		 	}
-
-		 	.mett__informacion_drive{
-
-		 		.mett_cifra_numerica{
-
-		 			color: #ffffff;
-		 			 font-family:'Gotham Bold';
-		 			 font-size: 45px;
-		 			 margin:30px 0px 30px 0px;
-		 		}
-		 		.mett_informacion_drive{
-		 			color: #ffffff;
-		 			 font-family:'Gotham Light';
-		 			 font-size: 25px;
-		 		}
-		 	}
-	 }
-
-
-/*SKYPE*/
-
-.mett_skype_cuadro{
-
-	padding: 40px 0px 28px 0px;
-
-	.mett_skype_titulo{
-		letter-spacing: -3px;
-		font-family:'Gotham Bold';
-		font-size: 47px;
-		color:@color-orange;
-	}
-
-	.mett_skype_texto{
-
-		font-family:'Gotham Light';
-		font-size: 18px;
-		color: #3E3C42;
-	}
-}
-/*franja activalo hoy*/
-
-.mett_franja_activalo{
-	letter-spacing: -1px;
-	padding: 14px 0px 14px 0px;
-	 font-family:@font-bold;
-	 font-size: 16pt;
-	 color:#ffffff;
-	 background-color: @color-orange - 25;
-	 text-align: center;
-
-}
-
-/* pasos para la activacion o365*/
-.mett__orange-title-main{
-	color: @color-orange;
-	font-size: 23pt;
-	letter-spacing: -1pt;
-	text-transform: uppercase;
-	font-family: @font-bold;
-	margin-bottom: 0.3em;
-	line-height: 22pt;
-}
-.mett_pasos_activacion_365{
-	padding: 60px 0px 60px 0px;
-
-	.mett_soporte_activacion_365{
-		color:#F15B3A;
-		font-size: 17px;
-		font-family:'Gotham Light';
-		text-align: center;
-	}
-	.mett_pasos_activacion_365{
-		font-family:'Gotham Bold';
-		font-size: 45px;
-		color:#F15B3A; 
-		text-align: center;
-	}
-	.mett_siguelos_activacion_365{
-		color:#F15B3A; 
-		font-family:'Gotham Light';
-		font-size: 19px;
-
-	}
-	.mett_cuadro_activacion_365{
-		padding: 30px 0px 30px 0px;
-
-		.mett_numero_activacion_365{
-			background-color: #F15B3A;
-			font-family:'Gotham Light';
-			color: #ffffff;
-			font-size: 17px;
-			border-radius: 50%;
-			padding: 14px 5px;
-			margin-bottom: 240px;
-		}
-		.mett_imagen_margen_365{
-			margin-top: -27px;
-		}
-		.mett_imagen_margen_365-0{
-			margin-top: -90px;
-		}
-		.mett_imagen_margen_365-1{
-			margin-top: -116px;
-		}
-		.mett_info_activacion_365{
-			color: #3E3C42;
-			font-family:'Gotham Light';
-			font-size: 12px;
-			text-align: center;
-			margin:5px 0px 40px 0px;
-		}
-		.mett_margin_cuadro1_sm{
-			margin-bottom: 70px;
-		}
-
-	}
-	
-}
 
 /*tus recuerdos seguros y siempre con tigo*/
 .mett_recuerdos_bg{
@@ -560,22 +680,25 @@ a.mett__link-office{
 	background-size: cover;
 	.mett_recuerdos_trans{
 		background-color: rgba(0,0,0,0.5);
-		font-size: 45px;
-		font-family:'Gotham Light';
-		padding: 250px 0px;
-		color:#ffffff;
+		font-size: 25pt;
+		font-family:@font-bold;
+		padding: 150px 0px;
+		color:rgba(255,255,255,0.9);
 		text-align: center;
+		letter-spacing: -1pt;
+		text-shadow: 1px 1px 1px #000;
 
 	}
 }
 
+
 /*computador navegacion y consumo*/
 .mett_navegacion{
 	
-	padding: 60px 0px 60px 0px;
+	padding: 30px 0px 20px 0px;
 	.mett_titulo_navegacion{
 		font-size: 24px;
-		font-family:'Gotham Bold';
+		font-family: @font-bold;
 		color:#F15B3A;
 		
 	}
@@ -586,6 +709,8 @@ a.mett__link-office{
 		margin:20px 0px;
 	}
 }
+
+
 /*franja informacion maquina*/
 
 .mett_franja_informacion_2{
@@ -593,44 +718,47 @@ a.mett__link-office{
 	background-color:  #F15B3A;
 
 	.mett_informacion_llamar{
-		font-family:'Gotham Bold';
+		font-family: @font-bold;
 		font-size: 17px;
-		color: #ffffff;
+		color: rgba(255,255,255,0.9);
 		text-align: center;
 	}
 	.mett_informacion_franja{
 		padding: 15px 0px 0px 0px;
 		.mett_informacion_negrilla{
-			font-family:'Gotham Bold';
+			font-family: @font-bold;
 			font-size: 17px;
-			color: #3e3e3e;
+			color: @color-orange - 100;
 			text-align: center;
 		}
 		.mett_informacion_maquina{
 			font-family:'Gotham Light';
 			font-size: 14px;
-			color: #3e3e3e;
+			color: @color-orange - 100;
 			text-align: center;
 		}
 	}
 }
+
+
+
 
 /*aplicaciones*/
 .mett_franja_apps{
 	padding: 20px 0px;
 	background-color: #3e3e3e;
 	color: #ffffff;
-	font-size: 30px;
-	font-family:'Gotham Bold';
+	font-size: 18pt;
+	font-family: @font-bold;
 	text-align: center;
 }
 
 /*apps*/
 .mett_apps_logos{
-	padding: 60px 0px;
+	padding: 60px 0px 0px;
 	.mett_titulo_logo{
-		font-family:'Gotham Bold';
-		font-size: 15px;
+		font-family: @font-bold;
+		font-size: 15pt;
 		color:#4f4e4f;
 		margin: 20px 0px;
 	}
@@ -642,3 +770,6 @@ a.mett__link-office{
 		margin-bottom: 50px;
 	}
 }
+
+
+
