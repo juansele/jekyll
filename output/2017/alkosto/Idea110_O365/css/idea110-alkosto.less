@@ -5,7 +5,7 @@
 @color-blue: #00acc3;
 @color-orange: #F15B3A;
 
-@font-face {
+/*@font-face {
     font-family:'Gotham Black';
     src: url('fonts/Gotham-Black.eot');
 	src: url('fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
@@ -61,11 +61,18 @@
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
-/*@font-face{font-family:'Gotham bold';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.ttf) format('truetype');font-weight:700;font-style:normal}
+
+
+
+@font-face{font-family:'Gotham bold';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.ttf) format('truetype');font-weight:700;font-style:normal}
+
 @font-face{font-family:'Gotham light';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.ttf) format('truetype');font-weight:600;font-style:normal}
-@font-face{font-family:'Gotham Ultra';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.ttf) format('truetype');font-weight:400;font-style:normal}*/
+
+@font-face{font-family:'Gotham Ultra';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.ttf) format('truetype');font-weight:400;font-style:normal}
+
+
 
 .mixin-border-radius(@value: 10em){
 	border-radius: @value;
@@ -77,10 +84,9 @@
 
 /* Variables fonts */
 
-@font-bold: Gotham Bold, helvetica, sans-serif;
-@font-normal: Gotham Book, helvetica, sans-serif;
-@font-light: Gotham Light, helvetica, sans-serif;
-@font-medium: Gotham Medium, helvetica, sans-serif;
+@font-bold: 'Gotham bold', helvetica, sans-serif;
+@font-light: 'Gotham light', helvetica, sans-serif;
+@font-medium: 'Gotham Medium', helvetica, sans-serif;
 
 /* Alterations text */
 .mett__text-center{
@@ -92,7 +98,7 @@
 }
 
 .mett__text-normal{
-	font-family: @font-normal;
+	font-family: @font-light;
 }	
 
 .mett__text-light{
@@ -129,8 +135,8 @@ a.mett__link-office{
 
 
 .mett__p{
-	color: rgba(0,0,0,0.6);
-	font-family: @font-normal;
+	color: rgba(0,0,0,0.9);
+	font-family: @font-light;
 	font-size:13pt;
 	letter-spacing: -0.5pt;
 
@@ -173,7 +179,7 @@ a.mett__link-office{
 			.mett__description{
 				font-size:12pt;
 				color: rgba(0,0,0,0.6);
-				font-family: @font-normal;
+				font-family: @font-light;
 				letter-spacing: -0.5pt;
 			}
 		}
@@ -546,7 +552,7 @@ a.mett__link-office{
 		
 	}
 	.mett_cabezote_hijo2{
-		margin: 100px 0px 100px 0px;
+		margin: 100px 0px 50px 0px;
 
 		.mett_titulo_desafio2{
 		font-size: 40px;
@@ -579,7 +585,7 @@ a.mett__link-office{
 			text-align: center;
 
 		}
-		.mett__boton_compra2{
+		a.mett__boton_compra2{
 				border: 2px solid #ffffff;
 				color:#ffffff;
 				border-radius: 5px;
@@ -587,7 +593,14 @@ a.mett__link-office{
 				font-size: 20px;
 				padding: 10px 0px 10px 0px;
 				margin-top: 10px;
-			}
+				text-decoration: none;
+				transition: all ease 0.26s;
+		}
+
+		a.mett__boton_compra2:hover{
+			background-color: #ff9f89;
+			transition: all ease 0.26s;
+		}
 
 		.mett_logo_estilos{
 			 z-index: 3;
@@ -644,14 +657,21 @@ a.mett__link-office{
 			padding: 20px 0px;
 			z-index: 0;
 			padding-top: 0px;
-			.mett__boton_compra{
+			a.mett__boton_compra{
 				border: 2px solid #ffffff;
 				color:#ffffff;
 				border-radius: 5px;
 				font-family: @font-bold;
-				font-size: 17px;
+				font-size: 16px;
 				padding: 10px 0px 10px 0px;
 				margin-top: 10px;
+				text-decoration: none;
+				transition: all ease 0.26s;
+			}
+
+			a.mett__boton_compra:hover{
+				background-color: #ff9f89;
+				transition: all ease 0.26s;
 			}
 		}
 		
@@ -759,96 +779,3 @@ a.mett__link-office{
 
 
 
-/*cabezote*/
-.mett_cabezote_padre{
-
-	color:#ffffff;
-	background-repeat: no-repeat;
-	
-	
-	.mett_cabezote_hijo{
-
-		margin: 100px 0px 200px 0px;
-	}
-	.mett_titulo_desafio{
-
-		font-size: 65px;
-		font-family: 'Gotham Bold';
-		margin: 17px 0px 0px 0px;
-		letter-spacing: -1px;
-		
-	}
-	.mett_subtitulo_desafio{
-
-		font-size: 50px;
-		font-family:'Gotham Light';
-		margin: 0px 0px 500px 0px;
-		text-align: left;
-		letter-spacing: -1px;
-		line-height: 1;
-		
-	}
-
-	.mett_texto_logo{
-
-		text-align: right;
-		font-size: 20px;
-		font-family:'Gotham Light';
-		margin-right: 10px;
-		margin-bottom: 10px;
-		
-	}
-	.mett_cabezote_hijo2{
-
-		margin: 100px 0px 100px 0px;
-
-		.mett_titulo_desafio2{
-
-		font-size: 40px;
-		font-family: 'Gotham Bold';
-		margin: 17px 0px 17px 0px;
-		
-		}
-		.mett_subtitulo_desafio2{
-
-
-			font-size: 40px;
-			font-family:'Gotham Light';
-			margin: 20px 0px 20px 0px;
-			text-align:center;
-			
-		}
-
-		.mett_texto_logo2{
-
-			text-align: center;
-			font-size: 30px;
-			font-family:'Gotham Light';
-			margin-right: 10px;
-			margin-bottom: 10px;
-			margin-top: 20px;
-
-			
-		}
-		.mett_texto_informacion_2{
-
-			font-family:'Gotham bold';
-			font-size: 20px;
-			color: #ffffff;
-			margin: 10px 0px 20px 0px;
-			text-align: center;
-			margin-top:50px;
-
-		}
-		.mett__boton_compra2{
-
-				border: 2px solid #ffffff;
-				color:#ffffff;
-				border-radius: 5px;
-				font-family:'Gotham Bold';
-				font-size: 20px;
-				padding: 10px 0px 10px 0px;
-				margin-top: 10px;
-			}
-	}
-}

@@ -1,53 +1,5 @@
-	
-<!DOCTYPE html>
-	<html lang="es">
-		<head>
-			<!-- Bunting Asynchronous tracking code-->
-			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-			<meta charset="utf-8">
-			<title>demo exito</title>
-			
-			<meta name="description" content="Compra por Internet Vibe K5 Lenovo  PA3D0015CO . exito  tienda Online de Colombia con lo mejor de LENOVO  en Celulares." />
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<link rel="shortcut icon" href="/redesign/img/favicons/favicon.ico" type="image/x-icon" />
-			<link rel="icon" type="image/png" href="/redesign/img/favicons/favicon.png" />
-			<link rel="apple-touch-icon" sizes="72x72" href="/redesign/img/favicons/apple-touch-icon-ipad.png" />
-			<link rel="apple-touch-icon" sizes="114x114" href="/redesign/img/favicons/apple-touch-icon-iphone4.png" />
-			<link rel="apple-touch-icon-precomposed" href="/redesign/img/apple-touch-icon-iphone-precomposed.png">
-			
-			<link rel="stylesheet" href="css/demo-exito.css">
-			<link rel="stylesheet" type="text/css" href="css/idea110-exito.css">
-			<link rel="stylesheet" type="text/css" href="css/layout.css">
-
-		</head>
-		<body>
-			<div>
-				<img src="exito01.png" width="100%">
-			</div>
-			<div id="pdpPage" class="" data-category="Teléfonos y celulares" style=" max-width: 1170px; margin-left: auto; margin-right: auto;">
-
-				<div id="pdpProduct" class="row-fluid pdpProduct" itemscope="" itemtype="http://schema.org/Product"></div>
-				<div id="pdpDatasheetContainer" class=" affix-top" style=" max-width: 1170px;">
-					<div id="pdpDatasheetTaps" class="row-fluid nav">
-						<ul>
-							<li class="active">
-								<a href="#pdpProduct" onclick="goToContent( this, event, 55 )" title="Producto">Producto</a>
-							</li>
-							<li class="">
-								<a href="#pdpCaracteristicas" onclick="goToContent( this, event, 55 )" title="Características">Características</a>
-							</li>
-							<li>
-								<a href="#pdpEspecificaciones" onclick="goToContent( this, event, 55 )" title="Especificaciones">Especificaciones</a>
-							</li>
-							<li>
-								<a href="#pdpCostosEnvio" onclick="goToContent( this, event, 55 )" title="Calcular costos de envío">Costos<br> de envío</a>
-							</li> 
-						</ul>
-					</div>
-				</div>
-				
-				<div id="pdpCaracteristicas" class="row-fluid pdpDatasheet">
-					<div class="span11 offset1">
+<link rel="stylesheet" type="text/css" href="css/idea110-exito.css">
+						<link rel="stylesheet" type="text/css" href="css/layout.css">
 							
 						<!--inicio ficha-->
 						<section class="mett__layout-wrap mett__layout-row mett__justify-center mett__flex-lg-100 mett__flex-md-100 mett__flex-sm-100 mett__flex-xs-100 mett__flex-gt-100" style="border:1px solid #000;">
@@ -405,12 +357,3 @@
 
 							
 						</section>
-
-					</div>
-				</div>
-			</div>
-			<div>
-				<img src="exito02.png" width="100%">
-			</div>		
-		</body>
-	</html>
