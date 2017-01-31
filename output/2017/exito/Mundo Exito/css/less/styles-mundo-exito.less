@@ -1,0 +1,232 @@
+/* Main styles Mundo Exito */
+
+/* Import layout */
+@import "layout.less";
+@import "icon-fonts-lenovo.less";
+
+/*Mixins*/
+.mixin-border-radius(@value: 4px){
+	border-radius: @value;
+	-webkit-border-radius: @value;
+	-moz-border-radius: @value;
+	-o-border-radius: @value;
+	-ms-border-radius: @value;
+}
+.mixin-transition-all(@type: ease, @sec: 0.28s){
+	transition: all @type @sec;
+	-webkit-transition: all @type @sec;
+	-moz-transition: all @type @sec;
+	-o-transition: all @type @sec;
+	-ms-transition: all @type @sec;
+}
+
+img.mett_img{max-width: 100%;height: auto;border: none;vertical-align: middle;}
+
+/* Variables to family fonts */
+@gotham-black: 'Gotham Black';
+@gotham-bold: 'Gotham Bold';
+@gotham-book: 'Gotham Book';
+@gotham-light: 'Gotham Light';
+ 
+/* Variations text */
+.mett_text-black{	font-family: @gotham-black}
+.mett_text-bold{	font-family: @gotham-bold}
+.mett_text-book{	font-family: @gotham-book}
+.mett_text-light{	font-family: @gotham-light}
+
+/* Tranform text */
+.mett_upper{					text-transform: uppercase}
+.mett_capital{					text-transform: capitalize}
+.mett_1erUpper:first-letter{	text-transform: uppercase}
+
+/* Aligment text */
+.mett_text-center{	text-align: center}
+.mett_text-right{	text-align: right}
+
+/*Change color text*/
+.mett_text-white{color: rgba(255,255,255,1);}
+.mett_text-black{color: rgba(0,0,0,1);}
+
+/* Define sections modules */
+
+@color-dark: #161f22;
+@color-pink: #ff1f77;
+@color-blue: #00d8e7;
+@color-orange:#ff2700;
+@color-green: #00c846;
+@color-office: #ff5900;
+
+
+/* Generic Modules */
+
+.mett_composition-title-big{
+	.mett_title-cat{
+		text-transform: uppercase;
+		font-family: @gotham-black;
+		font-size: 22pt;
+		letter-spacing: -0.9pt;
+		color: @color-dark;
+	}
+	.mett_title-secundary{
+		margin-top:0.5em;
+		.mett_line-divider{
+			width: 5px;
+			height: 32px;
+		}
+		.mett_fill-blue{
+			background-color: @color-blue
+		}
+		.mett_fill-orange{
+			background-color: @color-orange;
+		}
+		.mett_fill-green{
+			background-color: @color-green
+		}
+		.mett_cont-signature{
+			margin-left: 0.7em;
+		}
+	}
+}
+
+.mett_mod-list-features{
+	margin-top: 1em;
+	.mett_item-list{
+		.mett_cont-icon{
+			width: 25px;
+			height: 25px;
+			border: 2px solid #d6d6d6;
+			.mixin-border-radius(10em);
+		}
+		.mett_feature{
+			font-family: @gotham-book;
+			font-size: 10.5pt;
+		}
+	}
+}
+
+/* 1. Mini-nav */
+@height-mini-nav: 40px;
+.mett_mini-nav{
+	height: @height-mini-nav;
+	background: @color-dark;
+	.mett_title-main{
+		font-family: @gotham-bold;
+		text-align: center;
+		font-size:11pt;
+		color: rgba(255,255,255,0.8);
+	}
+	.mett_cont-items{
+		.mett_item{
+			font-family: @gotham-bold;
+			text-align: center;
+			font-size:11pt;
+			div{
+				a{
+					text-decoration: none;
+					color: rgba(255,255,255,0.8);
+					.mixin-transition-all();
+					
+					padding: 0.6em 0.5em; 
+				}
+				a.laptop:hover{		color: @color-orange; border-bottom: 3px solid @color-orange}
+				a.convert:hover{	color: @color-blue; border-bottom: 3px solid @color-blue}
+				a.tab:hover{		color: @color-green; border-bottom: 3px solid @color-green}
+				a.bts:hover{		color: @color-office; border-bottom: 3px solid @color-office}
+			}
+		}
+	}
+}
+/* 2. Interactive header */
+@height-interactive-header: 400px;
+.mett_interactive-header{
+	background: #f8f8f8;
+	/*background: @color-pink;*/
+	min-height: @height-interactive-header;
+	width: 100%;
+}
+/* 3. Legal info */
+@height-legal-info: 98px;
+.mett_legal-info{
+	height: @height-legal-info;
+	position: relative;
+	.mett_effect0{
+		background-color: @color-dark;
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		right:0;
+		top: 0;
+		z-index: 1;
+	}
+	.mett_effect1{
+		background-color: @color-dark;
+		bottom: 0;
+		left: 0;
+		margin-top: -0.3em;
+		opacity: 0.5;
+		position: absolute;
+		right:0;
+		top: 0;
+		z-index: 2;
+	}
+	.mett_effect2{
+		background-color: @color-dark;
+		bottom: 0;
+		left: 0;
+		margin-top: -0.6em;
+		opacity: 0.5;
+		position: absolute;
+		right:0;
+		top: 0;
+		z-index: 3;
+	}
+	.mett_arrow-down{
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-top: 15px solid @color-dark;
+		bottom: -0.8em;
+		height: 0;
+		left: 48%;
+		margin: 0 auto;
+		position: absolute;
+		right: 48%;
+		width: 0;
+	}
+	.mett_note-legal{
+		color:  rgba(255,255,255,0.7);
+		font-family: @gotham-book;
+		font-size: 9pt;
+		line-height: 11.5pt;
+		z-index: 4;
+	}
+	.mett_mod-intel{
+		z-index: 4;
+		.mett_cont-key-sentence{
+			color: rgba(255,255,255,0.8);
+			font-family: @gotham-book;
+			font-size: 10pt;
+			line-height: 11.5pt;
+			margin-right:1em;
+			text-align: right;
+		}
+	}
+
+}
+/* 4. Half mod */
+@hright-half-mod:318px;
+.mett_half-mod{
+	background: #e2e2e2;
+	height: @hright-half-mod;
+	.mett_mod-1{
+		background-color: #e2e2e2;
+		overflow: hidden;
+	}
+	.mett_mod-2{
+		background-color: #ededed;
+		overflow: hidden;
+	}
+}
+
+/* 5. YOGA mod*/
+/* 6. BTS Header*/
+/* 7. Steps activation*/
