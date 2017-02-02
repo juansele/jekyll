@@ -63,9 +63,15 @@ img.mett_img{max-width: 100%;height: auto;border: none;vertical-align: middle;}
 @height-half-mod:318px;
 @height-yogamod: 360px;
 @height-bts-header: 330px;
-@height-legal-info: 98px;
+@height-legal-info: 110px;
 @height-steps-activation: 360px;
 
+
+
+[class*=" icon-"], [class^=icon-]{
+	width: auto !important;
+	height: auto !important;
+}
 
 /* Generic Modules */
 
@@ -191,7 +197,133 @@ img.mett_img{max-width: 100%;height: auto;border: none;vertical-align: middle;}
 	.mett_bg-green:hover{ background-color: @color-green - 10; }
 	.mett_bg-green:active{ background-color: @color-green - 20; }
 
+	.mett_bg-pink{ background-color: @color-pink; }
+	.mett_bg-pink:hover{ background-color: @color-pink - 10; }
+	.mett_bg-pink:active{ background-color: @color-pink - 20; }
 }
+
+.mett_menssage-price{
+	background-color: #eee;
+	.mixin-border-radius(8px);	
+	display: block;
+	margin: 0 auto;	
+	margin-top: 1em;
+	width: 200px;
+}
+
+@dimensions-bubble: 56px;
+.mett_bubble-interactive{
+	border:1px solid transparent;
+	.mixin-border-radius(10em);
+	.mixin-transition-all(ease,0.26s);
+	background: rgba(255,255,255,0.5);
+	cursor: pointer;
+	height: @dimensions-bubble;
+	position: absolute;
+	transform: scale(1,1);
+	width: @dimensions-bubble;
+	z-index: 15;
+	.mett_inner-bubble{
+		.mixin-border-radius(10em);
+		.mixin-transition-all(ease,0.26s);
+		background: rgba(255,255,255,0.5);
+		height: @dimensions-bubble - 6;
+		transform: scale(1,1);
+		width: @dimensions-bubble - 6;
+		div{
+			width: 100%;
+			text-align: center;
+			i{
+				.mixin-transition-all(ease,0.26s);
+				font-size: 21pt;
+				color: @color-pink - 20;
+			}
+		}
+	}
+}
+
+.mett_msj-feature{
+	.mixin-transition-all(ease,0.26s);
+	opacity: 0;
+	transform: scale(0,0);
+	position: absolute;
+	transform-origin: center;
+    padding: 1.7em 1.5em;
+    .mett_cont-icon{
+    	margin: 0 auto;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 30px;
+    	height: 25px;
+    	text-align: center;
+    	i{
+    		color: rgba(255,255,255,0.8);
+    		font-size: 17pt;
+    	}
+    }
+    .mett_line-divider{
+    	width: 5px;height:2px;
+    	background: @color-pink;
+    	display: block;
+    	margin: 0 auto;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-bottom:0.2em;
+    	margin-top: 0.2em;
+    }
+	.mett_title-feature{
+		font-size: 10pt;
+		color: rgba(255,255,255,0.8);
+	}
+	.mett_text-feature{
+		font-size: 7.5pt;
+		line-height: 10pt;
+		color: rgba(255,255,255,0.8);
+	}
+}
+
+.mett_bubble-interactive:hover{
+	transform: scale(1.3,1.3);
+	.mixin-border-radius(10em);
+	.mixin-transition-all(ease,0.26s);
+	background: rgba(255,255,255,0.5);
+	cursor: pointer;
+	.mett_inner-bubble{
+		transform: scale(1,1);
+		background: rgba(0,216,231,0.8);
+		div{
+			i{
+				.mixin-transition-all(ease,0.26s);
+				color: white;
+			}
+		}
+	}
+	.mett_msj-feature{
+		.mixin-transition-all(ease,0.26s);
+		background: rgba(0,0,0,0.7);
+		opacity: 1;
+		position: absolute;
+		transform: scale(1,1);
+		
+	}
+}
+
+/*position menssages features*/
+#mett_text-feature01{left: 250%;right: -621%;top: -100%;bottom: -50%;}
+#mett_text-feature02{left: 126%;right: -501%;top: 61%;bottom: -228%;}
+#mett_text-feature03{left: -181%;right: -192%;top: 176%;bottom: -346%;}
+#mett_text-feature04{right: 126%;left: -501%;top: 61%;bottom: -228%}
+#mett_text-feature05{right: 250%;left: -621%;top: -100%;bottom: -50%;}
+
+/*Position bubbles*/
+#mett_bubble01{left: 20.3%;top: 57.9%;}
+#mett_bubble02{left: 28.1%;top: 27.2%;}
+#mett_bubble03{left: 47.3%;top: 7%;}
+#mett_bubble04{right: 28.2%;top: 27.8%;}
+#mett_bubble05{right: 20.4%;top: 58.3%;}
+
+
 
 /* 1. Mini-nav */
 
@@ -231,6 +363,77 @@ img.mett_img{max-width: 100%;height: auto;border: none;vertical-align: middle;}
 	background: @color-pink;
 	min-height: @height-interactive-header;
 	width: 100%;
+	position: relative;
+	.mett_mod-main-header{
+		position: absolute;
+		top:5.5em;
+		bottom: -5.5em;
+		left: 20%;
+		right: 20%;
+		.mett_mod-info{
+			width: 100%;
+			z-index: 5;
+			.mett_label-small{
+				height: 30px;
+				margin-top: 0.5em;
+				div{
+					color: white;
+					text-transform: uppercase;
+					text-align: center;
+					font-family: @gotham-light;
+					letter-spacing: -0.5pt;
+					font-size: 9pt;
+					line-height: 12pt;
+				}
+			}
+			.mett_cont-machine{
+				width: 100%;
+				
+				img{
+					max-width: 390px;
+					min-width: 390px;
+				}
+			}
+			.mett_access{
+				width: 100%;
+				
+				max-width: 340px;
+				min-width: 340px;
+			}
+		}
+	}
+	.mett_info-header-main{
+		height: 70px;
+		.mett_title-cat{
+			font-family: @gotham-black;
+			font-size: 20pt;
+			color: white;
+			letter-spacing: -0.5pt;
+			text-transform: uppercase;
+		}
+		.mett_signature-aio{}
+	}
+	img.mett_logo-lenovo{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: auto;
+		z-index: 2;
+	}
+	img.mett_pattern-left{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: auto;
+		z-index: 1;
+	}
+	img.mett_pattern-right{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: auto;
+		z-index: 1;
+	}
 }
 /* 3. Legal info */
 
@@ -283,8 +486,8 @@ img.mett_img{max-width: 100%;height: auto;border: none;vertical-align: middle;}
 	.mett_note-legal{
 		color:  rgba(255,255,255,0.7);
 		font-family: @gotham-book;
-		font-size: 9pt;
-		line-height: 11.5pt;
+		font-size: 8pt;
+		line-height: 11pt;
 		z-index: 4;
 	}
 	.mett_mod-intel{
@@ -292,7 +495,7 @@ img.mett_img{max-width: 100%;height: auto;border: none;vertical-align: middle;}
 		.mett_cont-key-sentence{
 			color: rgba(255,255,255,0.8);
 			font-family: @gotham-book;
-			font-size: 10pt;
+			font-size: 8pt;
 			line-height: 11.5pt;
 			margin-right:1em;
 			text-align: right;
@@ -478,10 +681,13 @@ img.mett_img{max-width: 100%;height: auto;border: none;vertical-align: middle;}
 			padding:0.3em 1em;
 			.mixin-transition-all(0.16s);
 			.mixin-border-radius(4px);
+			margin-top: 2em;
 			a{
 				text-decoration: none;
 				color: white;
 				font-family: @gotham-book;
+				font-size: 16pt;
+				letter-spacing: -0.5pt;
 			}
 		}
 		.mett_btn-outline:hover{
