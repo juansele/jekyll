@@ -1,0 +1,263 @@
+
+
+/*fuentes tipograficas*/
+
+@color-main: rgb(240,65,135);
+
+
+@font-face{font-family:'Gotham bold';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Bold.ttf) format('truetype');font-weight:700;font-style:normal}
+
+@font-face{font-family:'Gotham light';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Light.ttf) format('truetype');font-weight:600;font-style:normal}
+
+@font-face{font-family:'Gotham Ultra';src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.eot);src:url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.eot?#iefix) format('embedded-opentype'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.woff) format('woff'),url(http://d2o0t6t9bprj3s.cloudfront.net/fonts/Gotham-Ultra.ttf) format('truetype');font-weight:400;font-style:normal}
+.mixin-border-radius(@value: 10em){
+	border-radius: @value;
+	-webkit-border-radius: @value;
+	-moz-border-radius: @value;
+	-o-border-radius: @value;
+	-ms-border-radius: @value;
+}
+
+/* Variables fonts */
+
+@font-bold: 'Gotham bold', helvetica, sans-serif;
+@font-light: 'Gotham light', helvetica, sans-serif;
+@font-medium: 'Gotham Medium', helvetica, sans-serif;
+@font-black: 'Gotham Ultra', helvetica, sans-serif;
+
+/* Alterations text */
+.mett__text-center{
+	text-align: center;
+}
+
+.mett__text-right{
+	text-align: right;
+}
+
+.mett__text-bold{
+	font-family: @font-bold;
+}
+
+.mett__text-black{
+	font-family: @font-black;
+}
+
+.mett__text-normal{
+	font-family: @font-light;
+	line-height: 19pt;
+    font-size: 11.4pt;
+    color: rgba(0,0,0,0.9);
+}	
+
+.mett__text-light{
+	font-family: @font-light;
+}
+
+.mett__text-upper{
+	text-transform: uppercase;
+}
+.mett__orange-title-main{
+	color: @color-main;
+	font-size: 23pt;
+	letter-spacing: -1pt;
+	text-transform: uppercase;
+	font-family: @font-bold;
+	margin-bottom: 0.3em;
+	line-height: 22pt;
+}
+
+.mett__blue-title-main{
+	color: #26ADE3;
+	font-size: 23pt;
+	letter-spacing: -1pt;
+	text-transform: uppercase;
+	font-family: @font-bold;
+	margin-bottom: 0.3em;
+	line-height: 22pt;
+}
+
+a.mett__link-office{
+	font-family: @font-bold;
+}
+
+
+.mett__p{
+	color: rgba(0,0,0,0.9);
+	font-family: @font-light;
+	font-size:13pt;
+	letter-spacing: -0.5pt;
+
+}
+
+img.mett__img{
+	width: 100%;
+}
+
+
+.mett__legal-note{
+	background: #333;
+	color: rgba(255,255,255,0.9);
+	font-family: @font-light;
+	font-size:  9pt;
+	padding: 0.5em 0em;
+}
+
+
+.mett__mod-cabecera{
+	min-height: 430px;
+	background: @color-main;
+	position: relative;overflow: hidden;
+}
+
+.mett__dinamic-div{
+	position: absolute;
+	transform:skewY(-5deg);
+	background: @color-main + 10;
+	height: 155px;
+	left: 0;
+	right: 0;
+	bottom: -4em;
+	z-index: 10;
+}
+
+.mett__aux-div{
+	position: absolute;left: 0;right:0; bottom:0; height: 100px; background: @color-main;
+}
+.mett__logo-lenovo{
+	position: absolute;
+	right: 0;
+	top: 4em;
+	width: 54.945px;
+	height: 164.268px;
+	z-index: 30;
+	img{
+		width:54.945px;
+		height: 164.268px;
+	}
+}
+
+.mett__logo-lenovo-small{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 48px;
+	height: 143.505px;
+	z-index: 30;
+	img{
+		width:48px;
+		height: 143.505px;
+	}
+}
+
+.mett__logo-intel{
+	position: absolute;
+	bottom: 1.5em;
+	height: 75px;
+	right: 1.5em;
+	.mett__key-sentence{
+		color: white;
+		font-family: @font-light;
+		font-size: 10pt;
+		line-height: 12pt;
+	}
+	.mett__cont-logo{
+		text-align: right;
+	}
+}
+
+.mett__cont-signature{
+	margin-bottom: 1.3em;
+}
+
+.mett__cont-list-features{
+	padding-bottom: 1.8em;
+	.mett__item-feat{
+		margin-top: 0.23em;
+		.mett__cont-icon{
+			color: rgba(255,255,255,0.9);
+			width: 40px !important;
+			height: 40px !important;
+			border-radius: 10em;
+			border: 2px solid rgba(255,255,255,0.6);
+			div{
+				img{
+					width: 22px;
+					height: 22px;
+				}
+			}
+		}
+		.mett__label-value{
+			color: rgba(255,255,255,0.9);
+			font-family: @font-light;
+			margin-left: 0.5em;
+			font-size: 11.4pt;
+		}
+	}
+}
+
+.mett__first-section{
+	padding-top:2em;
+	padding-bottom:1em;
+}
+.mett__second-section{
+	padding-top:2em;
+	padding-bottom:1em;
+	background: #f8f8f8;
+}
+
+.mett__third-section{
+	background-image: url(../img/mett_bg1.png);
+	background-size: cover; 
+	background-position-y: -12em; 
+	padding-top: 2.5em;
+	padding-bottom: 1em;
+	width: 100%;
+	min-height: 245px;
+}
+
+.mett__mod-apps{
+	.mett__label{
+		margin-top: 3em;
+		letter-spacing: -0.2pt;
+	}
+	.mett__item-app{
+		margin-top: 0.5em;
+		.mett__cont-mask-logo{
+			width: 48px;
+			height: 48px;
+			border-radius:10em;
+			overflow: hidden;
+			border:1px solid #eee;
+			position: relative;
+			img{
+				position: absolute;
+				width: 100%;
+			}
+		}
+		.mett__name-app{
+			margin-left: 0.5em;
+			font-family: @font-light;
+			letter-spacing: -0.2pt;
+			font-size: 11.5pt;
+		}
+	}
+	.mett__item-app:first-child{
+		margin-left: 0;
+	}
+}
+
+.mett__main-title-grey{
+	font-size: 18pt;
+	letter-spacing: -1pt;
+	margin-bottom: 0.7em; 
+	color: rgba(0,0,0,0.677);
+	line-height: 17.3pt;
+}
+
+.mett__main-title-white{
+	font-size: 18pt;
+	letter-spacing: -1pt;
+	margin-bottom: 0.7em; 
+	color: rgba(255,255,255,0.9888);
+	line-height: 17.3pt;
+}
