@@ -31,6 +31,75 @@
 			font-style:normal
 	}
 
+	/* Import icon fonts */
+	@font-face {
+		font-family: 'lenovo-icons';
+		src:  url('../fonts/lenovo-icons.eot?mgwgbz');
+		src:  url('../fonts/lenovo-icons.eot?mgwgbz#iefix') format('embedded-opentype'),
+		url('../fonts/lenovo-icons.ttf?mgwgbz') format('truetype'),
+		url('../fonts/lenovo-icons.woff?mgwgbz') format('woff'),
+		url('../fonts/lenovo-icons.svg?mgwgbz#lenovo-icons') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	[class^="icon-"], [class*=" icon-"] {
+		/* use !important to prevent issues with browser extensions that change fonts */
+		font-family: 'lenovo-icons' !important;
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	.icon-lenovo_battery:before {
+		content: "\e900";
+	}
+	.icon-lenovo_chip:before {
+		content: "\e901";
+	}
+	.icon-lenovo_fullHD:before {
+		content: "\e902";
+	}
+	.icon-lenovo_glass_style:before {
+		content: "\e903";
+	}
+	.icon-lenovo_hardDisk:before {
+		content: "\e904";
+	}
+	.icon-lenovo_moving:before {
+		content: "\e905";
+	}
+	.icon-lenovo_nvidia:before {
+		content: "\e906";
+	}
+	.icon-lenovo_OS:before {
+		content: "\e907";
+	}
+	.icon-lenovo_pantone:before {
+		content: "\e908";
+		color: rgb(0, 0, 0);
+	}
+	.icon-lenovo_presition:before {
+		content: "\e911";
+	}
+	.icon-lenovo_streaming_video:before {
+		content: "\e912";
+	}
+	.icon-lenovo_visual-apps:before {
+		content: "\e913";
+	}
+
+
+
+
+	/* Mixins */
 	.mixin-transition-all(@t: 0.28s){
 		-webkit-transition: all @t ease-out;
 		-moz-transition: all @t ease-out;
@@ -58,6 +127,16 @@
 		text-align:right;
 		margin-right:1em;
 		font-family: @gotham-light !important;
+	}
+
+	.mett_cont-access{
+		margin-top:3em;
+	}
+
+	.mett_npi{
+		width: 100%;
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
 	}
 
 	.mett_msj-l-home{
@@ -266,7 +345,7 @@
 	}
 
 	.mett_arrow-scrolldown{
-		width: 34px; 
+		width: 40px; 
 		height:34px;
 	}
 
