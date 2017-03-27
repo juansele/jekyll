@@ -33,68 +33,73 @@
 
 	/* Import icon fonts */
 	@font-face {
-		font-family: 'lenovo-icons';
-		src:  url('../fonts/lenovo-icons.eot?mgwgbz');
-		src:  url('../fonts/lenovo-icons.eot?mgwgbz#iefix') format('embedded-opentype'),
-		url('../fonts/lenovo-icons.ttf?mgwgbz') format('truetype'),
-		url('../fonts/lenovo-icons.woff?mgwgbz') format('woff'),
-		url('../fonts/lenovo-icons.svg?mgwgbz#lenovo-icons') format('svg');
-		font-weight: normal;
-		font-style: normal;
-	}
+  font-family: 'lenovo-icons';
+  src:  url('../fonts/lenovo-icons.eot?xitzb3');
+  src:  url('../fonts/lenovo-icons.eot?xitzb3#iefix') format('embedded-opentype'),
+    url('../fonts/lenovo-icons.ttf?xitzb3') format('truetype'),
+    url('../fonts/lenovo-icons.woff?xitzb3') format('woff'),
+    url('../fonts/lenovo-icons.svg?xitzb3#lenovo-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
-	[class^="icon-"], [class*=" icon-"] {
-		/* use !important to prevent issues with browser extensions that change fonts */
-		font-family: 'lenovo-icons' !important;
-		speak: none;
-		font-style: normal;
-		font-weight: normal;
-		font-variant: normal;
-		text-transform: none;
-		line-height: 1;
+.mett_icon{
+	font-size: 12pt;
+}
 
-		/* Better Font Rendering =========== */
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lenovo-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-	.icon-lenovo_battery:before {
-		content: "\e900";
-	}
-	.icon-lenovo_chip:before {
-		content: "\e901";
-	}
-	.icon-lenovo_fullHD:before {
-		content: "\e902";
-	}
-	.icon-lenovo_glass_style:before {
-		content: "\e903";
-	}
-	.icon-lenovo_hardDisk:before {
-		content: "\e904";
-	}
-	.icon-lenovo_moving:before {
-		content: "\e905";
-	}
-	.icon-lenovo_nvidia:before {
-		content: "\e906";
-	}
-	.icon-lenovo_OS:before {
-		content: "\e907";
-	}
-	.icon-lenovo_pantone:before {
-		content: "\e908";
-		color: rgb(0, 0, 0);
-	}
-	.icon-lenovo_presition:before {
-		content: "\e911";
-	}
-	.icon-lenovo_streaming_video:before {
-		content: "\e912";
-	}
-	.icon-lenovo_visual-apps:before {
-		content: "\e913";
-	}
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lenovo_battery:before {
+  content: "\e900";
+}
+.icon-lenovo_chip:before {
+  content: "\e901";
+}
+.icon-lenovo_fullHD:before {
+  content: "\e902";
+}
+.icon-lenovo_glass_style:before {
+  content: "\e903";
+}
+.icon-lenovo_hardDisk:before {
+  content: "\e904";
+}
+.icon-lenovo_moving:before {
+  content: "\e905";
+}
+.icon-lenovo_nvidia:before {
+  content: "\e906";
+}
+.icon-lenovo_OS:before {
+  content: "\e907";
+}
+.icon-lenovo_pantone:before {
+  content: "\e908";
+  color: rgb(0, 0, 0);
+}
+.icon-lenovo_presition:before {
+  content: "\e911";
+}
+.icon-lenovo_streaming_video:before {
+  content: "\e912";
+}
+.icon-lenovo_visual-apps:before {
+  content: "\e913";
+}
+
 
 
 
@@ -115,8 +120,50 @@
 		font-family: @gotham-light;
 	}
 
+	/* Generic elements */
+
+	img.mett_img{
+		.mixin-transition-all();
+	}
+
+	.mett_logo-lenovo{
+		position: absolute;
+		left: 0;
+		top: 4em;
+		img{
+			width: 58px;
+			height: 178.462px;
+		}
+	}
+
+	.mett_logo-lenovo-right{
+		position: absolute;
+		right: 0;
+		top: 2em;
+		width: 54.945px;
+		height: 164.268px;
+		z-index: 30;
+		img{
+			width:54.945px;
+			height: 164.268px;
+		}
+	}
+
+	.mett_logo-lenovo-small{
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 48px;
+		height: 143.505px;
+		z-index: 30;
+		img{
+			width:48px;
+			height: 143.505px;
+		}
+	}
 	/* Estilos módulos de información  principales de la ficha */
 
+	/* Cabezote 1 */
 	.mett_module-legal-note{
 		min-height:40px; 
 		padding: 0.7em 0em;
@@ -157,15 +204,7 @@
 		color: rgba(0,0,0,0.7);
 	}
 
-	.mett_logo-lenovo{
-		position: absolute;
-		left: 0;
-		top: 4em;
-		img{
-			width: 58px;
-			height: 178.462px;
-		}
-	}
+
 	.mett_module-header-main{
 		min-height: @min-header-main;
 		position: relative;
@@ -191,6 +230,9 @@
 		padding: 2em 0em;
 	}
 
+
+
+	/* --------------------------------------------- Modules 1 option  -------------------------------------------------*/
 
 	.mett_module_miniatures-close-up-dark{
 		min-height: @min-miniatures;
@@ -221,13 +263,13 @@
 	.mett_module-bg-info{
 		min-height:@min-bg-info; 
 		background: #eee;
-		color: white;
+		color: white !important;
 		.mixin-transition-all();
 	}
 
 	.mett_module-PI-no-mask{
 		min-height: @min-height-pi-nomask; 
-		padding: 3em 0em; 
+		padding: @padding-mods; 
 		background: #f4f4f4;
 		.mixin-transition-all();
 	}
@@ -293,6 +335,7 @@
 			}
 		}
 	}
+
 	.mett_module-info-center{
 		min-height: @min-info-center; 
 		background:#f7f7f7;
@@ -332,10 +375,6 @@
 		font-family: @gotham-bold;
 		letter-spacing: 0.2em;
 		font-size: 11px;
-	}
-
-	img.mett_img{
-		.mixin-transition-all();
 	}
 
 	.mett_text-white{
@@ -412,11 +451,172 @@
 		color: rgba(0,0,0,0.8);
 	}
 
+	/* --------------------------------------------- Modules 2 option  -------------------------------------------------*/
 
-	.mett_module-win10{
-		background: #00aef0;
+
+	.mett_orange-title-main{
+		color: @color-primario;
+		font-size: 23pt;
+		letter-spacing: -1pt;
+		text-transform: uppercase;
+		font-family: @gotham-bold;
+		margin-bottom: 0.3em;
+		line-height: 22pt;
 	}
 
-	.mett_text-white-important{
-		color: white !important;
+	.mett_blue-title-main{
+		color: #26ADE3;
+		font-size: 23pt;
+		letter-spacing: -1pt;
+		text-transform: uppercase;
+		font-family: @gotham-bold;
+		margin-bottom: 0.3em;
+		line-height: 22pt;
+	}
+
+	a.mett_link-office{
+		font-family: @gotham-bold;
+	}
+
+	.mett_mod-cabecera{
+		min-height: @min-header-main;
+		background: @color-primario;
+		position: relative;overflow: hidden;
+	}
+
+	.mett_dinamic-div{
+		position: absolute;
+		transform:skewY(-5deg);
+		background: @color-primario + 10;
+		height: 155px;
+		left: 0;
+		right: 0;
+		bottom: -4em;
+		z-index: 10;
+	}
+
+	.mett_aux-div{
+		position: absolute;
+		left: 0;
+		right:0; 
+		bottom:0; 
+		height: 100px; 
+		background: @color-primario;
+	}
+	
+
+	.mett_logo-intel{
+		position: absolute;
+		bottom: 1.5em;
+		height: 75px;
+		right: 1.5em;
+		.mett_key-sentence{
+			color: white;
+			font-family: @gotham-light;
+			font-size: 10pt;
+			line-height: 12pt;
+			margin-right: 0.5em;
+		}
+		.mett_cont-logo{
+			text-align: right;
+		}
+	}
+
+	.mett_cont-signature{
+		margin-bottom: 1.3em;
+	}
+
+	.mett_cont-list-features{
+		padding-bottom: 1.8em;
+		.mett_item-feat{
+			margin-top: 0.23em;
+			.mett_cont-icon{
+				color: rgba(255,255,255,0.9);
+				width: 40px !important;
+				height: 40px !important;
+				border-radius: 10em;
+				border: 2px solid rgba(255,255,255,0.6);
+				div{
+					i{
+						font-size: 18pt;
+					}
+				}
+			}
+			.mett_label-value{
+				color: rgba(255,255,255,0.9);
+				font-family: @gotham-light;
+				margin-left: 0.5em;
+				font-size: 11.4pt;
+			}
+			.mett_label-value:first-letter{text-transform: uppercase;}
+		}
+	}
+
+	.mett_first-section{
+		min-height: @min-info-mod-png;
+		padding: @padding-mods2;
+	}
+	.mett_second-section{
+		min-height: @min-info-mod-png;
+		padding: @padding-mods2;
+		background: #f8f8f8;
+	}
+
+	.mett_third-section{
+		min-height: @min-bg-info2;
+		padding: @padding-mods2;
+		width: 100%;
+	}
+
+	.mett_info-more-apps{
+		padding: @padding-mods2;
+		min-height: @min-info-apps;
+	}
+
+	.mett_mod-apps{
+		margin-top: 1em;
+		.mett_label{
+			
+			letter-spacing: -0.2pt;
+		}
+		.mett_item-app{
+			margin-top: 0.5em;
+			.mett_cont-mask-logo{
+				width: 48px;
+				height: 48px;
+				border-radius:10em;
+				overflow: hidden;
+				border:1px solid #eee;
+				position: relative;
+				img{
+					position: absolute;
+					width: 100%;
+				}
+			}
+			.mett_name-app{
+				margin-left: 0.5em;
+				font-family: @gotham-light;
+				letter-spacing: -0.2pt;
+				font-size: 11.5pt;
+			}
+		}
+		.mett_item-app:first-child{
+			margin-left: 0;
+		}
+	}
+
+	.mett_main-title-grey{
+		font-size: 18pt;
+		letter-spacing: -0.5pt;
+		margin-bottom: 0.7em; 
+		color: rgba(0,0,0,0.677);
+		line-height: 17.3pt;
+	}
+
+	.mett_main-title-white{
+		font-size: 16pt;
+		letter-spacing: -0.5pt;
+		margin-bottom: 0.7em; 
+		color: rgba(255,255,255,0.9888);
+		line-height: 17.3pt;
 	}
