@@ -213,6 +213,26 @@
 		min-height: @min-fringe-dark;
 		background: #1C1C1C;
 		.mixin-transition-all();
+		position: relative;
+		z-index: 1000;
+	}
+
+	.mett_module-fringe-dark::before{
+		content: "";
+		height: 25px;
+		position: absolute;
+		width: 100%;
+		background:rgba(28,28,28,0.65);
+		top: -0.4em;
+	}
+
+	.mett_module-fringe-dark::after{
+		content: "";
+		height: 25px;
+		position: absolute;
+		width: 100%;
+		background:rgba(28,28,28,0.65);
+		bottom: -0.2em;
 	}
 
 	.mett_module-fringe-dark-small{
