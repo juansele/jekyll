@@ -141,6 +141,19 @@
 		}
 	}
 
+	.mett_logo-lenovo-right2{
+		position: absolute;
+		right: 0;
+		top: 10em;
+		width: 58px;
+		height: 178.462px;
+		z-index: 30;
+		img{
+			width: 58px;
+			height: 178.462px;
+		}
+	}
+
 	.mett_logo-lenovo-small{
 		position: absolute;
 		right: 0;
@@ -665,6 +678,62 @@
 				border-radius:10em;
 				i{
 					font-size: 15pt;
+				}
+			}
+			.mett_legion-feature{
+				margin-left: 1em;
+				color: @color-white;
+				font-size: 11pt;
+			}
+		}
+	}
+}
+
+.mett_legion-header-mod-2{
+	height: @min-header-main;
+	position: relative;
+	background: @color-base-tmp - 20;
+	border-bottom:5px solid rgba(0,0,0,0.6);
+	.mett_legion-logo-lenovo{
+		position: absolute;
+		right: 0;
+		top: 4em;
+		img{
+			width: 58px;
+			height: 178.462px;
+		}
+	}
+	.mett_legion-main-product-img{
+		position: relative;
+		height: @min-header-main;
+		img{
+			
+			bottom: 5em;
+			position: absolute;
+			width: 100%;
+		}
+	}
+	.mett_legion-cont-info-main{
+		
+		.mett_legion-cont-signature{
+			    color: rgba(255,234,0,.99);
+			/*font-family: @font-black;*/
+			font-family: @gotham-bold;
+			font-size: 32pt;
+			text-transform: uppercase;
+			letter-spacing: -1.5pt;
+		}
+	}
+	.mett_legion-cont-features{
+		.mett_legion-cont-item{
+			margin-top:  0.56em;
+			.mett_legion-cont-icon{
+				width: 36px;
+				height: 36px;
+				border-radius:10em;
+				i{
+					font-size: 20pt;
+					color: rgba(235,20,10,0.8);
 				}
 			}
 			.mett_legion-feature{
